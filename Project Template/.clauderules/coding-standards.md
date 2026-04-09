@@ -1,4 +1,4 @@
-# Coding Standards — SynergyAI
+# Coding Standards — [Project Name]
 # Layer 3: .clauderules/ — Loaded when writing code across any component
 
 ## General
@@ -8,7 +8,7 @@
 - Do not commit console.log or commented-out code.
 - Do not introduce libraries without prior discussion.
 
-## TypeScript (Dashboard + Frontend)
+## TypeScript (All code)
 - strict: true — zero `any`, zero `as unknown`
 - Zod on every input: forms, API bodies, URL params, webhook payloads
 - Error handling on every async: try/catch + toast notification
@@ -17,33 +17,19 @@
 - Named exports for components, default exports for pages
 - Use `@/` import alias (configured in tsconfig)
 - Max 300 lines per file — split if exceeded
+- Comments: only for "why", never for "what"
 
-## Go (API Gateway)
-- Idiomatic Go: gofmt, errcheck, golint
-- Explicit error handling — no ignored errors
-- Struct validation on all inputs
-- Structured logging with zap
-- No `panic` in request handlers — return proper HTTP errors
+## File Organization
+- One component per file
+- Co-locate tests with source files when possible
+- Feature-scoped modules: keep related components, hooks, types together
+- Shared UI components in `components/ui/`
 
-## Solidity (Smart Contracts)
-- Solidity 0.8.20+ (built-in overflow checks)
-- All external functions: ReentrancyGuard + AccessControl
-- Events emitted for every state change
-- No hardcoded addresses — use constructor or admin setter
-- NatSpec comments on all public functions
-- All functions have explicit visibility (public/external/internal/private)
-- Use OpenZeppelin libraries for standard patterns
-- UUPS proxy pattern for upgradeability
-- Storage gaps in base contracts for future-proofing
-- Tests in Foundry (forge test) — 100% coverage on critical paths
-
-## Workers (BullMQ)
-- Each worker in its own file (matching-worker.ts, conversation-worker.ts, etc.)
-- All jobs have: attempts (3), exponential backoff, dead-letter queue
-- Idempotent processing — same job can run twice safely
-- Log every job: start, completion, failure with job ID and duration
-- Never block on external calls — use timeouts (30s default)
-- Settlement worker: extra validation before on-chain tx (balance check, nonce management)
+## Naming Conventions
+- camelCase for variables and functions (TypeScript)
+- PascalCase for components and types
+- snake_case for database columns
+- kebab-case for file names
 
 ## Session Protocol
 - Session start: read `.claude/context/TODO.md`

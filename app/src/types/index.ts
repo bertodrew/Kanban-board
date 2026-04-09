@@ -134,3 +134,6 @@ export const AuthStateSchema = z.object({
   anthropicKeyValid: z.boolean(),
 })
 export type AuthState = z.infer<typeof AuthStateSchema>
+
+// --- Services ---
+export * from "./services"

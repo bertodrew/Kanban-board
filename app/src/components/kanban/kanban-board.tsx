@@ -90,14 +90,16 @@ export function KanbanBoard() {
       const story = stories.find((s) => s.id === storyId)
       if (!story || story.stage === targetStage) return
 
-      moveStory(storyId, targetStage)
-
-      if (targetStage === "in_progress") {
+      if (targetStage === "todo") {
+        // Auto-advance to In Progress and trigger Claude Code
+        moveStory(storyId, "in_progress")
         toast.info(
-          `"${story.title}" moved to In Progress. Triggering Claude Code...`,
+          `"${story.title}" → In Progress. Claude Code starting...`,
           { duration: 3000 }
         )
-        triggerAutomation(storyId, story)
+        triggerAutomation(storyId, story, moveStory)
+      } else {
+        moveStory(storyId, targetStage)
       }
     },
     [stories, moveStory]
@@ -148,7 +150,11 @@ export function KanbanBoard() {
   )
 }
 
-async function triggerAutomation(storyId: string, story: Story) {
+async function triggerAutomation(
+  storyId: string,
+  story: Story,
+  moveStory: (id: string, stage: Stage) => void
+) {
   try {
     const res = await fetch("/api/automation", {
       method: "POST",
@@ -163,10 +169,35 @@ async function triggerAutomation(storyId: string, story: Story) {
     if (!res.ok) {
       const data = await res.json()
       toast.error(`Automation failed: ${data.error ?? "Unknown error"}`)
+      moveStory(storyId, "backlog")
+      return
     }
+
+    // Poll for completion, auto-move to in_review when done
+    const pollInterval = setInterval(async () => {
+      try {
+        const pollRes = await fetch(`/api/automation?storyId=${storyId}`)
+        if (!pollRes.ok) {
+          clearInterval(pollInterval)
+          return
+        }
+        const data = await pollRes.json()
+        if (data.status === "completed") {
+          clearInterval(pollInterval)
+          moveStory(storyId, "in_review")
+          toast.success(`"${story.title}" completed → moved to In Review`)
+        } else if (data.status === "failed") {
+          clearInterval(pollInterval)
+          toast.error(`"${story.title}" automation failed. Check logs.`)
+        }
+      } catch {
+        clearInterval(pollInterval)
+      }
+    }, 3000) // Poll every 3 seconds
   } catch (err) {
     toast.error(
       `Automation error: ${err instanceof Error ? err.message : "Unknown"}`
     )
+    moveStory(storyId, "backlog")
   }
 }

@@ -25,7 +25,7 @@ jobs:
       - name: Run scraper
         env:
           WAVE_START: ${{ github.event.inputs.wave_start || '0' }}
-          WAVE_END:   ${{ github.event.inputs.wave_end   || '30' }}
+          WAVE_END:   ${{ github.event.inputs.wave_end   || '1000' }}
           SUPABASE_SERVICE_KEY: ${{ secrets.SUPABASE_SERVICE_KEY }}
         run: python gha_scrape.py
       - name: Commit results back

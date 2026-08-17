@@ -1,0 +1,43 @@
+# Put this file at: .github/workflows/job-scrape-test.yml  (in whatever repo you push to)
+# It renders the JS career pages with Playwright — the thing the Cowork sandbox can't do — for free.
+name: job-scrape-test
+
+on:
+  workflow_dispatch:            # manual "Run workflow" button (recommended for the first test)
+    inputs:
+      wave_start: { description: "start index", default: "0" }
+      wave_end:   { description: "end index",   default: "30" }
+  schedule:
+    - cron: "0 2 * * *"         # daily 02:00 UTC — enable once you're happy with it
+  push:
+    branches: [job-scrape-test]
+    paths: ["gha_scrape.py", ".github/workflows/job-scrape-test.yml"]
+
+permissions:
+  contents: write              # lets the run commit scrape_results.json back so you (and I) can read it
+
+jobs:
+  scrape:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with: { python-version: "3.11" }
+      - name: Install Playwright + Chromium
+        run: |
+          pip install playwright
+          python -m playwright install --with-deps chromium
+      - name: Run scraper
+        env:
+          WAVE_START: ${{ github.event.inputs.wave_start || '0' }}
+          WAVE_END:   ${{ github.event.inputs.wave_end   || '30' }}
+          # Add this secret in repo Settings -> Secrets -> Actions to enable DB writes:
+          SUPABASE_SERVICE_KEY: ${{ secrets.SUPABASE_SERVICE_KEY }}
+        run: python gha_scrape.py
+      - name: Commit results back
+        run: |
+          git config user.name  "gha-bot"
+          git config user.email "gha@users.noreply.github.com"
+          git add scrape_results.json || true
+          git commit -m "chore: scrape results [skip ci]" || echo "no changes"
+          git push || echo "push skipped"

@@ -1,0 +1,774 @@
+[
+ {
+  "id": "6b077b82-beba-4064-aea0-5f7cf5df46a9",
+  "name": "4-check",
+  "career_url": "https://4-check.com/jobs",
+  "jobs": [
+   {
+    "title": "Ingenieurberatung",
+    "apply_url": "https://4-check.com/ingenieurberatung/"
+   }
+  ],
+  "njobs": 1,
+  "status": "ok"
+ },
+ {
+  "id": "db276a98-1e89-4fac-abec-5948472edc91",
+  "name": "ABF Informatik AG",
+  "career_url": "https://www.abf.ch/jobs/",
+  "jobs": [
+   {
+    "title": "ABF Support",
+    "apply_url": "https://get.teamviewer.com/k3ejwds"
+   },
+   {
+    "title": "Software",
+    "apply_url": "https://www.abf.ch/software/"
+   },
+   {
+    "title": "Alle Produkte",
+    "apply_url": "https://www.abf.ch/software/all-software/"
+   },
+   {
+    "title": "Softwareentwicklung",
+    "apply_url": "https://www.abf.ch/services/#acc__subtitle-softwareentwicklung"
+   }
+  ],
+  "njobs": 4,
+  "status": "ok"
+ },
+ {
+  "id": "1be6d6e3-de8c-4139-beae-d00c6d5107f2",
+  "name": "Agentur Koch",
+  "career_url": "https://www.agenturkoch.ch/fileadmin/user_upload/pdf/jobs/Jobs_MD_04_26_KOCH.pdf",
+  "jobs": [],
+  "njobs": 0,
+  "status": "error",
+  "error": "Page.goto: Download is starting\nCall log:\n  - navigating to \"https://www.agenturkoch.ch/fileadmin/user_upload/pdf/jobs/J"
+ },
+ {
+  "id": "171cf828-3f43-4a58-8857-d7036f01b606",
+  "name": "AGILITA AG",
+  "career_url": "https://www.agilita.ch/sap-apphaus/#Workshops",
+  "jobs": [
+   {
+    "title": "SAP Support & Wartung",
+    "apply_url": "https://www.agilita.ch/support-und-wartung/"
+   },
+   {
+    "title": "SAP Cloud ERP",
+    "apply_url": "https://www.agilita.ch/sap-s-4-hana-cloud-public-edition/"
+   },
+   {
+    "title": "SAP Cloud ERP Private",
+    "apply_url": "https://www.agilita.ch/sap-s-4-hana-cloud-privat-edition"
+   },
+   {
+    "title": "SAP Analytics Cloud",
+    "apply_url": "https://www.agilita.ch/sap-analytics/"
+   },
+   {
+    "title": "SAP Datasphere",
+    "apply_url": "https://www.agilita.ch/sap-datasphere/"
+   },
+   {
+    "title": "SAP Databricks",
+    "apply_url": "https://www.agilita.ch/sap-databricks/"
+   },
+   {
+    "title": "AGIL AI.TimeManager",
+    "apply_url": "https://www.agilita.ch/agil-ai-timemanager/"
+   },
+   {
+    "title": "AGIL AI.Sales",
+    "apply_url": "https://www.agilita.ch/agil-ai-sales/"
+   },
+   {
+    "title": "Alle Produkte anzeigen",
+    "apply_url": "https://www.agilita.ch/saas-agilita-produkte/"
+   },
+   {
+    "title": "SAP Cloud ALM",
+    "apply_url": "https://www.agilita.ch/sap-cloud-alm"
+   },
+   {
+    "title": "SAP Finance Suite",
+    "apply_url": "https://www.agilita.ch/finance-suite"
+   },
+   {
+    "title": "SAP Sales Cloud",
+    "apply_url": "https://www.agilita.ch/sap-sales-cloud/"
+   },
+   {
+    "title": "Wholesales",
+    "apply_url": "https://www.agilita.ch/wholesale/"
+   },
+   {
+    "title": "Cloud ERP",
+    "apply_url": "https://www.agilita.ch/sap-s-4hana-cloud/"
+   }
+  ],
+  "njobs": 14,
+  "status": "ok"
+ },
+ {
+  "id": "cb4c9277-6816-4087-be7a-746ba28c6a70",
+  "name": "alabus ag",
+  "career_url": "https://www.alabus.com/opencms/en/alabus/jobs/index.html",
+  "jobs": [
+   {
+    "title": "Products",
+    "apply_url": "https://www.alabus.com/opencms/en/product/index.html"
+   }
+  ],
+  "njobs": 1,
+  "status": "ok"
+ },
+ {
+  "id": "647574a6-f1bb-4213-b109-3da5e2c798fe",
+  "name": "AlphaMol Science AG",
+  "career_url": "https://alphamol.com/careers",
+  "jobs": [
+   {
+    "title": "Clinical Project Manager – Clinical Operations",
+    "apply_url": "https://alphamol.com/careers#recruitment1005"
+   },
+   {
+    "title": "Senior Clinical Development Physician",
+    "apply_url": "https://alphamol.com/careers#recruitment1004"
+   }
+  ],
+  "njobs": 2,
+  "status": "ok"
+ },
+ {
+  "id": "c7dfd933-d315-4bb7-8ba2-5f2301b804bd",
+  "name": "amétiq ag",
+  "career_url": "https://ametiq.ch/jobs/",
+  "jobs": [],
+  "njobs": 0,
+  "status": "no_jobs"
+ },
+ {
+  "id": "54465251-cd51-4e4e-bb42-f479292f6f3c",
+  "name": "Anamedi GmbH",
+  "career_url": "https://anamedi.com/#how-it-works",
+  "jobs": [
+   {
+    "title": "Security",
+    "apply_url": "https://www.anamedi.com/#security"
+   }
+  ],
+  "njobs": 1,
+  "status": "ok"
+ },
+ {
+  "id": "bac76a82-572d-4966-b554-300a46884225",
+  "name": "Anovis AI",
+  "career_url": "https://anovisai.com/how-we-work-with-clients",
+  "jobs": [],
+  "njobs": 0,
+  "status": "no_jobs"
+ },
+ {
+  "id": "34759a1f-bacb-4625-bb0c-896341a693f7",
+  "name": "Appamics",
+  "career_url": "https://appamics.com/careers",
+  "jobs": [
+   {
+    "title": "Explore pharos product lines",
+    "apply_url": "https://appamics.com/#pharos"
+   },
+   {
+    "title": "appamicsConsulting & product strategy",
+    "apply_url": "https://appamics.com/services/#consulting-product-strategy"
+   },
+   {
+    "title": "appamicsIntegrations & data",
+    "apply_url": "https://appamics.com/services/#integrations-data"
+   },
+   {
+    "title": "data privacy statement",
+    "apply_url": "https://appamics.com/privacy/"
+   }
+  ],
+  "njobs": 4,
+  "status": "ok"
+ },
+ {
+  "id": "6a163811-6fde-43bc-a5f1-207c48e0304d",
+  "name": "Apps with love AG",
+  "career_url": "https://www.appswithlove.com/jobs",
+  "jobs": [
+   {
+    "title": "appswithlove.com/fr",
+    "apply_url": "https://appswithlove.com/fr"
+   }
+  ],
+  "njobs": 1,
+  "status": "ok"
+ },
+ {
+  "id": "e4b00e70-8368-4e30-a72e-b24dcf8905d8",
+  "name": "Apptiva AG",
+  "career_url": "https://www.apptiva.ch/angebot/development/schnittstellen",
+  "jobs": [
+   {
+    "title": "Softwareentwicklung in der Schweiz",
+    "apply_url": "https://www.apptiva.ch/"
+   },
+   {
+    "title": "Weiterentwicklung",
+    "apply_url": "https://www.apptiva.ch/angebot/development/weiterentwicklung"
+   },
+   {
+    "title": "Softwareentwicklung",
+    "apply_url": "https://www.apptiva.ch/angebot/development"
+   },
+   {
+    "title": "Webentwicklung",
+    "apply_url": "https://www.apptiva.ch/angebot/development/webentwicklung"
+   },
+   {
+    "title": "App Entwicklung",
+    "apply_url": "https://www.apptiva.ch/angebot/development/app-entwicklung"
+   }
+  ],
+  "njobs": 5,
+  "status": "ok"
+ },
+ {
+  "id": "7960d16b-5931-4fb9-b24a-e02b9c7464f4",
+  "name": "Apriko AG",
+  "career_url": "https://apriko.com/en/software/leasing-placements-vacancies/",
+  "jobs": [
+   {
+    "title": "Payrolling",
+    "apply_url": "https://apriko.com/en/?page_id=9"
+   },
+   {
+    "title": "Personnel consultant",
+    "apply_url": "https://apriko.com/en/?page_id=7"
+   },
+   {
+    "title": "Managing Director",
+    "apply_url": "https://apriko.com/en/?page_id=5"
+   },
+   {
+    "title": "Software",
+    "apply_url": "https://apriko.com/en/software/leasing-placements-vacancies/#menu-2"
+   },
+   {
+    "title": "Software for personnel service providersThe Swiss industry solution with intelligent automation for leasing and placement processes.",
+    "apply_url": "https://apriko.com/en/software/"
+   },
+   {
+    "title": "Ecosystem, connections & partnersOpen software platform with useful integrations for smooth staff leasing.",
+    "apply_url": "https://apriko.com/en/ecosystem/"
+   },
+   {
+    "title": "SupportSupport every step of the way: From initial consultation to system setup and ongoing support.",
+    "apply_url": "https://apriko.com/en/support/"
+   },
+   {
+    "title": "Payroll process &  payroll accountingCalculate wages in full daily with all deductions thanks to the software.",
+    "apply_url": "https://apriko.com/en/software/payroll-process-payroll-accounting/"
+   },
+   {
+    "title": "SupportSupport every step of the way: From initial consultation to setup and ongoing consultation.",
+    "apply_url": "https://apriko.com/en/support/?customize_changeset_uuid=cae44d44-2fe9-49a8-b014-14833794c2ae"
+   },
+   {
+    "title": "Payroll accountingCorrectly invoiced temporary work – legally compliant and accurate to the day.",
+    "apply_url": "https://apriko.com/en/back-office/payroll-accounting-for-staff-leasing-switzerland-apriko/"
+   },
+   {
+    "title": "Accounts receivableManaged effectively – ensuring optimized liquidity and reliability.",
+    "apply_url": "https://apriko.com/en/back-office/receivable-accounts/"
+   },
+   {
+    "title": "Accounts payableInvoicing and timely accounting – reliable and seamless.",
+    "apply_url": "https://apriko.com/en/back-office/payable-accounts/"
+   },
+   {
+    "title": "Financial accountingWhen accounting becomes a strategic advantage – correct and on time.",
+    "apply_url": "https://apriko.com/en/back-office/financial-accounting/"
+   },
+   {
+    "title": "Software for personnel service providers",
+    "apply_url": "https://apriko.com/en/software/"
+   },
+   {
+    "title": "What is payrolling?",
+    "apply_url": "https://apriko.com/en/detail-page/what-is-payrolling/"
+   },
+   {
+    "title": "HR software for temporary employment agencies",
+    "apply_url": "https://apriko.com/en/detail-page/hr-software-effective-tools-for-your-temp-agency/"
+   },
+   {
+    "title": "Software architecture",
+    "apply_url": "https://apriko.com/en/blog/platform-for-modern-enterprise-applications/"
+   },
+   {
+    "title": "DevOps at Apriko",
+    "apply_url": "https://apriko.com/en/blog/devops-at-apriko/"
+   }
+  ],
+  "njobs": 18,
+  "status": "ok"
+ },
+ {
+  "id": "0a9a68ff-bf07-4191-b87b-d40911530848",
+  "name": "Arbrea Labs AG",
+  "career_url": "https://arbrea-labs.com/careers/",
+  "jobs": [
+   {
+    "title": "Marketing & Sales Tips",
+    "apply_url": "https://arbrea-labs.com/category/marketing-sales-tips/"
+   }
+  ],
+  "njobs": 1,
+  "status": "ok"
+ },
+ {
+  "id": "4383bb22-bebf-4b0b-8481-616821e89369",
+  "name": "ARCON Informatik AG",
+  "career_url": "https://www.arcon.ch/ict-und-abacus-jobs/",
+  "jobs": [
+   {
+    "title": "Arcon Datacenter",
+    "apply_url": "https://www.arcon.ch/arcon-datacenter/"
+   },
+   {
+    "title": "DeepCloud",
+    "apply_url": "https://www.arcon.ch/deepcloud/"
+   },
+   {
+    "title": "System Engineering",
+    "apply_url": "https://www.arcon.ch/ict-losungen/"
+   },
+   {
+    "title": "KI Beratung & Entwicklung",
+    "apply_url": "https://www.arcon.ch/ki-beratung-und-entwicklung/"
+   },
+   {
+    "title": "ICT Supporter/in 80-100 % (m/w/d)",
+    "apply_url": "https://www.arcon.ch/ict-supporter/"
+   },
+   {
+    "title": "Projektleiter/in Abacus Personal mit Herz für Pay Roll und HR-Projekte 80-100 % (m/w/d)",
+    "apply_url": "https://www.arcon.ch/abacus-projektleiter-personal"
+   },
+   {
+    "title": "System Engineer 80-100 % (m/w/d)",
+    "apply_url": "https://www.arcon.ch/stelleninserat-system-engineer-2/"
+   },
+   {
+    "title": "Abacus Support",
+    "apply_url": "https://www.arcon.ch/abacus-support/"
+   },
+   {
+    "title": "ICT Support",
+    "apply_url": "https://www.arcon.ch/it-support/"
+   }
+  ],
+  "njobs": 9,
+  "status": "ok"
+ },
+ {
+  "id": "729f842a-8c2d-4e0b-b56a-277a4ff3bce2",
+  "name": "Astaara AG",
+  "career_url": "https://www.astaara.com/index.html#willenworks",
+  "jobs": [
+   {
+    "title": "Kindermann Eye Associates",
+    "apply_url": "https://www.astaara.com/index.html#kindermanneye"
+   }
+  ],
+  "njobs": 1,
+  "status": "ok"
+ },
+ {
+  "id": "6240763a-c2dd-41a5-afe9-4114ab0d49ff",
+  "name": "Asubium",
+  "career_url": "https://www.asubium.com/careers",
+  "jobs": [
+   {
+    "title": "Data Migration",
+    "apply_url": "https://asubium.com/service/data-migration/"
+   },
+   {
+    "title": "Trading & Structured Products",
+    "apply_url": "https://asubium.com/service/trading-structured-products/"
+   },
+   {
+    "title": "Security",
+    "apply_url": "https://asubium.com/service/security/"
+   },
+   {
+    "title": "Products",
+    "apply_url": "https://asubium.com/#"
+   },
+   {
+    "title": "TopSec - Avaloq Access Security",
+    "apply_url": "https://asubium.com/service/topsec/"
+   }
+  ],
+  "njobs": 5,
+  "status": "ok"
+ },
+ {
+  "id": "4b61b865-ac5d-431f-a925-2266896c27aa",
+  "name": "ATEGRA GmbH",
+  "career_url": "https://ategra.ch/jobs/",
+  "jobs": [
+   {
+    "title": "ATEGRA Software Engineering",
+    "apply_url": "https://ategra.ch/"
+   },
+   {
+    "title": "Produkte",
+    "apply_url": "https://ategra.ch/produkte/"
+   }
+  ],
+  "njobs": 2,
+  "status": "ok"
+ },
+ {
+  "id": "c96fb98b-89a4-4a0e-9637-3b98e6dd3544",
+  "name": "Atinary Technologies Sàrl",
+  "career_url": "https://atinary.com/careers/",
+  "jobs": [
+   {
+    "title": "DevOps Engineer (Lausanne, Switzerland)",
+    "apply_url": "https://atinary.zohorecruit.eu/jobs/Careers/28643000003299167/DevOps-Engineer?source=CareerSite"
+   },
+   {
+    "title": "Full Stack Developer (Lausanne, Switzerland)",
+    "apply_url": "https://atinary.zohorecruit.eu/jobs/Careers/28643000003299119/Full-Stack-Developer?source=CareerSite"
+   }
+  ],
+  "njobs": 2,
+  "status": "ok"
+ },
+ {
+  "id": "97bae342-b54e-49ea-98e9-aeef7106640c",
+  "name": "AvanTec AG",
+  "career_url": "https://www.avantec.ch/offene-stellen/",
+  "jobs": [
+   {
+    "title": "BeyondTrust Remote Support",
+    "apply_url": "https://www.avantec.ch/loesungen/beyondtrust/remote-support/"
+   },
+   {
+    "title": "Check Point CloudGuard",
+    "apply_url": "https://www.avantec.ch/loesungen/check-point/cloudguard/"
+   },
+   {
+    "title": "Cisco Security",
+    "apply_url": "https://www.avantec.ch/loesungen/cisco-security/"
+   },
+   {
+    "title": "Cisco Secure Malware Analytics Cloud",
+    "apply_url": "https://www.avantec.ch/loesungen/cisco-security/cisco-secure-malware-analytics-cloud/"
+   },
+   {
+    "title": "Zscaler Cloud Browser Isolation",
+    "apply_url": "https://www.avantec.ch/loesungen/zscaler/zscaler-cloud-browser-isolation/"
+   },
+   {
+    "title": "Zscaler Cloud Firewall",
+    "apply_url": "https://www.avantec.ch/loesungen/zscaler/zscaler-cloud-firewall/"
+   },
+   {
+    "title": "Zscaler Cloud Sandbox",
+    "apply_url": "https://www.avantec.ch/loesungen/zscaler/zscaler-cloud-sandbox/"
+   },
+   {
+    "title": "Zscaler Cloud Security Posture Management (CSPM)",
+    "apply_url": "https://www.avantec.ch/loesungen/zscaler/zscaler-cloud-security-posture-management/"
+   },
+   {
+    "title": "Zscaler Secure Internet Access",
+    "apply_url": "https://www.avantec.ch/loesungen/zscaler/zscaler-secure-internet-access/"
+   },
+   {
+    "title": "Cloud Security",
+    "apply_url": "https://www.avantec.ch/themen/cloud-security/"
+   },
+   {
+    "title": "E-Mail Security",
+    "apply_url": "https://www.avantec.ch/themen/e-mail-security/"
+   },
+   {
+    "title": "Endpoint Security",
+    "apply_url": "https://www.avantec.ch/themen/endpoint-security/"
+   },
+   {
+    "title": "IoT Security",
+    "apply_url": "https://www.avantec.ch/themen/iot-security/"
+   },
+   {
+    "title": "IT-Security für AI",
+    "apply_url": "https://www.avantec.ch/themen/ai-in-der-it-security/"
+   },
+   {
+    "title": "Web Security",
+    "apply_url": "https://www.avantec.ch/themen/web-security/"
+   },
+   {
+    "title": "IT-Security Beratung",
+    "apply_url": "https://www.avantec.ch/services/it-security-beratung/"
+   },
+   {
+    "title": "IT-Security Schulungen & Training",
+    "apply_url": "https://www.avantec.ch/services/it-security-schulungen-training/"
+   },
+   {
+    "title": "IT-Security Support",
+    "apply_url": "https://www.avantec.ch/services/it-security-support/"
+   },
+   {
+    "title": "Managed Security Services",
+    "apply_url": "https://www.avantec.ch/services/managed-security-services/"
+   },
+   {
+    "title": "Security Assurance Services",
+    "apply_url": "https://www.avantec.ch/services/security-assurance-services/"
+   },
+   {
+    "title": "Warum IT-Security von AVANTEC?",
+    "apply_url": "https://www.avantec.ch/it-security/"
+   },
+   {
+    "title": "führende Schweizer IT-Security-Integrator",
+    "apply_url": "https://www.avantec.ch/it-security/"
+   },
+   {
+    "title": "Security as a Service",
+    "apply_url": "https://www.avantec.ch/themen/security-as-a-service/"
+   },
+   {
+    "title": "IT-Security von AVANTEC",
+    "apply_url": "https://www.avantec.ch/it-security/"
+   }
+  ],
+  "njobs": 24,
+  "status": "ok"
+ },
+ {
+  "id": "010c49b1-ad99-4446-bcad-46ab9452ff02",
+  "name": "AYUN",
+  "career_url": "https://www.ayun.ch/jobs",
+  "jobs": [],
+  "njobs": 0,
+  "status": "no_jobs"
+ },
+ {
+  "id": "9dbcf8c4-2168-41d5-9b54-38795fc85091",
+  "name": "b-rayZ AG",
+  "career_url": "https://www.brayz.com/careers",
+  "jobs": [],
+  "njobs": 0,
+  "status": "no_jobs"
+ },
+ {
+  "id": "a7ed2c35-105a-4ad1-a298-d5ca7df5b1ae",
+  "name": "Baloise Open Innovation",
+  "career_url": "https://www.baloise.com/de/home/ueber-uns/innovation-baloise.html/corporate/hb/de/home/ueber-uns/karriere.html",
+  "jobs": [],
+  "njobs": 0,
+  "status": "no_jobs"
+ },
+ {
+  "id": "e5d4471d-a757-427c-8a7d-e221be41b836",
+  "name": "BAR Informatik AG",
+  "career_url": "https://barinformatik.ch/portraet/jobs/",
+  "jobs": [
+   {
+    "title": "Lifebuoy Lifebuoy  Support",
+    "apply_url": "https://barinformatik.ch/support/"
+   },
+   {
+    "title": "Einkaufswagen Einkaufswagen  0Einkaufswagen",
+    "apply_url": "https://barinformatik.ch/warenkorb/"
+   },
+   {
+    "title": "Internet, Telefonie und TV",
+    "apply_url": "https://barinformatik.ch/internet-telefonie-und-tv/"
+   },
+   {
+    "title": "Internet",
+    "apply_url": "https://barinformatik.ch/internet-telefonie-und-tv/internet/"
+   },
+   {
+    "title": "Hosting & Cloud",
+    "apply_url": "https://barinformatik.ch/hosting-cloud/"
+   },
+   {
+    "title": "NextCloud",
+    "apply_url": "https://barinformatik.ch/hosting-cloud/nextcloud/"
+   },
+   {
+    "title": "Data Center",
+    "apply_url": "https://barinformatik.ch/data-center/"
+   },
+   {
+    "title": "OT Security",
+    "apply_url": "https://barinformatik.ch/it-solutions/ot-security/"
+   },
+   {
+    "title": "Windows 10 Support Ende!",
+    "apply_url": "https://barinformatik.ch/it-solutions/windows-10-abloesung/"
+   }
+  ],
+  "njobs": 9,
+  "status": "ok"
+ },
+ {
+  "id": "5ea6de96-af31-4939-9d81-de61891583a9",
+  "name": "Basel Area",
+  "career_url": "https://baselarea.swiss/de/jobs/",
+  "jobs": [
+   {
+    "title": "Durchstarten\n                        \n                        Wir begleiten Startups und Scaleups bei ihrer Entwicklung",
+    "apply_url": "https://baselarea.swiss/de/services/durchstarten/"
+   }
+  ],
+  "njobs": 1,
+  "status": "ok"
+ },
+ {
+  "id": "29fe5eb3-fc84-42de-a5f3-525c5ed25adc",
+  "name": "Baselnetgroup AG",
+  "career_url": "https://www.baselnetgroup.ch/karriere/",
+  "jobs": [
+   {
+    "title": "Server in der Cloud",
+    "apply_url": "https://www.baselnetgroup.ch/loesungen/ict-infrastruktur/server-in-der-cloud/"
+   },
+   {
+    "title": "Service Desk & Support",
+    "apply_url": "https://www.baselnetgroup.ch/?page_id=48"
+   },
+   {
+    "title": "ICT Security",
+    "apply_url": "https://www.baselnetgroup.ch/loesungen/ict-security/"
+   },
+   {
+    "title": "Cyber Security Services",
+    "apply_url": "https://www.baselnetgroup.ch/loesungen/ict-security/cyber-security/"
+   },
+   {
+    "title": "netgroupSUPPORT &netgroupPIKETT",
+    "apply_url": "https://www.baselnetgroup.ch/loesungen/ict-operations/netgroupsupport-netgrouppikett/"
+   },
+   {
+    "title": "Direkt Support",
+    "apply_url": "https://www.baselnetgroup.ch/support"
+   }
+  ],
+  "njobs": 6,
+  "status": "ok"
+ },
+ {
+  "id": "692eaf1a-32fc-4824-9729-49ccb6382fd5",
+  "name": "BaselOne",
+  "career_url": "https://swissdevjobs.ch/jobs/all/Basel",
+  "jobs": [],
+  "njobs": 0,
+  "status": "error",
+  "error": "Page.goto: Timeout 30000ms exceeded.\nCall log:\n  - navigating to \"https://swissdevjobs.ch/jobs/all/Basel\", waiting until"
+ },
+ {
+  "id": "10642df0-1a00-432f-92ca-40c32d4c3ee0",
+  "name": "BaselTech",
+  "career_url": "https://www.baseltech.swiss/join-us",
+  "jobs": [],
+  "njobs": 0,
+  "status": "no_jobs"
+ },
+ {
+  "id": "77d4608e-2785-440e-b1b5-20748db48580",
+  "name": "BBG Solutions",
+  "career_url": "https://www.bbg-solutions.com/?lang=en/careers",
+  "jobs": [
+   {
+    "title": "Beraten & Verkaufen",
+    "apply_url": "https://www.bbg-solutions.com/schulungsangebot/#professionelles-beraten-verkaufen"
+   }
+  ],
+  "njobs": 1,
+  "status": "ok"
+ },
+ {
+  "id": "1cda2b92-9045-4c2f-9dff-164fbf896ed9",
+  "name": "bbv Software Services AG",
+  "career_url": "https://bbv.ch/insights/ki-workshop-fuer-ceo-geschaeftsleitung/",
+  "jobs": [
+   {
+    "title": "Produktvision",
+    "apply_url": "https://bbv.ch/services/produktvision/"
+   },
+   {
+    "title": "Cybersecurity",
+    "apply_url": "https://bbv.ch/services/cybersecurity/"
+   },
+   {
+    "title": "Products & Services",
+    "apply_url": "https://bbv.ch/services/#products-services"
+   },
+   {
+    "title": "Software Engineering",
+    "apply_url": "https://bbv.ch/services/software-engineering/"
+   },
+   {
+    "title": "Software Modernisierung",
+    "apply_url": "https://bbv.ch/services/softwaremodernisierung/"
+   },
+   {
+    "title": "Data Management",
+    "apply_url": "https://bbv.ch/insights/ki-workshop-fuer-ceo-geschaeftsleitung/#"
+   },
+   {
+    "title": "Data & Analytics",
+    "apply_url": "https://bbv.ch/services/data-and-analytics/"
+   },
+   {
+    "title": "Softwarearchitektur",
+    "apply_url": "https://bbv.ch/services/software-architektur/"
+   },
+   {
+    "title": "Internet of Things",
+    "apply_url": "https://bbv.ch/services/internet-of-things/"
+   },
+   {
+    "title": "Cloud Services",
+    "apply_url": "https://bbv.ch/services/cloud-services/"
+   },
+   {
+    "title": "DevOps und ALM",
+    "apply_url": "https://bbv.ch/services/devops-and-alm/"
+   },
+   {
+    "title": "Product & Service Design",
+    "apply_url": "https://bbv.ch/services/product-and-service-design/"
+   },
+   {
+    "title": "Security Principles Checklist",
+    "apply_url": "https://bbv.ch/insights/security-principles-checklist/"
+   },
+   {
+    "title": "Software Quality Map",
+    "apply_url": "https://bbv.ch/insights/software-development-quality/"
+   },
+   {
+    "title": "Lehrstelle",
+    "apply_url": "https://bbv.ch/career/nachwuchs/lehrstelle/"
+   }
+  ],
+  "njobs": 15,
+  "status": "ok"
+ }
+]

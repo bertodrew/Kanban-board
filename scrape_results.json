@@ -38,8 +38,7 @@
   "career_url": "https://www.alabus.com/opencms/en/alabus/jobs/index.html",
   "jobs": [],
   "njobs": 0,
-  "status": "error",
-  "error": "Page.goto: Timeout 25000ms exceeded.\nCall log:\n  - navigating to \"https://www.alabus.com/opencms/en/"
+  "status": "no_jobs"
  },
  {
   "id": "647574a6-f1bb-4213-b109-3da5e2c798fe",
@@ -138,8 +137,7 @@
   "career_url": "https://arbrea-labs.com/careers/",
   "jobs": [],
   "njobs": 0,
-  "status": "error",
-  "error": "Page.goto: Timeout 25000ms exceeded.\nCall log:\n  - navigating to \"https://arbrea-labs.com/careers/\","
+  "status": "no_jobs"
  },
  {
   "id": "4383bb22-bebf-4b0b-8481-616821e89369",
@@ -710,9 +708,46 @@
   "id": "8c127d1a-447c-495d-b121-a7359ed1db53",
   "name": "Digt AG",
   "career_url": "https://digt.ch/jobs/",
-  "jobs": [],
-  "njobs": 0,
-  "status": "no_jobs"
+  "jobs": [
+   {
+    "title": "Business Operations100% Teamlead Inbound Logistics",
+    "apply_url": "https://digt.ch/jobs/teamlead-inbound-logistics/"
+   },
+   {
+    "title": "Information Technology80-100% IT Project Manager",
+    "apply_url": "https://digt.ch/jobs/it-project-manager/"
+   },
+   {
+    "title": "Business Operations100% Logistiker / Stv. Teamlead Wareneingang",
+    "apply_url": "https://digt.ch/logistiker-stv-teamlead-wareneingang-100/"
+   },
+   {
+    "title": "Product Sales80-100% Account Manager Product Sales",
+    "apply_url": "https://digt.ch/jobs/account-manager-product-sales-80-100/"
+   },
+   {
+    "title": "Business Operations 80-100% Praktikum Product Content Management",
+    "apply_url": "https://digt.ch/jobs/praktikum-product-content-management-80-100/"
+   },
+   {
+    "title": "Advertising Sales80-100% Account Manager Advertising Sales",
+    "apply_url": "https://digt.ch/jobs/advertising-sales-manager-w-m-d-80-100/"
+   },
+   {
+    "title": "Logistik100% Logistik-Profi Wareneingang",
+    "apply_url": "https://digt.ch/jobs/logistik-profi-wareneingang/"
+   },
+   {
+    "title": "Logistik60-100% Praktikum Logistik Wareneingang",
+    "apply_url": "https://digt.ch/jobs/praktikum-logistik-wareneingang-60-100/"
+   },
+   {
+    "title": "Logistik60-100% Praktikum Logistik Warenausgang",
+    "apply_url": "https://digt.ch/jobs/praktikum-logistik-warenausgang-60-100/"
+   }
+  ],
+  "njobs": 9,
+  "status": "ok"
  },
  {
   "id": "f2182841-f64d-4bb4-9cc8-e02ee6df4d0f",
@@ -900,6 +935,10 @@
   "career_url": "https://careers.fotoware.com/",
   "jobs": [
    {
+    "title": "Hilde Nielsen Group Head of Marketing and Communications",
+    "apply_url": "https://careers.fotoware.com/en-GB/people/3627236-hilde-nielsen"
+   },
+   {
     "title": "Marie Monrad Company Administrator",
     "apply_url": "https://careers.fotoware.com/en-GB/people/4119333-marie-monrad"
    },
@@ -910,10 +949,6 @@
    {
     "title": "Janniche Moe Chief Product & Technology Officer",
     "apply_url": "https://careers.fotoware.com/en-GB/people/773130-janniche-moe"
-   },
-   {
-    "title": "Hilde Nielsen Group Head of Marketing and Communications",
-    "apply_url": "https://careers.fotoware.com/en-GB/people/3627236-hilde-nielsen"
    },
    {
     "title": "Data & privacy",
@@ -1291,10 +1326,6 @@
     "apply_url": "https://www.isolutions.ch/en/career/senior-specialized-sales-microsoft-cloud-solutions/"
    },
    {
-    "title": "Professional Data Engineer Consulting Location Bern, Basel, Zürich",
-    "apply_url": "https://www.isolutions.ch/en/career/professional-data-engineer/"
-   },
-   {
     "title": "Technical Consultant - Digital Workplace Consulting Location Bern, Zürich, Basel",
     "apply_url": "https://www.isolutions.ch/en/career/technical-consultant-digital-workplace/"
    },
@@ -1327,7 +1358,7 @@
     "apply_url": "https://www.isolutions.ch/en/career/enterprise-engineer-m365/"
    }
   ],
-  "njobs": 24,
+  "njobs": 23,
   "status": "ok"
  },
  {
@@ -1384,8 +1415,7 @@
   "career_url": "https://www.kyos.ch/kyos/nous-rejoindre/",
   "jobs": [],
   "njobs": 0,
-  "status": "error",
-  "error": "Page.eval_on_selector_all: Execution context was destroyed, most likely because of a navigation"
+  "status": "no_jobs"
  },
  {
   "id": "03afe8a3-f4a7-45e3-8873-8c180e0ce848",
@@ -1567,7 +1597,8 @@
   "career_url": "https://www.martec.ch/offene-stellen",
   "jobs": [],
   "njobs": 0,
-  "status": "no_jobs"
+  "status": "error",
+  "error": "Page.goto: Timeout 25000ms exceeded.\nCall log:\n  - navigating to \"https://www.martec.ch/offene-stell"
  },
  {
   "id": "16f14219-d2f1-4d16-a567-79d15f5ccc63",
@@ -1808,22 +1839,9 @@
   "id": "06ea0c8b-b442-4255-848d-7377281709a3",
   "name": "Nividous Schweiz",
   "career_url": "https://nividous.com/company/careers",
-  "jobs": [
-   {
-    "title": "<img class=\"zoom\" src=\"https://nividous.com/wp-content/uploads/2024/06/X-Icon.svg\" alt=\"Connect with Nividous on X\">",
-    "apply_url": "https://x.com/nividous"
-   },
-   {
-    "title": "<img class=\"zoom\" src=\"https://nividous.com/wp-content/uploads/2024/06/Linkedin-Icon.svg\" alt=\"Connect with Nividous on Linkedin\">",
-    "apply_url": "https://www.linkedin.com/company/nividous/"
-   },
-   {
-    "title": "<img class=\"zoom\" src=\"https://nividous.com/wp-content/uploads/2024/06/Youtube-Icon.svg\" alt=\"Connect with Nividous on Youtube\">",
-    "apply_url": "https://www.youtube.com/nividous/"
-   }
-  ],
-  "njobs": 3,
-  "status": "ok"
+  "jobs": [],
+  "njobs": 0,
+  "status": "no_jobs"
  },
  {
   "id": "eeb8e51e-ce50-49df-b74e-fed85d5bc951",
@@ -1977,9 +1995,22 @@
   "id": "03aa4f09-c375-4ff1-a967-b8d89cfe83a7",
   "name": "Pax",
   "career_url": "https://www.pax.ch/de/karriere",
-  "jobs": [],
-  "njobs": 0,
-  "status": "no_jobs"
+  "jobs": [
+   {
+    "title": "Asset Management Immobilien (w/m/d)80 - 100%Basel",
+    "apply_url": "https://careers.jobeagle.io/de/jobs/7f61ca5f-dfda-473d-ba00-c73d90a9a469/asset-management-immobilien-wmd-80-100-pax-schweizerische-lebensversicherungs-gesellschaft-ag?utm_campaign=pax&utm_source=careerpage"
+   },
+   {
+    "title": "Portfolio Manager Infrastruktur / Private Markets (w/m/d)80 - 100%Basel",
+    "apply_url": "https://careers.jobeagle.io/de/jobs/6864d93a-8d38-4922-81f1-19dfcce86914/portfolio-manager-infrastruktur-private-markets-wmd-80-100-pax-schweizerische-lebensversicherungs-gesellschaft-ag?utm_campaign=pax&utm_source=careerpage"
+   },
+   {
+    "title": "Data Engineer (w/m/d)80 - 100%Basel",
+    "apply_url": "https://careers.jobeagle.io/de/jobs/24746f01-eeb6-478f-b0c3-baaa5a9d195f/data-engineer-wmd-80-100-pax-schweizerische-lebensversicherungs-gesellschaft-ag?utm_campaign=pax&utm_source=careerpage"
+   }
+  ],
+  "njobs": 3,
+  "status": "ok"
  },
  {
   "id": "2ed9cf36-e13f-45cd-9d48-87fae96e6748",
@@ -2307,9 +2338,30 @@
   "id": "894f4c91-ecf0-4f59-8aad-99cefadfa8ac",
   "name": "Softcom Technologies SA",
   "career_url": "https://softcom.pro/nous-rejoindre/",
-  "jobs": [],
-  "njobs": 0,
-  "status": "no_jobs"
+  "jobs": [
+   {
+    "title": "Software Engineer",
+    "apply_url": "https://softcom.pro/nous-rejoindre/nos-metiers/?lang=en#developer"
+   },
+   {
+    "title": "Project Manager",
+    "apply_url": "https://softcom.pro/nous-rejoindre/nos-metiers/?lang=en#PO"
+   },
+   {
+    "title": "Software Architect",
+    "apply_url": "https://softcom.pro/nous-rejoindre/nos-metiers/?lang=en#architecte"
+   },
+   {
+    "title": "Account Manager",
+    "apply_url": "https://softcom.pro/nous-rejoindre/nos-metiers/?lang=en#accountmanager"
+   },
+   {
+    "title": "Consultant & Business Analyst",
+    "apply_url": "https://softcom.pro/nous-rejoindre/nos-metiers/?lang=en#consultant"
+   }
+  ],
+  "njobs": 5,
+  "status": "ok"
  },
  {
   "id": "8f9a7438-7f38-4279-8949-294bbb9193de",

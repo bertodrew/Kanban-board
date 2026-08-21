@@ -935,16 +935,16 @@
   "career_url": "https://careers.fotoware.com/",
   "jobs": [
    {
-    "title": "Hilde Nielsen Group Head of Marketing and Communications",
-    "apply_url": "https://careers.fotoware.com/en-GB/people/3627236-hilde-nielsen"
-   },
-   {
     "title": "Marie Monrad Company Administrator",
     "apply_url": "https://careers.fotoware.com/en-GB/people/4119333-marie-monrad"
    },
    {
     "title": "Kristine Nuland Hansen HR Manager",
     "apply_url": "https://careers.fotoware.com/en-GB/people/4019553-kristine-nuland-hansen"
+   },
+   {
+    "title": "Hilde Nielsen Group Head of Marketing and Communications",
+    "apply_url": "https://careers.fotoware.com/en-GB/people/3627236-hilde-nielsen"
    },
    {
     "title": "Janniche Moe Chief Product & Technology Officer",
@@ -1270,6 +1270,14 @@
     "apply_url": "https://www.isolutions.ch/en/career/#"
    },
    {
+    "title": "Solution Architect – Workplace & Infrastructure Managed Cloud Services Location Bern, Zürich, Basel",
+    "apply_url": "https://www.isolutions.ch/en/career/solution-architect-workplace-infrastructure/"
+   },
+   {
+    "title": "Project Manager – Customer Experience Infrastructure Location Bern, Basel, Zürich",
+    "apply_url": "https://www.isolutions.ch/en/career/project-manager-customer-experience/"
+   },
+   {
     "title": "Senior Account Manager - Banking Sales Location Bern, Zürich, Basel",
     "apply_url": "https://www.isolutions.ch/en/career/senior-account-manager-banking/"
    },
@@ -1338,8 +1346,8 @@
     "apply_url": "https://www.isolutions.ch/en/career/senior-technical-consultant-digital-workplace/"
    },
    {
-    "title": "Professional Account Manager Sales Location Bern, Zürich, Basel",
-    "apply_url": "https://www.isolutions.ch/en/career/professional-account-manager/"
+    "title": "Account Manager Sales Location Bern, Zürich, Basel",
+    "apply_url": "https://www.isolutions.ch/en/career/account-manager/"
    },
    {
     "title": "Senior Power Platform Consultant Consulting Location Bern, Basel, Zürich",
@@ -1358,7 +1366,7 @@
     "apply_url": "https://www.isolutions.ch/en/career/enterprise-engineer-m365/"
    }
   ],
-  "njobs": 23,
+  "njobs": 25,
   "status": "ok"
  },
  {
@@ -1415,7 +1423,8 @@
   "career_url": "https://www.kyos.ch/kyos/nous-rejoindre/",
   "jobs": [],
   "njobs": 0,
-  "status": "no_jobs"
+  "status": "error",
+  "error": "Page.eval_on_selector_all: Execution context was destroyed, most likely because of a navigation"
  },
  {
   "id": "03afe8a3-f4a7-45e3-8873-8c180e0ce848",
@@ -1597,8 +1606,7 @@
   "career_url": "https://www.martec.ch/offene-stellen",
   "jobs": [],
   "njobs": 0,
-  "status": "error",
-  "error": "Page.goto: Timeout 25000ms exceeded.\nCall log:\n  - navigating to \"https://www.martec.ch/offene-stell"
+  "status": "no_jobs"
  },
  {
   "id": "16f14219-d2f1-4d16-a567-79d15f5ccc63",
@@ -1638,11 +1646,19 @@
   "career_url": "https://microtom.com/de/unternehmen/karriere-ausbildung/",
   "jobs": [
    {
+    "title": "Modern Workplace Specialist (Support) 80-100%",
+    "apply_url": "https://microtom.com/de/career/modern-workplace-specialist-support-80-100/"
+   },
+   {
+    "title": "Microsoft Systems & Security Engineer (M365 & Azure Security mit Leidenschaft für IT und Herz für Menschen)",
+    "apply_url": "https://microtom.com/de/career/microsoft-systems-security-engineer-m365-azure-security/"
+   },
+   {
     "title": "Career & Apprenticeship",
     "apply_url": "https://microtom.com/company/career-apprenticeships/"
    }
   ],
-  "njobs": 1,
+  "njobs": 3,
   "status": "ok"
  },
  {
@@ -1839,9 +1855,22 @@
   "id": "06ea0c8b-b442-4255-848d-7377281709a3",
   "name": "Nividous Schweiz",
   "career_url": "https://nividous.com/company/careers",
-  "jobs": [],
-  "njobs": 0,
-  "status": "no_jobs"
+  "jobs": [
+   {
+    "title": "<img class=\"zoom\" src=\"https://nividous.com/wp-content/uploads/2024/06/X-Icon.svg\" alt=\"Connect with Nividous on X\">",
+    "apply_url": "https://x.com/nividous"
+   },
+   {
+    "title": "<img class=\"zoom\" src=\"https://nividous.com/wp-content/uploads/2024/06/Linkedin-Icon.svg\" alt=\"Connect with Nividous on Linkedin\">",
+    "apply_url": "https://www.linkedin.com/company/nividous/"
+   },
+   {
+    "title": "<img class=\"zoom\" src=\"https://nividous.com/wp-content/uploads/2024/06/Youtube-Icon.svg\" alt=\"Connect with Nividous on Youtube\">",
+    "apply_url": "https://www.youtube.com/nividous/"
+   }
+  ],
+  "njobs": 3,
+  "status": "ok"
  },
  {
   "id": "eeb8e51e-ce50-49df-b74e-fed85d5bc951",
@@ -1995,22 +2024,9 @@
   "id": "03aa4f09-c375-4ff1-a967-b8d89cfe83a7",
   "name": "Pax",
   "career_url": "https://www.pax.ch/de/karriere",
-  "jobs": [
-   {
-    "title": "Asset Management Immobilien (w/m/d)80 - 100%Basel",
-    "apply_url": "https://careers.jobeagle.io/de/jobs/7f61ca5f-dfda-473d-ba00-c73d90a9a469/asset-management-immobilien-wmd-80-100-pax-schweizerische-lebensversicherungs-gesellschaft-ag?utm_campaign=pax&utm_source=careerpage"
-   },
-   {
-    "title": "Portfolio Manager Infrastruktur / Private Markets (w/m/d)80 - 100%Basel",
-    "apply_url": "https://careers.jobeagle.io/de/jobs/6864d93a-8d38-4922-81f1-19dfcce86914/portfolio-manager-infrastruktur-private-markets-wmd-80-100-pax-schweizerische-lebensversicherungs-gesellschaft-ag?utm_campaign=pax&utm_source=careerpage"
-   },
-   {
-    "title": "Data Engineer (w/m/d)80 - 100%Basel",
-    "apply_url": "https://careers.jobeagle.io/de/jobs/24746f01-eeb6-478f-b0c3-baaa5a9d195f/data-engineer-wmd-80-100-pax-schweizerische-lebensversicherungs-gesellschaft-ag?utm_campaign=pax&utm_source=careerpage"
-   }
-  ],
-  "njobs": 3,
-  "status": "ok"
+  "jobs": [],
+  "njobs": 0,
+  "status": "no_jobs"
  },
  {
   "id": "2ed9cf36-e13f-45cd-9d48-87fae96e6748",
@@ -2026,8 +2042,12 @@
   "career_url": "https://www.peleven.ch/join-us/",
   "jobs": [
    {
+    "title": "Elektroingenieur",
+    "apply_url": "https://www.peleven.ch/join-us/#EI"
+   },
+   {
     "title": "Fachspezialisten Schüttgut",
-    "apply_url": "https://www.peleven.ch/join-us/#SG"
+    "apply_url": "https://www.peleven.ch/join-us/#EI"
    },
    {
     "title": "(Senior) Sustainability/CSRD Consultant",
@@ -2042,7 +2062,7 @@
     "apply_url": "https://www.peleven.ch/join-us/#compliance"
    }
   ],
-  "njobs": 4,
+  "njobs": 5,
   "status": "ok"
  },
  {
@@ -2268,8 +2288,7 @@
   "career_url": "https://www.skovian.com/careers/",
   "jobs": [],
   "njobs": 0,
-  "status": "error",
-  "error": "Page.goto: Timeout 25000ms exceeded.\nCall log:\n  - navigating to \"https://www.skovian.com/careers/\","
+  "status": "no_jobs"
  },
  {
   "id": "10065cda-697f-4aca-87ff-10597f37ebdf",
@@ -2338,30 +2357,10 @@
   "id": "894f4c91-ecf0-4f59-8aad-99cefadfa8ac",
   "name": "Softcom Technologies SA",
   "career_url": "https://softcom.pro/nous-rejoindre/",
-  "jobs": [
-   {
-    "title": "Software Engineer",
-    "apply_url": "https://softcom.pro/nous-rejoindre/nos-metiers/?lang=en#developer"
-   },
-   {
-    "title": "Project Manager",
-    "apply_url": "https://softcom.pro/nous-rejoindre/nos-metiers/?lang=en#PO"
-   },
-   {
-    "title": "Software Architect",
-    "apply_url": "https://softcom.pro/nous-rejoindre/nos-metiers/?lang=en#architecte"
-   },
-   {
-    "title": "Account Manager",
-    "apply_url": "https://softcom.pro/nous-rejoindre/nos-metiers/?lang=en#accountmanager"
-   },
-   {
-    "title": "Consultant & Business Analyst",
-    "apply_url": "https://softcom.pro/nous-rejoindre/nos-metiers/?lang=en#consultant"
-   }
-  ],
-  "njobs": 5,
-  "status": "ok"
+  "jobs": [],
+  "njobs": 0,
+  "status": "error",
+  "error": "Page.eval_on_selector_all: Execution context was destroyed, most likely because of a navigation"
  },
  {
   "id": "8f9a7438-7f38-4279-8949-294bbb9193de",
@@ -2627,11 +2626,15 @@
   "career_url": "https://www.veezoo.com/careers",
   "jobs": [
    {
-    "title": "EngineeringSoftware DeveloperZurich, SwitzerlandFull-Time (80-100%)View role",
-    "apply_url": "https://www.veezoo.com/careers/software-developer"
+    "title": "SalesSenior Account Executive (Enterprise SaaS)Zurich, SwitzerlandFull-TimeView role",
+    "apply_url": "https://www.veezoo.com/careers/senior-account-executive"
+   },
+   {
+    "title": "EngineeringSoftware Engineer, AI SystemsZurich, SwitzerlandFull-Time (80-100%)View role",
+    "apply_url": "https://www.veezoo.com/careers/software-engineer"
    }
   ],
-  "njobs": 1,
+  "njobs": 2,
   "status": "ok"
  },
  {

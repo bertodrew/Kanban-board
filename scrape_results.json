@@ -1383,7 +1383,8 @@
   "career_url": "https://www.itpoint.ch/jobs-karriere/",
   "jobs": [],
   "njobs": 0,
-  "status": "no_jobs"
+  "status": "error",
+  "error": "Page.goto: Timeout 25000ms exceeded.\nCall log:\n  - navigating to \"https://www.itpoint.ch/jobs-karrie"
  },
  {
   "id": "0e4bc552-a2f9-4295-9581-b95d5b51f298",
@@ -1423,8 +1424,7 @@
   "career_url": "https://www.kyos.ch/kyos/nous-rejoindre/",
   "jobs": [],
   "njobs": 0,
-  "status": "error",
-  "error": "Page.eval_on_selector_all: Execution context was destroyed, most likely because of a navigation"
+  "status": "no_jobs"
  },
  {
   "id": "03afe8a3-f4a7-45e3-8873-8c180e0ce848",
@@ -2288,7 +2288,8 @@
   "career_url": "https://www.skovian.com/careers/",
   "jobs": [],
   "njobs": 0,
-  "status": "no_jobs"
+  "status": "error",
+  "error": "Page.goto: Timeout 25000ms exceeded.\nCall log:\n  - navigating to \"https://www.skovian.com/careers/\","
  },
  {
   "id": "10065cda-697f-4aca-87ff-10597f37ebdf",

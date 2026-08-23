@@ -121,3 +121,4 @@ if __name__ == '__main__':
 # sweep trigger 2026-08-21T08:05:42Z
 
 # trigger sweep 2026-08-22
+# sweep trigger 2026-08-23 daily run

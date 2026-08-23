@@ -140,27 +140,6 @@
   "status": "no_jobs"
  },
  {
-  "id": "4383bb22-bebf-4b0b-8481-616821e89369",
-  "name": "ARCON Informatik AG",
-  "career_url": "https://www.arcon.ch/ict-und-abacus-jobs/",
-  "jobs": [
-   {
-    "title": "ICT Supporter/in 80-100 % (m/w/d)",
-    "apply_url": "https://www.arcon.ch/ict-supporter/"
-   },
-   {
-    "title": "Projektleiter/in Abacus Personal mit Herz für Pay Roll und HR-Projekte 80-100 % (m/w/d)",
-    "apply_url": "https://www.arcon.ch/abacus-projektleiter-personal"
-   },
-   {
-    "title": "System Engineer 80-100 % (m/w/d)",
-    "apply_url": "https://www.arcon.ch/stelleninserat-system-engineer-2/"
-   }
-  ],
-  "njobs": 3,
-  "status": "ok"
- },
- {
   "id": "729f842a-8c2d-4e0b-b56a-277a4ff3bce2",
   "name": "Astaara AG",
   "career_url": "https://www.astaara.com/index.html#willenworks",
@@ -183,23 +162,6 @@
   "jobs": [],
   "njobs": 0,
   "status": "no_jobs"
- },
- {
-  "id": "c96fb98b-89a4-4a0e-9637-3b98e6dd3544",
-  "name": "Atinary Technologies Sàrl",
-  "career_url": "https://atinary.com/careers/",
-  "jobs": [
-   {
-    "title": "DevOps Engineer (Lausanne, Switzerland)",
-    "apply_url": "https://atinary.zohorecruit.eu/jobs/Careers/28643000003299167/DevOps-Engineer?source=CareerSite"
-   },
-   {
-    "title": "Full Stack Developer (Lausanne, Switzerland)",
-    "apply_url": "https://atinary.zohorecruit.eu/jobs/Careers/28643000003299119/Full-Stack-Developer?source=CareerSite"
-   }
-  ],
-  "njobs": 2,
-  "status": "ok"
  },
  {
   "id": "97bae342-b54e-49ea-98e9-aeef7106640c",
@@ -301,19 +263,6 @@
   "jobs": [],
   "njobs": 0,
   "status": "no_jobs"
- },
- {
-  "id": "1ec094dd-5916-421e-805b-0e03380e32b5",
-  "name": "bespinian",
-  "career_url": "https://www.bespinian.io/en/about/jobs",
-  "jobs": [
-   {
-    "title": "Cloud Solutions EngineerBern, Switzerland•80-100%",
-    "apply_url": "https://bespinian.io/en/about/jobs/cloud-engineer"
-   }
-  ],
-  "njobs": 1,
-  "status": "ok"
  },
  {
   "id": "f5d387b0-1410-4f2b-9b17-8de4e4ac4314",
@@ -466,19 +415,6 @@
   "jobs": [],
   "njobs": 0,
   "status": "no_jobs"
- },
- {
-  "id": "117bbe61-c298-4230-8e50-4867c457398f",
-  "name": "cloudWEB GmbH",
-  "career_url": "https://www.cloudweb.ch/jobs/",
-  "jobs": [
-   {
-    "title": "Online Marketing Trainee (m/w/d) für 12 Monate",
-    "apply_url": "https://www.cloudweb.ch/om-trainee-m-w-d/"
-   }
-  ],
-  "njobs": 1,
-  "status": "ok"
  },
  {
   "id": "5ebc52a1-a480-4189-8956-786229b4753c",
@@ -672,23 +608,6 @@
   "status": "no_jobs"
  },
  {
-  "id": "528fc9d7-4b5f-4ea7-a6c3-0c9a90eda233",
-  "name": "devedis AG",
-  "career_url": "https://devedis.ch/de/jobs",
-  "jobs": [
-   {
-    "title": "Java Fullstack Software EngineerPensum: 80% - 100%Bern",
-    "apply_url": "https://devedis.ch/de/jobs/java-fullstack-software-engineer"
-   },
-   {
-    "title": "Fullstack Software EngineerPensum: 80% - 100%Bern",
-    "apply_url": "https://devedis.ch/de/jobs/fullstack-software-engineer"
-   }
-  ],
-  "njobs": 2,
-  "status": "ok"
- },
- {
   "id": "4096dd55-8222-48dc-8e4c-9682e804210c",
   "name": "Digio AG",
   "career_url": "https://www.digio.swiss/en/career",
@@ -703,51 +622,6 @@
   "jobs": [],
   "njobs": 0,
   "status": "no_jobs"
- },
- {
-  "id": "8c127d1a-447c-495d-b121-a7359ed1db53",
-  "name": "Digt AG",
-  "career_url": "https://digt.ch/jobs/",
-  "jobs": [
-   {
-    "title": "Business Operations100% Teamlead Inbound Logistics",
-    "apply_url": "https://digt.ch/jobs/teamlead-inbound-logistics/"
-   },
-   {
-    "title": "Information Technology80-100% IT Project Manager",
-    "apply_url": "https://digt.ch/jobs/it-project-manager/"
-   },
-   {
-    "title": "Business Operations100% Logistiker / Stv. Teamlead Wareneingang",
-    "apply_url": "https://digt.ch/logistiker-stv-teamlead-wareneingang-100/"
-   },
-   {
-    "title": "Product Sales80-100% Account Manager Product Sales",
-    "apply_url": "https://digt.ch/jobs/account-manager-product-sales-80-100/"
-   },
-   {
-    "title": "Business Operations 80-100% Praktikum Product Content Management",
-    "apply_url": "https://digt.ch/jobs/praktikum-product-content-management-80-100/"
-   },
-   {
-    "title": "Advertising Sales80-100% Account Manager Advertising Sales",
-    "apply_url": "https://digt.ch/jobs/advertising-sales-manager-w-m-d-80-100/"
-   },
-   {
-    "title": "Logistik100% Logistik-Profi Wareneingang",
-    "apply_url": "https://digt.ch/jobs/logistik-profi-wareneingang/"
-   },
-   {
-    "title": "Logistik60-100% Praktikum Logistik Wareneingang",
-    "apply_url": "https://digt.ch/jobs/praktikum-logistik-wareneingang-60-100/"
-   },
-   {
-    "title": "Logistik60-100% Praktikum Logistik Warenausgang",
-    "apply_url": "https://digt.ch/jobs/praktikum-logistik-warenausgang-60-100/"
-   }
-  ],
-  "njobs": 9,
-  "status": "ok"
  },
  {
   "id": "f2182841-f64d-4bb4-9cc8-e02ee6df4d0f",
@@ -812,23 +686,6 @@
    }
   ],
   "njobs": 8,
-  "status": "ok"
- },
- {
-  "id": "23a45562-f312-4740-a414-92a9edf7475c",
-  "name": "DynaNet GmbH",
-  "career_url": "https://dynanet.ch/jobs/",
-  "jobs": [
-   {
-    "title": "Mitarbeiter/in Support (m/w/d) 80-100% / Standort St. Gallen",
-    "apply_url": "https://dynanet.ch/job/mitarbeiter-in-support-m-w-d/"
-   },
-   {
-    "title": "ICT Senior System Engineer / Fokus «Cyber-Security» (m/w/d) 80-100% / Standort St. Gallen",
-    "apply_url": "https://dynanet.ch/job/ict-senior-system-engineer-fokus-cyber-security-m-w-d/"
-   }
-  ],
-  "njobs": 2,
   "status": "ok"
  },
  {
@@ -1261,115 +1118,6 @@
   "status": "no_jobs"
  },
  {
-  "id": "e9c63748-7754-4c34-b50f-56e2be29b49e",
-  "name": "isolutions AG",
-  "career_url": "https://www.isolutions.ch/en/career/",
-  "jobs": [
-   {
-    "title": "lftracker.leadfeeder.com5",
-    "apply_url": "https://www.isolutions.ch/en/career/#"
-   },
-   {
-    "title": "Solution Architect – Workplace & Infrastructure Managed Cloud Services Location Bern, Zürich, Basel",
-    "apply_url": "https://www.isolutions.ch/en/career/solution-architect-workplace-infrastructure/"
-   },
-   {
-    "title": "Project Manager – Customer Experience Infrastructure Location Bern, Basel, Zürich",
-    "apply_url": "https://www.isolutions.ch/en/career/project-manager-customer-experience/"
-   },
-   {
-    "title": "Senior Account Manager - Banking Sales Location Bern, Zürich, Basel",
-    "apply_url": "https://www.isolutions.ch/en/career/senior-account-manager-banking/"
-   },
-   {
-    "title": "Senior Account Manager - Insurance Sales Location Bern, Zürich, Basel",
-    "apply_url": "https://www.isolutions.ch/en/career/senior-account-manager-insurance/"
-   },
-   {
-    "title": "Junior Technical Consultant - Digital Workplace Consulting Location Bern, Zürich, Basel",
-    "apply_url": "https://www.isolutions.ch/en/career/junior-technical-consultant-digital-workplace/"
-   },
-   {
-    "title": "Software Engineer – Customer Experience Development Location Bern, Basel, Zürich",
-    "apply_url": "https://www.isolutions.ch/en/career/software-engineer-customer-experience/"
-   },
-   {
-    "title": "Customer Success Manager - Customer Experience Infrastructure Location Bern, Basel, Zürich",
-    "apply_url": "https://www.isolutions.ch/en/career/customer-success-manager-customer-experience/"
-   },
-   {
-    "title": "Senior Technical Consultant – Customer Experience Consulting Location Bern, Basel, Zürich",
-    "apply_url": "https://www.isolutions.ch/en/career/senior-technical-consultant-customer-experience/"
-   },
-   {
-    "title": "Senior Software Engineer .NET & Angular Development Location Bern, Zürich, Basel",
-    "apply_url": "https://www.isolutions.ch/en/career/senior-software-engineer-net-angular/"
-   },
-   {
-    "title": "Presales Consultant – Customer Experience Consulting Location Bern, Basel, Zürich",
-    "apply_url": "https://www.isolutions.ch/en/career/presales-consultant-customer-experience/"
-   },
-   {
-    "title": "Market Unit Head - Manufacturing, Pharma & Construction Sales Location Bern, Basel, Zürich",
-    "apply_url": "https://www.isolutions.ch/en/career/market-unit-head-manufacturing-pharma-construction/"
-   },
-   {
-    "title": "Software Solution Architect Development Location Bern, Zürich, Basel",
-    "apply_url": "https://www.isolutions.ch/en/career/software-solution-architect/"
-   },
-   {
-    "title": "Workplace Engineer Managed Cloud Services Location Bern, Basel, Zürich",
-    "apply_url": "https://www.isolutions.ch/en/career/workplace-engineer/"
-   },
-   {
-    "title": "AI Agent Consultant Consulting Location Bern, Zürich, Basel",
-    "apply_url": "https://www.isolutions.ch/en/career/ai-agent-consultant/"
-   },
-   {
-    "title": "Senior Specialized Sales - Cyber Security Sales Location Bern, Zürich, Basel",
-    "apply_url": "https://www.isolutions.ch/en/career/senior-specialized-sales-cyber-security/"
-   },
-   {
-    "title": "Senior Specialized Sales - Microsoft Cloud Solutions Sales Location Bern, Basel, Zürich",
-    "apply_url": "https://www.isolutions.ch/en/career/senior-specialized-sales-microsoft-cloud-solutions/"
-   },
-   {
-    "title": "Technical Consultant - Digital Workplace Consulting Location Bern, Zürich, Basel",
-    "apply_url": "https://www.isolutions.ch/en/career/technical-consultant-digital-workplace/"
-   },
-   {
-    "title": "Senior Exchange Hybrid & Migration Engineer (M365) Managed Cloud Services Location Bern, Basel, Zürich",
-    "apply_url": "https://www.isolutions.ch/en/career/senior-exchange-hybrid-migration-engineer-m365/"
-   },
-   {
-    "title": "Senior Technical Consultant - Digital Workplace Consulting Location Bern, Zürich, Basel",
-    "apply_url": "https://www.isolutions.ch/en/career/senior-technical-consultant-digital-workplace/"
-   },
-   {
-    "title": "Account Manager Sales Location Bern, Zürich, Basel",
-    "apply_url": "https://www.isolutions.ch/en/career/account-manager/"
-   },
-   {
-    "title": "Senior Power Platform Consultant Consulting Location Bern, Basel, Zürich",
-    "apply_url": "https://www.isolutions.ch/en/career/senior-power-platform-consultant/"
-   },
-   {
-    "title": "Senior Solution Architect – Customer Experience Consulting Location Bern, Basel, Zürich",
-    "apply_url": "https://www.isolutions.ch/en/career/senior-solution-architect-customer-experience/"
-   },
-   {
-    "title": "Senior Business Consultant - Digital Workplace Consulting Location Bern, Basel, Zürich",
-    "apply_url": "https://www.isolutions.ch/en/career/senior-business-consultant-digital-workplace/"
-   },
-   {
-    "title": "Enterprise Engineer M365 Infrastructure Location Bern, Basel, Zürich",
-    "apply_url": "https://www.isolutions.ch/en/career/enterprise-engineer-m365/"
-   }
-  ],
-  "njobs": 25,
-  "status": "ok"
- },
- {
   "id": "40e931c2-a5e3-42f6-bdec-c4417433bd8c",
   "name": "IT Republic GmbH",
   "career_url": "https://www.itrepublic.ch/karriere",
@@ -1383,8 +1131,7 @@
   "career_url": "https://www.itpoint.ch/jobs-karriere/",
   "jobs": [],
   "njobs": 0,
-  "status": "error",
-  "error": "Page.goto: Timeout 25000ms exceeded.\nCall log:\n  - navigating to \"https://www.itpoint.ch/jobs-karrie"
+  "status": "no_jobs"
  },
  {
   "id": "0e4bc552-a2f9-4295-9581-b95d5b51f298",
@@ -1515,42 +1262,12 @@
   "status": "ok"
  },
  {
-  "id": "353086d9-1291-4baf-9f08-2a43796b858b",
-  "name": "linkyard ag",
-  "career_url": "https://www.linkyard.ch/about/karriere",
-  "jobs": [
-   {
-    "title": "Digital Product ManagementThis is some text inside of a div block.",
-    "apply_url": "https://www.linkyard.ch/about/karriere#"
-   },
-   {
-    "title": "Linux Engineer (m/w/d)40-100%, Bern und Remote",
-    "apply_url": "https://www.linkyard.ch/careers/cloud-devops-engineer"
-   }
-  ],
-  "njobs": 2,
-  "status": "ok"
- },
- {
   "id": "a8f25e5f-275e-4941-89a8-8e0d74bce53e",
   "name": "LST AG",
   "career_url": "https://www.lst.team/jobs",
   "jobs": [],
   "njobs": 0,
   "status": "no_jobs"
- },
- {
-  "id": "e4c913e0-eef4-4e90-b7e9-776301e0b3a7",
-  "name": "Lyfegen HealthTech AG",
-  "career_url": "https://lyfegen.com/career-old",
-  "jobs": [
-   {
-    "title": "Customer Success ManagerRemote/Full Time/",
-    "apply_url": "https://www.lyfegen.com/job-post/customer-success-manager"
-   }
-  ],
-  "njobs": 1,
-  "status": "ok"
  },
  {
   "id": "6c4bc3cf-84bf-402b-bbcd-7272120b3d8d",
@@ -1695,64 +1412,6 @@
   "status": "no_jobs"
  },
  {
-  "id": "1c919ec3-a69f-49ba-b693-74ba120ab380",
-  "name": "Modulight AG",
-  "career_url": "https://modulight.com/careers",
-  "jobs": [
-   {
-    "title": "Mechanical / Optical / Electronics Engineer",
-    "apply_url": "https://modulight.com/careers/mechanical-optical-electronics-engineer/"
-   }
-  ],
-  "njobs": 1,
-  "status": "ok"
- },
- {
-  "id": "18217205-f81b-4eb7-a2ff-6f099c585153",
-  "name": "Molesense",
-  "career_url": "https://www.molesense.ch/careers",
-  "jobs": [
-   {
-    "title": "Aptamer ScientistBiopôle LausanneFull-timeOn-site",
-    "apply_url": "https://www.molesense.ch/jobs/aptamer-scientist"
-   },
-   {
-    "title": "Biomedical Mixed-signal IC DesignerBiopôle LausanneFull-timeOn-site",
-    "apply_url": "https://www.molesense.ch/jobs/biomedical-mixed-signal-ic-designer"
-   },
-   {
-    "title": "Nature-inspired Microengineering Scientist – MEMS with a strong simulation backgroundBiopôle LausanneFull-timeOn-site",
-    "apply_url": "https://www.molesense.ch/jobs/nature-inspired-microengineering---mems-with-an-strong-simulation-background"
-   },
-   {
-    "title": "Scientist - Development of Ion-Selective ElectrodeBiopôle LausanneFull-time On-site",
-    "apply_url": "https://www.molesense.ch/jobs/scientist-development-of-ion-selective-electrode"
-   },
-   {
-    "title": "Internship - Development of Bio-Inspired, Non-Acrylic Adhesives for Wearable Patches Biopôle LausanneInternshipOn-site",
-    "apply_url": "https://www.molesense.ch/jobs/internship---development-of-bio-inspired-non-acrylic-adhesives-for-wearable-patches"
-   },
-   {
-    "title": "Internship - Development of a Self-Powered Iontophoretic PatchBiopôle LausanneInternshipOn-site",
-    "apply_url": "https://www.molesense.ch/jobs/internship---development-of-a-self-powered-iontophoretic-patch"
-   },
-   {
-    "title": "Internship - Development and Evaluation of Antifouling Surface Coatings for Wearable Electrochemical BiosensorsBiopôle LausanneInternshipOn-site",
-    "apply_url": "https://www.molesense.ch/jobs/internship-development-and-evaluation-of-antifouling-surface-coatings-for-wearable-electrochemical-biosensors"
-   },
-   {
-    "title": "Internship - PCB Test & Validation Engineering InternBiopôle LausanneInternshipOn-site",
-    "apply_url": "https://www.molesense.ch/jobs/internship---pcb-test-validation-engineering-intern"
-   },
-   {
-    "title": "Internship - Sweat Dynamics & Wearable Platform DevelopmentBiopôle LausanneInternshipOn-site",
-    "apply_url": "https://www.molesense.ch/jobs/internship---sweat-dynamics-wearable-platform-development"
-   }
-  ],
-  "njobs": 9,
-  "status": "ok"
- },
- {
   "id": "62804806-6e61-40e0-b09c-5f774bf1f3d6",
   "name": "Moresi.com SA",
   "career_url": "https://www.moresi.com/workplace-collaboration/",
@@ -1780,27 +1439,6 @@
   "jobs": [],
   "njobs": 0,
   "status": "no_jobs"
- },
- {
-  "id": "08aac60f-1256-4f9a-b682-447551ca8fdc",
-  "name": "Nag Informatik AG",
-  "career_url": "https://nag.ch/ueber-uns/karriere/",
-  "jobs": [
-   {
-    "title": "Alle 5 Jahre 6 Wochen Sabbatical (wir schenken dir 4 Wochen)",
-    "apply_url": "https://nag.ch/ueber-uns/karriere/#6-wochen-sabbatical"
-   },
-   {
-    "title": "Data Mgmt. Consultant / -Engineer",
-    "apply_url": "https://nag.ch/ueber-uns/karriere/data-management-consultant-data-engineer/"
-   },
-   {
-    "title": "Senior SAP Solution Architect (m/w/d)",
-    "apply_url": "https://nag.ch/ueber-uns/karriere/senior-sap-solution-architect/"
-   }
-  ],
-  "njobs": 3,
-  "status": "ok"
  },
  {
   "id": "b8ccd731-fc6c-4c57-ae22-764066aa739c",
@@ -1951,50 +1589,12 @@
   "status": "ok"
  },
  {
-  "id": "b928ad04-4dab-4f70-bb70-60da089fe8f9",
-  "name": "Optravis",
-  "career_url": "https://www.optravis.com/career/",
-  "jobs": [
-   {
-    "title": "Junior Business Analyst – Basel",
-    "apply_url": "https://www.optravis.com/vacancy/junior-business-analyst/"
-   },
-   {
-    "title": "Backend Developer 100% – Basel",
-    "apply_url": "https://www.optravis.com/vacancy/full-stack-developer-100-basel/"
-   }
-  ],
-  "njobs": 2,
-  "status": "ok"
- },
- {
   "id": "575def25-3249-42b1-951f-a00c1b807ea8",
   "name": "OrganaBio Swiss SA",
   "career_url": "https://www.organabio.com/careers/",
   "jobs": [],
   "njobs": 0,
   "status": "no_jobs"
- },
- {
-  "id": "67a074c4-f2e4-4da2-badf-2dd9fbb3f4eb",
-  "name": "oriented.net GmbH",
-  "career_url": "https://oriented.net/company/jobs",
-  "jobs": [
-   {
-    "title": "Administration employee (20%)",
-    "apply_url": "https://oriented.net/company/jobs#job1"
-   },
-   {
-    "title": "Linux System Administrator",
-    "apply_url": "https://oriented.net/company/jobs#job2"
-   },
-   {
-    "title": "Computer Scientist - Practice-integrated Bachelor's degree (PiBS)",
-    "apply_url": "https://oriented.net/company/jobs#job3"
-   }
-  ],
-  "njobs": 3,
-  "status": "ok"
  },
  {
   "id": "5258ebe7-6d46-407a-8876-d7e499b2f6e1",
@@ -2035,35 +1635,6 @@
   "jobs": [],
   "njobs": 0,
   "status": "no_jobs"
- },
- {
-  "id": "a2bc1f45-d6a2-4db3-bdee-111f9a9aa254",
-  "name": "Peleven",
-  "career_url": "https://www.peleven.ch/join-us/",
-  "jobs": [
-   {
-    "title": "Elektroingenieur",
-    "apply_url": "https://www.peleven.ch/join-us/#EI"
-   },
-   {
-    "title": "Fachspezialisten Schüttgut",
-    "apply_url": "https://www.peleven.ch/join-us/#EI"
-   },
-   {
-    "title": "(Senior) Sustainability/CSRD Consultant",
-    "apply_url": "https://www.peleven.ch/join-us/#CSRD"
-   },
-   {
-    "title": "Data Intelligence / OSIsoft PI",
-    "apply_url": "https://www.peleven.ch/join-us/#di"
-   },
-   {
-    "title": "Quality & Compliance",
-    "apply_url": "https://www.peleven.ch/join-us/#compliance"
-   }
-  ],
-  "njobs": 5,
-  "status": "ok"
  },
  {
   "id": "66d0c86b-9219-4767-a5a8-6ee5085a4f06",
@@ -2107,39 +1678,6 @@
   "status": "no_jobs"
  },
  {
-  "id": "4b7723da-3395-4761-bb12-9873d39cd3b3",
-  "name": "Puzzle ITC GmbH",
-  "career_url": "https://www.puzzle.ch/jobs",
-  "jobs": [
-   {
-    "title": "Services & Products",
-    "apply_url": "https://www.puzzle.ch/jobs#mm-1"
-   },
-   {
-    "title": "Platform Engineering",
-    "apply_url": "https://www.puzzle.ch/jobs#mm-2"
-   },
-   {
-    "title": "Infrastructure & Cloud",
-    "apply_url": "https://www.puzzle.ch/jobs#mm-2"
-   },
-   {
-    "title": "Products",
-    "apply_url": "https://www.puzzle.ch/jobs#mm-2"
-   },
-   {
-    "title": "Senior Software Engineer Backend Bern und teilweise Remote 80 – 100%",
-    "apply_url": "https://www.puzzle.ch/jobs/senior-software-engineer-backend"
-   },
-   {
-    "title": "11. August 2022 — Liane RychenerVom Praktikum zur Festanstellung und angehenden Studentin in Betriebsökonomie.",
-    "apply_url": "https://www.puzzle.ch/blog/2022/08/11/vom-praktikum-zur-festanstellung-und-angehenden-studentin-in-betriebsoekonomie"
-   }
-  ],
-  "njobs": 6,
-  "status": "ok"
- },
- {
   "id": "c1ba3f75-5186-4c31-84f3-c1f0d016bd0c",
   "name": "Qim info",
   "career_url": "https://www.qiminfo.ch/modern-workplace-et-workstation/",
@@ -2162,19 +1700,6 @@
   "jobs": [],
   "njobs": 0,
   "status": "no_jobs"
- },
- {
-  "id": "1e459c3f-93f6-4079-8182-4c5471a12282",
-  "name": "Renuo AG",
-  "career_url": "https://www.renuo.ch/jobs",
-  "jobs": [
-   {
-    "title": "IMS-Praktikum100%",
-    "apply_url": "https://www.renuo.ch/jobs/internship"
-   }
-  ],
-  "njobs": 1,
-  "status": "ok"
  },
  {
   "id": "eac35c73-bcca-48bf-96a9-7ec4b3d4b66a",
@@ -2226,31 +1751,6 @@
   "status": "no_jobs"
  },
  {
-  "id": "996ecd7d-44ad-41d6-90af-359e85bedf3f",
-  "name": "scope solutions",
-  "career_url": "https://scope.ch/karriere/",
-  "jobs": [
-   {
-    "title": "Software-Entwickler (m/w/d)",
-    "apply_url": "https://scope.ch/karriere/#softwarearchitekt"
-   },
-   {
-    "title": "IT-Applikationsmanager (m/w/d)",
-    "apply_url": "https://scope.ch/karriere/#itapplikationsmanager"
-   },
-   {
-    "title": "Sales Development Representative (m/w/d)",
-    "apply_url": "https://scope.ch/karriere/#salesdevelopmentrepresentative"
-   },
-   {
-    "title": "Office Manager 40–60 % (m/w/d)",
-    "apply_url": "https://scope.ch/karriere/#OfficeManager"
-   }
-  ],
-  "njobs": 4,
-  "status": "ok"
- },
- {
   "id": "f5227e4c-36cc-44ec-8313-3ad9d642b525",
   "name": "seantis gmbh",
   "career_url": "https://www.seantis.ch/careers/",
@@ -2288,8 +1788,7 @@
   "career_url": "https://www.skovian.com/careers/",
   "jobs": [],
   "njobs": 0,
-  "status": "error",
-  "error": "Page.goto: Timeout 25000ms exceeded.\nCall log:\n  - navigating to \"https://www.skovian.com/careers/\","
+  "status": "no_jobs"
  },
  {
   "id": "10065cda-697f-4aca-87ff-10597f37ebdf",
@@ -2502,108 +2001,12 @@
   "status": "no_jobs"
  },
  {
-  "id": "7996ec5f-27f8-4c83-8b7f-292220acdd2a",
-  "name": "Trutmann Informatik",
-  "career_url": "https://atit.ch/stellen/",
-  "jobs": [
-   {
-    "title": "Data Center System Engineer m/w/d",
-    "apply_url": "https://atit.ch/data-center-system-engineer/"
-   },
-   {
-    "title": "System Engineer (m/w/d)",
-    "apply_url": "https://atit.ch/system-engineer-m-w-d/"
-   },
-   {
-    "title": "Consultant Microsoft 365 (w/m/d)",
-    "apply_url": "https://atit.ch/consultant-microsoft/"
-   },
-   {
-    "title": "Cloud & Modern Workplace Engineer (m/w/d)",
-    "apply_url": "https://atit.ch/cloud-modern-workplace-engineer/"
-   }
-  ],
-  "njobs": 4,
-  "status": "ok"
- },
- {
   "id": "53a14e60-6a17-4e35-95fa-bb6645ff3cbb",
   "name": "Unchained Commerce",
   "career_url": "https://unchained.ch/careers",
   "jobs": [],
   "njobs": 0,
   "status": "no_jobs"
- },
- {
-  "id": "dfac37d7-9859-438e-ac5f-07a0261ddf8d",
-  "name": "Unic AG",
-  "career_url": "https://www.unic.com/jobs",
-  "jobs": [
-   {
-    "title": "Consultant",
-    "apply_url": "https://www.unic.com/de/jobs/consultant"
-   },
-   {
-    "title": "Software Architect & Engineer",
-    "apply_url": "https://www.unic.com/de/jobs/software-engineer-architect"
-   },
-   {
-    "title": "Requirements Engineer",
-    "apply_url": "https://www.unic.com/de/jobs/requirements-engineer"
-   },
-   {
-    "title": "Projektleiter:in",
-    "apply_url": "https://www.unic.com/de/jobs/project-manager"
-   },
-   {
-    "title": "Test Manager & Test Engineer",
-    "apply_url": "https://www.unic.com/de/jobs/test-manager"
-   },
-   {
-    "title": "Digital Analyst",
-    "apply_url": "https://www.unic.com/de/jobs/digital-analyst"
-   },
-   {
-    "title": "Frontend- Developer",
-    "apply_url": "https://www.unic.com/de/jobs/frontend-engineer"
-   },
-   {
-    "title": "Systems Engineer & Administrator",
-    "apply_url": "https://www.unic.com/de/jobs/system-engineer"
-   },
-   {
-    "title": "UX/UI Designer & Architect",
-    "apply_url": "https://www.unic.com/de/jobs/interface-ux-designer-architect"
-   }
-  ],
-  "njobs": 9,
-  "status": "ok"
- },
- {
-  "id": "35bd7459-40ef-48b1-b760-9994cf0d9f31",
-  "name": "Uniqode GmbH",
-  "career_url": "https://uniqode.ch/jobs",
-  "jobs": [
-   {
-    "title": "Senior Full Stack Developer (Laravel, Vue) (60-100%)",
-    "apply_url": "https://uniqode.ch/jobs/senior-full-stack-developer-laravel-vue-60-100"
-   }
-  ],
-  "njobs": 1,
-  "status": "ok"
- },
- {
-  "id": "805291b6-2e87-4395-9e1b-cb1a622aa96f",
-  "name": "United Security Providers AG",
-  "career_url": "https://www.united-security-providers.ch/jobs/",
-  "jobs": [
-   {
-    "title": "Junior/Professional Solution Architect Bern",
-    "apply_url": "https://www.united-security-providers.ch/jobs/stellenausschreibung/junior-professional-solution-architect/096f9587-7042-91bb-bb48-cc894bd10ff8/"
-   }
-  ],
-  "njobs": 1,
-  "status": "ok"
  },
  {
   "id": "7822b9e8-75ef-46ba-be94-3a89a8460b73",
@@ -2620,44 +2023,6 @@
   "jobs": [],
   "njobs": 0,
   "status": "no_jobs"
- },
- {
-  "id": "aec97983-595e-44ae-83b6-15172debee2c",
-  "name": "Veezoo AG",
-  "career_url": "https://www.veezoo.com/careers",
-  "jobs": [
-   {
-    "title": "SalesSenior Account Executive (Enterprise SaaS)Zurich, SwitzerlandFull-TimeView role",
-    "apply_url": "https://www.veezoo.com/careers/senior-account-executive"
-   },
-   {
-    "title": "EngineeringSoftware Engineer, AI SystemsZurich, SwitzerlandFull-Time (80-100%)View role",
-    "apply_url": "https://www.veezoo.com/careers/software-engineer"
-   }
-  ],
-  "njobs": 2,
-  "status": "ok"
- },
- {
-  "id": "33fae58f-56a0-450c-ad72-e5109c64410c",
-  "name": "VIAC",
-  "career_url": "https://viac.ch/en/about-us/jobs/",
-  "jobs": [
-   {
-    "title": "Products",
-    "apply_url": "https://viac.ch/en/about-us/jobs/#"
-   },
-   {
-    "title": "VIAC Client Specialist 40 – 100% in Basel DE/EN",
-    "apply_url": "https://viac.ch/en/article/viac-client-specialist-40-100-in-basel-de-en/"
-   },
-   {
-    "title": "VIAC Client Specialist 40 - 100% in Basel DE/FR/IT",
-    "apply_url": "https://viac.ch/en/article/viac-client-specialist-40-100-in-basel-de-fr-it/"
-   }
-  ],
-  "njobs": 3,
-  "status": "ok"
  },
  {
   "id": "16deca18-d0eb-4443-b5d9-1c096eab480d",

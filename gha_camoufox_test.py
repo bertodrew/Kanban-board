@@ -116,24 +116,34 @@ def coax(page):
     except Exception: pass
 
 
-PHENOM_JS = """async () => {
-  const out = [];
-  const tryFetch = async (q) => {
+PHENOM_JS = """async (refNum) => {
+  const post = async (body) => {
     try {
-      const r = await fetch('/api/apply/v2/jobs' + q, {headers: {'Accept': 'application/json'}});
+      const r = await fetch('/widgets', {method:'POST',
+        headers:{'Content-Type':'application/json','Accept':'application/json'},
+        body: JSON.stringify(body)});
       if (!r.ok) return null;
       const d = await r.json();
-      return d.jobs || d.positions || d.data || [];
-    } catch (e) { return null; }
+      const find = (o,dep)=>{ if(dep>6||!o||typeof o!=='object') return null;
+        if(Array.isArray(o)&&o.length&&o[0]&&(o[0].title||o[0].jobTitle)) return o;
+        for(const k in o){ const f=find(o[k],dep+1); if(f) return f; } return null; };
+      return find(d,0);
+    } catch(e){ return null; }
   };
-  for (let off = 0; off < 400; off += 100) {
-    let jobs = await tryFetch(`?location=Switzerland&limit=100&offset=${off}`);
-    if (jobs === null) jobs = await tryFetch(`?keywords=&location=Switzerland&limit=100&offset=${off}`);
-    if (!jobs || !jobs.length) break;
-    out.push(...jobs);
-    if (jobs.length < 100) break;
-  }
-  return out.map(j => ({title: j.title || j.name || '', loc: (j.location || (j.cities && j.cities.join(', ')) || j.country || ''), url: j.applyUrl || j.ml_job_url || j.canonicalUrl || ''}));
+  const base = {lang:"en_global", deviceType:"desktop", country:"global", ddoKey:"refineSearch",
+                siteType:"external", keywords:"", refNum:refNum, locale:"en_global",
+                pageName:"search-results", size:100, from:0, jobs:true};
+  const variants = [
+    Object.assign({}, base, {location:"Switzerland", facets:{locationHierarchy1:["Switzerland"]}}),
+    Object.assign({}, base, {location:"Switzerland"}),
+    Object.assign({}, base, {facets:{country:["Switzerland"]}}),
+    Object.assign({}, base, {location:"Switzerland", pageName:"search-results-page"}),
+  ];
+  let all = [];
+  for (const v of variants) { const arr = await post(v); if (arr && arr.length) { all = arr; break; } }
+  return all.map(j => ({title: j.title || j.jobTitle || '',
+    loc: j.cityStateCountry || j.location || j.city || (j.locations&&j.locations[0]) || j.country || '',
+    url: j.applyUrl || j.ml_job_url || j.jobUrl || j.canonicalUrl || ''}));
 }"""
 
 
@@ -166,9 +176,11 @@ PHENOM_DEBUG_JS = """async (T) => {
 }"""
 
 
-def phenom_api(page):
+def phenom_api(page, tenant):
+    if not tenant:
+        return []
     try:
-        recs = page.evaluate(PHENOM_JS) or []
+        recs = page.evaluate(PHENOM_JS, tenant) or []
         return [{'title': r['title'], 'loc': r.get('loc', ''), 'url': r.get('url', '')}
                 for r in recs if r.get('title')]
     except Exception:
@@ -228,8 +240,17 @@ def harvest(page, url):
     for i, body in enumerate(captured[:60]):
         schema(body, '$', cap_urls[i] if i < len(cap_urls) else '?')
 
-    # Phenom People: call the jobs API from inside the page (session cookies + anti-bot token set)
-    phenom_recs = phenom_api(page)
+    # Phenom People: derive tenant (refNum) from captured config XHR or POST bodies, then
+    # call the refineSearch job API from inside the page (session cookies + anti-bot token set).
+    tenant = ''
+    for u in all_xhr:
+        m = re.search(r'phenompeople\.com/api/([A-Z0-9]+)/', u)
+        if m: tenant = m.group(1); break
+    if not tenant:
+        for pb in post_bodies:
+            m = re.search(r'"refNum"\s*:\s*"([A-Z0-9]+)"', pb.get('body', ''))
+            if m: tenant = m.group(1); break
+    phenom_recs = phenom_api(page, tenant)
 
     recs = list(phenom_recs)
     for body in captured[:60]:

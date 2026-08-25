@@ -3,7 +3,8 @@ on:
   workflow_dispatch:
     inputs:
       wave_start: { description: "start index", default: "0" }
-      wave_end:   { description: "end index",   default: "30" }
+      wave_end:   { description: "end index",   default: "1000" }
+      engine:     { description: "auto|chromium|camoufox", default: "auto" }
   push:
     branches: [job-scrape-test]
     paths: ["gha_scrape.py", ".github/workflows/job-scrape-test.yml"]
@@ -12,21 +13,24 @@ permissions:
 jobs:
   scrape:
     runs-on: ubuntu-latest
+    timeout-minutes: 55
     steps:
       - uses: actions/checkout@v4
         with:
           ref: ${{ github.ref_name }}
       - uses: actions/setup-python@v5
         with: { python-version: "3.11" }
-      - name: Install Playwright + Chromium
+      - name: Install Camoufox (pins playwright<1.61 — MUST precede chromium install)
         run: |
-          pip install playwright
-          python -m playwright install --with-deps chromium
+          pip install "camoufox[geoip]"
+          python -m camoufox fetch
+      - name: Install Chromium for the pinned Playwright
+        run: python -m playwright install --with-deps chromium
       - name: Run scraper
         env:
           WAVE_START: ${{ github.event.inputs.wave_start || '0' }}
-          WAVE_END:   ${{ github.event.inputs.wave_end   || '1000' }}
-          SUPABASE_SERVICE_KEY: ${{ secrets.SUPABASE_SERVICE_KEY }}
+          WAVE_END:   ${{ github.event.inputs.wave_end   || '10' }}
+          ENGINE:     ${{ github.event.inputs.engine     || 'auto' }}
         run: python gha_scrape.py
       - name: Commit results back
         run: |

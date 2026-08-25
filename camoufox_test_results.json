@@ -32,47 +32,45 @@
  "Givaudan": {
   "url": "https://jobs.givaudan.com/search/",
   "chromium": {
-   "njobs": 9,
+   "njobs": 6,
    "blocked": false,
    "status": "ok",
    "sample": [
-    "Sales and marketing",
-    "Interns and apprentices",
-    "Trainee programmes",
     "CI Manager",
-    "Senior CI Specialist"
+    "Senior CI Specialist",
+    "Junior Pricing Analyst",
+    "Manufacturing, Operations, Engineering176 available jobs",
+    "Sales, Marketing, Communications44 available jobs",
+    "Finance & Pricing14 available jobs"
    ]
   },
   "camoufox": {
-   "njobs": 9,
+   "njobs": 6,
    "blocked": false,
    "status": "ok",
    "sample": [
-    "Sales and marketing",
-    "Interns and apprentices",
-    "Trainee programmes",
     "CI Manager",
-    "Senior CI Specialist"
+    "Senior CI Specialist",
+    "Junior Pricing Analyst",
+    "Manufacturing, Operations, Engineering176 available jobs",
+    "Sales, Marketing, Communications44 available jobs",
+    "Finance & Pricing14 available jobs"
    ]
   }
  },
  "Kuehne + Nagel": {
   "url": "https://jobs.kuehne-nagel.com/global/en",
   "chromium": {
-   "njobs": 1,
+   "njobs": 0,
    "blocked": false,
-   "status": "ok",
-   "sample": [
-    "Application support"
-   ]
+   "status": "no_jobs",
+   "sample": []
   },
   "camoufox": {
-   "njobs": 1,
+   "njobs": 0,
    "blocked": false,
-   "status": "ok",
-   "sample": [
-    "Application support"
-   ]
+   "status": "no_jobs",
+   "sample": []
   }
  },
  "Nestlé": {
@@ -93,22 +91,16 @@
  "Roche": {
   "url": "https://careers.roche.com/global/en",
   "chromium": {
-   "njobs": 2,
+   "njobs": 0,
    "blocked": false,
-   "status": "ok",
-   "sample": [
-    "Engineering",
-    "Business Strategy & Finance"
-   ]
+   "status": "no_jobs",
+   "sample": []
   },
   "camoufox": {
-   "njobs": 2,
+   "njobs": 0,
    "blocked": false,
-   "status": "ok",
-   "sample": [
-    "Engineering",
-    "Business Strategy & Finance"
-   ]
+   "status": "no_jobs",
+   "sample": []
   }
  },
  "Straumann Group": {

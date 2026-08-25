@@ -1,2164 +1,451 @@
 [
  {
-  "id": "6b077b82-beba-4064-aea0-5f7cf5df46a9",
+  "name": "Roche",
+  "career_url": "https://careers.roche.com/global/en",
+  "jobs": [
+   {
+    "title": "Technical Expert Portfolio Mgmt, Technical Feasibility and Planning",
+    "apply_url": "https://roche.wd3.myworkdayjobs.com/roche-ext/job/Basel/Technical-Expert-Portfolio-Mgmt--Technical-Feasibility-and-Planning_202509-122455-1/apply",
+    "location": "Basel, Basel-City, Switzerland"
+   },
+   {
+    "title": "Technical Expert Operational, Strategic and Project Support",
+    "apply_url": "https://roche.wd3.myworkdayjobs.com/roche-ext/job/Basel/Technical-Expert-Operational--Strategic-and-Project-Support_202509-122427-1/apply",
+    "location": "Basel, Basel-City, Switzerland"
+   },
+   {
+    "title": "Chef de Partie, Tournant (w/m/d), 100% - befristet für 1 Jahr",
+    "apply_url": "https://roche.wd3.myworkdayjobs.com/roche-ext/job/Basel/Chef-de-Partie--Tournant--w-m-d---100----befristet-fr-1-Jahr_202510-126421-2/apply",
+    "location": "Basel, Basel-City, Switzerland"
+   },
+   {
+    "title": "PI Automation Engineer",
+    "apply_url": "https://roche.wd3.myworkdayjobs.com/roche-ext/job/Kaiseraugst/RMS---PI-Automation-Engineer---100----m-w-d-_202511-128457-2/apply",
+    "location": "Kaiseraugst, Aargau, Switzerland"
+   },
+   {
+    "title": "Leiter Arbeitshygiene & Arbeitshygiene-Labor (m/w/d) 100%",
+    "apply_url": "https://roche.wd3.myworkdayjobs.com/roche-ext/job/Basel/Leiter-Arbeitshygiene---Arbeitshygiene-Labor--m-w-d--100-_202607-118160-1/apply",
+    "location": "Basel, Basel-City, Switzerland"
+   },
+   {
+    "title": "Trainer:in & ÜK-Leiter:in Business & Digital Technology (60–100%, Kaiseraugst, unbefristet)",
+    "apply_url": "https://roche.wd3.myworkdayjobs.com/roche-ext/job/Kaiseraugst/Trainer-in---K-Leiter-in-Business---Digital-Technology--60-100---Kaiseraugst--unbefristet-_202607-118730/apply",
+    "location": "Kaiseraugst, Aargau, Switzerland"
+   },
+   {
+    "title": "Lehrstelle als Mediamatiker:in EFZ (ab August 2027)",
+    "apply_url": "https://roche.wd3.myworkdayjobs.com/roche-ext/job/Basel/Lehrstelle-als-Mediamatiker-in-EFZ--ab-August-2027-_202607-117596-1/apply",
+    "location": "Basel, Basel-City, Switzerland"
+   },
+   {
+    "title": "Lehrstelle als Laborant:in EFZ Fachrichtung Biologie (ab August 2027)",
+    "apply_url": "https://roche.wd3.myworkdayjobs.com/roche-ext/job/Basel/Lehrstelle-als-Laborant-in-EFZ-Fachrichtung-Biologie--ab-August-2027-_202607-117635/apply",
+    "location": "Basel, Basel-City, Switzerland"
+   },
+   {
+    "title": "Lehrstelle als Kaufmann:frau EFZ (ab August 2027)",
+    "apply_url": "https://roche.wd3.myworkdayjobs.com/roche-ext/job/Basel/Lehrstelle-als-Kaufmann-frau-EFZ--ab-August-2027-_202607-117595/apply",
+    "location": "Basel, Basel-City, Switzerland"
+   },
+   {
+    "title": "Lehrstelle als Chemie- und Pharmatechnolog:in EFZ (ab August 2027)",
+    "apply_url": "https://roche.wd3.myworkdayjobs.com/roche-ext/job/Basel/Lehrstelle-als-Chemie--und-Pharmatechnolog-in-EFZ--ab-August-2027-_202607-117593/apply",
+    "location": "Basel, Basel-City, Switzerland"
+   },
+   {
+    "title": "Lehrstelle als Automatiker:in EFZ (ab August 2027)",
+    "apply_url": "https://roche.wd3.myworkdayjobs.com/roche-ext/job/Basel/Lehrstelle-als-Automatiker-in-EFZ--ab-August-2027-_202607-117603/apply",
+    "location": "Basel, Basel-City, Switzerland"
+   },
+   {
+    "title": "Lehrstelle als ICT-Fachmann:frau EFZ (ab August 2027)",
+    "apply_url": "https://roche.wd3.myworkdayjobs.com/roche-ext/job/Basel/Lehrstelle-als-ICT-Fachmann-frau-EFZ--ab-August-2027-_202607-117615/apply",
+    "location": "Basel, Basel-City, Switzerland"
+   },
+   {
+    "title": "Lehrstelle als Konstrukteur:in EFZ (ab August 2027)",
+    "apply_url": "https://roche.wd3.myworkdayjobs.com/roche-ext/job/Basel/Lehrstelle-als-Konstrukteur-in-EFZ--ab-August-2027-_202607-117629/apply",
+    "location": "Basel, Basel-City, Switzerland"
+   },
+   {
+    "title": "Lehrstelle als Logistiker:in EFZ (ab August 2027)",
+    "apply_url": "https://roche.wd3.myworkdayjobs.com/roche-ext/job/Basel/Lehrstelle-als-Logistiker-in-EFZ--ab-August-2027-_202607-117605/apply",
+    "location": "Basel, Basel-City, Switzerland"
+   },
+   {
+    "title": "Lehrstelle als Informatiker:in EFZ Applikationsentwicklung (ab August 2027)",
+    "apply_url": "https://roche.wd3.myworkdayjobs.com/roche-ext/job/Basel/Lehrstelle-als-Informatiker-in-EFZ-Applikationsentwicklung--ab-August-2027-_202607-117607/apply",
+    "location": "Basel, Basel-City, Switzerland"
+   },
+   {
+    "title": "Lehrstelle als Polymechaniker:in EFZ (ab August 2027)",
+    "apply_url": "https://roche.wd3.myworkdayjobs.com/roche-ext/job/Basel/Lehrstelle-als-Polymechaniker-in-EFZ--ab-August-2027-_202607-117611/apply",
+    "location": "Basel, Basel-City, Switzerland"
+   },
+   {
+    "title": "Lehrstelle als Anlage- und Apparatebauer:in EFZ (ab August 2027)",
+    "apply_url": "https://roche.wd3.myworkdayjobs.com/roche-ext/job/Basel/Lehrstelle-als-Anlage--und-Apparatebauer-in-EFZ--ab-August-2027-_202607-117614/apply",
+    "location": "Basel, Basel-City, Switzerland"
+   },
+   {
+    "title": "Lehrstelle als Fachmann:frau Information und Dokumentation EFZ (ab August 2027)",
+    "apply_url": "https://roche.wd3.myworkdayjobs.com/roche-ext/job/Basel/Lehrstelle-als-Fachmann-frau-Information-und-Dokumentation-EFZ--ab-August-2027-_202607-117630/apply",
+    "location": "Basel, Basel-City, Switzerland"
+   },
+   {
+    "title": "Praktikum für 1 Jahr: Projektleitung für die Harmonisierung & Digitalisierung von Produktionsdaten (Process Monitoring)",
+    "apply_url": "https://roche.wd3.myworkdayjobs.com/roche-ext/job/Basel/Praktikum-fr-1-Jahr--Projektleitung-fr-die-Harmonisierung---Digitalisierung-von-Produktionsdaten--Process-Monitoring-_202608-120249/apply",
+    "location": "Basel, Basel-City, Switzerland"
+   },
+   {
+    "title": "Facility Management Strategist",
+    "apply_url": "https://roche.wd3.myworkdayjobs.com/roche-ext/job/Basel/Facility-Management-Strategist_202607-119166-1/apply",
+    "location": "Basel, Basel-City, Switzerland"
+   },
+   {
+    "title": "Integrated Medical Engagement Change Management Lead",
+    "apply_url": "https://roche.wd3.myworkdayjobs.com/roche-ext/job/Basel/Integrated-Medical-Engagement-Change-Management-Lead_202604-109951-1/apply",
+    "location": "Basel, Basel-City, Switzerland"
+   },
+   {
+    "title": "Medical Director — Multiple Sclerosis",
+    "apply_url": "https://roche.wd3.myworkdayjobs.com/roche-ext/job/Basel/Medical-Director---Multiple-Sclerosis_202508-120775-1/apply",
+    "location": "Basel, Basel-City, Switzerland"
+   },
+   {
+    "title": "Scientific Content Data Expert",
+    "apply_url": "https://roche.wd3.myworkdayjobs.com/roche-ext/job/Basel/Scientific-Content-Data-Expert_202608-120859-1/apply",
+    "location": "Basel, Basel-City, Switzerland"
+   },
+   {
+    "title": "Digital Measures Lead",
+    "apply_url": "https://roche.wd3.myworkdayjobs.com/roche-ext/job/Basel/Digital-Measures-Lead_202604-110611/apply",
+    "location": "Basel, Basel-City, Switzerland"
+   },
+   {
+    "title": "Senior Scientific Software Engineer (Fullstack)",
+    "apply_url": "https://roche.wd3.myworkdayjobs.com/roche-ext/job/Basel/Senior-Scientific-Software-Engineer--Fullstack-_202605-111371-1/apply",
+    "location": "Basel, Basel-City, Switzerland"
+   },
+   {
+    "title": "Post Doctoral Scientist (m/w/d)",
+    "apply_url": "https://roche.wd3.myworkdayjobs.com/roche-ext/job/Basel/Post-Doctoral-Scientist--m-w-d-_202604-110674-1/apply",
+    "location": "Basel, Basel-City, Switzerland"
+   },
+   {
+    "title": "\"Principal Scientist siRNA Design",
+    "apply_url": "https://roche.wd3.myworkdayjobs.com/roche-ext/job/Basel/Principal-Scientist-si-RNA-Design_202606-115829-1/apply",
+    "location": "Basel, Basel-City, Switzerland"
+   },
+   {
+    "title": "Principal / Senior Principal Software Engineer",
+    "apply_url": "https://roche.wd3.myworkdayjobs.com/roche-ext/job/Basel/Principal---Senior-Principal-Software-Engineer_202605-112796-1/apply",
+    "location": "Basel, Basel-City, Switzerland"
+   },
+   {
+    "title": "Cardio-Renal Discovery Area Leader - Expert Scientist",
+    "apply_url": "https://roche.wd3.myworkdayjobs.com/roche-ext/job/Basel/Cardio-Renal-Discovery-Area-Leader---Expert-Scientist_202606-116302-2/apply",
+    "location": "Basel, Basel-City, Switzerland"
+   },
+   {
+    "title": "System Development Troubleshooter",
+    "apply_url": "https://roche.wd3.myworkdayjobs.com/roche-ext/job/Rotkreuz/System-Development-Troubleshooter_202203-110282/apply",
+    "location": "Rotkreuz, Zug, Switzerland"
+   },
+   {
+    "title": "Development Engineer (contract)",
+    "apply_url": "https://roche.wd3.myworkdayjobs.com/roche-ext/job/Rotkreuz/Development-Engineer--contract-_202302-103172-1/apply",
+    "location": "Rotkreuz, Zug, Switzerland"
+   },
+   {
+    "title": "Travel and Expense Compliance Analyst with Hebrew- TALENT POOL",
+    "apply_url": "https://roche.wd3.myworkdayjobs.com/roche-ext/job/Travel-and-Expense-Compliance-Analyst-with-Hebrew--TALENT-POOL_202403-107233-1/apply",
+    "location": "Switzerland"
+   },
+   {
+    "title": "Travel and Expense Compliance Analyst with Arabic- TALENT POOL",
+    "apply_url": "https://roche.wd3.myworkdayjobs.com/roche-ext/job/Travel-and-Expense-Compliance-Analyst-with-Arabic--TALENT-POOL_202403-107243-1/apply",
+    "location": "Switzerland"
+   },
+   {
+    "title": "Travel and Expense Compliance Analyst with Spanish- TALENT POOL",
+    "apply_url": "https://roche.wd3.myworkdayjobs.com/roche-ext/job/Travel-and-Expense-Compliance-Analyst-with-Spanish--TALENT-POOL_202403-107292-1/apply",
+    "location": "Switzerland"
+   },
+   {
+    "title": "Principal Design Engineer",
+    "apply_url": "https://roche.wd3.myworkdayjobs.com/roche-ext/job/Basel/Principal-Design-Engineer_202509-123585/apply",
+    "location": "Basel, Basel-City, Switzerland"
+   },
+   {
+    "title": "Software Tester within RMD System Development (contract)",
+    "apply_url": "https://roche.wd3.myworkdayjobs.com/roche-ext/job/Rotkreuz/Software-Tester-within-RMD-System-Development--contract-_202109-125486-1/apply",
+    "location": "Rotkreuz, Zug, Switzerland"
+   },
+   {
+    "title": "Travel and Expense Compliance Analyst with Italian- TALENT POOL",
+    "apply_url": "https://roche.wd3.myworkdayjobs.com/roche-ext/job/Travel-and-Expense-Compliance-Analyst-with-Italian--TALENT-POOL_202403-107293-1/apply",
+    "location": "Switzerland"
+   },
+   {
+    "title": "Investor Relations Officer (Finance)",
+    "apply_url": "https://roche.wd3.myworkdayjobs.com/roche-ext/job/Basel/Investor-Relations-Officer_202606-115565-1/apply",
+    "location": "Basel, Basel-City, Switzerland"
+   },
+   {
+    "title": "Software Senior Technical Lead Rust (80-100%)",
+    "apply_url": "https://roche.wd3.myworkdayjobs.com/roche-ext/job/Rotkreuz/Software-Senior-Technical-Lead-Rust--80-100--_202605-113537/apply",
+    "location": "Rotkreuz, Zug, Switzerland"
+   },
+   {
+    "title": "Lab Technician (contract)",
+    "apply_url": "https://roche.wd3.myworkdayjobs.com/roche-ext/job/Rotkreuz/Lab-Technician--contract-_202109-125765-1/apply",
+    "location": "Rotkreuz, Zug, Switzerland"
+   },
+   {
+    "title": "Development Engineer (contract 80-100%)",
+    "apply_url": "https://roche.wd3.myworkdayjobs.com/roche-ext/job/Rotkreuz/Development-Engineer--contract-80-100--_202402-104044-1/apply",
+    "location": "Rotkreuz, Zug, Switzerland"
+   },
+   {
+    "title": "Travel and Expense Compliance Analyst with Turkish- TALENT POOL",
+    "apply_url": "https://roche.wd3.myworkdayjobs.com/roche-ext/job/Travel-and-Expense-Compliance-Analyst-with-Turkish--TALENT-POOL_202403-107294/apply",
+    "location": "Switzerland"
+   },
+   {
+    "title": "Account Manager - Roche Sequencing Solutions TALENTPOOL",
+    "apply_url": "https://roche.wd3.myworkdayjobs.com/roche-ext/job/Account-Manager---Roche-Sequencing-Solutions-TALENTPOOL_202507-117647/apply",
+    "location": "Switzerland"
+   }
+  ]
+ },
+ {
+  "name": "Givaudan",
+  "career_url": "https://careers.givaudan.com/global/en",
+  "jobs": [
+   {
+    "title": "Quality Control Analyst (h/f/d)",
+    "apply_url": "https://careers.givaudan.com/global/en",
+    "location": "Vernier, Switzerland"
+   },
+   {
+    "title": "Agent prévention et intervention (h/f/d) 3x8 - CDD jusqu'au 31.12.2027",
+    "apply_url": "https://careers.givaudan.com/global/en",
+    "location": "Vernier, Switzerland"
+   },
+   {
+    "title": "Quality Control Technician 50% (m/w/d)",
+    "apply_url": "https://careers.givaudan.com/global/en",
+    "location": "Bischofszell, Switzerland"
+   },
+   {
+    "title": "Quality Control Technician (m/w/d)",
+    "apply_url": "https://careers.givaudan.com/global/en",
+    "location": "Bischofszell, Switzerland"
+   },
+   {
+    "title": "Superviseur en production ingrédients (h/f/d)",
+    "apply_url": "https://careers.givaudan.com/global/en",
+    "location": "Vernier, Switzerland"
+   },
+   {
+    "title": "Produktion & Continuous Improvement Intern (m/w/d)",
+    "apply_url": "https://careers.givaudan.com/global/en",
+    "location": "Burgdorf, Switzerland"
+   },
+   {
+    "title": "Produktionsmitarbeiter Misch- und Abfüllanlagen (m/w/d)",
+    "apply_url": "https://careers.givaudan.com/global/en",
+    "location": "Bischofszell, Switzerland"
+   },
+   {
+    "title": "Electromécanicien (h/f/d)",
+    "apply_url": "https://careers.givaudan.com/global/en",
+    "location": "Vernier, Switzerland"
+   },
+   {
+    "title": "Quality Control & Process Technology Intern (m/w/d)",
+    "apply_url": "https://careers.givaudan.com/global/en",
+    "location": "Bischofszell, Switzerland"
+   },
+   {
+    "title": "Anlagenführer (m/w/d)",
+    "apply_url": "https://careers.givaudan.com/global/en",
+    "location": "Burgdorf, Switzerland"
+   },
+   {
+    "title": "Quality Assurance & Sample Technician (m/w/d)",
+    "apply_url": "https://careers.givaudan.com/global/en",
+    "location": "Burgdorf, Switzerland"
+   },
+   {
+    "title": "Automation Engineer (h/f/d)",
+    "apply_url": "https://jobs.givaudan.com/",
+    "location": "Vernier, Switzerland"
+   },
+   {
+    "title": "Ingénieur Process (h/f/d)",
+    "apply_url": "https://careers.givaudan.com/global/en",
+    "location": "Vernier, Switzerland"
+   },
+   {
+    "title": "Industrial Automation Project Engineer (m/w/d)",
+    "apply_url": "https://careers.givaudan.com/global/en",
+    "location": "Dübendorf, Switzerland"
+   },
+   {
+    "title": "Talent Pool - Operations Internship (m/w/d)",
+    "apply_url": "https://jobs.givaudan.com/",
+    "location": "Kemptthal, Switzerland"
+   },
+   {
+    "title": "EHS Specialist (m/w/d) - Your next role?",
+    "apply_url": "https://careers.givaudan.com/global/en",
+    "location": "Vernier, Switzerland"
+   },
+   {
+    "title": "Head of Procurement IM&S",
+    "apply_url": "https://careers.givaudan.com/global/en",
+    "location": "Vernier, Switzerland"
+   },
+   {
+    "title": "Global Process Safety Manager",
+    "apply_url": "https://careers.givaudan.com/global/en",
+    "location": "Vernier, Switzerland"
+   },
+   {
+    "title": "Project Manager Operations",
+    "apply_url": "https://careers.givaudan.com/global/en",
+    "location": "Dübendorf, Switzerland"
+   },
+   {
+    "title": "Bioprocess Specialist (m/f/d)- Your next role ?",
+    "apply_url": "https://careers.givaudan.com/global/en",
+    "location": "Vernier, Switzerland"
+   },
+   {
+    "title": "Senior Regulatory Data Analyst",
+    "apply_url": "https://careers.givaudan.com/global/en",
+    "location": "Vernier, Switzerland"
+   },
+   {
+    "title": "OT Technical Lead (m/w/d) - Your next role?",
+    "apply_url": "https://careers.givaudan.com/global/en",
+    "location": "Vernier, Switzerland"
+   },
+   {
+    "title": "Operator (m/w/d)",
+    "apply_url": "https://careers.givaudan.com/global/en",
+    "location": "Dübendorf, Switzerland"
+   },
+   {
+    "title": "Process Safety Data Analyst Intern (m/w/d)",
+    "apply_url": "https://careers.givaudan.com/global/en",
+    "location": "Kemptthal, Switzerland"
+   }
+  ]
+ },
+ {
+  "name": "Straumann Group",
+  "career_url": "https://careers.straumann.com",
+  "jobs": [
+   {
+    "title": "Apprentissage Mécanicien de production et Polymécanicien CFC",
+    "apply_url": "https://careers.straumann.com",
+    "location": "Villeret, Switzerland"
+   },
+   {
+    "title": "Master Data Steward",
+    "apply_url": "https://careers.straumann.com",
+    "location": "Villeret, Switzerland"
+   },
+   {
+    "title": "Global Launch Education Manager",
+    "apply_url": "https://careers.straumann.com",
+    "location": "Basel, Switzerland"
+   },
+   {
+    "title": "Facility Management and Workplace Project Manager (Straumann Campus Basel)",
+    "apply_url": "https://careers.straumann.com",
+    "location": "Basel, Switzerland"
+   },
+   {
+    "title": "Lehrstelle als Interactive Media Designer EFZ (m/w/d) ab August 2027",
+    "apply_url": "https://careers.straumann.com",
+    "location": "Basel, Switzerland"
+   },
+   {
+    "title": "Clinical Workflow Product Manager",
+    "apply_url": "https://careers.straumann.com",
+    "location": "Basel, Switzerland"
+   }
+  ]
+ },
+ {
+  "name": "Kuehne + Nagel",
+  "career_url": "https://jobs.kuehne-nagel.com/global/en",
+  "jobs": [
+   {
+    "title": "Blue Yonder WMS Specialist (m/w/d)",
+    "apply_url": "https://jobs.kuehne-nagel.com/global/en",
+    "location": "Moehlin, Switzerland"
+   },
+   {
+    "title": "Communications Manager Technology",
+    "apply_url": "https://jobs.kuehne-nagel.com/global/en",
+    "location": "Schindellegi, Switzerland"
+   },
+   {
+    "title": "Working Student / Graduate Sea Logistics Revenue Care (m/f/d)",
+    "apply_url": "https://jobs.kuehne-nagel.com/global/en",
+    "location": "Opfikon, Switzerland"
+   },
+   {
+    "title": "Customer Care Specialist Landverkehr (m/w/d)",
+    "apply_url": "https://jobs.kuehne-nagel.com/global/en",
+    "location": "Embrach, Switzerland"
+   },
+   {
+    "title": "Operations Specialist",
+    "apply_url": "https://jobs.kuehne-nagel.com/global/en",
+    "location": "Bielany Wroclawskie"
+   },
+   {
+    "title": "Logistics Engineer",
+    "apply_url": "https://jobs.kuehne-nagel.com/global/en",
+    "location": "Bielany Wroclawskie"
+   }
+  ]
+ },
+ {
+  "name": "Bayer",
+  "career_url": "https://talent.bayer.com",
+  "jobs": []
+ },
+ {
   "name": "4-check",
   "career_url": "https://4-check.com/jobs",
-  "jobs": [],
-  "njobs": 0,
-  "status": "no_jobs"
+  "jobs": []
  },
  {
-  "id": "db276a98-1e89-4fac-abec-5948472edc91",
   "name": "ABF Informatik AG",
   "career_url": "https://www.abf.ch/jobs/",
-  "jobs": [],
-  "njobs": 0,
-  "status": "no_jobs"
+  "jobs": []
  },
  {
-  "id": "1be6d6e3-de8c-4139-beae-d00c6d5107f2",
   "name": "Agentur Koch",
   "career_url": "https://www.agenturkoch.ch/fileadmin/user_upload/pdf/jobs/Jobs_MD_04_26_KOCH.pdf",
-  "jobs": [],
-  "njobs": 0,
-  "status": "error",
-  "error": "Page.goto: Download is starting\nCall log:\n  - navigating to \"https://www.agenturkoch.ch/fileadmin/us"
+  "jobs": []
  },
  {
-  "id": "171cf828-3f43-4a58-8857-d7036f01b606",
   "name": "AGILITA AG",
   "career_url": "https://www.agilita.ch/sap-apphaus/#Workshops",
-  "jobs": [],
-  "njobs": 0,
-  "status": "no_jobs"
+  "jobs": []
  },
  {
-  "id": "cb4c9277-6816-4087-be7a-746ba28c6a70",
   "name": "alabus ag",
   "career_url": "https://www.alabus.com/opencms/en/alabus/jobs/index.html",
-  "jobs": [],
-  "njobs": 0,
-  "status": "no_jobs"
- },
- {
-  "id": "647574a6-f1bb-4213-b109-3da5e2c798fe",
-  "name": "AlphaMol Science AG",
-  "career_url": "https://alphamol.com/careers",
-  "jobs": [
-   {
-    "title": "Clinical Project Manager – Clinical Operations",
-    "apply_url": "https://alphamol.com/careers#recruitment1005"
-   },
-   {
-    "title": "Senior Clinical Development Physician",
-    "apply_url": "https://alphamol.com/careers#recruitment1004"
-   }
-  ],
-  "njobs": 2,
-  "status": "ok"
- },
- {
-  "id": "c7dfd933-d315-4bb7-8ba2-5f2301b804bd",
-  "name": "amétiq ag",
-  "career_url": "https://ametiq.ch/jobs/",
-  "jobs": [],
-  "njobs": 0,
-  "status": "no_jobs"
- },
- {
-  "id": "54465251-cd51-4e4e-bb42-f479292f6f3c",
-  "name": "Anamedi GmbH",
-  "career_url": "https://anamedi.com/#how-it-works",
-  "jobs": [],
-  "njobs": 0,
-  "status": "no_jobs"
- },
- {
-  "id": "bac76a82-572d-4966-b554-300a46884225",
-  "name": "Anovis AI",
-  "career_url": "https://anovisai.com/how-we-work-with-clients",
-  "jobs": [],
-  "njobs": 0,
-  "status": "no_jobs"
- },
- {
-  "id": "34759a1f-bacb-4625-bb0c-896341a693f7",
-  "name": "Appamics",
-  "career_url": "https://appamics.com/careers",
-  "jobs": [],
-  "njobs": 0,
-  "status": "no_jobs"
- },
- {
-  "id": "6a163811-6fde-43bc-a5f1-207c48e0304d",
-  "name": "Apps with love AG",
-  "career_url": "https://www.appswithlove.com/jobs",
-  "jobs": [
-   {
-    "title": "appswithlove.com/fr",
-    "apply_url": "https://appswithlove.com/fr"
-   }
-  ],
-  "njobs": 1,
-  "status": "ok"
- },
- {
-  "id": "e4b00e70-8368-4e30-a72e-b24dcf8905d8",
-  "name": "Apptiva AG",
-  "career_url": "https://www.apptiva.ch/angebot/development/schnittstellen",
-  "jobs": [],
-  "njobs": 0,
-  "status": "no_jobs"
- },
- {
-  "id": "7960d16b-5931-4fb9-b24a-e02b9c7464f4",
-  "name": "Apriko AG",
-  "career_url": "https://apriko.com/en/software/leasing-placements-vacancies/",
-  "jobs": [
-   {
-    "title": "Software",
-    "apply_url": "https://apriko.com/en/software/leasing-placements-vacancies/#menu-2"
-   },
-   {
-    "title": "What is payrolling?",
-    "apply_url": "https://apriko.com/en/detail-page/what-is-payrolling/"
-   },
-   {
-    "title": "HR software for temporary employment agencies",
-    "apply_url": "https://apriko.com/en/detail-page/hr-software-effective-tools-for-your-temp-agency/"
-   }
-  ],
-  "njobs": 3,
-  "status": "ok"
- },
- {
-  "id": "0a9a68ff-bf07-4191-b87b-d40911530848",
-  "name": "Arbrea Labs AG",
-  "career_url": "https://arbrea-labs.com/careers/",
-  "jobs": [],
-  "njobs": 0,
-  "status": "no_jobs"
- },
- {
-  "id": "729f842a-8c2d-4e0b-b56a-277a4ff3bce2",
-  "name": "Astaara AG",
-  "career_url": "https://www.astaara.com/index.html#willenworks",
-  "jobs": [],
-  "njobs": 0,
-  "status": "no_jobs"
- },
- {
-  "id": "6240763a-c2dd-41a5-afe9-4114ab0d49ff",
-  "name": "Asubium",
-  "career_url": "https://www.asubium.com/careers",
-  "jobs": [],
-  "njobs": 0,
-  "status": "no_jobs"
- },
- {
-  "id": "4b61b865-ac5d-431f-a925-2266896c27aa",
-  "name": "ATEGRA GmbH",
-  "career_url": "https://ategra.ch/jobs/",
-  "jobs": [],
-  "njobs": 0,
-  "status": "no_jobs"
- },
- {
-  "id": "97bae342-b54e-49ea-98e9-aeef7106640c",
-  "name": "AvanTec AG",
-  "career_url": "https://www.avantec.ch/offene-stellen/",
-  "jobs": [],
-  "njobs": 0,
-  "status": "no_jobs"
- },
- {
-  "id": "010c49b1-ad99-4446-bcad-46ab9452ff02",
-  "name": "AYUN",
-  "career_url": "https://www.ayun.ch/jobs",
-  "jobs": [],
-  "njobs": 0,
-  "status": "no_jobs"
- },
- {
-  "id": "9dbcf8c4-2168-41d5-9b54-38795fc85091",
-  "name": "b-rayZ AG",
-  "career_url": "https://www.brayz.com/careers",
-  "jobs": [],
-  "njobs": 0,
-  "status": "no_jobs"
- },
- {
-  "id": "a7ed2c35-105a-4ad1-a298-d5ca7df5b1ae",
-  "name": "Baloise Open Innovation",
-  "career_url": "https://www.baloise.com/de/home/ueber-uns/innovation-baloise.html/corporate/hb/de/home/ueber-uns/karriere.html",
-  "jobs": [],
-  "njobs": 0,
-  "status": "no_jobs"
- },
- {
-  "id": "e5d4471d-a757-427c-8a7d-e221be41b836",
-  "name": "BAR Informatik AG",
-  "career_url": "https://barinformatik.ch/portraet/jobs/",
-  "jobs": [],
-  "njobs": 0,
-  "status": "no_jobs"
- },
- {
-  "id": "5ea6de96-af31-4939-9d81-de61891583a9",
-  "name": "Basel Area",
-  "career_url": "https://baselarea.swiss/de/jobs/",
-  "jobs": [],
-  "njobs": 0,
-  "status": "no_jobs"
- },
- {
-  "id": "29fe5eb3-fc84-42de-a5f3-525c5ed25adc",
-  "name": "Baselnetgroup AG",
-  "career_url": "https://www.baselnetgroup.ch/karriere/",
-  "jobs": [],
-  "njobs": 0,
-  "status": "no_jobs"
- },
- {
-  "id": "692eaf1a-32fc-4824-9729-49ccb6382fd5",
-  "name": "BaselOne",
-  "career_url": "https://swissdevjobs.ch/jobs/all/Basel",
-  "jobs": [],
-  "njobs": 0,
-  "status": "no_jobs"
- },
- {
-  "id": "10642df0-1a00-432f-92ca-40c32d4c3ee0",
-  "name": "BaselTech",
-  "career_url": "https://www.baseltech.swiss/join-us",
-  "jobs": [],
-  "njobs": 0,
-  "status": "no_jobs"
- },
- {
-  "id": "77d4608e-2785-440e-b1b5-20748db48580",
-  "name": "BBG Solutions",
-  "career_url": "https://www.bbg-solutions.com/?lang=en/careers",
-  "jobs": [],
-  "njobs": 0,
-  "status": "no_jobs"
- },
- {
-  "id": "1cda2b92-9045-4c2f-9dff-164fbf896ed9",
-  "name": "bbv Software Services AG",
-  "career_url": "https://bbv.ch/insights/ki-workshop-fuer-ceo-geschaeftsleitung/",
-  "jobs": [
-   {
-    "title": "Lehrstelle",
-    "apply_url": "https://bbv.ch/career/nachwuchs/lehrstelle/"
-   }
-  ],
-  "njobs": 1,
-  "status": "ok"
- },
- {
-  "id": "b013d9aa-f8a9-44a2-ad14-e7b0fc4c76d9",
-  "name": "BEGASOFT AG",
-  "career_url": "https://www.begasoft.ch/unternehmen/karriere#jobs",
-  "jobs": [],
-  "njobs": 0,
-  "status": "no_jobs"
- },
- {
-  "id": "f5d387b0-1410-4f2b-9b17-8de4e4ac4314",
-  "name": "bitforge AG",
-  "career_url": "https://bitforge.ch/jobs/",
-  "jobs": [
-   {
-    "title": "Cloudflare1",
-    "apply_url": "https://bitforge.ch/jobs/#"
-   }
-  ],
-  "njobs": 1,
-  "status": "ok"
- },
- {
-  "id": "d1bad9e5-4cc4-441f-a390-cba010560eee",
-  "name": "BITS - Bühler IT Solutions GmbH",
-  "career_url": "https://bits.ch/karriere/",
-  "jobs": [],
-  "njobs": 0,
-  "status": "no_jobs"
- },
- {
-  "id": "a466b1fd-1861-4c35-ae91-e76e35e92dac",
-  "name": "Blackdot",
-  "career_url": "https://www.blackdot.swiss/de/karriere",
-  "jobs": [],
-  "njobs": 0,
-  "status": "no_jobs"
- },
- {
-  "id": "4935cbd8-d59e-4bdc-a364-8949e7ca5160",
-  "name": "BlueCare",
-  "career_url": "https://jobs.bluecare.ch/",
-  "jobs": [],
-  "njobs": 0,
-  "status": "no_jobs"
- },
- {
-  "id": "0402ba86-5477-41a7-9a48-bb535bda1f88",
-  "name": "BNI Pratteln",
-  "career_url": "https://west.bni.swiss/pratteln/de-CH/careers",
-  "jobs": [],
-  "njobs": 0,
-  "status": "no_jobs"
- },
- {
-  "id": "5794d8c6-8457-4bb1-a756-5537d4813a18",
-  "name": "brix",
-  "career_url": "https://www.brix.ch/de/ueber-uns/jobs",
-  "jobs": [
-   {
-    "title": "support.brix.ch1",
-    "apply_url": "https://www.brix.ch/de/ueber-uns/jobs#"
-   }
-  ],
-  "njobs": 1,
-  "status": "ok"
- },
- {
-  "id": "261f29fa-7478-4e77-a58e-9d7a77f680e9",
-  "name": "Bryter AG",
-  "career_url": "https://bryter.com/careers/",
-  "jobs": [
-   {
-    "title": "Products",
-    "apply_url": "https://bryter.com/careers/#"
-   },
-   {
-    "title": "Commercial Legal Engineer - AI (DACH)",
-    "apply_url": "https://bryter.com/careers/legal-engineer-ai-dach/"
-   },
-   {
-    "title": "Commercial Remote – Germany Customer Success Manager - AI (DACH)",
-    "apply_url": "https://bryter.com/careers/customer-success-manager-ai-dach/"
-   }
-  ],
-  "njobs": 3,
-  "status": "ok"
- },
- {
-  "id": "d09825d0-c3c6-4fd2-9756-beaf866893aa",
-  "name": "Businessparc Reinach",
-  "career_url": "https://www.businessparc.ch/mitglieder/sulista-gmbh-beratung-im-bereich-karriere-digital-sales-personal/",
-  "jobs": [
-   {
-    "title": "Sulista GmbH Persönliche Dienstleistung Beratung im Bereich Karriere, Digital Sales via LinkedIn, Personal und Employer Branding,...",
-    "apply_url": "https://www.businessparc.ch/mitglieder/sulista-gmbh-beratung-im-bereich-karriere-digital-sales-personal/"
-   },
-   {
-    "title": "VirtueSpark GmbH IT/Web Hersteller der VirtueSpark Enterprise Cloud Software für integriertes Governance, Risk & Compliance...",
-    "apply_url": "https://www.businessparc.ch/mitglieder/virtuespark-gmbh-hersteller-der-virtuespark-enterprise-cloud-software/"
-   }
-  ],
-  "njobs": 2,
-  "status": "ok"
- },
- {
-  "id": "e40969de-66bf-41e4-a793-9b5d78984284",
-  "name": "Cabsol",
-  "career_url": "https://cabsol.de/karriere",
-  "jobs": [],
-  "njobs": 0,
-  "status": "no_jobs"
- },
- {
-  "id": "a093132c-0e9f-4b80-bc00-8964609337af",
-  "name": "campfire GmbH",
-  "career_url": "https://campfire.ch/projekte/further-work-dna-app",
-  "jobs": [],
-  "njobs": 0,
-  "status": "no_jobs"
- },
- {
-  "id": "1ab6da13-d52e-44c4-92e6-65d3b81a5db2",
-  "name": "CAPcargo AG",
-  "career_url": "https://www.capcargo.com/career/",
-  "jobs": [],
-  "njobs": 0,
-  "status": "no_jobs"
- },
- {
-  "id": "22c5998d-172a-48be-aee4-442b13c46a72",
-  "name": "CENT Systems AG",
-  "career_url": "https://www.cent-systems.ch/cent/karriere/",
-  "jobs": [],
-  "njobs": 0,
-  "status": "no_jobs"
- },
- {
-  "id": "c263845f-e96a-44ba-bbdb-9e91b19a548e",
-  "name": "Centerboard",
-  "career_url": "https://www.centerboard.ch/jobs",
-  "jobs": [],
-  "njobs": 0,
-  "status": "no_jobs"
- },
- {
-  "id": "2633f3bb-12db-4ccc-9dfe-6481d1f27bb5",
-  "name": "CeRFI SA",
-  "career_url": "https://www.cerfi.ch/en_GB/join-us",
-  "jobs": [],
-  "njobs": 0,
-  "status": "no_jobs"
- },
- {
-  "id": "943d0b7b-3022-4241-acec-b15c4f3c44c3",
-  "name": "Claranet",
-  "career_url": "https://www.claranet.ch/karriere",
-  "jobs": [],
-  "njobs": 0,
-  "status": "no_jobs"
- },
- {
-  "id": "5ebc52a1-a480-4189-8956-786229b4753c",
-  "name": "CODATA AG",
-  "career_url": "https://www.codata.swiss/jobs",
-  "jobs": [
-   {
-    "title": "Full Stack Software Engineer 80 – 100%",
-    "apply_url": "https://www.codata.swiss/agentur/job/198/full-stack-software-engineer"
-   }
-  ],
-  "njobs": 1,
-  "status": "ok"
- },
- {
-  "id": "a5359885-1d68-422c-a7a3-e05716ef955a",
-  "name": "codebar",
-  "career_url": "https://www.codebar.ch/stellen",
-  "jobs": [],
-  "njobs": 0,
-  "status": "no_jobs"
- },
- {
-  "id": "db1e433f-415b-473c-a290-9f456b8d565b",
-  "name": "Comerge AG",
-  "career_url": "https://www.comerge.net/en/work",
-  "jobs": [],
-  "njobs": 0,
-  "status": "no_jobs"
- },
- {
-  "id": "1fa7b470-3f8f-499c-8c4d-275da3a2bf23",
-  "name": "Comitas AG",
-  "career_url": "https://www.comitas.com/uber-uns/#career",
-  "jobs": [],
-  "njobs": 0,
-  "status": "no_jobs"
- },
- {
-  "id": "04ed655c-3bcf-458e-bdd2-63c89838b928",
-  "name": "consenso GmbH",
-  "career_url": "https://www.consenso-solutions.ch/en/jobs",
-  "jobs": [],
-  "njobs": 0,
-  "status": "no_jobs"
- },
- {
-  "id": "6cb6d04f-5318-4760-935d-89a38c1023c9",
-  "name": "Corix AG",
-  "career_url": "https://www.corix.ch/jobs",
-  "jobs": [
-   {
-    "title": "Individual-Software",
-    "apply_url": "https://www.corix.ch/jobs#mm-1"
-   },
-   {
-    "title": "TOGETHER - Software für das Sozialwesen",
-    "apply_url": "https://www.corix.ch/jobs#mm-1"
-   }
-  ],
-  "njobs": 2,
-  "status": "ok"
- },
- {
-  "id": "b03a8f42-42c9-4ace-a12c-55d1936acfef",
-  "name": "CREDITFOLIO",
-  "career_url": "http://www.creditfolio.ch/careers",
-  "jobs": [],
-  "njobs": 0,
-  "status": "no_jobs"
- },
- {
-  "id": "a49a6785-7749-45d2-a92e-9b06473246d0",
-  "name": "CSG (formerly Ascendon)",
-  "career_url": "https://www.csgi.com/careers",
-  "jobs": [],
-  "njobs": 0,
-  "status": "no_jobs"
- },
- {
-  "id": "10da3dc6-4690-4a9a-a7b6-0c34a5dc8c71",
-  "name": "CSP AG",
-  "career_url": "https://csp.ch/neuchatel/prise-de-position/",
-  "jobs": [
-   {
-    "title": "UN.E EMPLOYÉ.E À 80% POUR LE […]Offres d’emploi",
-    "apply_url": "https://csp.ch/neuchatel/offres-demploi/"
-   }
-  ],
-  "njobs": 1,
-  "status": "ok"
- },
- {
-  "id": "cea91d13-14b0-4bea-b875-ef2c6f51bbef",
-  "name": "Cudos AG",
-  "career_url": "https://cudos.ch/de/jobs",
-  "jobs": [
-   {
-    "title": "Senior Software Engineer C# oder C++ - Industrial Systems",
-    "apply_url": "https://cudos.ch/de/jobs/senior-software-engineer-c-oder-c-industrial-systems/"
-   },
-   {
-    "title": "Software Architekt und Fullstack Engineer",
-    "apply_url": "https://cudos.ch/de/jobs/software-architekt/"
-   },
-   {
-    "title": "Senior Software Engineer C++",
-    "apply_url": "https://cudos.ch/de/jobs/senior-software-engineer-c/"
-   },
-   {
-    "title": "Senior Software Engineer C#",
-    "apply_url": "https://cudos.ch/de/jobs/senior-software-engineer-c-sharp/"
-   },
-   {
-    "title": "Junior Software Engineer im Cross-Company-Programm",
-    "apply_url": "https://cudos.ch/de/jobs/junior-software-engineer-cudos-trail/"
-   }
-  ],
-  "njobs": 5,
-  "status": "ok"
- },
- {
-  "id": "69913da3-ea8f-49c3-9df2-740854bf7f99",
-  "name": "Cyberwave",
-  "career_url": "https://cyberwave.com:443/technology/capabilities/physical-ai-workflow-engine",
-  "jobs": [],
-  "njobs": 0,
-  "status": "no_jobs"
- },
- {
-  "id": "2ed73725-94b9-40b4-8bcd-fedcbb8f2b94",
-  "name": "Cyon",
-  "career_url": "https://www.cyon.ch/en/careers",
-  "jobs": [],
-  "njobs": 0,
-  "status": "no_jobs"
- },
- {
-  "id": "2c73d4bb-ee0d-4a31-8ec0-d9b1306d0222",
-  "name": "Data Trust AG",
-  "career_url": "https://www.datatrust.ch/jobs/",
-  "jobs": [
-   {
-    "title": "bewerbungen@noSpamdatatrust.ch",
-    "apply_url": "https://www.datatrust.ch/jobs/#"
-   }
-  ],
-  "njobs": 1,
-  "status": "ok"
- },
- {
-  "id": "aa4b1726-6af6-40d3-ba60-e3ee5e021923",
-  "name": "Datascale GmbH",
-  "career_url": "https://datascale.ch/jobs",
-  "jobs": [],
-  "njobs": 0,
-  "status": "no_jobs"
- },
- {
-  "id": "605c584f-e3a2-4f6a-bd25-5a68e54ae3cd",
-  "name": "DATAthings SA",
-  "career_url": "https://datathings.com/jobs",
-  "jobs": [
-   {
-    "title": "jobs@datathings.com",
-    "apply_url": "mailto:jobs@datathings.com"
-   }
-  ],
-  "njobs": 1,
-  "status": "ok"
- },
- {
-  "id": "97518cfa-2603-4e52-847e-faf5328a1411",
-  "name": "Datenportal Basel",
-  "career_url": "https://data.bs.ch/pages/home/careers",
-  "jobs": [
-   {
-    "title": "https://www.youtube.com/watch?v=r9HaRUp8vu8",
-    "apply_url": "https://www.youtube.com/watch?v=r9HaRUp8vu8"
-   }
-  ],
-  "njobs": 1,
-  "status": "ok"
- },
- {
-  "id": "d2f64525-ff5b-4c58-8e96-1f3058eccbc0",
-  "name": "DeepCloud AG",
-  "career_url": "https://careers.deepcloud.swiss/job-overview/de",
-  "jobs": [],
-  "njobs": 0,
-  "status": "no_jobs"
- },
- {
-  "id": "4096dd55-8222-48dc-8e4c-9682e804210c",
-  "name": "Digio AG",
-  "career_url": "https://www.digio.swiss/en/career",
-  "jobs": [],
-  "njobs": 0,
-  "status": "no_jobs"
- },
- {
-  "id": "91995577-d196-40ed-8f11-264f54b9e891",
-  "name": "Digital Chameleon",
-  "career_url": "https://www.digital-chameleon.ch/careers",
-  "jobs": [],
-  "njobs": 0,
-  "status": "no_jobs"
- },
- {
-  "id": "f2182841-f64d-4bb4-9cc8-e02ee6df4d0f",
-  "name": "DISO AG",
-  "career_url": "https://diso.ch/karriere/",
-  "jobs": [],
-  "njobs": 0,
-  "status": "no_jobs"
- },
- {
-  "id": "a8cf87b6-9224-40a8-8e26-4167a1ac8f5f",
-  "name": "Docuteam AG",
-  "career_url": "https://www.docuteam.ch/presentation-avec-4teamwork-a-lausanne/",
-  "jobs": [],
-  "njobs": 0,
-  "status": "no_jobs"
- },
- {
-  "id": "c3a81e1e-e20f-4193-b322-3ad4c3be3a08",
-  "name": "dolmX AG",
-  "career_url": "https://www.dolmx.ch/jobs/",
-  "jobs": [],
-  "njobs": 0,
-  "status": "no_jobs"
- },
- {
-  "id": "55702c2e-38dc-4e77-bc8f-746cf1e64d1a",
-  "name": "DPhi Space",
-  "career_url": "https://www.dphispace.com/careers",
-  "jobs": [
-   {
-    "title": "Mechanical EngineerLausanne, SwitzerlandFull-timeMechanical EngineeringView details",
-    "apply_url": "https://www.dphispace.com/careers/Mechanical-Engineer"
-   },
-   {
-    "title": "Thermal EngineerLausanne, SwitzerlandFull-timeMechanical EngineeringView details",
-    "apply_url": "https://www.dphispace.com/careers/Thermal-Engineer"
-   },
-   {
-    "title": "Mechanical TechnicianLausanne, SwitzerlandFull-timeMechanical EngineeringView details",
-    "apply_url": "https://www.dphispace.com/careers/ME-Technician"
-   },
-   {
-    "title": "Electrical EngineerLausanne, SwitzerlandFull-timeElectrical EngineeringView details",
-    "apply_url": "https://www.dphispace.com/careers/Electrical-Engineer"
-   },
-   {
-    "title": "System EngineerLausanne, SwitzerlandFull-timeSystem EngineeringView details",
-    "apply_url": "https://www.dphispace.com/careers/System-Engineer"
-   },
-   {
-    "title": "Mechanical Engineering Internship - SpaceLausanne, SwitzerlandInternshipMechanical EngineeringView details",
-    "apply_url": "https://www.dphispace.com/careers/ME-Internship-Space"
-   },
-   {
-    "title": "Electrical Engineering Internship - SpaceLausanne, SwitzerlandInternshipElectrical EngineeringView details",
-    "apply_url": "https://www.dphispace.com/careers/EE-Internship"
-   },
-   {
-    "title": "Software Internships (All Disciplines)Lausanne, SwitzerlandInternshipSoftware EngineeringView details",
-    "apply_url": "https://www.dphispace.com/careers/Gen-SW-Internship"
-   }
-  ],
-  "njobs": 8,
-  "status": "ok"
- },
- {
-  "id": "f4f97fda-8fba-4564-bd84-7e515d5ab8b2",
-  "name": "easylearn schweiz ag",
-  "career_url": "https://www.easylearn.ch/jobs",
-  "jobs": [
-   {
-    "title": "Leadinfo2",
-    "apply_url": "https://www.easylearn.ch/de/unternehmen/jobs#"
-   },
-   {
-    "title": "Leadinfo4",
-    "apply_url": "https://www.easylearn.ch/de/unternehmen/jobs#"
-   },
-   {
-    "title": "Lehrstelle",
-    "apply_url": "https://www.easylearn.ch/de/unternehmen/lehrstelle"
-   }
-  ],
-  "njobs": 3,
-  "status": "ok"
- },
- {
-  "id": "7324a1ec-52f8-4f55-acd0-00d86376adbe",
-  "name": "EcoTool AG",
-  "career_url": "https://www.ecotool.org/de/jobs",
-  "jobs": [],
-  "njobs": 0,
-  "status": "no_jobs"
- },
- {
-  "id": "da51e116-8519-4b78-a6aa-55a26b03a445",
-  "name": "Egger Dommer Bär AG",
-  "career_url": "https://edb.ch/#jobs",
-  "jobs": [],
-  "njobs": 0,
-  "status": "no_jobs"
- },
- {
-  "id": "730b4dd2-12c7-48f5-993f-5ef13baca238",
-  "name": "Elca",
-  "career_url": "https://www.elca.ch/en/careers",
-  "jobs": [],
-  "njobs": 0,
-  "status": "no_jobs"
- },
- {
-  "id": "6df31849-bc00-4dce-9383-1e0d3aa5dd57",
-  "name": "encircle360 AG",
-  "career_url": "https://encircle360.com/en/imprint/careers",
-  "jobs": [],
-  "njobs": 0,
-  "status": "no_jobs"
- },
- {
-  "id": "13979abc-da02-4944-b941-de05d39dfc11",
-  "name": "Erni",
-  "career_url": "https://www.betterask.erni/careers-global/",
-  "jobs": [],
-  "njobs": 0,
-  "status": "no_jobs"
- },
- {
-  "id": "f1d0dba3-396d-4cc9-aba4-c1654f86ab99",
-  "name": "EternalNet",
-  "career_url": "https://www.eternalnet.ch/dl/stelleninserat",
-  "jobs": [],
-  "njobs": 0,
-  "status": "no_jobs"
- },
- {
-  "id": "b1b5faae-92e6-4fa2-9edd-72a44595c58b",
-  "name": "europa3000 AG",
-  "career_url": "https://www.europa3000.ch/softwareprodukte/schnittstellen",
-  "jobs": [
-   {
-    "title": "Lehrstellen",
-    "apply_url": "https://www.europa3000.ch/lehrstellen"
-   }
-  ],
-  "njobs": 1,
-  "status": "ok"
- },
- {
-  "id": "9348d047-2f5b-49e3-8819-77e5149d271e",
-  "name": "Fairtiq AG",
-  "career_url": "https://fairtiq.com/en/how-it-works",
-  "jobs": [],
-  "njobs": 0,
-  "status": "no_jobs"
- },
- {
-  "id": "3a75b920-2c91-4886-84b2-dc9e69814b5b",
-  "name": "fidentity AG",
-  "career_url": "https://www.fidentity.ch/en/news/technical-architecture-swiss-e-id-how-it-works",
-  "jobs": [],
-  "njobs": 0,
-  "status": "no_jobs"
- },
- {
-  "id": "aa228be2-93b5-451d-9471-cc15e0744473",
-  "name": "FotoWare Switzerland AG",
-  "career_url": "https://careers.fotoware.com/",
-  "jobs": [
-   {
-    "title": "Marie Monrad Company Administrator",
-    "apply_url": "https://careers.fotoware.com/en-GB/people/4119333-marie-monrad"
-   },
-   {
-    "title": "Kristine Nuland Hansen HR Manager",
-    "apply_url": "https://careers.fotoware.com/en-GB/people/4019553-kristine-nuland-hansen"
-   },
-   {
-    "title": "Hilde Nielsen Group Head of Marketing and Communications",
-    "apply_url": "https://careers.fotoware.com/en-GB/people/3627236-hilde-nielsen"
-   },
-   {
-    "title": "Janniche Moe Chief Product & Technology Officer",
-    "apply_url": "https://careers.fotoware.com/en-GB/people/773130-janniche-moe"
-   },
-   {
-    "title": "Data & privacy",
-    "apply_url": "https://careers.fotoware.com/data-privacy"
-   }
-  ],
-  "njobs": 5,
-  "status": "ok"
- },
- {
-  "id": "41df35b1-b704-4c6d-9ce1-d3289e9999a4",
-  "name": "GARAIO AG",
-  "career_url": "https://www.garaio.com/data-ai/ki-workshop",
-  "jobs": [],
-  "njobs": 0,
-  "status": "no_jobs"
- },
- {
-  "id": "ef614563-36bd-4d21-96da-7918a25eee6a",
-  "name": "Gartenmann Software AG",
-  "career_url": "https://www.gartenmann.ch/djooze-framework-individualsoftware-kmu-software-schweiz",
-  "jobs": [],
-  "njobs": 0,
-  "status": "no_jobs"
- },
- {
-  "id": "17271614-8087-471d-826a-f1b2d2acc9f0",
-  "name": "GCP AG",
-  "career_url": "https://gcp.ch/karriereangebot/",
-  "jobs": [],
-  "njobs": 0,
-  "status": "no_jobs"
- },
- {
-  "id": "e4e49e4e-7602-4f6a-8843-9f42d011f251",
-  "name": "GetLead AG",
-  "career_url": "https://getlead.ch/agentur/jobs-nachwuchsfoerderung",
-  "jobs": [],
-  "njobs": 0,
-  "status": "no_jobs"
- },
- {
-  "id": "53d560fb-8c7d-43b6-a592-2a701c27a2f1",
-  "name": "GlasKeller Basel",
-  "career_url": "https://www.glaskeller.ch/karriere",
-  "jobs": [],
-  "njobs": 0,
-  "status": "no_jobs"
- },
- {
-  "id": "de30fdb6-eb70-4ec0-a2f7-394165c0cd77",
-  "name": "GObugfree AG",
-  "career_url": "https://gobugfree.com/jobs",
-  "jobs": [
-   {
-    "title": "Open Position: Business Development Manager",
-    "apply_url": "https://gobugfree.com/open-position-jr-bus-dev-mgr"
-   }
-  ],
-  "njobs": 1,
-  "status": "ok"
- },
- {
-  "id": "399b29c5-7c44-4e6c-ab8d-bb2d07531764",
-  "name": "GRITEC AG",
-  "career_url": "https://www.gritec.ch/de/karriere",
-  "jobs": [
-   {
-    "title": "MASIRA Von der Fertigung zur Verifikation: 100%-Inline-Prüfung von Medical Consumables",
-    "apply_url": "https://www.gritec.ch/de/masira"
-   }
-  ],
-  "njobs": 1,
-  "status": "ok"
- },
- {
-  "id": "7c21e985-c4ec-4f2c-9e5b-666be9b96048",
-  "name": "Helbling Technik AG",
-  "career_url": "https://helbling.ch/en/jobs",
-  "jobs": [],
-  "njobs": 0,
-  "status": "no_jobs"
- },
- {
-  "id": "cc3a89ca-c39f-4d70-963e-80e7c097159e",
-  "name": "Helga Digitalagentur GmbH",
-  "career_url": "https://www.helgadigitalagentur.com/cgi-sys/suspendedpage.cgi/careers",
-  "jobs": [],
-  "njobs": 0,
-  "status": "no_jobs"
- },
- {
-  "id": "4626943d-a440-4930-810d-b508385fc3b0",
-  "name": "Helsana Versicherungen AG",
-  "career_url": "https://www.helsana.ch/de/private.html/careers",
-  "jobs": [],
-  "njobs": 0,
-  "status": "no_jobs"
- },
- {
-  "id": "465b022c-587c-48be-9e5d-36c90bc0148d",
-  "name": "HestiaLegal sarl",
-  "career_url": "https://facture-impayee.ch/careers",
-  "jobs": [],
-  "njobs": 0,
-  "status": "no_jobs"
- },
- {
-  "id": "b667b1da-85b2-4b05-8870-e2ef0ad5c60d",
-  "name": "Hewlett Packard Enterprise (HPE Cray)",
-  "career_url": "https://www.hpe.com/ch/de/solutions/networking.html",
-  "jobs": [],
-  "njobs": 0,
-  "status": "error",
-  "error": "Page.goto: net::ERR_HTTP2_PROTOCOL_ERROR at https://www.hpe.com/ch/de/solutions/networking.html\nCall"
- },
- {
-  "id": "10e20457-bf8d-41e0-a5c1-d48d3477df2d",
-  "name": "HLthcare.team Basel",
-  "career_url": "https://hlthcare.club/careers",
-  "jobs": [],
-  "njobs": 0,
-  "status": "no_jobs"
- },
- {
-  "id": "22989ba5-2876-4435-a620-499d8a180568",
-  "name": "Houzy AG",
-  "career_url": "https://join.com/companies/houzy",
-  "jobs": [],
-  "njobs": 0,
-  "status": "no_jobs"
- },
- {
-  "id": "09a72a99-1be8-42c1-b880-805bc3315d06",
-  "name": "iart",
-  "career_url": "https://iart.ch/work",
-  "jobs": [],
-  "njobs": 0,
-  "status": "no_jobs"
- },
- {
-  "id": "17dca2f7-8d6c-474b-8731-c2b2f7b115fd",
-  "name": "igeeks AG",
-  "career_url": "https://www.igeeks.ch/de/career/de",
-  "jobs": [],
-  "njobs": 0,
-  "status": "no_jobs"
- },
- {
-  "id": "c9377134-30e6-4b3a-87af-e562acfc10e2",
-  "name": "IKAVA",
-  "career_url": "https://www.ikava.ch/plattform/framework/",
-  "jobs": [],
-  "njobs": 0,
-  "status": "no_jobs"
- },
- {
-  "id": "b76d31bc-155f-41ce-a0b2-712a2bb1d64b",
-  "name": "Ikerian",
-  "career_url": "https://apply.workable.com/retinai/",
-  "jobs": [
-   {
-    "title": "HelpSVGs not supported by this browser.",
-    "apply_url": "https://jobseekers.workable.com/hc/en"
-   }
-  ],
-  "njobs": 1,
-  "status": "ok"
- },
- {
-  "id": "74a0453b-72ca-4eab-9546-441899f7d2ae",
-  "name": "ImmoSync Digital GmbH",
-  "career_url": "https://www.immosync.ch/tools/maengelmeldung-erstellen",
-  "jobs": [],
-  "njobs": 0,
-  "status": "no_jobs"
- },
- {
-  "id": "2115a86e-f2a5-430f-b35d-f23eee3faec9",
-  "name": "IMS Integrierte Managementsysteme AG",
-  "career_url": "https://www.ims-ag.com/de/ueber-uns/karriere",
-  "jobs": [],
-  "njobs": 0,
-  "status": "no_jobs"
- },
- {
-  "id": "c4eb7857-c08d-49e2-b369-8fe57eb6920f",
-  "name": "Inautec GmbH",
-  "career_url": "https://www.inautec.com/en_US/jobs",
-  "jobs": [
-   {
-    "title": "Electrical Designer",
-    "apply_url": "https://www.inautec.com/en_US/jobs/detail/electrical-designer-20"
-   },
-   {
-    "title": "Electrical Engineer as Project Engineer",
-    "apply_url": "https://www.inautec.com/en_US/jobs/detail/electrical-engineer-as-project-engineer-26"
-   },
-   {
-    "title": "System Engineer Drive Technology",
-    "apply_url": "https://www.inautec.com/en_US/jobs/detail/system-engineer-drive-technology-16"
-   }
-  ],
-  "njobs": 3,
-  "status": "ok"
- },
- {
-  "id": "b43eef04-354b-46ad-a1e5-f6bb3a9c72ae",
-  "name": "Indivi",
-  "career_url": "https://rc2nb.unibas.ch/en/research/workstream-1/",
-  "jobs": [],
-  "njobs": 0,
-  "status": "no_jobs"
- },
- {
-  "id": "14e27d12-aabb-4a97-b97a-ceb9a5491212",
-  "name": "Innofuse Switzerland",
-  "career_url": "https://www.innofuse.swiss/blog/InnofuseNetworkingApero",
-  "jobs": [],
-  "njobs": 0,
-  "status": "no_jobs"
- },
- {
-  "id": "d54e6ecd-c0e9-49dc-b7c9-abe3f98b7c39",
-  "name": "Innovation Lab Kaiseraugst",
-  "career_url": "https://careers.roche.com/global/en",
-  "jobs": [
-   {
-    "title": "Engineering",
-    "apply_url": "https://careers.roche.com/global/en/engineering"
-   },
-   {
-    "title": "Business Strategy & Finance",
-    "apply_url": "https://careers.roche.com/global/en/business-strategy-finance"
-   }
-  ],
-  "njobs": 2,
-  "status": "ok"
- },
- {
-  "id": "4d87bf66-5962-4ea9-b11f-faf954758859",
-  "name": "INSOR AG",
-  "career_url": "https://www.insor.ch/ueber-uns/jobs-stellen",
-  "jobs": [],
-  "njobs": 0,
-  "status": "no_jobs"
- },
- {
-  "id": "616b788c-801c-41ec-ab1a-f69be058ada5",
-  "name": "Intelliact",
-  "career_url": "https://intelliact.ch/workshops",
-  "jobs": [],
-  "njobs": 0,
-  "status": "no_jobs"
- },
- {
-  "id": "6cca0909-9b64-447b-b51a-1f3722c96cf5",
-  "name": "IntelliProcure AG",
-  "career_url": "https://www.intelliprocure.ch/careers",
-  "jobs": [],
-  "njobs": 0,
-  "status": "no_jobs"
- },
- {
-  "id": "040ee3c3-b97a-458f-a44e-7ad7027718b8",
-  "name": "Interbit",
-  "career_url": "https://www.interbit.ch/team/offene-stellen",
-  "jobs": [],
-  "njobs": 0,
-  "status": "no_jobs"
- },
- {
-  "id": "8e3cd3bf-2db8-4249-9c18-5311de27d067",
-  "name": "Intersys AG",
-  "career_url": "https://intersys.ch/karriere-bei-intersys/",
-  "jobs": [],
-  "njobs": 0,
-  "status": "no_jobs"
- },
- {
-  "id": "876b48a7-1f5d-4e07-8c44-26f264e2c392",
-  "name": "Inventx AG",
-  "career_url": "https://www.inventx.ch/karriere/",
-  "jobs": [],
-  "njobs": 0,
-  "status": "no_jobs"
- },
- {
-  "id": "5d87eeb4-87b1-43cb-b7fa-e408d5aca8be",
-  "name": "iRIX Software Engineering AG",
-  "career_url": "https://irix.ch/de/jobs",
-  "jobs": [],
-  "njobs": 0,
-  "status": "no_jobs"
- },
- {
-  "id": "c97b2809-faf4-42b9-97bf-ee18ba4bfe4c",
-  "name": "ISE AG Informatik Solutions Einsiedeln",
-  "career_url": "https://www.iseag.ch/unternehmen/jobs/",
-  "jobs": [],
-  "njobs": 0,
-  "status": "no_jobs"
- },
- {
-  "id": "5ae80c6f-15a4-461c-bdac-b307982a42ec",
-  "name": "iSecure GmbH",
-  "career_url": "https://isecure.ch/karriere/",
-  "jobs": [],
-  "njobs": 0,
-  "status": "no_jobs"
- },
- {
-  "id": "40e931c2-a5e3-42f6-bdec-c4417433bd8c",
-  "name": "IT Republic GmbH",
-  "career_url": "https://www.itrepublic.ch/karriere",
-  "jobs": [],
-  "njobs": 0,
-  "status": "no_jobs"
- },
- {
-  "id": "92d9c10e-b127-410e-bebe-8e28ba3debcf",
-  "name": "ITpoint Systems AG",
-  "career_url": "https://www.itpoint.ch/jobs-karriere/",
-  "jobs": [],
-  "njobs": 0,
-  "status": "no_jobs"
- },
- {
-  "id": "0e4bc552-a2f9-4295-9581-b95d5b51f298",
-  "name": "JCS Software",
-  "career_url": "http://www.jcssoftware.ch/#jobs",
-  "jobs": [],
-  "njobs": 0,
-  "status": "no_jobs"
- },
- {
-  "id": "19fcd97b-db13-4cca-9360-efeabc305704",
-  "name": "Katta Informatik",
-  "career_url": "https://katta.ch/ueber-uns/stellen/",
-  "jobs": [],
-  "njobs": 0,
-  "status": "no_jobs"
- },
- {
-  "id": "01d18b11-c434-4d5f-a418-2fe93689581b",
-  "name": "Klybeck Zwischennutzung",
-  "career_url": "https://www.klybeckplus.ch/startseite.html/current-details/the-stadtebauliches-leitbild-klybeckplus-framework-for-an-attractive-living-environment-in-basel",
-  "jobs": [],
-  "njobs": 0,
-  "status": "no_jobs"
- },
- {
-  "id": "8cf78e9b-d206-4914-a004-3585c829a5b6",
-  "name": "Knowbody GmbH",
-  "career_url": "https://www.hoststar.ch/en/company/jobs/vacancies",
-  "jobs": [],
-  "njobs": 0,
-  "status": "no_jobs"
- },
- {
-  "id": "89e021ec-cd81-4bb7-97ec-a16e4798cc2d",
-  "name": "KYOS",
-  "career_url": "https://www.kyos.ch/kyos/nous-rejoindre/",
-  "jobs": [],
-  "njobs": 0,
-  "status": "no_jobs"
- },
- {
-  "id": "03afe8a3-f4a7-45e3-8873-8c180e0ce848",
-  "name": "KZAG (Kommandozentrale AG)",
-  "career_url": "https://www.kzag.ch/karriere/wir-als-arbeitgeberin/",
-  "jobs": [
-   {
-    "title": "Praktikum",
-    "apply_url": "https://www.kzag.ch/karriere/praktikum/"
-   },
-   {
-    "title": "Engineer's Day 2026",
-    "apply_url": "https://www.kzag.ch/karriere/engineers-day-2026/"
-   }
-  ],
-  "njobs": 2,
-  "status": "ok"
- },
- {
-  "id": "c028878b-58cc-4af7-b5d7-20c916c59e30",
-  "name": "LABRO AG",
-  "career_url": "https://www.labro.ch/media/stellenanzeige_concept_project_development.pdf",
-  "jobs": [],
-  "njobs": 0,
-  "status": "error",
-  "error": "Page.goto: Download is starting\nCall log:\n  - navigating to \"https://www.labro.ch/media/stellenanzei"
- },
- {
-  "id": "be98c452-32fe-439d-8d2b-49f478af9c3b",
-  "name": "Laelaps AI GmbH",
-  "career_url": "https://laelaps.ai/#careers",
-  "jobs": [],
-  "njobs": 0,
-  "status": "no_jobs"
- },
- {
-  "id": "e7d5a2ff-4b43-4831-8865-37aa6c5c20d5",
-  "name": "Laixo AG",
-  "career_url": "https://laixo.ch/karriere",
-  "jobs": [
-   {
-    "title": "Produkte",
-    "apply_url": "https://laixo.ch/karriere/#"
-   }
-  ],
-  "njobs": 1,
-  "status": "ok"
- },
- {
-  "id": "bf54ca73-34af-4828-a9dc-40d75addf67d",
-  "name": "Leicom",
-  "career_url": "https://www.leicom.ch/karriere",
-  "jobs": [],
-  "njobs": 0,
-  "status": "no_jobs"
- },
- {
-  "id": "4bd9d44c-282e-4c2f-9adf-c54897cf6b79",
-  "name": "libracore AG",
-  "career_url": "https://libracore.com/careers",
-  "jobs": [],
-  "njobs": 0,
-  "status": "no_jobs"
- },
- {
-  "id": "b1955800-40cc-4bdb-9e0a-790edfe2dbeb",
-  "name": "LifeNome SA",
-  "career_url": "https://www.newsweek.com/why-ai-not-going-steal-your-job-anytime-soon-1863569",
-  "jobs": [],
-  "njobs": 0,
-  "status": "no_jobs"
- },
- {
-  "id": "9226b555-c10a-4bc6-bc9a-f66041764f18",
-  "name": "Liip",
-  "career_url": "https://www.liip.ch/de/work",
-  "jobs": [
-   {
-    "title": "Lehrstellen",
-    "apply_url": "https://www.liip.ch/de/lehrstellen"
-   },
-   {
-    "title": "Diese Seite erzeugt 0.06g CO₂ und ist sauberer als 94% der getesteten Webseiten.",
-    "apply_url": "https://www.websitecarbon.com/"
-   }
-  ],
-  "njobs": 2,
-  "status": "ok"
- },
- {
-  "id": "a8f25e5f-275e-4941-89a8-8e0d74bce53e",
-  "name": "LST AG",
-  "career_url": "https://www.lst.team/jobs",
-  "jobs": [],
-  "njobs": 0,
-  "status": "no_jobs"
- },
- {
-  "id": "6c4bc3cf-84bf-402b-bbcd-7272120b3d8d",
-  "name": "M-Files Corporation",
-  "career_url": "https://www.m-files.com/m-files-platform/integrations/google-workspace/",
-  "jobs": [],
-  "njobs": 0,
-  "status": "no_jobs"
- },
- {
-  "id": "5afafde8-7af7-4e3b-b73d-5f19ca584965",
-  "name": "MachiQ",
-  "career_url": "https://www.facterra.ai/career/",
-  "jobs": [],
-  "njobs": 0,
-  "status": "no_jobs"
- },
- {
-  "id": "378d3bc4-d5d9-489f-b7c5-39dbffb17d2e",
-  "name": "Magnolia International Ltd.",
-  "career_url": "https://www.magnolia-cms.com/about/careers.html",
-  "jobs": [],
-  "njobs": 0,
-  "status": "no_jobs"
- },
- {
-  "id": "5429998a-187f-45fb-8f83-246c0f5ebd06",
-  "name": "Mall Zahntechnik",
-  "career_url": "https://www.mallzahntechnik.ch/jobs",
-  "jobs": [],
-  "njobs": 0,
-  "status": "no_jobs"
- },
- {
-  "id": "958b17d6-ff50-4d9b-ac4f-ef38a277c596",
-  "name": "Maravilla Labs",
-  "career_url": "https://www.maravilla.cloud/services#builder-workshop",
-  "jobs": [],
-  "njobs": 0,
-  "status": "no_jobs"
- },
- {
-  "id": "49fb840e-6058-4790-9449-30e4490ed865",
-  "name": "Marketinghub",
-  "career_url": "http://www.marketinghub.ch/unternehmen/stellen/",
-  "jobs": [],
-  "njobs": 0,
-  "status": "no_jobs"
- },
- {
-  "id": "c78e8214-8586-4f70-9cc1-ca7e6bd835b9",
-  "name": "Martec AG",
-  "career_url": "https://www.martec.ch/offene-stellen",
-  "jobs": [],
-  "njobs": 0,
-  "status": "no_jobs"
- },
- {
-  "id": "16f14219-d2f1-4d16-a567-79d15f5ccc63",
-  "name": "Meetio (former Envision)",
-  "career_url": "https://www.logitech.com/en-us/business/solutions.html#work-desks",
-  "jobs": [],
-  "njobs": 0,
-  "status": "no_jobs"
- },
- {
-  "id": "cb3e6a85-ef5a-4fda-a05c-ffcc273c5cf0",
-  "name": "Meloncast",
-  "career_url": "https://meloncast.com/pages/jobs.html",
-  "jobs": [],
-  "njobs": 0,
-  "status": "no_jobs"
- },
- {
-  "id": "b91fd399-1f88-4af0-930a-6d1b6ff40172",
-  "name": "META10 Secure Cloud",
-  "career_url": "https://www.meta10.com/Secure-Cloud/Network",
-  "jobs": [],
-  "njobs": 0,
-  "status": "no_jobs"
- },
- {
-  "id": "a1578a54-889a-4478-b16d-637ec1e5d886",
-  "name": "MHM & Partner AG",
-  "career_url": "https://www.mhmpartner.com/jobs",
-  "jobs": [],
-  "njobs": 0,
-  "status": "no_jobs"
- },
- {
-  "id": "17b518a2-da09-4261-b8d3-3d09bc0859b3",
-  "name": "microtom",
-  "career_url": "https://microtom.com/de/unternehmen/karriere-ausbildung/",
-  "jobs": [
-   {
-    "title": "Modern Workplace Specialist (Support) 80-100%",
-    "apply_url": "https://microtom.com/de/career/modern-workplace-specialist-support-80-100/"
-   },
-   {
-    "title": "Microsoft Systems & Security Engineer (M365 & Azure Security mit Leidenschaft für IT und Herz für Menschen)",
-    "apply_url": "https://microtom.com/de/career/microsoft-systems-security-engineer-m365-azure-security/"
-   },
-   {
-    "title": "Career & Apprenticeship",
-    "apply_url": "https://microtom.com/company/career-apprenticeships/"
-   }
-  ],
-  "njobs": 3,
-  "status": "ok"
- },
- {
-  "id": "9eaf38ee-4287-4757-9a0c-e9e3ef56a801",
-  "name": "Mirabit AG",
-  "career_url": "https://www.mirabit.com/de/ueber-uns/jobs/offene-stellen",
-  "jobs": [
-   {
-    "title": "Full-Stack-Developer",
-    "apply_url": "https://www.mirabit.com/de/ueber-uns/jobs/full-stack-developer"
-   },
-   {
-    "title": "WordPress-Entwickler/-in",
-    "apply_url": "https://www.mirabit.com/de/ueber-uns/jobs/wordpress-entwickler"
-   },
-   {
-    "title": "ICT-Supporter:in",
-    "apply_url": "https://www.mirabit.com/de/ueber-uns/jobs/ict-supporterin"
-   },
-   {
-    "title": "ICT-System-Administrator:in",
-    "apply_url": "https://www.mirabit.com/de/ueber-uns/jobs/ict-system-administratorin"
-   }
-  ],
-  "njobs": 4,
-  "status": "ok"
- },
- {
-  "id": "4662e34d-988a-4a98-b3ca-1b0717b64425",
-  "name": "Mobilethinking",
-  "career_url": "https://mobilethinking.ch/leco-conception-chez-mobilethinking-langages-et-frameworks/",
-  "jobs": [],
-  "njobs": 0,
-  "status": "no_jobs"
- },
- {
-  "id": "62804806-6e61-40e0-b09c-5f774bf1f3d6",
-  "name": "Moresi.com SA",
-  "career_url": "https://www.moresi.com/workplace-collaboration/",
-  "jobs": [],
-  "njobs": 0,
-  "status": "no_jobs"
- },
- {
-  "id": "3db99f97-be50-495c-b663-fc79c78fef92",
-  "name": "MTF Solutions AG",
-  "career_url": "https://www.mtf.ch/en/service/modern-workplace/",
-  "jobs": [
-   {
-    "title": "Municipality of AadorfProfessional ICT outsourcing with a multi-cloud strategy",
-    "apply_url": "https://mtf.ch/en/company/mtf-solutions/success-stories/r/47-offentliche-verwaltung/"
-   }
-  ],
-  "njobs": 1,
-  "status": "ok"
- },
- {
-  "id": "dfd84c27-c1eb-470c-83b2-3a844e9a5a7b",
-  "name": "mynatix ag",
-  "career_url": "https://mynatix.com/technology/#how-it-works",
-  "jobs": [],
-  "njobs": 0,
-  "status": "no_jobs"
- },
- {
-  "id": "b8ccd731-fc6c-4c57-ae22-764066aa739c",
-  "name": "Naveum AG",
-  "career_url": "https://naveum.ch/karriere/",
-  "jobs": [
-   {
-    "title": "Cloud Infrastruktur",
-    "apply_url": "https://naveum.ch/karriere/#"
-   },
-   {
-    "title": "Cloud Lösungen",
-    "apply_url": "https://naveum.ch/karriere/#"
-   }
-  ],
-  "njobs": 2,
-  "status": "ok"
- },
- {
-  "id": "38077245-a72a-4089-b42d-3744c0b6e76a",
-  "name": "Netcloud AG",
-  "career_url": "https://www.netcloud.ch/network",
-  "jobs": [],
-  "njobs": 0,
-  "status": "no_jobs"
- },
- {
-  "id": "121a66f8-2cc6-43c4-845b-69008f51ee67",
-  "name": "Nexplore AG",
-  "career_url": "https://www.nexplore.ch/jobs",
-  "jobs": [],
-  "njobs": 0,
-  "status": "no_jobs"
- },
- {
-  "id": "426c282b-94d3-470c-b814-d225fdd8242a",
-  "name": "NextGen CDR AG",
-  "career_url": "https://www.nextgencdr.com/mizuho-a-japanese-mega-bank-joins-nextgen-cdr-one-of-the-largest-global-portfolios-of-permanent-carbon-dioxide-removals-as-a-major-buyer/",
-  "jobs": [],
-  "njobs": 0,
-  "status": "no_jobs"
- },
- {
-  "id": "1a0d1ee2-9a1c-4509-a23b-75dcd78f105b",
-  "name": "Nimbus AG",
-  "career_url": "https://nimbus.swiss/jobs",
-  "jobs": [],
-  "njobs": 0,
-  "status": "no_jobs"
- },
- {
-  "id": "06ea0c8b-b442-4255-848d-7377281709a3",
-  "name": "Nividous Schweiz",
-  "career_url": "https://nividous.com/company/careers",
-  "jobs": [
-   {
-    "title": "<img class=\"zoom\" src=\"https://nividous.com/wp-content/uploads/2024/06/X-Icon.svg\" alt=\"Connect with Nividous on X\">",
-    "apply_url": "https://x.com/nividous"
-   },
-   {
-    "title": "<img class=\"zoom\" src=\"https://nividous.com/wp-content/uploads/2024/06/Linkedin-Icon.svg\" alt=\"Connect with Nividous on Linkedin\">",
-    "apply_url": "https://www.linkedin.com/company/nividous/"
-   },
-   {
-    "title": "<img class=\"zoom\" src=\"https://nividous.com/wp-content/uploads/2024/06/Youtube-Icon.svg\" alt=\"Connect with Nividous on Youtube\">",
-    "apply_url": "https://www.youtube.com/nividous/"
-   }
-  ],
-  "njobs": 3,
-  "status": "ok"
- },
- {
-  "id": "eeb8e51e-ce50-49df-b74e-fed85d5bc951",
-  "name": "Noser Engineering AG",
-  "career_url": "https://www.noser.com/karriere/academy/",
-  "jobs": [],
-  "njobs": 0,
-  "status": "no_jobs"
- },
- {
-  "id": "139bd5d9-2a5b-4345-8b4d-9f3996f94cc9",
-  "name": "Novel-T",
-  "career_url": "https://novel-t.ch/joinus/",
-  "jobs": [
-   {
-    "title": "Software > GMT",
-    "apply_url": "https://novel-t.ch/projectdetail/geospatial-microplanning-toolkit/"
-   },
-   {
-    "title": "Software > GTS",
-    "apply_url": "https://novel-t.ch/projectdetail/geospatial-tracking-system/"
-   },
-   {
-    "title": "Data Engineering",
-    "apply_url": "https://novel-t.ch/joinus/#"
-   },
-   {
-    "title": "Software",
-    "apply_url": "https://novel-t.ch/joinus/#"
-   }
-  ],
-  "njobs": 4,
-  "status": "ok"
- },
- {
-  "id": "f8e7a9ba-6cd6-4874-a46a-0d496992c1c4",
-  "name": "One Inside AG",
-  "career_url": "https://one-inside.com/jobs/",
-  "jobs": [],
-  "njobs": 0,
-  "status": "no_jobs"
- },
- {
-  "id": "71614912-021f-4731-8ef3-93ee618f84da",
-  "name": "oneConnect",
-  "career_url": "https://www.onecon.ch/ki-workshop",
-  "jobs": [],
-  "njobs": 0,
-  "status": "no_jobs"
- },
- {
-  "id": "9ec9f563-c41b-448a-9363-b64af0cb4b9a",
-  "name": "ongoing GmbH",
-  "career_url": "https://www.ongoing.ch/jobs",
-  "jobs": [],
-  "njobs": 0,
-  "status": "no_jobs"
- },
- {
-  "id": "af120122-f71c-4f53-8ed9-be413c46fdb3",
-  "name": "openconcept AG",
-  "career_url": "https://www.openconcept.com/firma/career",
-  "jobs": [],
-  "njobs": 0,
-  "status": "no_jobs"
- },
- {
-  "id": "24f6d13d-034f-4f84-bf4e-2591ef3d8d95",
-  "name": "OPTIML AG",
-  "career_url": "https://join.com/companies/optiml",
-  "jobs": [
-   {
-    "title": "Software Engineer - Infrastructure (m/f/d) (GCP & Platform)Zürich, SwitzerlandEmployeeSoftware Development",
-    "apply_url": "https://join.com/companies/optiml/16583861-software-engineer-infrastructure-m-f-d-gcp-and-platform"
-   }
-  ],
-  "njobs": 1,
-  "status": "ok"
- },
- {
-  "id": "575def25-3249-42b1-951f-a00c1b807ea8",
-  "name": "OrganaBio Swiss SA",
-  "career_url": "https://www.organabio.com/careers/",
-  "jobs": [],
-  "njobs": 0,
-  "status": "no_jobs"
- },
- {
-  "id": "5258ebe7-6d46-407a-8876-d7e499b2f6e1",
-  "name": "Orion Rechtsschutz-Versicherung",
-  "career_url": "https://www.orion.ch/de/jobs",
-  "jobs": [],
-  "njobs": 0,
-  "status": "no_jobs"
- },
- {
-  "id": "9afbbf42-879a-4b44-9de2-2e879f0146b2",
-  "name": "Parashift AG",
-  "career_url": "https://parashift.ai/de/jobrouter-integration/",
-  "jobs": [],
-  "njobs": 0,
-  "status": "no_jobs"
- },
- {
-  "id": "fda44a19-a10d-464a-85cf-0f7411892c18",
-  "name": "Pattern BioSciences",
-  "career_url": "https://www.patternbio.com/careers",
-  "jobs": [],
-  "njobs": 0,
-  "status": "no_jobs"
- },
- {
-  "id": "03aa4f09-c375-4ff1-a967-b8d89cfe83a7",
-  "name": "Pax",
-  "career_url": "https://www.pax.ch/de/karriere",
-  "jobs": [],
-  "njobs": 0,
-  "status": "no_jobs"
- },
- {
-  "id": "2ed9cf36-e13f-45cd-9d48-87fae96e6748",
-  "name": "PearlHive AG",
-  "career_url": "https://www.pearlhive.com/careers",
-  "jobs": [],
-  "njobs": 0,
-  "status": "no_jobs"
- },
- {
-  "id": "66d0c86b-9219-4767-a5a8-6ee5085a4f06",
-  "name": "PENTAG Informatik AG",
-  "career_url": "https://collanasolutions.jobs.personio.com/",
-  "jobs": [],
-  "njobs": 0,
-  "status": "no_jobs"
- },
- {
-  "id": "c156d2a2-f126-48af-aebe-b997a1d49af8",
-  "name": "Pinus AG",
-  "career_url": "https://pinus-buchhaltungssoftware.ch/offene-stellen/",
-  "jobs": [
-   {
-    "title": "Buchhaltungssoftware (Module)",
-    "apply_url": "https://pinus-buchhaltungssoftware.ch/pinus-classic-buchhaltungssoftware-bewaehrt-seit-2001/"
-   },
-   {
-    "title": "BUCHHALTUNGSSOFTWARE",
-    "apply_url": "https://pinus-buchhaltungssoftware.ch/offene-stellen/#"
-   }
-  ],
-  "njobs": 2,
-  "status": "ok"
- },
- {
-  "id": "fe2c54b5-a209-400d-8273-aa801a40342b",
-  "name": "Positrigo AG",
-  "career_url": "https://www.positrigo.com/positrigo-joins-the-access-ad-initiative/",
-  "jobs": [],
-  "njobs": 0,
-  "status": "no_jobs"
- },
- {
-  "id": "186eed30-2fa2-4394-adaf-5eb0901e7adf",
-  "name": "PropTech Partners - Neho",
-  "career_url": "https://neho.ch/#how-it-works",
-  "jobs": [],
-  "njobs": 0,
-  "status": "no_jobs"
- },
- {
-  "id": "c1ba3f75-5186-4c31-84f3-c1f0d016bd0c",
-  "name": "Qim info",
-  "career_url": "https://www.qiminfo.ch/modern-workplace-et-workstation/",
-  "jobs": [],
-  "njobs": 0,
-  "status": "no_jobs"
- },
- {
-  "id": "0b70b989-7887-4f92-ac11-4ad233a60c71",
-  "name": "Qualitas AG",
-  "career_url": "https://qualitas.com/work-with-us/",
-  "jobs": [],
-  "njobs": 0,
-  "status": "no_jobs"
- },
- {
-  "id": "e586e814-1e1a-4035-b1f1-2bf14f61c90c",
-  "name": "Rentificial Rental Management Software",
-  "career_url": "https://www.rentificial.com/careers",
-  "jobs": [],
-  "njobs": 0,
-  "status": "no_jobs"
- },
- {
-  "id": "eac35c73-bcca-48bf-96a9-7ec4b3d4b66a",
-  "name": "Rhenus Logistics",
-  "career_url": "https://www.rhenus.group/karriere/",
-  "jobs": [],
-  "njobs": 0,
-  "status": "no_jobs"
- },
- {
-  "id": "e8f6f533-7599-40b5-838c-8d415c3624d4",
-  "name": "Robert Kennedy College AG",
-  "career_url": "http://www.college.ch/jobs",
-  "jobs": [],
-  "njobs": 0,
-  "status": "no_jobs"
- },
- {
-  "id": "730fcedb-577f-4414-af8a-f2740a0ef82f",
-  "name": "Roboyo Schweiz",
-  "career_url": "https://roboyo.global/de/karriere/",
-  "jobs": [],
-  "njobs": 0,
-  "status": "no_jobs"
- },
- {
-  "id": "b98265b8-6578-4c3a-b28b-f275c5b120e0",
-  "name": "Roche Glycart 2",
-  "career_url": "https://careers.roche.com/global/en",
-  "jobs": [
-   {
-    "title": "Engineering",
-    "apply_url": "https://careers.roche.com/global/en/engineering"
-   },
-   {
-    "title": "Business Strategy & Finance",
-    "apply_url": "https://careers.roche.com/global/en/business-strategy-finance"
-   }
-  ],
-  "njobs": 2,
-  "status": "ok"
- },
- {
-  "id": "04c26662-df3b-49d4-a2ac-082e2e1725e9",
-  "name": "Scambia Patent Services",
-  "career_url": "https://www.scambia.ch/Home.html/careers",
-  "jobs": [],
-  "njobs": 0,
-  "status": "no_jobs"
- },
- {
-  "id": "f5227e4c-36cc-44ec-8313-3ad9d642b525",
-  "name": "seantis gmbh",
-  "career_url": "https://www.seantis.ch/careers/",
-  "jobs": [],
-  "njobs": 0,
-  "status": "no_jobs"
- },
- {
-  "id": "c0492256-5722-4014-954c-10300ed7bf28",
-  "name": "SIB Swiss Institute of Bioinformatics",
-  "career_url": "https://www.isb-sib.ch/activities/coordination/the-swiss-personalized-health-network-sphn-from-setup-to-sustainability",
-  "jobs": [],
-  "njobs": 0,
-  "status": "no_jobs"
- },
- {
-  "id": "1e62cb8f-e62f-4858-a8aa-ee62d53b2fde",
-  "name": "siebenberge gmbh",
-  "career_url": "https://www.siebenberge.com/jobs",
-  "jobs": [],
-  "njobs": 0,
-  "status": "no_jobs"
- },
- {
-  "id": "82b1523a-0b14-4065-8630-de61db0bcd11",
-  "name": "SKOOR GmbH",
-  "career_url": "https://www.skoor.com/jobs",
-  "jobs": [],
-  "njobs": 0,
-  "status": "no_jobs"
- },
- {
-  "id": "ef386a10-8afd-477e-95e4-a01da0f992e9",
-  "name": "Skovian",
-  "career_url": "https://www.skovian.com/careers/",
-  "jobs": [],
-  "njobs": 0,
-  "status": "no_jobs"
- },
- {
-  "id": "10065cda-697f-4aca-87ff-10597f37ebdf",
-  "name": "Skribble AG",
-  "career_url": "https://skribble.com/de-de/karriere/",
-  "jobs": [
-   {
-    "title": "Leadfeeder1",
-    "apply_url": "https://www.skribble.com/de-de/karriere/#"
-   }
-  ],
-  "njobs": 1,
-  "status": "ok"
- },
- {
-  "id": "31f967f7-eed2-4d55-b12b-edbe3aaaecd5",
-  "name": "Sly AG",
-  "career_url": "https://sly.ch/careers",
-  "jobs": [
-   {
-    "title": "ExperiencedDMS Consultant (60-100%)",
-    "apply_url": "https://sly.ch/careers/dms-consultant"
-   }
-  ],
-  "njobs": 1,
-  "status": "ok"
- },
- {
-  "id": "8024c476-bbc9-4191-8f8b-8b1b06206efa",
-  "name": "Smallpdf",
-  "career_url": "https://smallpdf.com/careers",
-  "jobs": [
-   {
-    "title": "Developers",
-    "apply_url": "https://smallpdf.com/library-detail"
-   }
-  ],
-  "njobs": 1,
-  "status": "ok"
- },
- {
-  "id": "a25fb1aa-c038-4504-82f0-2048b22716f7",
-  "name": "Smart2Move",
-  "career_url": "https://www.smart2move.com/jobs",
-  "jobs": [],
-  "njobs": 0,
-  "status": "no_jobs"
- },
- {
-  "id": "97cb0881-6bf1-443c-acf7-785a664ee0da",
-  "name": "Smartbridge AG",
-  "career_url": "https://www.staff.cloud/de/schnittstellen",
-  "jobs": [],
-  "njobs": 0,
-  "status": "no_jobs"
- },
- {
-  "id": "56c6c158-f95a-4be4-8231-172a44c6b426",
-  "name": "smino",
-  "career_url": "https://smino.com/teamwork/",
-  "jobs": [],
-  "njobs": 0,
-  "status": "no_jobs"
- },
- {
-  "id": "894f4c91-ecf0-4f59-8aad-99cefadfa8ac",
-  "name": "Softcom Technologies SA",
-  "career_url": "https://softcom.pro/nous-rejoindre/",
-  "jobs": [],
-  "njobs": 0,
-  "status": "error",
-  "error": "Page.eval_on_selector_all: Execution context was destroyed, most likely because of a navigation"
- },
- {
-  "id": "8f9a7438-7f38-4279-8949-294bbb9193de",
-  "name": "SOFTEC AG",
-  "career_url": "https://www.softec.ch/loesungen/modern-workplace/",
-  "jobs": [],
-  "njobs": 0,
-  "status": "no_jobs"
- },
- {
-  "id": "2418ddbb-5fa4-4151-99f3-74935597fa8a",
-  "name": "Stellenmatch GmbH",
-  "career_url": "https://stellenmatch.ch/careers",
-  "jobs": [],
-  "njobs": 0,
-  "status": "no_jobs"
- },
- {
-  "id": "4070bf53-4eda-4068-82de-3dc24ecf50d0",
-  "name": "Stiftung Informatik für Autisten",
-  "career_url": "https://stiftung.ch/offene-stellen/",
-  "jobs": [],
-  "njobs": 0,
-  "status": "no_jobs"
- },
- {
-  "id": "836728f6-0c50-4903-b697-8cacb90f0a01",
-  "name": "Supertext SA",
-  "career_url": "https://www.supertext.ch/en/work-at-supertext",
-  "jobs": [],
-  "njobs": 0,
-  "status": "error",
-  "error": "Page.goto: net::ERR_CERT_AUTHORITY_INVALID at https://www.supertext.ch/en/work-at-supertext\nCall log"
- },
- {
-  "id": "b4efe79e-0bd4-43dc-b873-9ebc98143a4d",
-  "name": "Sway Finance SA",
-  "career_url": "https://www.swayfinance.com/jobs",
-  "jobs": [],
-  "njobs": 0,
-  "status": "no_jobs"
- },
- {
-  "id": "1ecf2ac6-ed8a-4919-a764-045b94fa65c7",
-  "name": "Swiss Bau",
-  "career_url": "https://www.swissbau.ch/de/entdecken/aussteller",
-  "jobs": [],
-  "njobs": 0,
-  "status": "no_jobs"
- },
- {
-  "id": "c97a3de5-10cb-4de0-a080-3e08ff586bca",
-  "name": "Swiss Vault",
-  "career_url": "https://www.swissvault.global/careers",
-  "jobs": [],
-  "njobs": 0,
-  "status": "no_jobs"
- },
- {
-  "id": "c97e1365-ab52-4429-966e-2eacd6f01637",
-  "name": "SYNSPACE Switzerland GmbH",
-  "career_url": "http://www.synspace.swiss/careers",
-  "jobs": [],
-  "njobs": 0,
-  "status": "no_jobs"
- },
- {
-  "id": "06a79296-9b55-4538-9b81-ba80c1b9e39a",
-  "name": "T&N ICT Solutions",
-  "career_url": "https://www.tn-ict.com/en/solutions/it-networking",
-  "jobs": [],
-  "njobs": 0,
-  "status": "no_jobs"
- },
- {
-  "id": "50998d0b-87bf-42e8-9a31-e4c29ad32a82",
-  "name": "t2b AG",
-  "career_url": "https://t2b.ch/ai-solutions#AIWorkflow",
-  "jobs": [],
-  "njobs": 0,
-  "status": "no_jobs"
- },
- {
-  "id": "8d0512f7-37a5-4d90-90ab-0a62f7ef6933",
-  "name": "TechLounges",
-  "career_url": "https://techlounges.com/careers",
-  "jobs": [],
-  "njobs": 0,
-  "status": "no_jobs"
- },
- {
-  "id": "bc92daf6-8624-4b3e-ae6f-008383a237cd",
-  "name": "The Virtual Doctors",
-  "career_url": "https://www.thet.org/our-work/country-programmes/zambia/",
-  "jobs": [],
-  "njobs": 0,
-  "status": "no_jobs"
- },
- {
-  "id": "dc33cd3f-fa5e-4bd6-8504-bad21c21d740",
-  "name": "Threema",
-  "career_url": "https://work.threema.ch/en/login",
-  "jobs": [],
-  "njobs": 0,
-  "status": "no_jobs"
- },
- {
-  "id": "49931fe4-3764-474a-addd-1a237cbdbd50",
-  "name": "ti&m",
-  "career_url": "https://www.ti8m.com/en/career",
-  "jobs": [
-   {
-    "title": "Engineering",
-    "apply_url": "https://www.ti8m.com/en/career/engineering"
-   },
-   {
-    "title": "Security",
-    "apply_url": "https://www.ti8m.com/en/career/security"
-   }
-  ],
-  "njobs": 2,
-  "status": "ok"
- },
- {
-  "id": "734332b8-cbd9-4e92-84c3-90a3beddcbb5",
-  "name": "Tolremo Therapeutics",
-  "career_url": "https://www.tolremo.com/careers",
-  "jobs": [],
-  "njobs": 0,
-  "status": "no_jobs"
- },
- {
-  "id": "4ceb0b99-cf0d-49d3-9e9e-4b958454b0d8",
-  "name": "Truecode Engineering GmbH",
-  "career_url": "https://truecode.ch/careers",
-  "jobs": [],
-  "njobs": 0,
-  "status": "no_jobs"
- },
- {
-  "id": "53a14e60-6a17-4e35-95fa-bb6645ff3cbb",
-  "name": "Unchained Commerce",
-  "career_url": "https://unchained.ch/careers",
-  "jobs": [],
-  "njobs": 0,
-  "status": "no_jobs"
- },
- {
-  "id": "7822b9e8-75ef-46ba-be94-3a89a8460b73",
-  "name": "Uptown Basel",
-  "career_url": "https://www.chiliworks.ch/",
-  "jobs": [],
-  "njobs": 0,
-  "status": "no_jobs"
- },
- {
-  "id": "57fc302a-03dd-493e-9eb4-ea89a53d4632",
-  "name": "Vanillaplan",
-  "career_url": "https://www.vanillaplan.ch/produkt/schnittstellenplattform",
-  "jobs": [],
-  "njobs": 0,
-  "status": "no_jobs"
- },
- {
-  "id": "16deca18-d0eb-4443-b5d9-1c096eab480d",
-  "name": "Virtual Forge",
-  "career_url": "https://onapsis.com/company/careers/",
-  "jobs": [
-   {
-    "title": "SalesLoft2",
-    "apply_url": "https://onapsis.com/company/careers/#"
-   },
-   {
-    "title": "SalesLoft1",
-    "apply_url": "https://onapsis.com/company/careers/#"
-   }
-  ],
-  "njobs": 2,
-  "status": "ok"
- },
- {
-  "id": "4313bc33-8c95-45b6-8b67-ae549fc8f449",
-  "name": "VirtueSpark",
-  "career_url": "https://www.virtuespark.com/2021/04/09/remote-working-creates-an-imperative-for-a-risk-aware-culture/",
-  "jobs": [],
-  "njobs": 0,
-  "status": "no_jobs"
- },
- {
-  "id": "d3764fbc-bdeb-4b96-a803-a109a362c0af",
-  "name": "vlot AG",
-  "career_url": "https://www.vlot.ch/careers",
-  "jobs": [],
-  "njobs": 0,
-  "status": "no_jobs"
- },
- {
-  "id": "e9d438c7-9a19-497a-8cc6-9081475b42e0",
-  "name": "VSHN AG",
-  "career_url": "https://vshn.ch/blog/category/new-work/feed/",
-  "jobs": [],
-  "njobs": 0,
-  "status": "no_jobs"
- },
- {
-  "id": "53d0e8d2-3968-4450-ba3a-ca447f038e37",
-  "name": "VZ Labs SA",
-  "career_url": "https://chataigne.ai/en/careers",
-  "jobs": [],
-  "njobs": 0,
-  "status": "no_jobs"
- },
- {
-  "id": "750da10a-91a1-4cb6-b898-6eb850784f4e",
-  "name": "W&W Immo Informatik AG",
-  "career_url": "https://www.wwimmo.ch/ueber-ww/jobs/",
-  "jobs": [],
-  "njobs": 0,
-  "status": "no_jobs"
- },
- {
-  "id": "77774577-8758-4328-8a11-aec5bd2e3955",
-  "name": "WAAT Switzerland",
-  "career_url": "https://waat.eu/#work",
-  "jobs": [],
-  "njobs": 0,
-  "status": "no_jobs"
- },
- {
-  "id": "35746cbd-1d32-4247-9dad-1e65e5b75886",
-  "name": "weroSoft AG",
-  "career_url": "https://werosoft.net/karriere/",
-  "jobs": [],
-  "njobs": 0,
-  "status": "no_jobs"
- },
- {
-  "id": "9100639c-8d06-4b3c-af22-5514fab97de8",
-  "name": "Woonig AG",
-  "career_url": "https://www.woonig.com/integration-und-schnittstellen",
-  "jobs": [],
-  "njobs": 0,
-  "status": "no_jobs"
- },
- {
-  "id": "dda95697-f928-49d2-976a-a7ee19d3970f",
-  "name": "Worldsoft AG",
-  "career_url": "https://www.worldsoft.info/bestellen",
-  "jobs": [],
-  "njobs": 0,
-  "status": "no_jobs"
- },
- {
-  "id": "7a835b4d-35ae-4d95-90cc-e4150f1cc7c6",
-  "name": "XAMPLO",
-  "career_url": "https://www.xamplo.com/produkte/freshworks",
-  "jobs": [],
-  "njobs": 0,
-  "status": "no_jobs"
- },
- {
-  "id": "51c2c94f-566b-46d7-9509-91a51e8556a3",
-  "name": "Xorlab",
-  "career_url": "https://www.xorlab.com/en/careers",
-  "jobs": [],
-  "njobs": 0,
-  "status": "no_jobs"
- },
- {
-  "id": "88fd02ba-dca4-40c9-960a-2808f8cc87a2",
-  "name": "YOO AG",
-  "career_url": "https://www.yoo.digital/karriere",
-  "jobs": [],
-  "njobs": 0,
-  "status": "no_jobs"
- },
- {
-  "id": "2879eeb3-f38f-4afd-821b-d5ef7d8c34e9",
-  "name": "YouEngineering",
-  "career_url": "https://youengineering.ch/leistungen/intelligent-workplace",
-  "jobs": [],
-  "njobs": 0,
-  "status": "no_jobs"
- },
- {
-  "id": "6700cf56-cbf9-4681-a4f4-5e2c077680b2",
-  "name": "ZEIT AG",
-  "career_url": "https://zeitag.ch/karriereseite",
-  "jobs": [],
-  "njobs": 0,
-  "status": "no_jobs"
- },
- {
-  "id": "0c45bd38-8c80-47ef-8c03-702df94b1bed",
-  "name": "zvoove",
-  "career_url": "https://zvoove.com/news/zvoove-acquires-pixi-the-ai-agent-to-automate-administrative-work-for-staffing-agencies",
-  "jobs": [],
-  "njobs": 0,
-  "status": "no_jobs"
+  "jobs": []
  }
 ]

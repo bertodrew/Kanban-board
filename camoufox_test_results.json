@@ -8,11 +8,27 @@
    "status": "no_jobs",
    "sample": [],
    "schemas": []
+  },
+  "camoufox": {
+   "njobs": 0,
+   "blocked": false,
+   "xhr": 0,
+   "status": "no_jobs",
+   "sample": [],
+   "schemas": []
   }
  },
  "Boehringer Ingelheim": {
   "url": "https://careers.boehringer-ingelheim.com",
   "chromium": {
+   "njobs": 0,
+   "blocked": false,
+   "xhr": 0,
+   "status": "no_jobs",
+   "sample": [],
+   "schemas": []
+  },
+  "camoufox": {
    "njobs": 0,
    "blocked": false,
    "xhr": 0,
@@ -184,6 +200,145 @@
      ]
     }
    ]
+  },
+  "camoufox": {
+   "njobs": 0,
+   "blocked": false,
+   "xhr": 27,
+   "status": "no_jobs",
+   "sample": [],
+   "schemas": [
+    {
+     "url": "https://careers.givaudan.com/widgets",
+     "path": "$.canvasGetWidgetContent.data.contentData.hf-givaudanheadergben$$z4HDz3vS.contentMap.menuBlock",
+     "n": 7,
+     "keys": [
+      "_cid",
+      "folderItems",
+      "folderName",
+      "position",
+      "ariaLabel"
+     ]
+    },
+    {
+     "url": "https://careers.givaudan.com/widgets",
+     "path": "$.canvasGetWidgetContent.data.contentData.uP5nIuMC$$gsdsEfrbb.bindables.jobInfoFields",
+     "n": 2,
+     "keys": [
+      "key",
+      "srKey",
+      "icon"
+     ]
+    },
+    {
+     "url": "https://careers.givaudan.com/widgets",
+     "path": "$.canvasGetWidgetContent.data.contentData.hf-givaudanfootergben$$menliv1d.contentMap.menuBlock",
+     "n": 3,
+     "keys": [
+      "_cid",
+      "link",
+      "position",
+      "title"
+     ]
+    },
+    {
+     "url": "https://careers.givaudan.com/widgets",
+     "path": "$.canvasGetWidgetContent.data.contentData.hf-givaudanfootergben$$piuhsd78.contentMap.menuBlock",
+     "n": 4,
+     "keys": [
+      "_cid",
+      "link",
+      "position",
+      "title"
+     ]
+    },
+    {
+     "url": "https://careers.givaudan.com/widgets",
+     "path": "$.canvasGetWidgetContent.data.designData.6LFNi2JC.cards",
+     "n": 5,
+     "keys": [
+      "8e435d56-h3-5",
+      "8e435d56-img-5",
+      "8e435d56-p-12"
+     ]
+    },
+    {
+     "url": "https://careers.givaudan.com/widgets",
+     "path": "$.canvasGetWidgetContent.data.designData.b3gDHzNl.cards",
+     "n": 1,
+     "keys": [
+      "90dfeb13-a-2",
+      "90dfeb13-div-6",
+      "90dfeb13-img-1",
+      "90dfeb13-h3-1",
+      "90dfeb13-figure-1",
+      "90dfeb13-span-4",
+      "90dfeb13-button-1"
+     ]
+    },
+    {
+     "url": "https://careers.givaudan.com/widgets",
+     "path": "$.canvasGetWidgetContent.data.designData.hf-givaudanfootergben.cards",
+     "n": 5,
+     "keys": [
+      "63fbf634-span-5",
+      "63fbf634-svg-5",
+      "63fbf634-li-8"
+     ]
+    },
+    {
+     "url": "https://careers.givaudan.com/widgets",
+     "path": "$.canvasGetWidgetContent.data.designData.v5HDz3vS.cards",
+     "n": 3,
+     "keys": [
+      "e48864c9-a-2"
+     ]
+    },
+    {
+     "url": "https://careers.givaudan.com/widgets",
+     "path": "$.canvasGetWidgetContent.data.designData.hf-givaudanheadergben$$z4HDz3vS.cards",
+     "n": 7,
+     "keys": []
+    },
+    {
+     "url": "https://careers.givaudan.com/widgets",
+     "path": "$.canvasGetWidgetContent.data.designData.v6HDz3vS.cards",
+     "n": 3,
+     "keys": [
+      "e48864c9-a-2"
+     ]
+    },
+    {
+     "url": "https://careers.givaudan.com/widgets",
+     "path": "$.canvasPxPageWidgetConfig.data.pageLevelWidget.stranger.widgetList",
+     "n": 11,
+     "keys": [
+      "widgetId",
+      "widgetName",
+      "displayName",
+      "px-block",
+      "ignoreSlider",
+      "widgetConfigMode",
+      "ignoreWidgetTitle",
+      "enabled"
+     ]
+    },
+    {
+     "url": "https://careers.givaudan.com/widgets",
+     "path": "$.canvasPxPageWidgetConfig.data.pageLevelWidget.qualifiedlead.widgetList",
+     "n": 6,
+     "keys": [
+      "widgetId",
+      "widgetName",
+      "displayName",
+      "px-block",
+      "widgetConfigMode",
+      "ignoreSlider",
+      "ignoreWidgetTitle",
+      "enabled"
+     ]
+    }
+   ]
   }
  },
  "Kuehne + Nagel": {
@@ -191,7 +346,148 @@
   "chromium": {
    "njobs": 0,
    "blocked": false,
-   "xhr": 32,
+   "xhr": 34,
+   "status": "no_jobs",
+   "sample": [],
+   "schemas": [
+    {
+     "url": "https://content-ir.phenompeople.com/api/KUNAGLOBAL/jobwidgetsettings?locale=en_g",
+     "path": "$.jobwidgetsettings.data.fields",
+     "n": 5,
+     "keys": [
+      "name",
+      "display_name",
+      "settings",
+      "checked"
+     ]
+    },
+    {
+     "url": "https://content-ir.phenompeople.com/api/KUNAGLOBAL/jobwidgetsettings?locale=en_g",
+     "path": "$.jobwidgetsettings.data.widgets.ph-search-results-v2.fields",
+     "n": 6,
+     "keys": [
+      "name",
+      "display_name",
+      "settings",
+      "checked"
+     ]
+    },
+    {
+     "url": "https://content-ir.phenompeople.com/api/KUNAGLOBAL/jobwidgetsettings?locale=en_g",
+     "path": "$.jobwidgetsettings.data.widgets.ph-job-details-v1.fields",
+     "n": 7,
+     "keys": [
+      "name",
+      "display_name",
+      "settings",
+      "checked"
+     ]
+    },
+    {
+     "url": "https://content-ir.phenompeople.com/api/KUNAGLOBAL/jobwidgetsettings?locale=en_g",
+     "path": "$.jobwidgetsettings.data.widgets.phw-latest-jobs.fields",
+     "n": 5,
+     "keys": [
+      "name",
+      "display_name",
+      "settings",
+      "checked"
+     ]
+    },
+    {
+     "url": "https://content-ir.phenompeople.com/api/KUNAGLOBAL/jobwidgetsettings?locale=en_g",
+     "path": "$.jobwidgetsettings.data.widgets.phw-latest-jobs.actions",
+     "n": 1,
+     "keys": [
+      "name",
+      "display_name",
+      "settings",
+      "svg"
+     ]
+    },
+    {
+     "url": "https://content-ir.phenompeople.com/api/KUNAGLOBAL/jobwidgetsettings?locale=en_g",
+     "path": "$.jobwidgetsettings.data.widgets.phw-recom-jobs-browsing-history.fields",
+     "n": 5,
+     "keys": [
+      "name",
+      "display_name",
+      "settings",
+      "checked"
+     ]
+    },
+    {
+     "url": "https://content-ir.phenompeople.com/api/KUNAGLOBAL/jobwidgetsettings?locale=en_g",
+     "path": "$.jobwidgetsettings.data.widgets.phw-recom-jobs-browsing-history.actions",
+     "n": 1,
+     "keys": [
+      "name",
+      "display_name",
+      "settings",
+      "svg"
+     ]
+    },
+    {
+     "url": "https://content-ir.phenompeople.com/api/KUNAGLOBAL/jobwidgetsettings?locale=en_g",
+     "path": "$.jobwidgetsettings.data.widgets.phw-profile-recommendations.fields",
+     "n": 5,
+     "keys": [
+      "name",
+      "display_name",
+      "settings",
+      "checked"
+     ]
+    },
+    {
+     "url": "https://content-ir.phenompeople.com/api/KUNAGLOBAL/jobwidgetsettings?locale=en_g",
+     "path": "$.jobwidgetsettings.data.widgets.phw-profile-recommendations.actions",
+     "n": 1,
+     "keys": [
+      "name",
+      "display_name",
+      "settings",
+      "svg"
+     ]
+    },
+    {
+     "url": "https://content-ir.phenompeople.com/api/KUNAGLOBAL/jobwidgetsettings?locale=en_g",
+     "path": "$.jobwidgetsettings.data.widgets.phw-near-by-jobs.fields",
+     "n": 5,
+     "keys": [
+      "name",
+      "display_name",
+      "settings",
+      "checked"
+     ]
+    },
+    {
+     "url": "https://content-ir.phenompeople.com/api/KUNAGLOBAL/jobwidgetsettings?locale=en_g",
+     "path": "$.jobwidgetsettings.data.widgets.phw-near-by-jobs.actions",
+     "n": 1,
+     "keys": [
+      "name",
+      "display_name",
+      "settings",
+      "svg"
+     ]
+    },
+    {
+     "url": "https://content-ir.phenompeople.com/api/KUNAGLOBAL/jobwidgetsettings?locale=en_g",
+     "path": "$.jobwidgetsettings.data.widgets.phw-least-applied-jobs.fields",
+     "n": 5,
+     "keys": [
+      "name",
+      "display_name",
+      "settings",
+      "checked"
+     ]
+    }
+   ]
+  },
+  "camoufox": {
+   "njobs": 0,
+   "blocked": false,
+   "xhr": 33,
    "status": "no_jobs",
    "sample": [],
    "schemas": [
@@ -339,6 +635,14 @@
    "status": "no_jobs",
    "sample": [],
    "schemas": []
+  },
+  "camoufox": {
+   "njobs": 0,
+   "blocked": false,
+   "xhr": 0,
+   "status": "no_jobs",
+   "sample": [],
+   "schemas": []
   }
  },
  "Roche": {
@@ -407,11 +711,84 @@
      ]
     }
    ]
+  },
+  "camoufox": {
+   "njobs": 0,
+   "blocked": false,
+   "xhr": 13,
+   "status": "no_jobs",
+   "sample": [],
+   "schemas": [
+    {
+     "url": "https://careers.roche.com/widgets",
+     "path": "$.canvasGetWidgetContent.data.contentData.hf-test-footer$$piuhsd78.contentMap.menuBlock",
+     "n": 2,
+     "keys": [
+      "_cid",
+      "link",
+      "position",
+      "title"
+     ]
+    },
+    {
+     "url": "https://careers.roche.com/widgets",
+     "path": "$.canvasGetWidgetContent.data.contentData.hf-test-footer$$menliv1d.contentMap.menuBlock",
+     "n": 4,
+     "keys": [
+      "_cid",
+      "folderItems",
+      "folderName",
+      "position"
+     ]
+    },
+    {
+     "url": "https://careers.roche.com/widgets",
+     "path": "$.canvasGetWidgetContent.data.contentData.hf-krisztian-test$$z4HDz3vS.contentMap.menuBlock",
+     "n": 4,
+     "keys": [
+      "_cid",
+      "folderItems",
+      "folderName",
+      "position"
+     ]
+    },
+    {
+     "url": "https://careers.roche.com/widgets",
+     "path": "$.canvasGetWidgetContent.data.designData.hf-test-footer$$piuhsd78.cards",
+     "n": 1,
+     "keys": [
+      "45165f2b-li-1"
+     ]
+    },
+    {
+     "url": "https://careers.roche.com/widgets",
+     "path": "$.dynaData.data.widgets",
+     "n": 1,
+     "keys": [
+      "instanceId",
+      "contentData",
+      "widgetId",
+      "bannerName",
+      "selector",
+      "conditions",
+      "structure",
+      "designData"
+     ]
+    }
+   ]
   }
  },
  "Straumann Group": {
   "url": "https://careers.straumann.com",
   "chromium": {
+   "njobs": 0,
+   "blocked": false,
+   "xhr": 8,
+   "status": "no_jobs",
+   "sample": [],
+   "schemas": []
+  },
+  "camoufox": {
    "njobs": 0,
    "blocked": false,
    "xhr": 8,
@@ -427,6 +804,14 @@
    "blocked": true,
    "xhr": 0,
    "status": "blocked",
+   "sample": [],
+   "schemas": []
+  },
+  "camoufox": {
+   "njobs": 0,
+   "blocked": false,
+   "xhr": 0,
+   "status": "no_jobs",
    "sample": [],
    "schemas": []
   }

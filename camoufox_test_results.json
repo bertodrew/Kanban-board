@@ -36,135 +36,35 @@
  "Givaudan": {
   "url": "https://jobs.givaudan.com/search/",
   "chromium": {
-   "njobs": 16,
+   "njobs": 0,
    "blocked": false,
    "xhr": 26,
-   "status": "ok",
-   "sample": [
-    {
-     "title": "Privacy Policy",
-     "loc": ""
-    },
-    {
-     "title": "Terms Of Use",
-     "loc": ""
-    },
-    {
-     "title": "v-1636458601019-expire_job",
-     "loc": ""
-    },
-    {
-     "title": "Header Items",
-     "loc": ""
-    },
-    {
-     "title": "Search job",
-     "loc": ""
-    },
-    {
-     "title": "My profile",
-     "loc": ""
-    }
-   ]
+   "status": "no_jobs",
+   "sample": []
   },
   "camoufox": {
-   "njobs": 16,
+   "njobs": 0,
    "blocked": false,
    "xhr": 26,
-   "status": "ok",
-   "sample": [
-    {
-     "title": "Privacy Policy",
-     "loc": ""
-    },
-    {
-     "title": "Terms Of Use",
-     "loc": ""
-    },
-    {
-     "title": "v-1636458601019-expire_job",
-     "loc": ""
-    },
-    {
-     "title": "Header Items",
-     "loc": ""
-    },
-    {
-     "title": "Search job",
-     "loc": ""
-    },
-    {
-     "title": "My profile",
-     "loc": ""
-    }
-   ]
+   "status": "no_jobs",
+   "sample": []
   }
  },
  "Kuehne + Nagel": {
   "url": "https://jobs.kuehne-nagel.com/global/en",
   "chromium": {
-   "njobs": 24,
+   "njobs": 0,
    "blocked": false,
    "xhr": 34,
-   "status": "ok",
-   "sample": [
-    {
-     "title": "cityCountry",
-     "loc": ""
-    },
-    {
-     "title": "CareerLevel",
-     "loc": ""
-    },
-    {
-     "title": "location",
-     "loc": ""
-    },
-    {
-     "title": "multi_location",
-     "loc": ""
-    },
-    {
-     "title": "salaryVisibility",
-     "loc": ""
-    },
-    {
-     "title": "addToCart",
-     "loc": ""
-    }
-   ]
+   "status": "no_jobs",
+   "sample": []
   },
   "camoufox": {
-   "njobs": 22,
+   "njobs": 0,
    "blocked": false,
    "xhr": 34,
-   "status": "ok",
-   "sample": [
-    {
-     "title": "cityCountry",
-     "loc": ""
-    },
-    {
-     "title": "CareerLevel",
-     "loc": ""
-    },
-    {
-     "title": "location",
-     "loc": ""
-    },
-    {
-     "title": "multi_location",
-     "loc": ""
-    },
-    {
-     "title": "salaryVisibility",
-     "loc": ""
-    },
-    {
-     "title": "addToCart",
-     "loc": ""
-    }
-   ]
+   "status": "no_jobs",
+   "sample": []
   }
  },
  "Nestlé": {
@@ -187,79 +87,28 @@
  "Roche": {
   "url": "https://careers.roche.com/global/en",
   "chromium": {
-   "njobs": 6,
+   "njobs": 0,
    "blocked": false,
    "xhr": 13,
-   "status": "ok",
-   "sample": [
-    {
-     "title": "Privacy Policy",
-     "loc": ""
-    },
-    {
-     "title": "Terms Of Use",
-     "loc": ""
-    },
-    {
-     "title": "Legal Statement",
-     "loc": ""
-    },
-    {
-     "title": "Student & Graduate Programmes",
-     "loc": ""
-    },
-    {
-     "title": "chatbotLoadTC",
-     "loc": ""
-    },
-    {
-     "title": "chatbotAudioTranscript",
-     "loc": ""
-    }
-   ]
+   "status": "no_jobs",
+   "sample": []
   },
   "camoufox": {
-   "njobs": 4,
+   "njobs": 0,
    "blocked": false,
    "xhr": 12,
-   "status": "ok",
-   "sample": [
-    {
-     "title": "Privacy Policy",
-     "loc": ""
-    },
-    {
-     "title": "Terms Of Use",
-     "loc": ""
-    },
-    {
-     "title": "Legal Statement",
-     "loc": ""
-    },
-    {
-     "title": "Student & Graduate Programmes",
-     "loc": ""
-    }
-   ]
+   "status": "no_jobs",
+   "sample": []
   }
  },
  "Straumann Group": {
   "url": "https://careers.straumann.com",
   "chromium": {
-   "njobs": 2,
+   "njobs": 0,
    "blocked": false,
    "xhr": 8,
-   "status": "ok",
-   "sample": [
-    {
-     "title": "chatbotLoadTC",
-     "loc": ""
-    },
-    {
-     "title": "chatbotAudioTranscript",
-     "loc": ""
-    }
-   ]
+   "status": "no_jobs",
+   "sample": []
   },
   "camoufox": {
    "njobs": 0,

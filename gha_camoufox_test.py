@@ -54,19 +54,39 @@ def _val(d, keys):
     return ''
 
 
+REQID = re.compile(r'(^|_)(req|jobid|job_id|jobseqno|positionid|posid|slug|externalpath|autoreqid|'
+    r'ml_job|jobnumber|joburl|applyurl|ats_job)', re.I)
+LOC_SIGNAL = ('location', 'city', 'cities', 'country', 'primarylocation', 'locationstext',
+              'locationlatlong', 'joblocation', 'state', 'region', 'worklocation')
+
+
+def is_job(d):
+    """A job record has a title AND a strong job signal (location or requisition id)."""
+    keys = list(d.keys())
+    tkey = next((k for k in keys if k.lower() in TITLE_KEYS and isinstance(d[k], str) and d[k].strip()), None)
+    if not tkey:
+        return None
+    title = d[tkey].strip()
+    if not (8 <= len(title) <= 150):
+        return None
+    loc_sig = any(k.lower() in LOC_SIGNAL for k in keys)
+    id_sig = any(REQID.search(k) for k in keys)
+    if not (loc_sig or id_sig):
+        return None
+    return {'title': title[:120], 'loc': _val(d, LOC_KEYS), 'url': _val(d, URL_KEYS)}
+
+
 def walk(obj, out, depth=0):
     """Recursively find dicts that look like job records; collect (title, loc, url)."""
-    if depth > 8:
+    if depth > 9:
         return
     if isinstance(obj, list):
         for it in obj:
             walk(it, out, depth + 1)
     elif isinstance(obj, dict):
-        tkey = next((k for k in obj if k.lower() in TITLE_KEYS and isinstance(obj[k], str)), None)
-        if tkey:
-            title = obj[tkey].strip()
-            if 8 <= len(title) <= 150:
-                out.append({'title': title[:120], 'loc': _val(obj, LOC_KEYS), 'url': _val(obj, URL_KEYS)})
+        rec = is_job(obj)
+        if rec:
+            out.append(rec)
         for v in obj.values():
             if isinstance(v, (list, dict)):
                 walk(v, out, depth + 1)

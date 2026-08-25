@@ -116,6 +116,36 @@ def coax(page):
     except Exception: pass
 
 
+PHENOM_JS = """async () => {
+  const out = [];
+  const tryFetch = async (q) => {
+    try {
+      const r = await fetch('/api/apply/v2/jobs' + q, {headers: {'Accept': 'application/json'}});
+      if (!r.ok) return null;
+      const d = await r.json();
+      return d.jobs || d.positions || d.data || [];
+    } catch (e) { return null; }
+  };
+  for (let off = 0; off < 400; off += 100) {
+    let jobs = await tryFetch(`?location=Switzerland&limit=100&offset=${off}`);
+    if (jobs === null) jobs = await tryFetch(`?keywords=&location=Switzerland&limit=100&offset=${off}`);
+    if (!jobs || !jobs.length) break;
+    out.push(...jobs);
+    if (jobs.length < 100) break;
+  }
+  return out.map(j => ({title: j.title || j.name || '', loc: (j.location || (j.cities && j.cities.join(', ')) || j.country || ''), url: j.applyUrl || j.ml_job_url || j.canonicalUrl || ''}));
+}"""
+
+
+def phenom_api(page):
+    try:
+        recs = page.evaluate(PHENOM_JS) or []
+        return [{'title': r['title'], 'loc': r.get('loc', ''), 'url': r.get('url', '')}
+                for r in recs if r.get('title')]
+    except Exception:
+        return []
+
+
 def harvest(page, url):
     captured = []
     cap_urls = []
@@ -154,7 +184,10 @@ def harvest(page, url):
     for i, body in enumerate(captured[:60]):
         schema(body, '$', cap_urls[i] if i < len(cap_urls) else '?')
 
-    recs = []
+    # Phenom People: call the jobs API from inside the page (session cookies + anti-bot token set)
+    phenom_recs = phenom_api(page)
+
+    recs = list(phenom_recs)
     for body in captured[:60]:
         walk(body, recs)
     # dedup + Swiss filter

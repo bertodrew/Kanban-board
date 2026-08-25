@@ -1,17 +1,27 @@
 {
  "Bayer": {
   "url": "https://talent.bayer.com",
-  "camoufox": {
-   "njobs": 1,
+  "chromium": {
+   "njobs": 0,
    "blocked": false,
-   "status": "ok",
-   "sample": [
-    "Can’t access your account?"
-   ]
+   "status": "no_jobs",
+   "sample": []
+  },
+  "camoufox": {
+   "njobs": 0,
+   "blocked": false,
+   "status": "no_jobs",
+   "sample": []
   }
  },
  "Boehringer Ingelheim": {
   "url": "https://careers.boehringer-ingelheim.com",
+  "chromium": {
+   "njobs": 0,
+   "blocked": false,
+   "status": "no_jobs",
+   "sample": []
+  },
   "camoufox": {
    "njobs": 0,
    "blocked": false,
@@ -21,6 +31,18 @@
  },
  "Givaudan": {
   "url": "https://jobs.givaudan.com/search/",
+  "chromium": {
+   "njobs": 9,
+   "blocked": false,
+   "status": "ok",
+   "sample": [
+    "Sales and marketing",
+    "Interns and apprentices",
+    "Trainee programmes",
+    "CI Manager",
+    "Senior CI Specialist"
+   ]
+  },
   "camoufox": {
    "njobs": 9,
    "blocked": false,
@@ -36,6 +58,14 @@
  },
  "Kuehne + Nagel": {
   "url": "https://jobs.kuehne-nagel.com/global/en",
+  "chromium": {
+   "njobs": 1,
+   "blocked": false,
+   "status": "ok",
+   "sample": [
+    "Application support"
+   ]
+  },
   "camoufox": {
    "njobs": 1,
    "blocked": false,
@@ -47,6 +77,12 @@
  },
  "Nestlé": {
   "url": "https://www.nestle.com/jobs/search-jobs",
+  "chromium": {
+   "njobs": 0,
+   "blocked": false,
+   "status": "no_jobs",
+   "sample": []
+  },
   "camoufox": {
    "njobs": 0,
    "blocked": false,
@@ -56,6 +92,15 @@
  },
  "Roche": {
   "url": "https://careers.roche.com/global/en",
+  "chromium": {
+   "njobs": 2,
+   "blocked": false,
+   "status": "ok",
+   "sample": [
+    "Engineering",
+    "Business Strategy & Finance"
+   ]
+  },
   "camoufox": {
    "njobs": 2,
    "blocked": false,
@@ -68,6 +113,12 @@
  },
  "Straumann Group": {
   "url": "https://careers.straumann.com",
+  "chromium": {
+   "njobs": 0,
+   "blocked": false,
+   "status": "no_jobs",
+   "sample": []
+  },
   "camoufox": {
    "njobs": 0,
    "blocked": false,
@@ -77,6 +128,12 @@
  },
  "Swiss Life": {
   "url": "https://www.swisslife.com/en/about-us/jobs.html",
+  "chromium": {
+   "njobs": 0,
+   "blocked": true,
+   "status": "blocked",
+   "sample": []
+  },
   "camoufox": {
    "njobs": 0,
    "blocked": false,

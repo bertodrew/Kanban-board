@@ -1,429 +1,5 @@
 [
  {
-  "name": "Roche",
-  "career_url": "https://careers.roche.com/global/en",
-  "jobs": [
-   {
-    "title": "Technical Expert Portfolio Mgmt, Technical Feasibility and Planning",
-    "apply_url": "https://roche.wd3.myworkdayjobs.com/roche-ext/job/Basel/Technical-Expert-Portfolio-Mgmt--Technical-Feasibility-and-Planning_202509-122455-1/apply",
-    "location": "Basel, Basel-City, Switzerland"
-   },
-   {
-    "title": "Technical Expert Operational, Strategic and Project Support",
-    "apply_url": "https://roche.wd3.myworkdayjobs.com/roche-ext/job/Basel/Technical-Expert-Operational--Strategic-and-Project-Support_202509-122427-1/apply",
-    "location": "Basel, Basel-City, Switzerland"
-   },
-   {
-    "title": "Chef de Partie, Tournant (w/m/d), 100% - befristet für 1 Jahr",
-    "apply_url": "https://roche.wd3.myworkdayjobs.com/roche-ext/job/Basel/Chef-de-Partie--Tournant--w-m-d---100----befristet-fr-1-Jahr_202510-126421-2/apply",
-    "location": "Basel, Basel-City, Switzerland"
-   },
-   {
-    "title": "PI Automation Engineer",
-    "apply_url": "https://roche.wd3.myworkdayjobs.com/roche-ext/job/Kaiseraugst/RMS---PI-Automation-Engineer---100----m-w-d-_202511-128457-2/apply",
-    "location": "Kaiseraugst, Aargau, Switzerland"
-   },
-   {
-    "title": "Leiter Arbeitshygiene & Arbeitshygiene-Labor (m/w/d) 100%",
-    "apply_url": "https://roche.wd3.myworkdayjobs.com/roche-ext/job/Basel/Leiter-Arbeitshygiene---Arbeitshygiene-Labor--m-w-d--100-_202607-118160-1/apply",
-    "location": "Basel, Basel-City, Switzerland"
-   },
-   {
-    "title": "Trainer:in & ÜK-Leiter:in Business & Digital Technology (60–100%, Kaiseraugst, unbefristet)",
-    "apply_url": "https://roche.wd3.myworkdayjobs.com/roche-ext/job/Kaiseraugst/Trainer-in---K-Leiter-in-Business---Digital-Technology--60-100---Kaiseraugst--unbefristet-_202607-118730/apply",
-    "location": "Kaiseraugst, Aargau, Switzerland"
-   },
-   {
-    "title": "Lehrstelle als Mediamatiker:in EFZ (ab August 2027)",
-    "apply_url": "https://roche.wd3.myworkdayjobs.com/roche-ext/job/Basel/Lehrstelle-als-Mediamatiker-in-EFZ--ab-August-2027-_202607-117596-1/apply",
-    "location": "Basel, Basel-City, Switzerland"
-   },
-   {
-    "title": "Lehrstelle als Laborant:in EFZ Fachrichtung Biologie (ab August 2027)",
-    "apply_url": "https://roche.wd3.myworkdayjobs.com/roche-ext/job/Basel/Lehrstelle-als-Laborant-in-EFZ-Fachrichtung-Biologie--ab-August-2027-_202607-117635/apply",
-    "location": "Basel, Basel-City, Switzerland"
-   },
-   {
-    "title": "Lehrstelle als Kaufmann:frau EFZ (ab August 2027)",
-    "apply_url": "https://roche.wd3.myworkdayjobs.com/roche-ext/job/Basel/Lehrstelle-als-Kaufmann-frau-EFZ--ab-August-2027-_202607-117595/apply",
-    "location": "Basel, Basel-City, Switzerland"
-   },
-   {
-    "title": "Lehrstelle als Chemie- und Pharmatechnolog:in EFZ (ab August 2027)",
-    "apply_url": "https://roche.wd3.myworkdayjobs.com/roche-ext/job/Basel/Lehrstelle-als-Chemie--und-Pharmatechnolog-in-EFZ--ab-August-2027-_202607-117593/apply",
-    "location": "Basel, Basel-City, Switzerland"
-   },
-   {
-    "title": "Lehrstelle als Automatiker:in EFZ (ab August 2027)",
-    "apply_url": "https://roche.wd3.myworkdayjobs.com/roche-ext/job/Basel/Lehrstelle-als-Automatiker-in-EFZ--ab-August-2027-_202607-117603/apply",
-    "location": "Basel, Basel-City, Switzerland"
-   },
-   {
-    "title": "Lehrstelle als ICT-Fachmann:frau EFZ (ab August 2027)",
-    "apply_url": "https://roche.wd3.myworkdayjobs.com/roche-ext/job/Basel/Lehrstelle-als-ICT-Fachmann-frau-EFZ--ab-August-2027-_202607-117615/apply",
-    "location": "Basel, Basel-City, Switzerland"
-   },
-   {
-    "title": "Lehrstelle als Konstrukteur:in EFZ (ab August 2027)",
-    "apply_url": "https://roche.wd3.myworkdayjobs.com/roche-ext/job/Basel/Lehrstelle-als-Konstrukteur-in-EFZ--ab-August-2027-_202607-117629/apply",
-    "location": "Basel, Basel-City, Switzerland"
-   },
-   {
-    "title": "Lehrstelle als Logistiker:in EFZ (ab August 2027)",
-    "apply_url": "https://roche.wd3.myworkdayjobs.com/roche-ext/job/Basel/Lehrstelle-als-Logistiker-in-EFZ--ab-August-2027-_202607-117605/apply",
-    "location": "Basel, Basel-City, Switzerland"
-   },
-   {
-    "title": "Lehrstelle als Informatiker:in EFZ Applikationsentwicklung (ab August 2027)",
-    "apply_url": "https://roche.wd3.myworkdayjobs.com/roche-ext/job/Basel/Lehrstelle-als-Informatiker-in-EFZ-Applikationsentwicklung--ab-August-2027-_202607-117607/apply",
-    "location": "Basel, Basel-City, Switzerland"
-   },
-   {
-    "title": "Lehrstelle als Polymechaniker:in EFZ (ab August 2027)",
-    "apply_url": "https://roche.wd3.myworkdayjobs.com/roche-ext/job/Basel/Lehrstelle-als-Polymechaniker-in-EFZ--ab-August-2027-_202607-117611/apply",
-    "location": "Basel, Basel-City, Switzerland"
-   },
-   {
-    "title": "Lehrstelle als Anlage- und Apparatebauer:in EFZ (ab August 2027)",
-    "apply_url": "https://roche.wd3.myworkdayjobs.com/roche-ext/job/Basel/Lehrstelle-als-Anlage--und-Apparatebauer-in-EFZ--ab-August-2027-_202607-117614/apply",
-    "location": "Basel, Basel-City, Switzerland"
-   },
-   {
-    "title": "Lehrstelle als Fachmann:frau Information und Dokumentation EFZ (ab August 2027)",
-    "apply_url": "https://roche.wd3.myworkdayjobs.com/roche-ext/job/Basel/Lehrstelle-als-Fachmann-frau-Information-und-Dokumentation-EFZ--ab-August-2027-_202607-117630/apply",
-    "location": "Basel, Basel-City, Switzerland"
-   },
-   {
-    "title": "Praktikum für 1 Jahr: Projektleitung für die Harmonisierung & Digitalisierung von Produktionsdaten (Process Monitoring)",
-    "apply_url": "https://roche.wd3.myworkdayjobs.com/roche-ext/job/Basel/Praktikum-fr-1-Jahr--Projektleitung-fr-die-Harmonisierung---Digitalisierung-von-Produktionsdaten--Process-Monitoring-_202608-120249/apply",
-    "location": "Basel, Basel-City, Switzerland"
-   },
-   {
-    "title": "Facility Management Strategist",
-    "apply_url": "https://roche.wd3.myworkdayjobs.com/roche-ext/job/Basel/Facility-Management-Strategist_202607-119166-1/apply",
-    "location": "Basel, Basel-City, Switzerland"
-   },
-   {
-    "title": "Integrated Medical Engagement Change Management Lead",
-    "apply_url": "https://roche.wd3.myworkdayjobs.com/roche-ext/job/Basel/Integrated-Medical-Engagement-Change-Management-Lead_202604-109951-1/apply",
-    "location": "Basel, Basel-City, Switzerland"
-   },
-   {
-    "title": "Medical Director — Multiple Sclerosis",
-    "apply_url": "https://roche.wd3.myworkdayjobs.com/roche-ext/job/Basel/Medical-Director---Multiple-Sclerosis_202508-120775-1/apply",
-    "location": "Basel, Basel-City, Switzerland"
-   },
-   {
-    "title": "Scientific Content Data Expert",
-    "apply_url": "https://roche.wd3.myworkdayjobs.com/roche-ext/job/Basel/Scientific-Content-Data-Expert_202608-120859-1/apply",
-    "location": "Basel, Basel-City, Switzerland"
-   },
-   {
-    "title": "Digital Measures Lead",
-    "apply_url": "https://roche.wd3.myworkdayjobs.com/roche-ext/job/Basel/Digital-Measures-Lead_202604-110611/apply",
-    "location": "Basel, Basel-City, Switzerland"
-   },
-   {
-    "title": "Senior Scientific Software Engineer (Fullstack)",
-    "apply_url": "https://roche.wd3.myworkdayjobs.com/roche-ext/job/Basel/Senior-Scientific-Software-Engineer--Fullstack-_202605-111371-1/apply",
-    "location": "Basel, Basel-City, Switzerland"
-   },
-   {
-    "title": "Post Doctoral Scientist (m/w/d)",
-    "apply_url": "https://roche.wd3.myworkdayjobs.com/roche-ext/job/Basel/Post-Doctoral-Scientist--m-w-d-_202604-110674-1/apply",
-    "location": "Basel, Basel-City, Switzerland"
-   },
-   {
-    "title": "\"Principal Scientist siRNA Design",
-    "apply_url": "https://roche.wd3.myworkdayjobs.com/roche-ext/job/Basel/Principal-Scientist-si-RNA-Design_202606-115829-1/apply",
-    "location": "Basel, Basel-City, Switzerland"
-   },
-   {
-    "title": "Principal / Senior Principal Software Engineer",
-    "apply_url": "https://roche.wd3.myworkdayjobs.com/roche-ext/job/Basel/Principal---Senior-Principal-Software-Engineer_202605-112796-1/apply",
-    "location": "Basel, Basel-City, Switzerland"
-   },
-   {
-    "title": "Cardio-Renal Discovery Area Leader - Expert Scientist",
-    "apply_url": "https://roche.wd3.myworkdayjobs.com/roche-ext/job/Basel/Cardio-Renal-Discovery-Area-Leader---Expert-Scientist_202606-116302-2/apply",
-    "location": "Basel, Basel-City, Switzerland"
-   },
-   {
-    "title": "System Development Troubleshooter",
-    "apply_url": "https://roche.wd3.myworkdayjobs.com/roche-ext/job/Rotkreuz/System-Development-Troubleshooter_202203-110282/apply",
-    "location": "Rotkreuz, Zug, Switzerland"
-   },
-   {
-    "title": "Development Engineer (contract)",
-    "apply_url": "https://roche.wd3.myworkdayjobs.com/roche-ext/job/Rotkreuz/Development-Engineer--contract-_202302-103172-1/apply",
-    "location": "Rotkreuz, Zug, Switzerland"
-   },
-   {
-    "title": "Travel and Expense Compliance Analyst with Hebrew- TALENT POOL",
-    "apply_url": "https://roche.wd3.myworkdayjobs.com/roche-ext/job/Travel-and-Expense-Compliance-Analyst-with-Hebrew--TALENT-POOL_202403-107233-1/apply",
-    "location": "Switzerland"
-   },
-   {
-    "title": "Travel and Expense Compliance Analyst with Arabic- TALENT POOL",
-    "apply_url": "https://roche.wd3.myworkdayjobs.com/roche-ext/job/Travel-and-Expense-Compliance-Analyst-with-Arabic--TALENT-POOL_202403-107243-1/apply",
-    "location": "Switzerland"
-   },
-   {
-    "title": "Travel and Expense Compliance Analyst with Spanish- TALENT POOL",
-    "apply_url": "https://roche.wd3.myworkdayjobs.com/roche-ext/job/Travel-and-Expense-Compliance-Analyst-with-Spanish--TALENT-POOL_202403-107292-1/apply",
-    "location": "Switzerland"
-   },
-   {
-    "title": "Principal Design Engineer",
-    "apply_url": "https://roche.wd3.myworkdayjobs.com/roche-ext/job/Basel/Principal-Design-Engineer_202509-123585/apply",
-    "location": "Basel, Basel-City, Switzerland"
-   },
-   {
-    "title": "Software Tester within RMD System Development (contract)",
-    "apply_url": "https://roche.wd3.myworkdayjobs.com/roche-ext/job/Rotkreuz/Software-Tester-within-RMD-System-Development--contract-_202109-125486-1/apply",
-    "location": "Rotkreuz, Zug, Switzerland"
-   },
-   {
-    "title": "Travel and Expense Compliance Analyst with Italian- TALENT POOL",
-    "apply_url": "https://roche.wd3.myworkdayjobs.com/roche-ext/job/Travel-and-Expense-Compliance-Analyst-with-Italian--TALENT-POOL_202403-107293-1/apply",
-    "location": "Switzerland"
-   },
-   {
-    "title": "Investor Relations Officer (Finance)",
-    "apply_url": "https://roche.wd3.myworkdayjobs.com/roche-ext/job/Basel/Investor-Relations-Officer_202606-115565-1/apply",
-    "location": "Basel, Basel-City, Switzerland"
-   },
-   {
-    "title": "Software Senior Technical Lead Rust (80-100%)",
-    "apply_url": "https://roche.wd3.myworkdayjobs.com/roche-ext/job/Rotkreuz/Software-Senior-Technical-Lead-Rust--80-100--_202605-113537/apply",
-    "location": "Rotkreuz, Zug, Switzerland"
-   },
-   {
-    "title": "Lab Technician (contract)",
-    "apply_url": "https://roche.wd3.myworkdayjobs.com/roche-ext/job/Rotkreuz/Lab-Technician--contract-_202109-125765-1/apply",
-    "location": "Rotkreuz, Zug, Switzerland"
-   },
-   {
-    "title": "Development Engineer (contract 80-100%)",
-    "apply_url": "https://roche.wd3.myworkdayjobs.com/roche-ext/job/Rotkreuz/Development-Engineer--contract-80-100--_202402-104044-1/apply",
-    "location": "Rotkreuz, Zug, Switzerland"
-   },
-   {
-    "title": "Travel and Expense Compliance Analyst with Turkish- TALENT POOL",
-    "apply_url": "https://roche.wd3.myworkdayjobs.com/roche-ext/job/Travel-and-Expense-Compliance-Analyst-with-Turkish--TALENT-POOL_202403-107294/apply",
-    "location": "Switzerland"
-   },
-   {
-    "title": "Account Manager - Roche Sequencing Solutions TALENTPOOL",
-    "apply_url": "https://roche.wd3.myworkdayjobs.com/roche-ext/job/Account-Manager---Roche-Sequencing-Solutions-TALENTPOOL_202507-117647/apply",
-    "location": "Switzerland"
-   }
-  ]
- },
- {
-  "name": "Givaudan",
-  "career_url": "https://careers.givaudan.com/global/en",
-  "jobs": [
-   {
-    "title": "Quality Control Analyst (h/f/d)",
-    "apply_url": "https://careers.givaudan.com/global/en",
-    "location": "Vernier, Switzerland"
-   },
-   {
-    "title": "Agent prévention et intervention (h/f/d) 3x8 - CDD jusqu'au 31.12.2027",
-    "apply_url": "https://careers.givaudan.com/global/en",
-    "location": "Vernier, Switzerland"
-   },
-   {
-    "title": "Quality Control Technician 50% (m/w/d)",
-    "apply_url": "https://careers.givaudan.com/global/en",
-    "location": "Bischofszell, Switzerland"
-   },
-   {
-    "title": "Quality Control Technician (m/w/d)",
-    "apply_url": "https://careers.givaudan.com/global/en",
-    "location": "Bischofszell, Switzerland"
-   },
-   {
-    "title": "Superviseur en production ingrédients (h/f/d)",
-    "apply_url": "https://careers.givaudan.com/global/en",
-    "location": "Vernier, Switzerland"
-   },
-   {
-    "title": "Produktion & Continuous Improvement Intern (m/w/d)",
-    "apply_url": "https://careers.givaudan.com/global/en",
-    "location": "Burgdorf, Switzerland"
-   },
-   {
-    "title": "Produktionsmitarbeiter Misch- und Abfüllanlagen (m/w/d)",
-    "apply_url": "https://careers.givaudan.com/global/en",
-    "location": "Bischofszell, Switzerland"
-   },
-   {
-    "title": "Electromécanicien (h/f/d)",
-    "apply_url": "https://careers.givaudan.com/global/en",
-    "location": "Vernier, Switzerland"
-   },
-   {
-    "title": "Quality Control & Process Technology Intern (m/w/d)",
-    "apply_url": "https://careers.givaudan.com/global/en",
-    "location": "Bischofszell, Switzerland"
-   },
-   {
-    "title": "Anlagenführer (m/w/d)",
-    "apply_url": "https://careers.givaudan.com/global/en",
-    "location": "Burgdorf, Switzerland"
-   },
-   {
-    "title": "Quality Assurance & Sample Technician (m/w/d)",
-    "apply_url": "https://careers.givaudan.com/global/en",
-    "location": "Burgdorf, Switzerland"
-   },
-   {
-    "title": "Automation Engineer (h/f/d)",
-    "apply_url": "https://jobs.givaudan.com/",
-    "location": "Vernier, Switzerland"
-   },
-   {
-    "title": "Ingénieur Process (h/f/d)",
-    "apply_url": "https://careers.givaudan.com/global/en",
-    "location": "Vernier, Switzerland"
-   },
-   {
-    "title": "Industrial Automation Project Engineer (m/w/d)",
-    "apply_url": "https://careers.givaudan.com/global/en",
-    "location": "Dübendorf, Switzerland"
-   },
-   {
-    "title": "Talent Pool - Operations Internship (m/w/d)",
-    "apply_url": "https://jobs.givaudan.com/",
-    "location": "Kemptthal, Switzerland"
-   },
-   {
-    "title": "EHS Specialist (m/w/d) - Your next role?",
-    "apply_url": "https://careers.givaudan.com/global/en",
-    "location": "Vernier, Switzerland"
-   },
-   {
-    "title": "Head of Procurement IM&S",
-    "apply_url": "https://careers.givaudan.com/global/en",
-    "location": "Vernier, Switzerland"
-   },
-   {
-    "title": "Global Process Safety Manager",
-    "apply_url": "https://careers.givaudan.com/global/en",
-    "location": "Vernier, Switzerland"
-   },
-   {
-    "title": "Project Manager Operations",
-    "apply_url": "https://careers.givaudan.com/global/en",
-    "location": "Dübendorf, Switzerland"
-   },
-   {
-    "title": "Bioprocess Specialist (m/f/d)- Your next role ?",
-    "apply_url": "https://careers.givaudan.com/global/en",
-    "location": "Vernier, Switzerland"
-   },
-   {
-    "title": "Senior Regulatory Data Analyst",
-    "apply_url": "https://careers.givaudan.com/global/en",
-    "location": "Vernier, Switzerland"
-   },
-   {
-    "title": "OT Technical Lead (m/w/d) - Your next role?",
-    "apply_url": "https://careers.givaudan.com/global/en",
-    "location": "Vernier, Switzerland"
-   },
-   {
-    "title": "Operator (m/w/d)",
-    "apply_url": "https://careers.givaudan.com/global/en",
-    "location": "Dübendorf, Switzerland"
-   },
-   {
-    "title": "Process Safety Data Analyst Intern (m/w/d)",
-    "apply_url": "https://careers.givaudan.com/global/en",
-    "location": "Kemptthal, Switzerland"
-   }
-  ]
- },
- {
-  "name": "Straumann Group",
-  "career_url": "https://careers.straumann.com",
-  "jobs": [
-   {
-    "title": "Apprentissage Mécanicien de production et Polymécanicien CFC",
-    "apply_url": "https://careers.straumann.com",
-    "location": "Villeret, Switzerland"
-   },
-   {
-    "title": "Master Data Steward",
-    "apply_url": "https://careers.straumann.com",
-    "location": "Villeret, Switzerland"
-   },
-   {
-    "title": "Global Launch Education Manager",
-    "apply_url": "https://careers.straumann.com",
-    "location": "Basel, Switzerland"
-   },
-   {
-    "title": "Facility Management and Workplace Project Manager (Straumann Campus Basel)",
-    "apply_url": "https://careers.straumann.com",
-    "location": "Basel, Switzerland"
-   },
-   {
-    "title": "Lehrstelle als Interactive Media Designer EFZ (m/w/d) ab August 2027",
-    "apply_url": "https://careers.straumann.com",
-    "location": "Basel, Switzerland"
-   },
-   {
-    "title": "Clinical Workflow Product Manager",
-    "apply_url": "https://careers.straumann.com",
-    "location": "Basel, Switzerland"
-   }
-  ]
- },
- {
-  "name": "Kuehne + Nagel",
-  "career_url": "https://jobs.kuehne-nagel.com/global/en",
-  "jobs": [
-   {
-    "title": "Blue Yonder WMS Specialist (m/w/d)",
-    "apply_url": "https://jobs.kuehne-nagel.com/global/en",
-    "location": "Moehlin, Switzerland"
-   },
-   {
-    "title": "Communications Manager Technology",
-    "apply_url": "https://jobs.kuehne-nagel.com/global/en",
-    "location": "Schindellegi, Switzerland"
-   },
-   {
-    "title": "Working Student / Graduate Sea Logistics Revenue Care (m/f/d)",
-    "apply_url": "https://jobs.kuehne-nagel.com/global/en",
-    "location": "Opfikon, Switzerland"
-   },
-   {
-    "title": "Customer Care Specialist Landverkehr (m/w/d)",
-    "apply_url": "https://jobs.kuehne-nagel.com/global/en",
-    "location": "Embrach, Switzerland"
-   },
-   {
-    "title": "Operations Specialist",
-    "apply_url": "https://jobs.kuehne-nagel.com/global/en",
-    "location": "Bielany Wroclawskie"
-   },
-   {
-    "title": "Logistics Engineer",
-    "apply_url": "https://jobs.kuehne-nagel.com/global/en",
-    "location": "Bielany Wroclawskie"
-   }
-  ]
- },
- {
-  "name": "Bayer",
-  "career_url": "https://talent.bayer.com",
-  "jobs": []
- },
- {
   "name": "4-check",
   "career_url": "https://4-check.com/jobs",
   "jobs": []
@@ -446,6 +22,181 @@
  {
   "name": "alabus ag",
   "career_url": "https://www.alabus.com/opencms/en/alabus/jobs/index.html",
+  "jobs": []
+ },
+ {
+  "name": "AlphaMol Science AG",
+  "career_url": "https://alphamol.com/careers",
+  "jobs": []
+ },
+ {
+  "name": "amétiq ag",
+  "career_url": "https://ametiq.ch/jobs/",
+  "jobs": []
+ },
+ {
+  "name": "Anamedi GmbH",
+  "career_url": "https://anamedi.com/#how-it-works",
+  "jobs": []
+ },
+ {
+  "name": "Anovis AI",
+  "career_url": "https://anovisai.com/how-we-work-with-clients",
+  "jobs": []
+ },
+ {
+  "name": "Appamics",
+  "career_url": "https://appamics.com/careers",
+  "jobs": []
+ },
+ {
+  "name": "Apps with love AG",
+  "career_url": "https://www.appswithlove.com/jobs",
+  "jobs": []
+ },
+ {
+  "name": "Apptiva AG",
+  "career_url": "https://www.apptiva.ch/angebot/development/schnittstellen",
+  "jobs": []
+ },
+ {
+  "name": "Apriko AG",
+  "career_url": "https://apriko.com/en/software/leasing-placements-vacancies/",
+  "jobs": []
+ },
+ {
+  "name": "Arbrea Labs AG",
+  "career_url": "https://arbrea-labs.com/careers/",
+  "jobs": []
+ },
+ {
+  "name": "Astaara AG",
+  "career_url": "https://www.astaara.com/index.html#willenworks",
+  "jobs": []
+ },
+ {
+  "name": "Asubium",
+  "career_url": "https://www.asubium.com/careers",
+  "jobs": []
+ },
+ {
+  "name": "ATEGRA GmbH",
+  "career_url": "https://ategra.ch/jobs/",
+  "jobs": []
+ },
+ {
+  "name": "AvanTec AG",
+  "career_url": "https://www.avantec.ch/offene-stellen/",
+  "jobs": []
+ },
+ {
+  "name": "AYUN",
+  "career_url": "https://www.ayun.ch/jobs",
+  "jobs": []
+ },
+ {
+  "name": "b-rayZ AG",
+  "career_url": "https://www.brayz.com/careers",
+  "jobs": []
+ },
+ {
+  "name": "Baloise Open Innovation",
+  "career_url": "https://www.baloise.com/de/home/ueber-uns/innovation-baloise.html/corporate/hb/de/home/ueber-uns/karriere.html",
+  "jobs": []
+ },
+ {
+  "name": "BAR Informatik AG",
+  "career_url": "https://barinformatik.ch/portraet/jobs/",
+  "jobs": []
+ },
+ {
+  "name": "Basel Area",
+  "career_url": "https://baselarea.swiss/de/jobs/",
+  "jobs": []
+ },
+ {
+  "name": "Baselnetgroup AG",
+  "career_url": "https://www.baselnetgroup.ch/karriere/",
+  "jobs": []
+ },
+ {
+  "name": "BaselOne",
+  "career_url": "https://swissdevjobs.ch/jobs/all/Basel",
+  "jobs": []
+ },
+ {
+  "name": "BaselTech",
+  "career_url": "https://www.baseltech.swiss/join-us",
+  "jobs": []
+ },
+ {
+  "name": "BBG Solutions",
+  "career_url": "https://www.bbg-solutions.com/?lang=en/careers",
+  "jobs": []
+ },
+ {
+  "name": "bbv Software Services AG",
+  "career_url": "https://bbv.ch/insights/ki-workshop-fuer-ceo-geschaeftsleitung/",
+  "jobs": []
+ },
+ {
+  "name": "BEGASOFT AG",
+  "career_url": "https://www.begasoft.ch/unternehmen/karriere#jobs",
+  "jobs": []
+ },
+ {
+  "name": "bitforge AG",
+  "career_url": "https://bitforge.ch/jobs/",
+  "jobs": []
+ },
+ {
+  "name": "BITS - Bühler IT Solutions GmbH",
+  "career_url": "https://bits.ch/karriere/",
+  "jobs": []
+ },
+ {
+  "name": "Blackdot",
+  "career_url": "https://www.blackdot.swiss/de/karriere",
+  "jobs": []
+ },
+ {
+  "name": "BlueCare",
+  "career_url": "https://jobs.bluecare.ch/",
+  "jobs": []
+ },
+ {
+  "name": "BNI Pratteln",
+  "career_url": "https://west.bni.swiss/pratteln/de-CH/careers",
+  "jobs": []
+ },
+ {
+  "name": "brix",
+  "career_url": "https://www.brix.ch/de/ueber-uns/jobs",
+  "jobs": []
+ },
+ {
+  "name": "Bryter AG",
+  "career_url": "https://bryter.com/careers/",
+  "jobs": []
+ },
+ {
+  "name": "Businessparc Reinach",
+  "career_url": "https://www.businessparc.ch/mitglieder/sulista-gmbh-beratung-im-bereich-karriere-digital-sales-personal/",
+  "jobs": []
+ },
+ {
+  "name": "Cabsol",
+  "career_url": "https://cabsol.de/karriere",
+  "jobs": []
+ },
+ {
+  "name": "campfire GmbH",
+  "career_url": "https://campfire.ch/projekte/further-work-dna-app",
+  "jobs": []
+ },
+ {
+  "name": "CAPcargo AG",
+  "career_url": "https://www.capcargo.com/career/",
   "jobs": []
  }
 ]

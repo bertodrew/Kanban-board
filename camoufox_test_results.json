@@ -7,7 +7,16 @@
    "xhr": 0,
    "status": "no_jobs",
    "sample": [],
-   "schemas": []
+   "schemas": [],
+   "dbg": {
+    "xhr_urls": [],
+    "phenom_probe": [
+     "/api/apply/v2/jobs -> 404 n=0",
+     "/api/apply/v2/jobs -> 404 n=0",
+     "/api/jobs -> 404 n=0",
+     "/widgets/jobsearch -> 404 n=0"
+    ]
+   }
   },
   "camoufox": {
    "njobs": 0,
@@ -15,7 +24,16 @@
    "xhr": 0,
    "status": "no_jobs",
    "sample": [],
-   "schemas": []
+   "schemas": [],
+   "dbg": {
+    "xhr_urls": [],
+    "phenom_probe": [
+     "/api/apply/v2/jobs -> 404 n=0",
+     "/api/apply/v2/jobs -> 404 n=0",
+     "/api/jobs -> 404 n=0",
+     "/widgets/jobsearch -> 404 n=0"
+    ]
+   }
   }
  },
  "Boehringer Ingelheim": {
@@ -26,15 +44,77 @@
    "xhr": 0,
    "status": "no_jobs",
    "sample": [],
-   "schemas": []
+   "schemas": [],
+   "dbg": {
+    "xhr_urls": [],
+    "phenom_probe": [
+     "/api/apply/v2/jobs -> 403 n=0",
+     "/api/apply/v2/jobs -> 403 n=0",
+     "/api/jobs -> 403 n=0",
+     "/widgets/jobsearch -> 403 n=0"
+    ]
+   }
   },
   "camoufox": {
    "njobs": 0,
    "blocked": false,
-   "xhr": 0,
+   "xhr": 1,
    "status": "no_jobs",
    "sample": [],
-   "schemas": []
+   "schemas": [
+    {
+     "url": "https://production.api.recruiting-solutions.org/search",
+     "path": "$.value",
+     "n": 50,
+     "keys": [
+      "activeLanguages",
+      "applyUrl",
+      "baseLanguage",
+      "careerLevel",
+      "careerLevelCode",
+      "categories",
+      "categoriesIds",
+      "category",
+      "categoryId",
+      "country",
+      "datePosted",
+      "description",
+      "id",
+      "isActive",
+      "isInternal",
+      "jobFlexibility",
+      "jobFlexibilityCode",
+      "jobId",
+      "jobIdNoLocale",
+      "jobSchedule",
+      "jobScheduleId",
+      "language",
+      "lastModifiedDateTime",
+      "layout",
+      "link"
+     ]
+    },
+    {
+     "url": "https://production.api.recruiting-solutions.org/search",
+     "path": "$.@search.facets.addresses/countryCity",
+     "n": 182,
+     "keys": [
+      "value",
+      "count"
+     ]
+    }
+   ],
+   "dbg": {
+    "xhr_urls": [
+     "https://production.api.recruiting-solutions.org/search"
+    ],
+    "phenom_probe": [
+     "/api/apply/v2/jobs -> 404 n=0",
+     "/api/apply/v2/jobs -> 404 n=0",
+     "/api/jobs -> 404 n=0",
+     "/widgets/jobsearch -> 404 n=0"
+    ]
+   }
   }
  },
  "Givaudan": {
@@ -42,7 +122,7 @@
   "chromium": {
    "njobs": 0,
    "blocked": false,
-   "xhr": 26,
+   "xhr": 29,
    "status": "no_jobs",
    "sample": [],
    "schemas": [
@@ -199,15 +279,120 @@
       "63fbf634-li-8"
      ]
     }
-   ]
+   ],
+   "dbg": {
+    "xhr_urls": [
+     "https://careers.givaudan.com/widgets",
+     "https://careers.givaudan.com/widgets",
+     "https://careers.givaudan.com/widgets",
+     "https://careers.givaudan.com/widgets",
+     "https://careers.givaudan.com/widgets",
+     "https://careers.givaudan.com/widgets",
+     "https://content-ir.phenompeople.com/api/GIVGIVGB/categoryMasterDataV2?locale=en_global&siteType=external&devic",
+     "https://content-ir.phenompeople.com/api/GIVGIVGB/getPiiConsentConfig?locale=en_global&siteType=external&device",
+     "https://content-ir.phenompeople.com/api/GIVGIVGB/globalSearchConfig?locale=en_global&siteType=external&deviceT",
+     "https://content-ir.phenompeople.com/api/GIVGIVGB/getRegionLocales?locale=en_global&siteType=external&deviceTyp",
+     "https://content-ir.phenompeople.com/api/GIVGIVGB/fyfConfig?locale=en_global&siteType=external&deviceType=deskt",
+     "https://careers.givaudan.com/widgets",
+     "https://careers.givaudan.com/widgets",
+     "https://careers.givaudan.com/widgets",
+     "https://careers.givaudan.com/widgets",
+     "https://careers.givaudan.com/widgets",
+     "https://careers.givaudan.com/widgets",
+     "https://careers.givaudan.com/widgets",
+     "https://careers.givaudan.com/widgets",
+     "https://careers.givaudan.com/widgets"
+    ],
+    "phenom_probe": [
+     "/api/apply/v2/jobs -> 200 n=0",
+     "/api/apply/v2/jobs -> 200 n=0",
+     "/api/jobs -> 500 n=0",
+     "/widgets/jobsearch -> 200 n=0"
+    ]
+   }
   },
   "camoufox": {
    "njobs": 0,
    "blocked": false,
-   "xhr": 27,
+   "xhr": 29,
    "status": "no_jobs",
    "sample": [],
    "schemas": [
+    {
+     "url": "https://careers.givaudan.com/widgets",
+     "path": "$.canvasPxPageWidgetConfig.data.pageLevelWidget.stranger.widgetList",
+     "n": 11,
+     "keys": [
+      "widgetId",
+      "widgetName",
+      "displayName",
+      "px-block",
+      "ignoreSlider",
+      "widgetConfigMode",
+      "ignoreWidgetTitle",
+      "enabled"
+     ]
+    },
+    {
+     "url": "https://careers.givaudan.com/widgets",
+     "path": "$.canvasPxPageWidgetConfig.data.pageLevelWidget.qualifiedlead.widgetList",
+     "n": 6,
+     "keys": [
+      "widgetId",
+      "widgetName",
+      "displayName",
+      "px-block",
+      "widgetConfigMode",
+      "ignoreSlider",
+      "ignoreWidgetTitle",
+      "enabled"
+     ]
+    },
+    {
+     "url": "https://careers.givaudan.com/widgets",
+     "path": "$.canvasPxPageWidgetConfig.data.pageLevelWidget.applicant.widgetList",
+     "n": 6,
+     "keys": [
+      "widgetId",
+      "widgetName",
+      "displayName",
+      "px-block",
+      "ignoreSlider",
+      "widgetConfigMode",
+      "ignoreWidgetTitle",
+      "enabled"
+     ]
+    },
+    {
+     "url": "https://careers.givaudan.com/widgets",
+     "path": "$.canvasPxPageWidgetConfig.data.pageLevelWidget.visitor.widgetList",
+     "n": 7,
+     "keys": [
+      "widgetId",
+      "widgetName",
+      "displayName",
+      "px-block",
+      "ignoreSlider",
+      "widgetConfigMode",
+      "ignoreWidgetTitle",
+      "enabled"
+     ]
+    },
+    {
+     "url": "https://careers.givaudan.com/widgets",
+     "path": "$.canvasPxPageWidgetConfig.data.pageLevelWidget.lead.widgetList",
+     "n": 6,
+     "keys": [
+      "widgetId",
+      "widgetName",
+      "displayName",
+      "px-block",
+      "ignoreSlider",
+      "widgetConfigMode",
+      "ignoreWidgetTitle",
+      "enabled"
+     ]
+    },
     {
      "url": "https://careers.givaudan.com/widgets",
      "path": "$.canvasGetWidgetContent.data.contentData.hf-givaudanheadergben$$z4HDz3vS.contentMap.menuBlock",
@@ -285,60 +470,38 @@
       "63fbf634-svg-5",
       "63fbf634-li-8"
      ]
-    },
-    {
-     "url": "https://careers.givaudan.com/widgets",
-     "path": "$.canvasGetWidgetContent.data.designData.v5HDz3vS.cards",
-     "n": 3,
-     "keys": [
-      "e48864c9-a-2"
-     ]
-    },
-    {
-     "url": "https://careers.givaudan.com/widgets",
-     "path": "$.canvasGetWidgetContent.data.designData.hf-givaudanheadergben$$z4HDz3vS.cards",
-     "n": 7,
-     "keys": []
-    },
-    {
-     "url": "https://careers.givaudan.com/widgets",
-     "path": "$.canvasGetWidgetContent.data.designData.v6HDz3vS.cards",
-     "n": 3,
-     "keys": [
-      "e48864c9-a-2"
-     ]
-    },
-    {
-     "url": "https://careers.givaudan.com/widgets",
-     "path": "$.canvasPxPageWidgetConfig.data.pageLevelWidget.stranger.widgetList",
-     "n": 11,
-     "keys": [
-      "widgetId",
-      "widgetName",
-      "displayName",
-      "px-block",
-      "ignoreSlider",
-      "widgetConfigMode",
-      "ignoreWidgetTitle",
-      "enabled"
-     ]
-    },
-    {
-     "url": "https://careers.givaudan.com/widgets",
-     "path": "$.canvasPxPageWidgetConfig.data.pageLevelWidget.qualifiedlead.widgetList",
-     "n": 6,
-     "keys": [
-      "widgetId",
-      "widgetName",
-      "displayName",
-      "px-block",
-      "widgetConfigMode",
-      "ignoreSlider",
-      "ignoreWidgetTitle",
-      "enabled"
-     ]
     }
-   ]
+   ],
+   "dbg": {
+    "xhr_urls": [
+     "https://careers.givaudan.com/widgets",
+     "https://careers.givaudan.com/widgets",
+     "https://careers.givaudan.com/widgets",
+     "https://careers.givaudan.com/widgets",
+     "https://careers.givaudan.com/widgets",
+     "https://careers.givaudan.com/widgets",
+     "https://content-ir.phenompeople.com/api/GIVGIVGB/fyfConfig?locale=en_global&siteType=external&deviceType=deskt",
+     "https://content-ir.phenompeople.com/api/GIVGIVGB/globalSearchConfig?locale=en_global&siteType=external&deviceT",
+     "https://content-ir.phenompeople.com/api/GIVGIVGB/getPiiConsentConfig?locale=en_global&siteType=external&device",
+     "https://content-ir.phenompeople.com/api/GIVGIVGB/getRegionLocales?locale=en_global&siteType=external&deviceTyp",
+     "https://content-ir.phenompeople.com/api/GIVGIVGB/categoryMasterDataV2?locale=en_global&siteType=external&devic",
+     "https://careers.givaudan.com/widgets",
+     "https://careers.givaudan.com/widgets",
+     "https://careers.givaudan.com/widgets",
+     "https://careers.givaudan.com/widgets",
+     "https://careers.givaudan.com/widgets",
+     "https://careers.givaudan.com/widgets",
+     "https://careers.givaudan.com/widgets",
+     "https://careers.givaudan.com/widgets",
+     "https://careers.givaudan.com/widgets"
+    ],
+    "phenom_probe": [
+     "/api/apply/v2/jobs -> 200 n=0",
+     "/api/apply/v2/jobs -> 200 n=0",
+     "/api/jobs -> 500 n=0",
+     "/widgets/jobsearch -> 200 n=0"
+    ]
+   }
   }
  },
  "Kuehne + Nagel": {
@@ -346,7 +509,7 @@
   "chromium": {
    "njobs": 0,
    "blocked": false,
-   "xhr": 34,
+   "xhr": 37,
    "status": "no_jobs",
    "sample": [],
    "schemas": [
@@ -482,12 +645,42 @@
       "checked"
      ]
     }
-   ]
+   ],
+   "dbg": {
+    "xhr_urls": [
+     "https://content-ir.phenompeople.com/api/KUNAGLOBAL/locationmapsettings?locale=en_global&siteType=external&devi",
+     "https://content-ir.phenompeople.com/api/KUNAGLOBAL/jobwidgetsettings?locale=en_global&siteType=external&device",
+     "https://jobs.kuehne-nagel.com/widgets",
+     "https://jobs.kuehne-nagel.com/widgets",
+     "https://jobs.kuehne-nagel.com/widgets",
+     "https://jobs.kuehne-nagel.com/widgets",
+     "https://jobs.kuehne-nagel.com/widgets",
+     "https://jobs.kuehne-nagel.com/widgets",
+     "https://jobs.kuehne-nagel.com/widgets",
+     "https://content-ir.phenompeople.com/api/KUNAGLOBAL/jobwidgetsettings?locale=en_global&siteType=external&device",
+     "https://content-ir.phenompeople.com/api/KUNAGLOBAL/jobTagSettings?locale=en_global&siteType=external&deviceTyp",
+     "https://content-ir.phenompeople.com/api/KUNAGLOBAL/getPiiConsentConfig?locale=en_global&siteType=external&devi",
+     "https://content-ir.phenompeople.com/api/KUNAGLOBAL/jobwidgetsettings?locale=en_global&siteType=external&device",
+     "https://content-ir.phenompeople.com/api/KUNAGLOBAL/jobTagSettings?locale=en_global&siteType=external&deviceTyp",
+     "https://content-ir.phenompeople.com/api/KUNAGLOBAL/globalSearchConfig?locale=en_global&siteType=external&devic",
+     "https://content-ir.phenompeople.com/api/KUNAGLOBAL/getRegionLocales?locale=en_global&siteType=external&deviceT",
+     "https://content-ir.phenompeople.com/api/KUNAGLOBAL/jobwidgetsettings?locale=en_global&siteType=external&device",
+     "https://content-ir.phenompeople.com/api/KUNAGLOBAL/jobTagSettings?locale=en_global&siteType=external&deviceTyp",
+     "https://jobs.kuehne-nagel.com/widgets",
+     "https://jobs.kuehne-nagel.com/widgets"
+    ],
+    "phenom_probe": [
+     "/api/apply/v2/jobs -> 200 n=0",
+     "/api/apply/v2/jobs -> 200 n=0",
+     "/api/jobs -> 500 n=0",
+     "/widgets/jobsearch -> 200 n=0"
+    ]
+   }
   },
   "camoufox": {
    "njobs": 0,
    "blocked": false,
-   "xhr": 33,
+   "xhr": 37,
    "status": "no_jobs",
    "sample": [],
    "schemas": [
@@ -623,7 +816,37 @@
       "checked"
      ]
     }
-   ]
+   ],
+   "dbg": {
+    "xhr_urls": [
+     "https://content-ir.phenompeople.com/api/KUNAGLOBAL/locationmapsettings?locale=en_global&siteType=external&devi",
+     "https://content-ir.phenompeople.com/api/KUNAGLOBAL/jobwidgetsettings?locale=en_global&siteType=external&device",
+     "https://jobs.kuehne-nagel.com/widgets",
+     "https://jobs.kuehne-nagel.com/widgets",
+     "https://jobs.kuehne-nagel.com/widgets",
+     "https://jobs.kuehne-nagel.com/widgets",
+     "https://jobs.kuehne-nagel.com/widgets",
+     "https://content-ir.phenompeople.com/api/KUNAGLOBAL/getRegionLocales?locale=en_global&siteType=external&deviceT",
+     "https://content-ir.phenompeople.com/api/KUNAGLOBAL/globalSearchConfig?locale=en_global&siteType=external&devic",
+     "https://jobs.kuehne-nagel.com/widgets",
+     "https://content-ir.phenompeople.com/api/KUNAGLOBAL/getPiiConsentConfig?locale=en_global&siteType=external&devi",
+     "https://jobs.kuehne-nagel.com/widgets",
+     "https://jobs.kuehne-nagel.com/widgets",
+     "https://content-ir.phenompeople.com/api/KUNAGLOBAL/jobwidgetsettings?locale=en_global&siteType=external&device",
+     "https://jobs.kuehne-nagel.com/widgets",
+     "https://jobs.kuehne-nagel.com/widgets",
+     "https://content-ir.phenompeople.com/api/KUNAGLOBAL/jobTagSettings?locale=en_global&siteType=external&deviceTyp",
+     "https://content-ir.phenompeople.com/api/KUNAGLOBAL/jobwidgetsettings?locale=en_global&siteType=external&device",
+     "https://content-ir.phenompeople.com/api/KUNAGLOBAL/jobTagSettings?locale=en_global&siteType=external&deviceTyp",
+     "https://jobs.kuehne-nagel.com/widgets"
+    ],
+    "phenom_probe": [
+     "/api/apply/v2/jobs -> 200 n=0",
+     "/api/apply/v2/jobs -> 200 n=0",
+     "/api/jobs -> 500 n=0",
+     "/widgets/jobsearch -> 200 n=0"
+    ]
+   }
   }
  },
  "Nestlé": {
@@ -634,7 +857,16 @@
    "xhr": 0,
    "status": "no_jobs",
    "sample": [],
-   "schemas": []
+   "schemas": [],
+   "dbg": {
+    "xhr_urls": [],
+    "phenom_probe": [
+     "/api/apply/v2/jobs -> 403 n=0",
+     "/api/apply/v2/jobs -> 403 n=0",
+     "/api/jobs -> 403 n=0",
+     "/widgets/jobsearch -> 403 n=0"
+    ]
+   }
   },
   "camoufox": {
    "njobs": 0,
@@ -642,7 +874,16 @@
    "xhr": 0,
    "status": "no_jobs",
    "sample": [],
-   "schemas": []
+   "schemas": [],
+   "dbg": {
+    "xhr_urls": [],
+    "phenom_probe": [
+     "/api/apply/v2/jobs -> 403 n=0",
+     "/api/apply/v2/jobs -> 403 n=0",
+     "/api/jobs -> 403 n=0",
+     "/widgets/jobsearch -> 403 n=0"
+    ]
+   }
   }
  },
  "Roche": {
@@ -650,7 +891,7 @@
   "chromium": {
    "njobs": 0,
    "blocked": false,
-   "xhr": 13,
+   "xhr": 16,
    "status": "no_jobs",
    "sample": [],
    "schemas": [
@@ -710,15 +951,59 @@
       "45165f2b-li-1"
      ]
     }
-   ]
+   ],
+   "dbg": {
+    "xhr_urls": [
+     "https://careers.roche.com/widgets",
+     "https://careers.roche.com/widgets",
+     "https://careers.roche.com/widgets",
+     "https://careers.roche.com/widgets",
+     "https://careers.roche.com/widgets",
+     "https://content-ir.phenompeople.com/api/ROCHGLOBAL/getRegionLocales?locale=en_global&siteType=external&deviceT",
+     "https://content-ir.phenompeople.com/api/ROCHGLOBAL/getPiiConsentConfig?locale=en_global&siteType=external&devi",
+     "https://careers.roche.com/widgets",
+     "https://careers.roche.com/widgets",
+     "https://careers.roche.com/widgets",
+     "https://careers.roche.com/widgets",
+     "https://careers.roche.com/widgets",
+     "https://content-ir.phenompeople.com/api/ROCHGLOBAL/globalSearchConfig?locale=en_global&siteType=external&devic",
+     "https://content-ir.phenompeople.com/api/ROCHGLOBAL/fyfConfig?locale=en_global&siteType=external&deviceType=des",
+     "https://careers.roche.com/widgets",
+     "https://careers.roche.com/widgets",
+     "https://careers.roche.com/api/apply/v2/jobs?location=Switzerland&limit=100&offset=0",
+     "https://careers.roche.com/api/apply/v2/jobs?location=Switzerland&limit=5",
+     "https://careers.roche.com/api/apply/v2/jobs?keywords=&location=Switzerland&limit=5&offset=0"
+    ],
+    "phenom_probe": [
+     "/api/apply/v2/jobs -> 200 n=0",
+     "/api/apply/v2/jobs -> 200 n=0",
+     "/api/jobs -> 500 n=0",
+     "/widgets/jobsearch -> 200 n=0"
+    ]
+   }
   },
   "camoufox": {
    "njobs": 0,
    "blocked": false,
-   "xhr": 13,
+   "xhr": 15,
    "status": "no_jobs",
    "sample": [],
    "schemas": [
+    {
+     "url": "https://careers.roche.com/widgets",
+     "path": "$.dynaData.data.widgets",
+     "n": 1,
+     "keys": [
+      "instanceId",
+      "contentData",
+      "widgetId",
+      "bannerName",
+      "selector",
+      "conditions",
+      "structure",
+      "designData"
+     ]
+    },
     {
      "url": "https://careers.roche.com/widgets",
      "path": "$.canvasGetWidgetContent.data.contentData.hf-test-footer$$piuhsd78.contentMap.menuBlock",
@@ -759,23 +1044,36 @@
      "keys": [
       "45165f2b-li-1"
      ]
-    },
-    {
-     "url": "https://careers.roche.com/widgets",
-     "path": "$.dynaData.data.widgets",
-     "n": 1,
-     "keys": [
-      "instanceId",
-      "contentData",
-      "widgetId",
-      "bannerName",
-      "selector",
-      "conditions",
-      "structure",
-      "designData"
-     ]
     }
-   ]
+   ],
+   "dbg": {
+    "xhr_urls": [
+     "https://careers.roche.com/widgets",
+     "https://careers.roche.com/widgets",
+     "https://careers.roche.com/widgets",
+     "https://careers.roche.com/widgets",
+     "https://content-ir.phenompeople.com/api/ROCHGLOBAL/getRegionLocales?locale=en_global&siteType=external&deviceT",
+     "https://content-ir.phenompeople.com/api/ROCHGLOBAL/getPiiConsentConfig?locale=en_global&siteType=external&devi",
+     "https://careers.roche.com/widgets",
+     "https://careers.roche.com/widgets",
+     "https://careers.roche.com/widgets",
+     "https://careers.roche.com/widgets",
+     "https://careers.roche.com/widgets",
+     "https://careers.roche.com/widgets",
+     "https://content-ir.phenompeople.com/api/ROCHGLOBAL/globalSearchConfig?locale=en_global&siteType=external&devic",
+     "https://content-ir.phenompeople.com/api/ROCHGLOBAL/fyfConfig?locale=en_global&siteType=external&deviceType=des",
+     "https://careers.roche.com/widgets",
+     "https://careers.roche.com/api/apply/v2/jobs?location=Switzerland&limit=100&offset=0",
+     "https://careers.roche.com/api/apply/v2/jobs?location=Switzerland&limit=5",
+     "https://careers.roche.com/api/apply/v2/jobs?keywords=&location=Switzerland&limit=5&offset=0"
+    ],
+    "phenom_probe": [
+     "/api/apply/v2/jobs -> 200 n=0",
+     "/api/apply/v2/jobs -> 200 n=0",
+     "/api/jobs -> 500 n=0",
+     "/widgets/jobsearch -> 200 n=0"
+    ]
+   }
   }
  },
  "Straumann Group": {
@@ -783,18 +1081,67 @@
   "chromium": {
    "njobs": 0,
    "blocked": false,
-   "xhr": 8,
+   "xhr": 11,
    "status": "no_jobs",
    "sample": [],
-   "schemas": []
+   "schemas": [],
+   "dbg": {
+    "xhr_urls": [
+     "https://content-ir.phenompeople.com/api/content-delivery/caasContentV1?refNum=STGRGLOBAL&locale=en_global&site",
+     "https://content-ir.phenompeople.com/api/STGRGLOBAL/globalSearchConfig?locale=en_global&siteType=external&devic",
+     "https://content-ir.phenompeople.com/api/STGRGLOBAL/getPiiConsentConfig?locale=en_global&siteType=external&devi",
+     "https://content-ir.phenompeople.com/api/STGRGLOBAL/getRegionLocales?locale=en_global&siteType=external&deviceT",
+     "https://careers.straumann.com/widgets",
+     "https://careers.straumann.com/widgets",
+     "https://careers.straumann.com/widgets",
+     "https://careers.straumann.com/widgets",
+     "https://careers.straumann.com/widgets",
+     "https://content-ir.phenompeople.com/api/STGRGLOBAL/fyfConfig?locale=en_global&siteType=external&deviceType=des",
+     "https://careers.straumann.com/widgets",
+     "https://careers.straumann.com/widgets",
+     "https://careers.straumann.com/api/apply/v2/jobs?location=Switzerland&limit=100&offset=0",
+     "https://careers.straumann.com/api/apply/v2/jobs?location=Switzerland&limit=5",
+     "https://careers.straumann.com/api/apply/v2/jobs?keywords=&location=Switzerland&limit=5&offset=0"
+    ],
+    "phenom_probe": [
+     "/api/apply/v2/jobs -> 200 n=0",
+     "/api/apply/v2/jobs -> 200 n=0",
+     "/api/jobs -> 500 n=0",
+     "/widgets/jobsearch -> 200 n=0"
+    ]
+   }
   },
   "camoufox": {
    "njobs": 0,
    "blocked": false,
-   "xhr": 8,
+   "xhr": 10,
    "status": "no_jobs",
    "sample": [],
-   "schemas": []
+   "schemas": [],
+   "dbg": {
+    "xhr_urls": [
+     "https://content-ir.phenompeople.com/api/content-delivery/caasContentV1?refNum=STGRGLOBAL&locale=en_global&site",
+     "https://content-ir.phenompeople.com/api/STGRGLOBAL/getPiiConsentConfig?locale=en_global&siteType=external&devi",
+     "https://content-ir.phenompeople.com/api/STGRGLOBAL/getRegionLocales?locale=en_global&siteType=external&deviceT",
+     "https://careers.straumann.com/widgets",
+     "https://careers.straumann.com/widgets",
+     "https://careers.straumann.com/widgets",
+     "https://careers.straumann.com/widgets",
+     "https://content-ir.phenompeople.com/api/STGRGLOBAL/globalSearchConfig?locale=en_global&siteType=external&devic",
+     "https://content-ir.phenompeople.com/api/STGRGLOBAL/fyfConfig?locale=en_global&siteType=external&deviceType=des",
+     "https://careers.straumann.com/widgets",
+     "https://careers.straumann.com/widgets",
+     "https://careers.straumann.com/api/apply/v2/jobs?location=Switzerland&limit=100&offset=0",
+     "https://careers.straumann.com/api/apply/v2/jobs?location=Switzerland&limit=5",
+     "https://careers.straumann.com/api/apply/v2/jobs?keywords=&location=Switzerland&limit=5&offset=0"
+    ],
+    "phenom_probe": [
+     "/api/apply/v2/jobs -> 200 n=0",
+     "/api/apply/v2/jobs -> 200 n=0",
+     "/api/jobs -> 500 n=0",
+     "/widgets/jobsearch -> 200 n=0"
+    ]
+   }
   }
  },
  "Swiss Life": {
@@ -805,7 +1152,16 @@
    "xhr": 0,
    "status": "blocked",
    "sample": [],
-   "schemas": []
+   "schemas": [],
+   "dbg": {
+    "xhr_urls": [],
+    "phenom_probe": [
+     "/api/apply/v2/jobs -> 404 n=0",
+     "/api/apply/v2/jobs -> 404 n=0",
+     "/api/jobs -> 404 n=0",
+     "/widgets/jobsearch -> 404 n=0"
+    ]
+   }
   },
   "camoufox": {
    "njobs": 0,
@@ -813,7 +1169,16 @@
    "xhr": 0,
    "status": "no_jobs",
    "sample": [],
-   "schemas": []
+   "schemas": [],
+   "dbg": {
+    "xhr_urls": [],
+    "phenom_probe": [
+     "/api/apply/v2/jobs -> 404 n=0",
+     "/api/apply/v2/jobs -> 404 n=0",
+     "/api/jobs -> 404 n=0",
+     "/widgets/jobsearch -> 404 n=0"
+    ]
+   }
   }
  }
 }

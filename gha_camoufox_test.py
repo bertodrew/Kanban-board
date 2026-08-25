@@ -1,12 +1,10 @@
 #!/usr/bin/env python3
-"""Camoufox vs Chromium A/B test with an SPA-aware extractor.
+"""A/B test: JSON-interception extractor, Chromium vs Camoufox.
 
-Runs a fixed list of known-hard Swiss career pages through BOTH engines with the
-same extractor and reports job-like anchors found per engine + whether blocked.
-
-SPA handling (option B): dismiss cookie banner, click search/load-more buttons,
-scroll to trigger lazy-load, harvest anchors from the main doc AND all iframes,
-score hrefs to prefer real job-detail links over category/nav links.
+Instead of scraping <a> anchors (which these ATS SPAs don't use for jobs), we
+render the page to establish a real session, coax it to fire its XHR/fetch, and
+harvest the JSON job lists the page itself downloads. Camoufox is used as a
+conditional fallback for domains whose anti-bot walls a plain Chromium session.
 
 Pure measurement: writes camoufox_test_results.json, NO DB write.
 """
@@ -23,122 +21,123 @@ TARGETS = [
     ("Swiss Life",           "https://www.swisslife.com/en/about-us/jobs.html"),
 ]
 
-# --- job-anchor gate ---
-NONCITY = re.compile(r'frankfurt|berlin|m[üu]nchen|munich|hamburg|boston|new york|london|paris|'
-    r'madrid|barcelona|wien|vienna|amsterdam|dublin|milano|singapore|pune|mumbai|warsaw', re.I)
-KW = ['engineer','ingenieur','entwickl','developer','software','manager','lead','leiter','specialist',
-'spezialist','scientist','consultant','analyst','techniker','technician','coordinator','architect',
-'designer','sales','account','product','produkt','head of','director','associate','administrator',
-'intern','praktik','werkstudent','apprentice','lehrstelle','trainee','mitarbeiter','support','devops',
-'data','cloud','security','quality','regulatory','clinical','finance','controller','verkauf','einkauf',
-'operator','planner','buyer','nurse','pflege','accountant','payroll','servicetechniker','maintenance']
-STRONG = re.compile(r'(m/w|w/m|m/f|f/m|\(m|\(w|\d{2,3}\s?%|' + '|'.join(KW) + ')', re.I)
-# category/landing words that masquerade as jobs on SPA hubs -> reject
-CATEGORY = re.compile(r'^(sales and marketing|interns and apprentices|trainee programmes?|engineering|'
-    r'business strategy.*finance|human resources|supply chain|research.*development|manufacturing|'
-    r'information technology|our teams?|life at|early careers?|students?|graduates?|professionals?|'
-    r'application support|corporate functions?)$', re.I)
-JUNK = ['read more','learn more','view all','open application','benefits','our team','about us',
-'apply now','see all','offene stellen','all jobs','impressum','datenschutz','cookie','kontakt',
-'login','newsletter','mehr erfahren','alle jobs','sign in','register','create account',
-'can’t access','cannot access','forgot password','privacy','terms']
-# a real job detail URL usually carries an id/slug segment
-HREF_DETAIL = re.compile(r'/job[s]?/[^/]*\d|/job/|jobid=|/position/|/vacanc|/stelle/|/o/[a-z0-9\-]{6,}|'
-    r'requisition|/apply/|gh_jid=|/postings?/|jobdetail|/careers?/[a-z0-9\-]{8,}\d', re.I)
-HREF_JOBWORD = re.compile(r'job|stelle|vacan|position|karriere|career|recruit|apply|/o/|posting|opening|'
-    r'lehrstelle|praktik', re.I)
-TITLE_HARD = re.compile(r'm/w|w/m|m/f|f/m|\(m|\(w|\d{2,3}\s?%', re.I)
+SWISS = re.compile(r'switzerland|schweiz|suisse|svizzera|\bCH\b|basel|z[üu]rich|zurich|geneva|gen[èe]ve|'
+    r'bern|lausanne|zug|lucerne|luzern|winterthur|st\.?\s?gallen|lugano|biel|thun|fribourg|'
+    r'sch[a]?ffhausen|allschwil|kaiseraugst|rotkreuz|reinach|bubendorf', re.I)
+NONCITY = re.compile(r'frankfurt|berlin|m[üu]nchen|munich|hamburg|boston|new york|london|paris|madrid|'
+    r'barcelona|wien|vienna|amsterdam|dublin|milano|singapore|pune|mumbai|warsaw|dubai|shanghai|tokyo', re.I)
+TITLE_KEYS = ('title', 'name', 'jobtitle', 'postingtitle', 'job_title', 'positiontitle')
+LOC_KEYS = ('location', 'city', 'cities', 'state', 'country', 'primarylocation', 'locationstext',
+            'locationsText', 'joblocation', 'location_name', 'address', 'region')
+URL_KEYS = ('applyurl', 'apply_url', 'url', 'ml_job_url', 'canonicalurl', 'joburl', 'externalpath',
+            'apppath', 'joburl', 'href', 'link')
 BLOCK = re.compile(r'just a moment|checking your browser|cloudflare|access denied|enable javascript|'
-    r'unusual traffic|are you a human|captcha|verify you are|bot detection|request blocked', re.I)
-
+    r'unusual traffic|are you a human|captcha|verify you are|bot detection|request blocked|akamai', re.I)
+LOAD_BTN = re.compile(r'search|suchen|show results?|load more|mehr laden|alle anzeigen|view (all )?jobs?|'
+    r'see (all )?jobs?|more jobs?|weitere|find jobs', re.I)
 COOKIE_BTN = re.compile(r'accept|akzeptieren|zustimmen|einverstanden|alle akzeptieren|got it|allow all|'
-    r'agree|verstanden|ok', re.I)
-LOAD_BTN = re.compile(r'search|suchen|jobs? suchen|show results?|load more|mehr laden|alle anzeigen|'
-    r'view (all )?jobs?|see (all )?jobs?|more jobs?|weitere', re.I)
+    r'agree|verstanden', re.I)
 
 
-def good_title(t):
-    tl = (t or '').lower().strip()
-    if len(tl) < 8 or len(tl) > 150:
-        return False
-    if any(j in tl for j in JUNK):
-        return False
-    if NONCITY.search(tl):
-        return False
-    if CATEGORY.match(tl):           # reject bare category/landing labels
-        return False
-    return STRONG.search(tl) is not None
+def _val(d, keys):
+    for k in d:
+        if k.lower() in keys:
+            v = d[k]
+            if isinstance(v, str) and v.strip():
+                return v.strip()
+            if isinstance(v, list) and v and isinstance(v[0], str):
+                return ", ".join(v[:3])
+            if isinstance(v, dict):
+                for kk in ('name', 'label', 'city', 'displayName'):
+                    if isinstance(v.get(kk), str):
+                        return v[kk]
+    return ''
 
 
-def keep(text, href):
-    if not good_title(text):
-        return False
-    h = href or ''
-    # strong keep: URL looks like a real job-detail page, or title has hard signal (%/(m/w/d)
-    if HREF_DETAIL.search(h) or TITLE_HARD.search(text):
-        return True
-    # weak keep: job-ish URL AND title has >=2 words (cuts single-word nav)
-    return bool(HREF_JOBWORD.search(h)) and len(text.split()) >= 2
+def walk(obj, out, depth=0):
+    """Recursively find dicts that look like job records; collect (title, loc, url)."""
+    if depth > 8:
+        return
+    if isinstance(obj, list):
+        for it in obj:
+            walk(it, out, depth + 1)
+    elif isinstance(obj, dict):
+        tkey = next((k for k in obj if k.lower() in TITLE_KEYS and isinstance(obj[k], str)), None)
+        if tkey:
+            title = obj[tkey].strip()
+            if 8 <= len(title) <= 150:
+                out.append({'title': title[:120], 'loc': _val(obj, LOC_KEYS), 'url': _val(obj, URL_KEYS)})
+        for v in obj.values():
+            if isinstance(v, (list, dict)):
+                walk(v, out, depth + 1)
 
 
 def coax(page):
-    """Nudge an SPA into rendering its job list: cookies, search/load buttons, scroll."""
-    # cookie banners (best-effort, in main frame + any consent iframe)
     for fr in page.frames:
         try:
             for b in fr.query_selector_all('button, a'):
                 t = (b.inner_text() or '').strip()
                 if t and COOKIE_BTN.search(t) and len(t) < 30:
-                    b.click(timeout=1500); page.wait_for_timeout(400); break
+                    b.click(timeout=1200); page.wait_for_timeout(400); break
         except Exception:
             pass
-    # click a search / load-more button if present
     try:
         for b in page.query_selector_all('button, a, input[type=submit]'):
-            t = (b.inner_text() if b else '' or '').strip()
+            t = (b.inner_text() or '').strip()
             if t and LOAD_BTN.search(t) and len(t) < 40:
-                b.click(timeout=1500); page.wait_for_timeout(1500); break
+                b.click(timeout=1200); page.wait_for_timeout(1800); break
     except Exception:
         pass
-    # lazy-load: scroll to bottom several times
-    for _ in range(6):
-        try:
-            page.evaluate('window.scrollTo(0, document.body.scrollHeight)')
-        except Exception:
-            pass
+    for _ in range(4):
+        try: page.evaluate('window.scrollTo(0, document.body.scrollHeight)')
+        except Exception: pass
         page.wait_for_timeout(900)
-    try:
-        page.wait_for_load_state('networkidle', timeout=6000)
-    except Exception:
-        pass
-
-
-def collect_anchors(page):
-    """Anchors from the main document AND every iframe."""
-    js = 'els => els.map(a => ({t:(a.textContent||"").trim(), h:a.href}))'
-    out = []
-    for fr in page.frames:
-        try:
-            out.extend(fr.eval_on_selector_all('a', js))
-        except Exception:
-            pass
-    return out
+    try: page.wait_for_load_state('networkidle', timeout=6000)
+    except Exception: pass
 
 
 def harvest(page, url):
+    captured = []
+
+    def on_resp(resp):
+        try:
+            ct = (resp.headers or {}).get('content-type', '')
+            if 'json' not in ct.lower():
+                return
+            rurl = resp.url
+            if not re.search(r'job|search|cxs|apply|positions|vacan|career|posting', rurl, re.I):
+                return
+            body = resp.json()
+            captured.append(body)
+        except Exception:
+            pass
+
+    page.on('response', on_resp)
     page.goto(url, wait_until='domcontentloaded', timeout=30000)
     page.wait_for_timeout(2500)
-    body = (page.content() or '')[:6000]
-    blocked = bool(BLOCK.search(body))
+    content = (page.content() or '')[:6000]
+    blocked = bool(BLOCK.search(content))
     coax(page)
-    anchors = collect_anchors(page)
-    out, seen = [], set()
-    for a in anchors:
-        t = re.sub(r'\s+', ' ', a.get('t') or '').strip()
-        if keep(t, a.get('h')) and t.lower() not in seen:
-            seen.add(t.lower())
-            out.append(t[:90])
-    return len(out), blocked, out[:6]
+    page.wait_for_timeout(1500)
+
+    recs = []
+    for body in captured[:60]:
+        walk(body, recs)
+    # dedup + Swiss filter
+    seen, jobs = set(), []
+    for r in recs:
+        t = r['title']
+        if t.lower() in seen:
+            continue
+        loc = r.get('loc', '')
+        if NONCITY.search(loc):
+            continue
+        # keep if location is Swiss OR (no location captured — many APIs omit it in list view)
+        if loc and not SWISS.search(loc):
+            continue
+        seen.add(t.lower())
+        jobs.append({'title': t, 'loc': loc[:40]})
+    return len(jobs), blocked, len(captured), jobs[:6]
 
 
 def run_engine(engine, results):
@@ -158,16 +157,16 @@ def run_engine(engine, results):
 def _loop(b, engine, results, ua):
     for name, url in TARGETS:
         pg = b.new_page(user_agent=ua) if ua else b.new_page()
-        r = {'njobs': 0, 'blocked': None, 'status': '', 'sample': []}
+        r = {'njobs': 0, 'blocked': None, 'xhr': 0, 'status': '', 'sample': []}
         try:
-            r['njobs'], r['blocked'], r['sample'] = harvest(pg, url)
+            r['njobs'], r['blocked'], r['xhr'], r['sample'] = harvest(pg, url)
             r['status'] = 'ok' if r['njobs'] else ('blocked' if r['blocked'] else 'no_jobs')
         except Exception as e:
             r['status'] = 'error'; r['error'] = str(e)[:120]
         try: pg.close()
         except Exception: pass
         results[name][engine] = r
-        print(f"[{engine}] {name[:22]:22s} {r['status']:8s} jobs={r['njobs']} blocked={r['blocked']}", flush=True)
+        print(f"[{engine}] {name[:22]:22s} {r['status']:8s} jobs={r['njobs']} xhr={r.get('xhr',0)} blocked={r['blocked']}", flush=True)
 
 
 def main():
@@ -180,8 +179,8 @@ def main():
             print(f"{engine.upper()} PASS FAILED\n" + traceback.format_exc(), flush=True)
     json.dump(results, open('camoufox_test_results.json', 'w'), ensure_ascii=False, indent=1)
 
-    print("\n=== SUMMARY (jobs / blocked) ===")
-    print(f"{'company':22s} {'chromium':>16s} {'camoufox':>16s}  winner")
+    print("\n=== SUMMARY (jobs / xhr / blocked) ===")
+    print(f"{'company':22s} {'chromium':>18s} {'camoufox':>18s}  winner")
     wins = {'chromium': 0, 'camoufox': 0, 'tie': 0}
     for name, url in TARGETS:
         ch = results[name].get('chromium', {}) or {}
@@ -189,9 +188,9 @@ def main():
         cj, fj = ch.get('njobs', 0), cf.get('njobs', 0)
         w = 'camoufox' if fj > cj else ('chromium' if cj > fj else 'tie')
         wins[w] += 1
-        cs = f"{cj}j/{'B' if ch.get('blocked') else '-'}/{ch.get('status','?')[:5]}"
-        fs = f"{fj}j/{'B' if cf.get('blocked') else '-'}/{cf.get('status','?')[:5]}"
-        print(f"{name[:22]:22s} {cs:>16s} {fs:>16s}  {w}")
+        cs = f"{cj}j/x{ch.get('xhr',0)}/{'B' if ch.get('blocked') else '-'}"
+        fs = f"{fj}j/x{cf.get('xhr',0)}/{'B' if cf.get('blocked') else '-'}"
+        print(f"{name[:22]:22s} {cs:>18s} {fs:>18s}  {w}")
     print(f"\nwins: {wins}")
     print("EXIT_0")
 

@@ -72,11 +72,32 @@
  "Givaudan": {
   "url": "https://jobs.givaudan.com/search/",
   "chromium": {
-   "njobs": 0,
+   "njobs": 5,
    "blocked": false,
    "xhr": 30,
-   "status": "no_jobs",
-   "sample": [],
+   "status": "ok",
+   "sample": [
+    {
+     "title": "EHS Specialist (m/w/d) - Your next role?",
+     "loc": "Vernier, Switzerland"
+    },
+    {
+     "title": "Head of Procurement IM&S",
+     "loc": "Vernier, Switzerland"
+    },
+    {
+     "title": "Senior Regulatory Data Analyst",
+     "loc": "Vernier, Switzerland"
+    },
+    {
+     "title": "Bioprocess Specialist (m/f/d)- Your next role ?",
+     "loc": "Vernier, Switzerland"
+    },
+    {
+     "title": "Project Manager Operations",
+     "loc": "Dübendorf, Switzerland"
+    }
+   ],
    "schemas": [
     {
      "url": "https://careers.givaudan.com/widgets",
@@ -239,15 +260,15 @@
      "https://careers.givaudan.com/widgets",
      "https://careers.givaudan.com/widgets",
      "https://careers.givaudan.com/widgets",
-     "https://content-ir.phenompeople.com/api/GIVGIVGB/categoryMasterDataV2?locale=en_global&siteType=external&devic",
-     "https://content-ir.phenompeople.com/api/GIVGIVGB/globalSearchConfig?locale=en_global&siteType=external&deviceT",
-     "https://careers.givaudan.com/widgets",
-     "https://content-ir.phenompeople.com/api/GIVGIVGB/getRegionLocales?locale=en_global&siteType=external&deviceTyp",
-     "https://careers.givaudan.com/widgets",
      "https://content-ir.phenompeople.com/api/GIVGIVGB/getPiiConsentConfig?locale=en_global&siteType=external&device",
-     "https://careers.givaudan.com/widgets",
-     "https://careers.givaudan.com/widgets",
+     "https://content-ir.phenompeople.com/api/GIVGIVGB/categoryMasterDataV2?locale=en_global&siteType=external&devic",
+     "https://content-ir.phenompeople.com/api/GIVGIVGB/getRegionLocales?locale=en_global&siteType=external&deviceTyp",
+     "https://content-ir.phenompeople.com/api/GIVGIVGB/globalSearchConfig?locale=en_global&siteType=external&deviceT",
      "https://content-ir.phenompeople.com/api/GIVGIVGB/fyfConfig?locale=en_global&siteType=external&deviceType=deskt",
+     "https://careers.givaudan.com/widgets",
+     "https://careers.givaudan.com/widgets",
+     "https://careers.givaudan.com/widgets",
+     "https://careers.givaudan.com/widgets",
      "https://careers.givaudan.com/widgets",
      "https://careers.givaudan.com/widgets",
      "https://careers.givaudan.com/widgets",
@@ -267,15 +288,15 @@
     "post_bodies": [
      {
       "url": "https://careers.givaudan.com/widgets",
+      "body": "{\"lang\":\"en_global\",\"deviceType\":\"desktop\",\"country\":\"global\",\"pageName\":\"home\",\"refNum\":\"GIVGIVGB\",\"siteType\":\"external\",\"pageId\":\"page16\",\"ddoKey\":\"jobCartCountV2\"}"
+     },
+     {
+      "url": "https://careers.givaudan.com/widgets",
       "body": "{\"lang\":\"en_global\",\"deviceType\":\"desktop\",\"country\":\"global\",\"pageName\":\"home\",\"refNum\":\"GIVGIVGB\",\"siteType\":\"external\",\"pageId\":\"page16\",\"ddoKey\":\"getLocationDetails\"}"
      },
      {
       "url": "https://careers.givaudan.com/widgets",
-      "body": "{\"botObj\":{\"sender\":\"1a03991ff844e1-e1000-ce91-1a03991ff85ed3\",\"message\":\"/bot_load\",\"type\":\"CHATBOT_LOAD\",\"data\":{\"messageType\":\"CHATBOT_LOAD\",\"message\":\"/bot_load\",\"userMessage\":\"\",\"botMessageId\":\"\",\"app\":\"career-site\",\"baseUrl\":\"https://careers.givaudan.com/global/en/\",\"deviceType\":\"desktop\",\"pageName\":\"home\",\"pageType\":\"home\",\"current_url\":\"https://careers.givaudan.com/global/en\",\"uas\":\"Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 Chrome/120 Safari/537.36\",\"referrer\":\"\",\"source\":\"career-bot\",\"timestamp\":\"2026-08-25T15:37:44.870Z\",\"tzId\":\"UTC\",\"refNum\":\"GIVGIVGB\",\"locale\":\"en_global\","
-     },
-     {
-      "url": "https://careers.givaudan.com/widgets",
-      "body": "{\"lang\":\"en_global\",\"deviceType\":\"desktop\",\"country\":\"global\",\"pageName\":\"home\",\"refNum\":\"GIVGIVGB\",\"siteType\":\"external\",\"pageId\":\"page16\",\"ddoKey\":\"jobCartCountV2\"}"
+      "body": "{\"botObj\":{\"sender\":\"1a03999b3421d3-e1000-9d63-1a03999b34311bc\",\"message\":\"/bot_load\",\"type\":\"CHATBOT_LOAD\",\"data\":{\"messageType\":\"CHATBOT_LOAD\",\"message\":\"/bot_load\",\"userMessage\":\"\",\"botMessageId\":\"\",\"app\":\"career-site\",\"baseUrl\":\"https://careers.givaudan.com/global/en/\",\"deviceType\":\"desktop\",\"pageName\":\"home\",\"pageType\":\"home\",\"current_url\":\"https://careers.givaudan.com/global/en\",\"uas\":\"Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 Chrome/120 Safari/537.36\",\"referrer\":\"\",\"source\":\"career-bot\",\"timestamp\":\"2026-08-25T15:46:10.062Z\",\"tzId\":\"UTC\",\"refNum\":\"GIVGIVGB\",\"locale\":\"en_global\""
      },
      {
       "url": "https://careers.givaudan.com/widgets",
@@ -296,92 +317,46 @@
      {
       "url": "https://careers.givaudan.com/widgets",
       "body": "{\"jobSeqNos\":[\"GIVGIVGB118719EXTERNALENGLOBAL\",\"GIVGIVGB118718EXTERNALENGLOBAL\",\"GIVGIVGB117420EXTERNALENGLOBAL\"],\"lang\":\"en_global\",\"deviceType\":\"desktop\",\"country\":\"global\",\"pageName\":\"home\",\"refNum\":\"GIVGIVGB\",\"siteType\":\"external\",\"pageId\":\"page16\",\"ddoKey\":\"getJobStatusListV2\"}"
+     },
+     {
+      "url": "https://careers.givaudan.com/widgets",
+      "body": "{\"lang\":\"en_global\",\"deviceType\":\"desktop\",\"country\":\"global\",\"ddoKey\":\"refineSearch\",\"siteType\":\"external\",\"keywords\":\"\",\"refNum\":\"GIVGIVGB\",\"locale\":\"en_global\",\"pageName\":\"search-results\",\"size\":100,\"from\":0,\"jobs\":true,\"location\":\"Switzerland\",\"facets\":{\"locationHierarchy1\":[\"Switzerland\"]}}"
      }
     ]
    }
   },
   "camoufox": {
-   "njobs": 0,
+   "njobs": 16,
    "blocked": false,
    "xhr": 31,
-   "status": "no_jobs",
-   "sample": [],
+   "status": "ok",
+   "sample": [
+    {
+     "title": "Quality Control Analyst (h/f/d)",
+     "loc": "Vernier, Switzerland"
+    },
+    {
+     "title": "Agent prévention et intervention (h/f/d) 3x8 - CDD jusqu'au 31.12.2027",
+     "loc": "Vernier, Switzerland"
+    },
+    {
+     "title": "Quality Control Technician 50% (m/w/d)",
+     "loc": "Bischofszell, Switzerland"
+    },
+    {
+     "title": "Quality Control Technician (m/w/d)",
+     "loc": "Bischofszell, Switzerland"
+    },
+    {
+     "title": "Superviseur en production ingrédients (h/f/d)",
+     "loc": "Vernier, Switzerland"
+    },
+    {
+     "title": "Produktion & Continuous Improvement Intern (m/w/d)",
+     "loc": "Burgdorf, Switzerland"
+    }
+   ],
    "schemas": [
-    {
-     "url": "https://careers.givaudan.com/widgets",
-     "path": "$.canvasPxPageWidgetConfig.data.pageLevelWidget.stranger.widgetList",
-     "n": 11,
-     "keys": [
-      "widgetId",
-      "widgetName",
-      "displayName",
-      "px-block",
-      "ignoreSlider",
-      "widgetConfigMode",
-      "ignoreWidgetTitle",
-      "enabled"
-     ]
-    },
-    {
-     "url": "https://careers.givaudan.com/widgets",
-     "path": "$.canvasPxPageWidgetConfig.data.pageLevelWidget.qualifiedlead.widgetList",
-     "n": 6,
-     "keys": [
-      "widgetId",
-      "widgetName",
-      "displayName",
-      "px-block",
-      "widgetConfigMode",
-      "ignoreSlider",
-      "ignoreWidgetTitle",
-      "enabled"
-     ]
-    },
-    {
-     "url": "https://careers.givaudan.com/widgets",
-     "path": "$.canvasPxPageWidgetConfig.data.pageLevelWidget.applicant.widgetList",
-     "n": 6,
-     "keys": [
-      "widgetId",
-      "widgetName",
-      "displayName",
-      "px-block",
-      "ignoreSlider",
-      "widgetConfigMode",
-      "ignoreWidgetTitle",
-      "enabled"
-     ]
-    },
-    {
-     "url": "https://careers.givaudan.com/widgets",
-     "path": "$.canvasPxPageWidgetConfig.data.pageLevelWidget.visitor.widgetList",
-     "n": 7,
-     "keys": [
-      "widgetId",
-      "widgetName",
-      "displayName",
-      "px-block",
-      "ignoreSlider",
-      "widgetConfigMode",
-      "ignoreWidgetTitle",
-      "enabled"
-     ]
-    },
-    {
-     "url": "https://careers.givaudan.com/widgets",
-     "path": "$.canvasPxPageWidgetConfig.data.pageLevelWidget.lead.widgetList",
-     "n": 6,
-     "keys": [
-      "widgetId",
-      "widgetName",
-      "displayName",
-      "px-block",
-      "ignoreSlider",
-      "widgetConfigMode",
-      "ignoreWidgetTitle",
-      "enabled"
-     ]
-    },
     {
      "url": "https://careers.givaudan.com/widgets",
      "path": "$.canvasGetWidgetContent.data.contentData.hf-givaudanheadergben$$z4HDz3vS.contentMap.menuBlock",
@@ -459,6 +434,58 @@
       "63fbf634-svg-5",
       "63fbf634-li-8"
      ]
+    },
+    {
+     "url": "https://careers.givaudan.com/widgets",
+     "path": "$.canvasGetWidgetContent.data.designData.v5HDz3vS.cards",
+     "n": 3,
+     "keys": [
+      "e48864c9-a-2"
+     ]
+    },
+    {
+     "url": "https://careers.givaudan.com/widgets",
+     "path": "$.canvasGetWidgetContent.data.designData.hf-givaudanheadergben$$z4HDz3vS.cards",
+     "n": 7,
+     "keys": []
+    },
+    {
+     "url": "https://careers.givaudan.com/widgets",
+     "path": "$.canvasGetWidgetContent.data.designData.v6HDz3vS.cards",
+     "n": 3,
+     "keys": [
+      "e48864c9-a-2"
+     ]
+    },
+    {
+     "url": "https://careers.givaudan.com/widgets",
+     "path": "$.canvasPxPageWidgetConfig.data.pageLevelWidget.stranger.widgetList",
+     "n": 11,
+     "keys": [
+      "widgetId",
+      "widgetName",
+      "displayName",
+      "px-block",
+      "ignoreSlider",
+      "widgetConfigMode",
+      "ignoreWidgetTitle",
+      "enabled"
+     ]
+    },
+    {
+     "url": "https://careers.givaudan.com/widgets",
+     "path": "$.canvasPxPageWidgetConfig.data.pageLevelWidget.qualifiedlead.widgetList",
+     "n": 6,
+     "keys": [
+      "widgetId",
+      "widgetName",
+      "displayName",
+      "px-block",
+      "widgetConfigMode",
+      "ignoreSlider",
+      "ignoreWidgetTitle",
+      "enabled"
+     ]
     }
    ],
    "dbg": {
@@ -468,18 +495,18 @@
      "https://careers.givaudan.com/widgets",
      "https://careers.givaudan.com/widgets",
      "https://careers.givaudan.com/widgets",
-     "https://careers.givaudan.com/widgets",
      "https://content-ir.phenompeople.com/api/GIVGIVGB/getRegionLocales?locale=en_global&siteType=external&deviceTyp",
-     "https://content-ir.phenompeople.com/api/GIVGIVGB/getPiiConsentConfig?locale=en_global&siteType=external&device",
-     "https://careers.givaudan.com/widgets",
-     "https://content-ir.phenompeople.com/api/GIVGIVGB/globalSearchConfig?locale=en_global&siteType=external&deviceT",
-     "https://careers.givaudan.com/widgets",
      "https://content-ir.phenompeople.com/api/GIVGIVGB/categoryMasterDataV2?locale=en_global&siteType=external&devic",
+     "https://content-ir.phenompeople.com/api/GIVGIVGB/globalSearchConfig?locale=en_global&siteType=external&deviceT",
+     "https://content-ir.phenompeople.com/api/GIVGIVGB/getPiiConsentConfig?locale=en_global&siteType=external&device",
      "https://content-ir.phenompeople.com/api/GIVGIVGB/fyfConfig?locale=en_global&siteType=external&deviceType=deskt",
      "https://careers.givaudan.com/widgets",
-     "https://cdn-bot.phenompeople.com/chatbot-builds/icons/chatbot-icons.json?v=v0.6.60",
      "https://careers.givaudan.com/widgets",
-     "https://cdn-bot.phenompeople.com/chatbot-builds/icons/chatbot-tc-icons.json?v=v0.6.60",
+     "https://careers.givaudan.com/widgets",
+     "https://careers.givaudan.com/widgets",
+     "https://careers.givaudan.com/widgets",
+     "https://careers.givaudan.com/widgets",
+     "https://careers.givaudan.com/widgets",
      "https://careers.givaudan.com/widgets",
      "https://careers.givaudan.com/widgets",
      "https://careers.givaudan.com/widgets"
@@ -496,15 +523,15 @@
     "post_bodies": [
      {
       "url": "https://careers.givaudan.com/widgets",
+      "body": "{\"lang\":\"en_global\",\"deviceType\":\"desktop\",\"country\":\"global\",\"pageName\":\"home\",\"refNum\":\"GIVGIVGB\",\"siteType\":\"external\",\"pageId\":\"page16\",\"ddoKey\":\"jobCartCountV2\"}"
+     },
+     {
+      "url": "https://careers.givaudan.com/widgets",
       "body": "{\"lang\":\"en_global\",\"deviceType\":\"desktop\",\"country\":\"global\",\"pageName\":\"home\",\"refNum\":\"GIVGIVGB\",\"siteType\":\"external\",\"pageId\":\"page16\",\"ddoKey\":\"getLocationDetails\"}"
      },
      {
       "url": "https://careers.givaudan.com/widgets",
-      "body": "{\"botObj\":{\"sender\":\"d18d95be-6dee-4ba6-8215-eeefde953f42\",\"message\":\"/bot_load\",\"type\":\"CHATBOT_LOAD\",\"data\":{\"messageType\":\"CHATBOT_LOAD\",\"message\":\"/bot_load\",\"userMessage\":\"\",\"botMessageId\":\"\",\"app\":\"career-site\",\"baseUrl\":\"https://careers.givaudan.com/global/en/\",\"deviceType\":\"desktop\",\"pageName\":\"home\",\"pageType\":\"home\",\"current_url\":\"https://careers.givaudan.com/global/en\",\"uas\":\"Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:152.0) Gecko/20100101 Firefox/152.0\",\"referrer\":\"\",\"source\":\"career-bot\",\"timestamp\":\"2026-08-25T15:39:44.432Z\",\"tzId\":\"America/Chicago\",\"refNum\":\"GIVGIVGB\",\"locale\""
-     },
-     {
-      "url": "https://careers.givaudan.com/widgets",
-      "body": "{\"lang\":\"en_global\",\"deviceType\":\"desktop\",\"country\":\"global\",\"pageName\":\"home\",\"refNum\":\"GIVGIVGB\",\"siteType\":\"external\",\"pageId\":\"page16\",\"ddoKey\":\"jobCartCountV2\"}"
+      "body": "{\"botObj\":{\"sender\":\"eddb73bb-4ca3-4cbe-8cde-10be16746854\",\"message\":\"/bot_load\",\"type\":\"CHATBOT_LOAD\",\"data\":{\"messageType\":\"CHATBOT_LOAD\",\"message\":\"/bot_load\",\"userMessage\":\"\",\"botMessageId\":\"\",\"app\":\"career-site\",\"baseUrl\":\"https://careers.givaudan.com/global/en/\",\"deviceType\":\"desktop\",\"pageName\":\"home\",\"pageType\":\"home\",\"current_url\":\"https://careers.givaudan.com/global/en\",\"uas\":\"Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:152.0) Gecko/20100101 Firefox/152.0\",\"referrer\":\"\",\"source\":\"career-bot\",\"timestamp\":\"2026-08-25T15:48:09.461Z\",\"tzId\":\"America/Los_Angeles\",\"refNum\":\"GIVGIVGB\",\"loc"
      },
      {
       "url": "https://careers.givaudan.com/widgets",
@@ -520,7 +547,7 @@
      },
      {
       "url": "https://careers.givaudan.com/widgets",
-      "body": "{\"latitude\":41.84830093383789,\"longitude\":-87.65170288085938,\"radius\":8.292380879138338e-10,\"isEagerLoad\":true,\"lang\":\"en_global\",\"deviceType\":\"desktop\",\"country\":\"global\",\"pageName\":\"home\",\"refNum\":\"GIVGIVGB\",\"siteType\":\"external\",\"pageId\":\"page16\",\"ddoKey\":\"nearByJobs\"}"
+      "body": "{\"latitude\":37.33879852294922,\"longitude\":-121.8916015625,\"radius\":0.000008850640717160698,\"isEagerLoad\":true,\"lang\":\"en_global\",\"deviceType\":\"desktop\",\"country\":\"global\",\"pageName\":\"home\",\"refNum\":\"GIVGIVGB\",\"siteType\":\"external\",\"pageId\":\"page16\",\"ddoKey\":\"nearByJobs\"}"
      },
      {
       "url": "https://careers.givaudan.com/widgets",
@@ -529,6 +556,10 @@
      {
       "url": "https://careers.givaudan.com/widgets",
       "body": "{\"jobSeqNos\":[\"GIVGIVGB118719EXTERNALENGLOBAL\",\"GIVGIVGB118718EXTERNALENGLOBAL\",\"GIVGIVGB117420EXTERNALENGLOBAL\"],\"lang\":\"en_global\",\"deviceType\":\"desktop\",\"country\":\"global\",\"pageName\":\"home\",\"refNum\":\"GIVGIVGB\",\"siteType\":\"external\",\"pageId\":\"page16\",\"ddoKey\":\"getJobStatusListV2\"}"
+     },
+     {
+      "url": "https://careers.givaudan.com/widgets",
+      "body": "{\"lang\":\"en_global\",\"deviceType\":\"desktop\",\"country\":\"global\",\"ddoKey\":\"refineSearch\",\"siteType\":\"external\",\"keywords\":\"\",\"refNum\":\"GIVGIVGB\",\"locale\":\"en_global\",\"pageName\":\"search-results\",\"size\":100,\"from\":0,\"jobs\":true,\"location\":\"Switzerland\",\"facets\":{\"locationHierarchy1\":[\"Switzerland\"]}}"
      }
     ]
    }
@@ -537,11 +568,28 @@
  "Kuehne + Nagel": {
   "url": "https://jobs.kuehne-nagel.com/global/en",
   "chromium": {
-   "njobs": 0,
+   "njobs": 4,
    "blocked": false,
    "xhr": 38,
-   "status": "no_jobs",
-   "sample": [],
+   "status": "ok",
+   "sample": [
+    {
+     "title": "Schülerpraktikum (m/w/d)",
+     "loc": "Bielefeld, Germany"
+    },
+    {
+     "title": "Lagermitarbeiter Landverkehr (m/w/d) 1",
+     "loc": "Bielefeld, Germany"
+    },
+    {
+     "title": "Operations Specialist",
+     "loc": "Bielany Wroclawskie, Poland"
+    },
+    {
+     "title": "Blue Yonder WMS Specialist (m/w/d)",
+     "loc": "Moehlin, Switzerland"
+    }
+   ],
    "schemas": [
     {
      "url": "https://content-ir.phenompeople.com/api/KUNAGLOBAL/jobwidgetsettings?locale=en_g",
@@ -678,26 +726,26 @@
    ],
    "dbg": {
     "xhr_urls": [
-     "https://content-ir.phenompeople.com/api/KUNAGLOBAL/jobwidgetsettings?locale=en_global&siteType=external&device",
      "https://content-ir.phenompeople.com/api/KUNAGLOBAL/locationmapsettings?locale=en_global&siteType=external&devi",
+     "https://content-ir.phenompeople.com/api/KUNAGLOBAL/jobwidgetsettings?locale=en_global&siteType=external&device",
      "https://jobs.kuehne-nagel.com/widgets",
      "https://jobs.kuehne-nagel.com/widgets",
      "https://jobs.kuehne-nagel.com/widgets",
      "https://jobs.kuehne-nagel.com/widgets",
      "https://jobs.kuehne-nagel.com/widgets",
-     "https://jobs.kuehne-nagel.com/widgets",
-     "https://jobs.kuehne-nagel.com/widgets",
-     "https://content-ir.phenompeople.com/api/KUNAGLOBAL/getRegionLocales?locale=en_global&siteType=external&deviceT",
      "https://content-ir.phenompeople.com/api/KUNAGLOBAL/getPiiConsentConfig?locale=en_global&siteType=external&devi",
-     "https://content-ir.phenompeople.com/api/KUNAGLOBAL/jobwidgetsettings?locale=en_global&siteType=external&device",
-     "https://content-ir.phenompeople.com/api/KUNAGLOBAL/jobTagSettings?locale=en_global&siteType=external&deviceTyp",
+     "https://content-ir.phenompeople.com/api/KUNAGLOBAL/getRegionLocales?locale=en_global&siteType=external&deviceT",
+     "https://content-ir.phenompeople.com/api/KUNAGLOBAL/globalSearchConfig?locale=en_global&siteType=external&devic",
+     "https://jobs.kuehne-nagel.com/widgets",
+     "https://jobs.kuehne-nagel.com/widgets",
+     "https://jobs.kuehne-nagel.com/widgets",
+     "https://jobs.kuehne-nagel.com/widgets",
+     "https://jobs.kuehne-nagel.com/widgets",
      "https://jobs.kuehne-nagel.com/widgets",
      "https://content-ir.phenompeople.com/api/KUNAGLOBAL/jobwidgetsettings?locale=en_global&siteType=external&device",
-     "https://content-ir.phenompeople.com/api/KUNAGLOBAL/globalSearchConfig?locale=en_global&siteType=external&devic",
      "https://content-ir.phenompeople.com/api/KUNAGLOBAL/jobTagSettings?locale=en_global&siteType=external&deviceTyp",
      "https://content-ir.phenompeople.com/api/KUNAGLOBAL/jobwidgetsettings?locale=en_global&siteType=external&device",
-     "https://content-ir.phenompeople.com/api/KUNAGLOBAL/jobTagSettings?locale=en_global&siteType=external&deviceTyp",
-     "https://jobs.kuehne-nagel.com/widgets"
+     "https://content-ir.phenompeople.com/api/KUNAGLOBAL/jobTagSettings?locale=en_global&siteType=external&deviceTyp"
     ],
     "phenom_probe": {
      "tenant": "KUNAGLOBAL",
@@ -739,19 +787,19 @@
      },
      {
       "url": "https://jobs.kuehne-nagel.com/widgets",
-      "body": "{\"jobSeqNos\":[\"KUNAGLOBAL10272EXTERNALENCA\",\"KUNAGLOBAL10272EXTERNALENGLOBAL\",\"KUNAGLOBAL10272EXTERNALENUK\",\"KUNAGLOBAL10642EXTERNALENGLOBAL\",\"KUNAGLOBAL10560EXTERNALENGLOBAL\"],\"lang\":\"en_global\",\"deviceType\":\"desktop\",\"country\":\"global\",\"pageName\":\"home\",\"refNum\":\"KUNAGLOBAL\",\"siteType\":\"external\",\"pageId\":\"page6-migration-ds\",\"ddoKey\":\"getJobStatusListV2\"}"
-     },
-     {
-      "url": "https://jobs.kuehne-nagel.com/widgets",
-      "body": "{\"jobSeqNos\":[\"KUNAGLOBAL10272EXTERNALENCA\",\"KUNAGLOBAL10272EXTERNALENGLOBAL\",\"KUNAGLOBAL10272EXTERNALENUK\",\"KUNAGLOBAL10642EXTERNALENGLOBAL\",\"KUNAGLOBAL10560EXTERNALENGLOBAL\"],\"lang\":\"en_global\",\"deviceType\":\"desktop\",\"country\":\"global\",\"pageName\":\"home\",\"refNum\":\"KUNAGLOBAL\",\"siteType\":\"external\",\"pageId\":\"page6-migration-ds\",\"ddoKey\":\"getJobStatusListV2\"}"
-     },
-     {
-      "url": "https://jobs.kuehne-nagel.com/widgets",
-      "body": "{\"jobSeqNo\":[\"KUNAGLOBAL10272EXTERNALENCA\",\"KUNAGLOBAL10272EXTERNALENGLOBAL\",\"KUNAGLOBAL10272EXTERNALENUK\",\"KUNAGLOBAL10642EXTERNALENGLOBAL\",\"KUNAGLOBAL10560EXTERNALENGLOBAL\"],\"requiredTags\":[\"smart_tags_openedRecently\",\"smart_tags_popularJob\"],\"size\":5,\"avoidWidgetHideOnFail\":true,\"tagLimit\":1,\"lang\":\"en_global\",\"deviceType\":\"desktop\",\"country\":\"global\",\"pageName\":\"home\",\"refNum\":\"KUNAGLOBAL\",\"siteType\":\"external\",\"pageId\":\"page6-migration-ds\",\"ddoKey\":\"smartJobTags\"}"
-     },
-     {
-      "url": "https://jobs.kuehne-nagel.com/widgets",
       "body": "{\"lang\":\"en_global\",\"deviceType\":\"desktop\",\"country\":\"global\",\"pageName\":\"home\",\"pageId\":\"page6-migration-ds\",\"data\":{\"rxGODB\":\"ph-cookie-popup-v2-default\",\"jYJjUI\":\"ph-global-search-v3-default\",\"qGT5Wd3c\":\"ph-html-v1-pcs-media-gallery-v1-pcs-video-popup-media-large-cc-view1-option1\"},\"ddoKey\":\"canvasGetWidgetContent\"}"
+     },
+     {
+      "url": "https://jobs.kuehne-nagel.com/widgets",
+      "body": "{\"jobSeqNos\":[\"KUNAGLOBAL10272EXTERNALENCA\",\"KUNAGLOBAL10272EXTERNALENGLOBAL\",\"KUNAGLOBAL10272EXTERNALENUK\",\"KUNAGLOBAL10642EXTERNALENGLOBAL\",\"KUNAGLOBAL10560EXTERNALENGLOBAL\"],\"lang\":\"en_global\",\"deviceType\":\"desktop\",\"country\":\"global\",\"pageName\":\"home\",\"refNum\":\"KUNAGLOBAL\",\"siteType\":\"external\",\"pageId\":\"page6-migration-ds\",\"pageStateData\":{},\"ddoKey\":\"getJobStatusListV2\"}"
+     },
+     {
+      "url": "https://jobs.kuehne-nagel.com/widgets",
+      "body": "{\"jobSeqNos\":[\"KUNAGLOBAL10272EXTERNALENCA\",\"KUNAGLOBAL10272EXTERNALENGLOBAL\",\"KUNAGLOBAL10272EXTERNALENUK\",\"KUNAGLOBAL10642EXTERNALENGLOBAL\",\"KUNAGLOBAL10560EXTERNALENGLOBAL\"],\"lang\":\"en_global\",\"deviceType\":\"desktop\",\"country\":\"global\",\"pageName\":\"home\",\"refNum\":\"KUNAGLOBAL\",\"siteType\":\"external\",\"pageId\":\"page6-migration-ds\",\"pageStateData\":{},\"ddoKey\":\"getJobStatusListV2\"}"
+     },
+     {
+      "url": "https://jobs.kuehne-nagel.com/widgets",
+      "body": "{\"jobSeqNo\":[\"KUNAGLOBAL10272EXTERNALENCA\",\"KUNAGLOBAL10272EXTERNALENGLOBAL\",\"KUNAGLOBAL10272EXTERNALENUK\",\"KUNAGLOBAL10642EXTERNALENGLOBAL\",\"KUNAGLOBAL10560EXTERNALENGLOBAL\"],\"requiredTags\":[\"smart_tags_openedRecently\",\"smart_tags_popularJob\"],\"size\":5,\"avoidWidgetHideOnFail\":true,\"tagLimit\":1,\"lang\":\"en_global\",\"deviceType\":\"desktop\",\"country\":\"global\",\"pageName\":\"home\",\"refNum\":\"KUNAGLOBAL\",\"siteType\":\"external\",\"pageId\":\"page6-migration-ds\",\"pageStateData\":{},\"ddoKey\":\"smartJobTags\"}"
      },
      {
       "url": "https://jobs.kuehne-nagel.com/widgets",
@@ -761,11 +809,28 @@
    }
   },
   "camoufox": {
-   "njobs": 0,
+   "njobs": 4,
    "blocked": false,
-   "xhr": 39,
-   "status": "no_jobs",
-   "sample": [],
+   "xhr": 37,
+   "status": "ok",
+   "sample": [
+    {
+     "title": "Schülerpraktikum (m/w/d)",
+     "loc": "Bielefeld, Germany"
+    },
+    {
+     "title": "Lagermitarbeiter Landverkehr (m/w/d) 1",
+     "loc": "Bielefeld, Germany"
+    },
+    {
+     "title": "Operations Specialist",
+     "loc": "Bielany Wroclawskie, Poland"
+    },
+    {
+     "title": "Blue Yonder WMS Specialist (m/w/d)",
+     "loc": "Moehlin, Switzerland"
+    }
+   ],
    "schemas": [
     {
      "url": "https://content-ir.phenompeople.com/api/KUNAGLOBAL/jobwidgetsettings?locale=en_g",
@@ -902,19 +967,19 @@
    ],
    "dbg": {
     "xhr_urls": [
-     "https://jobs.kuehne-nagel.com/widgets",
-     "https://content-ir.phenompeople.com/api/KUNAGLOBAL/jobwidgetsettings?locale=en_global&siteType=external&device",
      "https://content-ir.phenompeople.com/api/KUNAGLOBAL/locationmapsettings?locale=en_global&siteType=external&devi",
+     "https://content-ir.phenompeople.com/api/KUNAGLOBAL/jobwidgetsettings?locale=en_global&siteType=external&device",
+     "https://jobs.kuehne-nagel.com/widgets",
+     "https://jobs.kuehne-nagel.com/widgets",
+     "https://jobs.kuehne-nagel.com/widgets",
      "https://jobs.kuehne-nagel.com/widgets",
      "https://jobs.kuehne-nagel.com/widgets",
      "https://jobs.kuehne-nagel.com/widgets",
      "https://jobs.kuehne-nagel.com/widgets",
      "https://content-ir.phenompeople.com/api/KUNAGLOBAL/getRegionLocales?locale=en_global&siteType=external&deviceT",
-     "https://content-ir.phenompeople.com/api/KUNAGLOBAL/globalSearchConfig?locale=en_global&siteType=external&devic",
-     "https://jobs.kuehne-nagel.com/widgets",
      "https://content-ir.phenompeople.com/api/KUNAGLOBAL/getPiiConsentConfig?locale=en_global&siteType=external&devi",
      "https://jobs.kuehne-nagel.com/widgets",
-     "https://jobs.kuehne-nagel.com/widgets",
+     "https://content-ir.phenompeople.com/api/KUNAGLOBAL/globalSearchConfig?locale=en_global&siteType=external&devic",
      "https://jobs.kuehne-nagel.com/widgets",
      "https://jobs.kuehne-nagel.com/widgets",
      "https://jobs.kuehne-nagel.com/widgets",
@@ -951,23 +1016,23 @@
      },
      {
       "url": "https://jobs.kuehne-nagel.com/widgets",
-      "body": "{\"keywords\":null,\"categories\":null,\"jobsViewed\":null,\"jobsApplied\":null,\"locations\":null,\"types\":[],\"userProfile\":null,\"landingPages\":null,\"department\":\"\",\"recoSize\":18,\"lang\":\"en_global\",\"deviceType\":\"desktop\",\"country\":\"global\",\"pageName\":\"home\",\"refNum\":\"KUNAGLOBAL\",\"siteType\":\"external\",\"pageId\":\"page6-migration-ds\",\"ddoKey\":\"recommendationJobsBrowsingHistory\"}"
-     },
-     {
-      "url": "https://jobs.kuehne-nagel.com/widgets",
-      "body": "{\"isEagerLoad\":true,\"lang\":\"en_global\",\"deviceType\":\"desktop\",\"country\":\"global\",\"pageName\":\"home\",\"refNum\":\"KUNAGLOBAL\",\"siteType\":\"external\",\"pageId\":\"page6-migration-ds\",\"ddoKey\":\"latestJobs\"}"
-     },
-     {
-      "url": "https://jobs.kuehne-nagel.com/widgets",
-      "body": "{\"isEagerLoad\":true,\"lang\":\"en_global\",\"deviceType\":\"desktop\",\"country\":\"global\",\"pageName\":\"home\",\"refNum\":\"KUNAGLOBAL\",\"siteType\":\"external\",\"pageId\":\"page6-migration-ds\",\"ddoKey\":\"leastAppliedJobs\"}"
-     },
-     {
-      "url": "https://jobs.kuehne-nagel.com/widgets",
-      "body": "{\"latitude\":41.84830093383789,\"longitude\":-87.65170288085938,\"radius\":8.292380879138338e-10,\"isEagerLoad\":true,\"lang\":\"en_global\",\"deviceType\":\"desktop\",\"country\":\"global\",\"pageName\":\"home\",\"refNum\":\"KUNAGLOBAL\",\"siteType\":\"external\",\"pageId\":\"page6-migration-ds\",\"ddoKey\":\"nearByJobs\"}"
-     },
-     {
-      "url": "https://jobs.kuehne-nagel.com/widgets",
       "body": "{\"lang\":\"en_global\",\"deviceType\":\"desktop\",\"country\":\"global\",\"pageName\":\"home\",\"pageId\":\"page6-migration-ds\",\"data\":{\"rxGODB\":\"ph-cookie-popup-v2-default\",\"jYJjUI\":\"ph-global-search-v3-default\",\"qGT5Wd3c\":\"ph-html-v1-pcs-media-gallery-v1-pcs-video-popup-media-large-cc-view1-option1\"},\"ddoKey\":\"canvasGetWidgetContent\"}"
+     },
+     {
+      "url": "https://jobs.kuehne-nagel.com/widgets",
+      "body": "{\"keywords\":null,\"categories\":null,\"jobsViewed\":null,\"jobsApplied\":null,\"locations\":null,\"types\":[],\"userProfile\":null,\"landingPages\":null,\"department\":\"\",\"recoSize\":18,\"lang\":\"en_global\",\"deviceType\":\"desktop\",\"country\":\"global\",\"pageName\":\"home\",\"refNum\":\"KUNAGLOBAL\",\"siteType\":\"external\",\"pageId\":\"page6-migration-ds\",\"pageStateData\":{},\"ddoKey\":\"recommendationJobsBrowsingHistory\"}"
+     },
+     {
+      "url": "https://jobs.kuehne-nagel.com/widgets",
+      "body": "{\"isEagerLoad\":true,\"lang\":\"en_global\",\"deviceType\":\"desktop\",\"country\":\"global\",\"pageName\":\"home\",\"refNum\":\"KUNAGLOBAL\",\"siteType\":\"external\",\"pageId\":\"page6-migration-ds\",\"pageStateData\":{},\"ddoKey\":\"latestJobs\"}"
+     },
+     {
+      "url": "https://jobs.kuehne-nagel.com/widgets",
+      "body": "{\"isEagerLoad\":true,\"lang\":\"en_global\",\"deviceType\":\"desktop\",\"country\":\"global\",\"pageName\":\"home\",\"refNum\":\"KUNAGLOBAL\",\"siteType\":\"external\",\"pageId\":\"page6-migration-ds\",\"pageStateData\":{},\"ddoKey\":\"leastAppliedJobs\"}"
+     },
+     {
+      "url": "https://jobs.kuehne-nagel.com/widgets",
+      "body": "{\"latitude\":37.33879852294922,\"longitude\":-121.8916015625,\"radius\":0.000008850640717160698,\"isEagerLoad\":true,\"lang\":\"en_global\",\"deviceType\":\"desktop\",\"country\":\"global\",\"pageName\":\"home\",\"refNum\":\"KUNAGLOBAL\",\"siteType\":\"external\",\"pageId\":\"page6-migration-ds\",\"pageStateData\":{},\"ddoKey\":\"nearByJobs\"}"
      },
      {
       "url": "https://jobs.kuehne-nagel.com/widgets",
@@ -1023,27 +1088,37 @@
  "Roche": {
   "url": "https://careers.roche.com/global/en",
   "chromium": {
-   "njobs": 0,
+   "njobs": 6,
    "blocked": false,
    "xhr": 17,
-   "status": "no_jobs",
-   "sample": [],
-   "schemas": [
+   "status": "ok",
+   "sample": [
     {
-     "url": "https://careers.roche.com/widgets",
-     "path": "$.dynaData.data.widgets",
-     "n": 1,
-     "keys": [
-      "instanceId",
-      "contentData",
-      "widgetId",
-      "bannerName",
-      "selector",
-      "conditions",
-      "structure",
-      "designData"
-     ]
+     "title": "Technical Expert Portfolio Mgmt, Technical Feasibility and Planning",
+     "loc": "Basel, Basel-City, Switzerland"
     },
+    {
+     "title": "Technical Expert Operational, Strategic and Project Support",
+     "loc": "Basel, Basel-City, Switzerland"
+    },
+    {
+     "title": "Chef de Partie, Tournant (w/m/d), 100% - befristet für 1 Jahr",
+     "loc": "Basel, Basel-City, Switzerland"
+    },
+    {
+     "title": "PI Automation Engineer",
+     "loc": "Kaiseraugst, Aargau, Switzerland"
+    },
+    {
+     "title": "Leiter Arbeitshygiene & Arbeitshygiene-Labor (m/w/d) 100%",
+     "loc": "Basel, Basel-City, Switzerland"
+    },
+    {
+     "title": "Trainer:in & ÜK-Leiter:in Business & Digital Technology (60–100%, Kaiseraugst, unbefristet)",
+     "loc": "Kaiseraugst, Aargau, Switzerland"
+    }
+   ],
+   "schemas": [
     {
      "url": "https://careers.roche.com/widgets",
      "path": "$.canvasGetWidgetContent.data.contentData.hf-test-footer$$piuhsd78.contentMap.menuBlock",
@@ -1084,12 +1159,25 @@
      "keys": [
       "45165f2b-li-1"
      ]
+    },
+    {
+     "url": "https://careers.roche.com/widgets",
+     "path": "$.dynaData.data.widgets",
+     "n": 1,
+     "keys": [
+      "instanceId",
+      "contentData",
+      "widgetId",
+      "bannerName",
+      "selector",
+      "conditions",
+      "structure",
+      "designData"
+     ]
     }
    ],
    "dbg": {
     "xhr_urls": [
-     "https://careers.roche.com/widgets",
-     "https://careers.roche.com/widgets",
      "https://careers.roche.com/widgets",
      "https://careers.roche.com/widgets",
      "https://careers.roche.com/widgets",
@@ -1100,11 +1188,13 @@
      "https://careers.roche.com/widgets",
      "https://careers.roche.com/widgets",
      "https://careers.roche.com/widgets",
+     "https://careers.roche.com/widgets",
+     "https://careers.roche.com/widgets",
      "https://content-ir.phenompeople.com/api/ROCHGLOBAL/globalSearchConfig?locale=en_global&siteType=external&devic",
      "https://content-ir.phenompeople.com/api/ROCHGLOBAL/fyfConfig?locale=en_global&siteType=external&deviceType=des",
      "https://careers.roche.com/widgets",
      "https://careers.roche.com/widgets",
-     "https://careers.roche.com/api/apply/v2/jobs?location=Switzerland&limit=100&offset=0",
+     "https://careers.roche.com/widgets",
      "https://careers.roche.com/api/apply/v2/jobs?tenantId=ROCHGLOBAL&location=Switzerland&limit=5",
      "https://careers.roche.com/api/apply/v2/jobs?location=Switzerland&limit=5",
      "https://careers.roche.com/api/apply/v2/jobs?location=Switzerland&limit=5"
@@ -1138,16 +1228,45 @@
      {
       "url": "https://careers.roche.com/widgets",
       "body": "{\"lang\":\"en_global\",\"deviceType\":\"desktop\",\"country\":\"global\",\"pageName\":\"home\",\"pageId\":\"page7-ds\",\"data\":{\"poIIrO\":\"ph-cookie-popup-v2-default\",\"Z5h1Qw\":\"ph-global-search-v3-default\",\"ai8eoj\":\"ph-find-your-fit-container-v1-default\",\"c1ykg4\":\"ph-profile-recommendations-v2-default\",\"23c11d\":\"ph-recom-jobs-browsing-history-v3-default\",\"81a3gk\":\"ph-recently-viewed-jobs-v3-default\",\"qi5top\":\"ph-near-by-jobs-v2-default\",\"rfBCP7\":\"ph-glassdoor-widget-v1-view3\"},\"ddoKey\":\"canvasGetWidgetContent\"}"
+     },
+     {
+      "url": "https://careers.roche.com/widgets",
+      "body": "{\"lang\":\"en_global\",\"deviceType\":\"desktop\",\"country\":\"global\",\"ddoKey\":\"refineSearch\",\"siteType\":\"external\",\"keywords\":\"\",\"refNum\":\"ROCHGLOBAL\",\"locale\":\"en_global\",\"pageName\":\"search-results\",\"size\":100,\"from\":0,\"jobs\":true,\"location\":\"Switzerland\",\"facets\":{\"locationHierarchy1\":[\"Switzerland\"]}}"
      }
     ]
    }
   },
   "camoufox": {
-   "njobs": 0,
+   "njobs": 6,
    "blocked": false,
    "xhr": 17,
-   "status": "no_jobs",
-   "sample": [],
+   "status": "ok",
+   "sample": [
+    {
+     "title": "Technical Expert Operational, Strategic and Project Support",
+     "loc": "Basel, Basel-City, Switzerland"
+    },
+    {
+     "title": "Technical Expert Portfolio Mgmt, Technical Feasibility and Planning",
+     "loc": "Basel, Basel-City, Switzerland"
+    },
+    {
+     "title": "Chef de Partie, Tournant (w/m/d), 100% - befristet für 1 Jahr",
+     "loc": "Basel, Basel-City, Switzerland"
+    },
+    {
+     "title": "PI Automation Engineer",
+     "loc": "Kaiseraugst, Aargau, Switzerland"
+    },
+    {
+     "title": "Leiter Arbeitshygiene & Arbeitshygiene-Labor (m/w/d) 100%",
+     "loc": "Basel, Basel-City, Switzerland"
+    },
+    {
+     "title": "Trainer:in & ÜK-Leiter:in Business & Digital Technology (60–100%, Kaiseraugst, unbefristet)",
+     "loc": "Kaiseraugst, Aargau, Switzerland"
+    }
+   ],
    "schemas": [
     {
      "url": "https://careers.roche.com/widgets",
@@ -1212,10 +1331,10 @@
      "https://careers.roche.com/widgets",
      "https://careers.roche.com/widgets",
      "https://careers.roche.com/widgets",
-     "https://careers.roche.com/widgets",
-     "https://careers.roche.com/widgets",
      "https://content-ir.phenompeople.com/api/ROCHGLOBAL/getRegionLocales?locale=en_global&siteType=external&deviceT",
      "https://content-ir.phenompeople.com/api/ROCHGLOBAL/getPiiConsentConfig?locale=en_global&siteType=external&devi",
+     "https://careers.roche.com/widgets",
+     "https://careers.roche.com/widgets",
      "https://careers.roche.com/widgets",
      "https://careers.roche.com/widgets",
      "https://careers.roche.com/widgets",
@@ -1223,7 +1342,7 @@
      "https://content-ir.phenompeople.com/api/ROCHGLOBAL/globalSearchConfig?locale=en_global&siteType=external&devic",
      "https://content-ir.phenompeople.com/api/ROCHGLOBAL/fyfConfig?locale=en_global&siteType=external&deviceType=des",
      "https://careers.roche.com/widgets",
-     "https://careers.roche.com/api/apply/v2/jobs?location=Switzerland&limit=100&offset=0",
+     "https://careers.roche.com/widgets",
      "https://careers.roche.com/api/apply/v2/jobs?tenantId=ROCHGLOBAL&location=Switzerland&limit=5",
      "https://careers.roche.com/api/apply/v2/jobs?location=Switzerland&limit=5",
      "https://careers.roche.com/api/apply/v2/jobs?location=Switzerland&limit=5",
@@ -1258,6 +1377,10 @@
      {
       "url": "https://careers.roche.com/widgets",
       "body": "{\"lang\":\"en_global\",\"deviceType\":\"desktop\",\"country\":\"global\",\"pageName\":\"home\",\"pageId\":\"page7-ds\",\"data\":{\"poIIrO\":\"ph-cookie-popup-v2-default\",\"Z5h1Qw\":\"ph-global-search-v3-default\",\"ai8eoj\":\"ph-find-your-fit-container-v1-default\",\"c1ykg4\":\"ph-profile-recommendations-v2-default\",\"23c11d\":\"ph-recom-jobs-browsing-history-v3-default\",\"81a3gk\":\"ph-recently-viewed-jobs-v3-default\",\"qi5top\":\"ph-near-by-jobs-v2-default\",\"rfBCP7\":\"ph-glassdoor-widget-v1-view3\"},\"ddoKey\":\"canvasGetWidgetContent\"}"
+     },
+     {
+      "url": "https://careers.roche.com/widgets",
+      "body": "{\"lang\":\"en_global\",\"deviceType\":\"desktop\",\"country\":\"global\",\"ddoKey\":\"refineSearch\",\"siteType\":\"external\",\"keywords\":\"\",\"refNum\":\"ROCHGLOBAL\",\"locale\":\"en_global\",\"pageName\":\"search-results\",\"size\":100,\"from\":0,\"jobs\":true,\"location\":\"Switzerland\",\"facets\":{\"locationHierarchy1\":[\"Switzerland\"]}}"
      }
     ]
    }
@@ -1266,11 +1389,28 @@
  "Straumann Group": {
   "url": "https://careers.straumann.com",
   "chromium": {
-   "njobs": 0,
+   "njobs": 4,
    "blocked": false,
    "xhr": 12,
-   "status": "no_jobs",
-   "sample": [],
+   "status": "ok",
+   "sample": [
+    {
+     "title": "Apprentissage Mécanicien de production et Polymécanicien CFC",
+     "loc": "Villeret, Switzerland"
+    },
+    {
+     "title": "Master Data Steward",
+     "loc": "Villeret, Switzerland"
+    },
+    {
+     "title": "Facility Management and Workplace Project Manager (Straumann Campus Basel)",
+     "loc": "Basel, Switzerland"
+    },
+    {
+     "title": "Global Launch Education Manager",
+     "loc": "Basel, Switzerland"
+    }
+   ],
    "schemas": [],
    "dbg": {
     "xhr_urls": [
@@ -1280,13 +1420,13 @@
      "https://careers.straumann.com/widgets",
      "https://careers.straumann.com/widgets",
      "https://careers.straumann.com/widgets",
-     "https://careers.straumann.com/widgets",
      "https://content-ir.phenompeople.com/api/STGRGLOBAL/globalSearchConfig?locale=en_global&siteType=external&devic",
+     "https://careers.straumann.com/widgets",
      "https://careers.straumann.com/widgets",
      "https://content-ir.phenompeople.com/api/STGRGLOBAL/fyfConfig?locale=en_global&siteType=external&deviceType=des",
      "https://careers.straumann.com/widgets",
      "https://careers.straumann.com/widgets",
-     "https://careers.straumann.com/api/apply/v2/jobs?location=Switzerland&limit=100&offset=0",
+     "https://careers.straumann.com/widgets",
      "https://careers.straumann.com/api/apply/v2/jobs?tenantId=STGRGLOBAL&location=Switzerland&limit=5",
      "https://careers.straumann.com/api/apply/v2/jobs?location=Switzerland&limit=5",
      "https://careers.straumann.com/api/apply/v2/jobs?location=Switzerland&limit=5",
@@ -1305,16 +1445,37 @@
      {
       "url": "https://careers.straumann.com/widgets",
       "body": "{\"lang\":\"en_global\",\"deviceType\":\"desktop\",\"country\":\"global\",\"pageName\":\"home\",\"ddoKey\":\"jobCartCountV2\"}"
+     },
+     {
+      "url": "https://careers.straumann.com/widgets",
+      "body": "{\"lang\":\"en_global\",\"deviceType\":\"desktop\",\"country\":\"global\",\"ddoKey\":\"refineSearch\",\"siteType\":\"external\",\"keywords\":\"\",\"refNum\":\"STGRGLOBAL\",\"locale\":\"en_global\",\"pageName\":\"search-results\",\"size\":100,\"from\":0,\"jobs\":true,\"location\":\"Switzerland\",\"facets\":{\"locationHierarchy1\":[\"Switzerland\"]}}"
      }
     ]
    }
   },
   "camoufox": {
-   "njobs": 0,
+   "njobs": 4,
    "blocked": false,
-   "xhr": 12,
-   "status": "no_jobs",
-   "sample": [],
+   "xhr": 11,
+   "status": "ok",
+   "sample": [
+    {
+     "title": "Apprentissage Mécanicien de production et Polymécanicien CFC",
+     "loc": "Villeret, Switzerland"
+    },
+    {
+     "title": "Master Data Steward",
+     "loc": "Villeret, Switzerland"
+    },
+    {
+     "title": "Facility Management and Workplace Project Manager (Straumann Campus Basel)",
+     "loc": "Basel, Switzerland"
+    },
+    {
+     "title": "Global Launch Education Manager",
+     "loc": "Basel, Switzerland"
+    }
+   ],
    "schemas": [],
    "dbg": {
     "xhr_urls": [
@@ -1324,12 +1485,12 @@
      "https://careers.straumann.com/widgets",
      "https://careers.straumann.com/widgets",
      "https://careers.straumann.com/widgets",
-     "https://content-ir.phenompeople.com/api/STGRGLOBAL/globalSearchConfig?locale=en_global&siteType=external&devic",
      "https://careers.straumann.com/widgets",
+     "https://content-ir.phenompeople.com/api/STGRGLOBAL/globalSearchConfig?locale=en_global&siteType=external&devic",
      "https://content-ir.phenompeople.com/api/STGRGLOBAL/fyfConfig?locale=en_global&siteType=external&deviceType=des",
      "https://careers.straumann.com/widgets",
      "https://careers.straumann.com/widgets",
-     "https://careers.straumann.com/api/apply/v2/jobs?location=Switzerland&limit=100&offset=0",
+     "https://careers.straumann.com/widgets",
      "https://careers.straumann.com/api/apply/v2/jobs?tenantId=STGRGLOBAL&location=Switzerland&limit=5",
      "https://careers.straumann.com/api/apply/v2/jobs?location=Switzerland&limit=5",
      "https://careers.straumann.com/api/apply/v2/jobs?location=Switzerland&limit=5",
@@ -1348,6 +1509,10 @@
      {
       "url": "https://careers.straumann.com/widgets",
       "body": "{\"lang\":\"en_global\",\"deviceType\":\"desktop\",\"country\":\"global\",\"pageName\":\"home\",\"ddoKey\":\"jobCartCountV2\"}"
+     },
+     {
+      "url": "https://careers.straumann.com/widgets",
+      "body": "{\"lang\":\"en_global\",\"deviceType\":\"desktop\",\"country\":\"global\",\"ddoKey\":\"refineSearch\",\"siteType\":\"external\",\"keywords\":\"\",\"refNum\":\"STGRGLOBAL\",\"locale\":\"en_global\",\"pageName\":\"search-results\",\"size\":100,\"from\":0,\"jobs\":true,\"location\":\"Switzerland\",\"facets\":{\"locationHierarchy1\":[\"Switzerland\"]}}"
      }
     ]
    }

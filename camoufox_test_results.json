@@ -13,7 +13,8 @@
     "phenom_probe": {
      "tenant": "",
      "r": "no-tenant"
-    }
+    },
+    "post_bodies": []
    }
   },
   "camoufox": {
@@ -28,7 +29,8 @@
     "phenom_probe": {
      "tenant": "",
      "r": "no-tenant"
-    }
+    },
+    "post_bodies": []
    }
   }
  },
@@ -46,7 +48,8 @@
     "phenom_probe": {
      "tenant": "",
      "r": "no-tenant"
-    }
+    },
+    "post_bodies": []
    }
   },
   "camoufox": {
@@ -61,7 +64,8 @@
     "phenom_probe": {
      "tenant": "",
      "r": "no-tenant"
-    }
+    },
+    "post_bodies": []
    }
   }
  },
@@ -74,6 +78,81 @@
    "status": "no_jobs",
    "sample": [],
    "schemas": [
+    {
+     "url": "https://careers.givaudan.com/widgets",
+     "path": "$.canvasPxPageWidgetConfig.data.pageLevelWidget.stranger.widgetList",
+     "n": 11,
+     "keys": [
+      "widgetId",
+      "widgetName",
+      "displayName",
+      "px-block",
+      "ignoreSlider",
+      "widgetConfigMode",
+      "ignoreWidgetTitle",
+      "enabled"
+     ]
+    },
+    {
+     "url": "https://careers.givaudan.com/widgets",
+     "path": "$.canvasPxPageWidgetConfig.data.pageLevelWidget.qualifiedlead.widgetList",
+     "n": 6,
+     "keys": [
+      "widgetId",
+      "widgetName",
+      "displayName",
+      "px-block",
+      "widgetConfigMode",
+      "ignoreSlider",
+      "ignoreWidgetTitle",
+      "enabled"
+     ]
+    },
+    {
+     "url": "https://careers.givaudan.com/widgets",
+     "path": "$.canvasPxPageWidgetConfig.data.pageLevelWidget.applicant.widgetList",
+     "n": 6,
+     "keys": [
+      "widgetId",
+      "widgetName",
+      "displayName",
+      "px-block",
+      "ignoreSlider",
+      "widgetConfigMode",
+      "ignoreWidgetTitle",
+      "enabled"
+     ]
+    },
+    {
+     "url": "https://careers.givaudan.com/widgets",
+     "path": "$.canvasPxPageWidgetConfig.data.pageLevelWidget.visitor.widgetList",
+     "n": 7,
+     "keys": [
+      "widgetId",
+      "widgetName",
+      "displayName",
+      "px-block",
+      "ignoreSlider",
+      "widgetConfigMode",
+      "ignoreWidgetTitle",
+      "enabled"
+     ]
+    },
+    {
+     "url": "https://careers.givaudan.com/widgets",
+     "path": "$.canvasPxPageWidgetConfig.data.pageLevelWidget.lead.widgetList",
+     "n": 6,
+     "keys": [
+      "widgetId",
+      "widgetName",
+      "displayName",
+      "px-block",
+      "ignoreSlider",
+      "widgetConfigMode",
+      "ignoreWidgetTitle",
+      "enabled"
+     ]
+    },
     {
      "url": "https://careers.givaudan.com/widgets",
      "path": "$.canvasGetWidgetContent.data.contentData.hf-givaudanheadergben$$z4HDz3vS.contentMap.menuBlock",
@@ -151,49 +230,6 @@
       "63fbf634-svg-5",
       "63fbf634-li-8"
      ]
-    },
-    {
-     "url": "https://careers.givaudan.com/widgets",
-     "path": "$.canvasGetWidgetContent.data.designData.v5HDz3vS.cards",
-     "n": 3,
-     "keys": [
-      "e48864c9-a-2"
-     ]
-    },
-    {
-     "url": "https://careers.givaudan.com/widgets",
-     "path": "$.canvasGetWidgetContent.data.designData.hf-givaudanheadergben$$z4HDz3vS.cards",
-     "n": 7,
-     "keys": []
-    },
-    {
-     "url": "https://careers.givaudan.com/widgets",
-     "path": "$.canvasGetWidgetContent.data.designData.v6HDz3vS.cards",
-     "n": 3,
-     "keys": [
-      "e48864c9-a-2"
-     ]
-    },
-    {
-     "url": "https://careers.givaudan.com/widgets",
-     "path": "$.chatbotLoadTC.messages",
-     "n": 1,
-     "keys": [
-      "text",
-      "timestamp",
-      "replyActions"
-     ]
-    },
-    {
-     "url": "https://careers.givaudan.com/widgets",
-     "path": "$.chatbotLoadTC.menu.buttons",
-     "n": 4,
-     "keys": [
-      "type",
-      "label",
-      "icon",
-      "actionPayload"
-     ]
     }
    ],
    "dbg": {
@@ -203,17 +239,17 @@
      "https://careers.givaudan.com/widgets",
      "https://careers.givaudan.com/widgets",
      "https://careers.givaudan.com/widgets",
-     "https://careers.givaudan.com/widgets",
-     "https://content-ir.phenompeople.com/api/GIVGIVGB/globalSearchConfig?locale=en_global&siteType=external&deviceT",
      "https://content-ir.phenompeople.com/api/GIVGIVGB/categoryMasterDataV2?locale=en_global&siteType=external&devic",
-     "https://content-ir.phenompeople.com/api/GIVGIVGB/getRegionLocales?locale=en_global&siteType=external&deviceTyp",
-     "https://content-ir.phenompeople.com/api/GIVGIVGB/getPiiConsentConfig?locale=en_global&siteType=external&device",
-     "https://cdn-bot.phenompeople.com/chatbot-builds/icons/chatbot-icons.json?v=v0.6.60",
+     "https://content-ir.phenompeople.com/api/GIVGIVGB/globalSearchConfig?locale=en_global&siteType=external&deviceT",
      "https://careers.givaudan.com/widgets",
-     "https://cdn-bot.phenompeople.com/chatbot-builds/icons/chatbot-tc-icons.json?v=v0.6.60",
+     "https://content-ir.phenompeople.com/api/GIVGIVGB/getRegionLocales?locale=en_global&siteType=external&deviceTyp",
+     "https://careers.givaudan.com/widgets",
+     "https://content-ir.phenompeople.com/api/GIVGIVGB/getPiiConsentConfig?locale=en_global&siteType=external&device",
      "https://careers.givaudan.com/widgets",
      "https://careers.givaudan.com/widgets",
      "https://content-ir.phenompeople.com/api/GIVGIVGB/fyfConfig?locale=en_global&siteType=external&deviceType=deskt",
+     "https://careers.givaudan.com/widgets",
+     "https://careers.givaudan.com/widgets",
      "https://careers.givaudan.com/widgets",
      "https://careers.givaudan.com/widgets",
      "https://careers.givaudan.com/widgets",
@@ -227,7 +263,41 @@
       "hdr X-PH status=200 errMsg=\"Tenant not identified\" data.keys=[]",
       "q ph_id status=200 errMsg=\"Tenant not identified\" data.keys=[]"
      ]
-    }
+    },
+    "post_bodies": [
+     {
+      "url": "https://careers.givaudan.com/widgets",
+      "body": "{\"lang\":\"en_global\",\"deviceType\":\"desktop\",\"country\":\"global\",\"pageName\":\"home\",\"refNum\":\"GIVGIVGB\",\"siteType\":\"external\",\"pageId\":\"page16\",\"ddoKey\":\"getLocationDetails\"}"
+     },
+     {
+      "url": "https://careers.givaudan.com/widgets",
+      "body": "{\"botObj\":{\"sender\":\"1a03991ff844e1-e1000-ce91-1a03991ff85ed3\",\"message\":\"/bot_load\",\"type\":\"CHATBOT_LOAD\",\"data\":{\"messageType\":\"CHATBOT_LOAD\",\"message\":\"/bot_load\",\"userMessage\":\"\",\"botMessageId\":\"\",\"app\":\"career-site\",\"baseUrl\":\"https://careers.givaudan.com/global/en/\",\"deviceType\":\"desktop\",\"pageName\":\"home\",\"pageType\":\"home\",\"current_url\":\"https://careers.givaudan.com/global/en\",\"uas\":\"Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 Chrome/120 Safari/537.36\",\"referrer\":\"\",\"source\":\"career-bot\",\"timestamp\":\"2026-08-25T15:37:44.870Z\",\"tzId\":\"UTC\",\"refNum\":\"GIVGIVGB\",\"locale\":\"en_global\","
+     },
+     {
+      "url": "https://careers.givaudan.com/widgets",
+      "body": "{\"lang\":\"en_global\",\"deviceType\":\"desktop\",\"country\":\"global\",\"pageName\":\"home\",\"refNum\":\"GIVGIVGB\",\"siteType\":\"external\",\"pageId\":\"page16\",\"ddoKey\":\"jobCartCountV2\"}"
+     },
+     {
+      "url": "https://careers.givaudan.com/widgets",
+      "body": "{\"keywords\":null,\"categories\":null,\"jobsViewed\":null,\"jobsApplied\":null,\"locations\":null,\"types\":[],\"userProfile\":null,\"landingPages\":null,\"department\":\"\",\"recoSize\":18,\"lang\":\"en_global\",\"deviceType\":\"desktop\",\"country\":\"global\",\"pageName\":\"home\",\"refNum\":\"GIVGIVGB\",\"siteType\":\"external\",\"pageId\":\"page16\",\"ddoKey\":\"recommendationJobsBrowsingHistory\"}"
+     },
+     {
+      "url": "https://careers.givaudan.com/widgets",
+      "body": "{\"isEagerLoad\":true,\"lang\":\"en_global\",\"deviceType\":\"desktop\",\"country\":\"global\",\"pageName\":\"home\",\"refNum\":\"GIVGIVGB\",\"siteType\":\"external\",\"pageId\":\"page16\",\"ddoKey\":\"latestJobs\"}"
+     },
+     {
+      "url": "https://careers.givaudan.com/widgets",
+      "body": "{\"isEagerLoad\":true,\"lang\":\"en_global\",\"deviceType\":\"desktop\",\"country\":\"global\",\"pageName\":\"home\",\"refNum\":\"GIVGIVGB\",\"siteType\":\"external\",\"pageId\":\"page16\",\"ddoKey\":\"leastAppliedJobs\"}"
+     },
+     {
+      "url": "https://careers.givaudan.com/widgets",
+      "body": "{\"jobSeqNos\":[\"GIVGIVGB118719EXTERNALENGLOBAL\",\"GIVGIVGB118718EXTERNALENGLOBAL\",\"GIVGIVGB117420EXTERNALENGLOBAL\"],\"lang\":\"en_global\",\"deviceType\":\"desktop\",\"country\":\"global\",\"pageName\":\"home\",\"refNum\":\"GIVGIVGB\",\"siteType\":\"external\",\"pageId\":\"page16\",\"ddoKey\":\"getJobStatusListV2\"}"
+     },
+     {
+      "url": "https://careers.givaudan.com/widgets",
+      "body": "{\"jobSeqNos\":[\"GIVGIVGB118719EXTERNALENGLOBAL\",\"GIVGIVGB118718EXTERNALENGLOBAL\",\"GIVGIVGB117420EXTERNALENGLOBAL\"],\"lang\":\"en_global\",\"deviceType\":\"desktop\",\"country\":\"global\",\"pageName\":\"home\",\"refNum\":\"GIVGIVGB\",\"siteType\":\"external\",\"pageId\":\"page16\",\"ddoKey\":\"getJobStatusListV2\"}"
+     }
+    ]
    }
   },
   "camoufox": {
@@ -399,17 +469,17 @@
      "https://careers.givaudan.com/widgets",
      "https://careers.givaudan.com/widgets",
      "https://careers.givaudan.com/widgets",
-     "https://content-ir.phenompeople.com/api/GIVGIVGB/getPiiConsentConfig?locale=en_global&siteType=external&device",
-     "https://content-ir.phenompeople.com/api/GIVGIVGB/globalSearchConfig?locale=en_global&siteType=external&deviceT",
-     "https://content-ir.phenompeople.com/api/GIVGIVGB/categoryMasterDataV2?locale=en_global&siteType=external&devic",
-     "https://careers.givaudan.com/widgets",
-     "https://careers.givaudan.com/widgets",
-     "https://careers.givaudan.com/widgets",
      "https://content-ir.phenompeople.com/api/GIVGIVGB/getRegionLocales?locale=en_global&siteType=external&deviceTyp",
+     "https://content-ir.phenompeople.com/api/GIVGIVGB/getPiiConsentConfig?locale=en_global&siteType=external&device",
      "https://careers.givaudan.com/widgets",
+     "https://content-ir.phenompeople.com/api/GIVGIVGB/globalSearchConfig?locale=en_global&siteType=external&deviceT",
+     "https://careers.givaudan.com/widgets",
+     "https://content-ir.phenompeople.com/api/GIVGIVGB/categoryMasterDataV2?locale=en_global&siteType=external&devic",
      "https://content-ir.phenompeople.com/api/GIVGIVGB/fyfConfig?locale=en_global&siteType=external&deviceType=deskt",
      "https://careers.givaudan.com/widgets",
+     "https://cdn-bot.phenompeople.com/chatbot-builds/icons/chatbot-icons.json?v=v0.6.60",
      "https://careers.givaudan.com/widgets",
+     "https://cdn-bot.phenompeople.com/chatbot-builds/icons/chatbot-tc-icons.json?v=v0.6.60",
      "https://careers.givaudan.com/widgets",
      "https://careers.givaudan.com/widgets",
      "https://careers.givaudan.com/widgets"
@@ -422,7 +492,45 @@
       "hdr X-PH status=200 errMsg=\"Tenant not identified\" data.keys=[]",
       "q ph_id status=200 errMsg=\"Tenant not identified\" data.keys=[]"
      ]
-    }
+    },
+    "post_bodies": [
+     {
+      "url": "https://careers.givaudan.com/widgets",
+      "body": "{\"lang\":\"en_global\",\"deviceType\":\"desktop\",\"country\":\"global\",\"pageName\":\"home\",\"refNum\":\"GIVGIVGB\",\"siteType\":\"external\",\"pageId\":\"page16\",\"ddoKey\":\"getLocationDetails\"}"
+     },
+     {
+      "url": "https://careers.givaudan.com/widgets",
+      "body": "{\"botObj\":{\"sender\":\"d18d95be-6dee-4ba6-8215-eeefde953f42\",\"message\":\"/bot_load\",\"type\":\"CHATBOT_LOAD\",\"data\":{\"messageType\":\"CHATBOT_LOAD\",\"message\":\"/bot_load\",\"userMessage\":\"\",\"botMessageId\":\"\",\"app\":\"career-site\",\"baseUrl\":\"https://careers.givaudan.com/global/en/\",\"deviceType\":\"desktop\",\"pageName\":\"home\",\"pageType\":\"home\",\"current_url\":\"https://careers.givaudan.com/global/en\",\"uas\":\"Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:152.0) Gecko/20100101 Firefox/152.0\",\"referrer\":\"\",\"source\":\"career-bot\",\"timestamp\":\"2026-08-25T15:39:44.432Z\",\"tzId\":\"America/Chicago\",\"refNum\":\"GIVGIVGB\",\"locale\""
+     },
+     {
+      "url": "https://careers.givaudan.com/widgets",
+      "body": "{\"lang\":\"en_global\",\"deviceType\":\"desktop\",\"country\":\"global\",\"pageName\":\"home\",\"refNum\":\"GIVGIVGB\",\"siteType\":\"external\",\"pageId\":\"page16\",\"ddoKey\":\"jobCartCountV2\"}"
+     },
+     {
+      "url": "https://careers.givaudan.com/widgets",
+      "body": "{\"keywords\":null,\"categories\":null,\"jobsViewed\":null,\"jobsApplied\":null,\"locations\":null,\"types\":[],\"userProfile\":null,\"landingPages\":null,\"department\":\"\",\"recoSize\":18,\"lang\":\"en_global\",\"deviceType\":\"desktop\",\"country\":\"global\",\"pageName\":\"home\",\"refNum\":\"GIVGIVGB\",\"siteType\":\"external\",\"pageId\":\"page16\",\"ddoKey\":\"recommendationJobsBrowsingHistory\"}"
+     },
+     {
+      "url": "https://careers.givaudan.com/widgets",
+      "body": "{\"isEagerLoad\":true,\"lang\":\"en_global\",\"deviceType\":\"desktop\",\"country\":\"global\",\"pageName\":\"home\",\"refNum\":\"GIVGIVGB\",\"siteType\":\"external\",\"pageId\":\"page16\",\"ddoKey\":\"latestJobs\"}"
+     },
+     {
+      "url": "https://careers.givaudan.com/widgets",
+      "body": "{\"isEagerLoad\":true,\"lang\":\"en_global\",\"deviceType\":\"desktop\",\"country\":\"global\",\"pageName\":\"home\",\"refNum\":\"GIVGIVGB\",\"siteType\":\"external\",\"pageId\":\"page16\",\"ddoKey\":\"leastAppliedJobs\"}"
+     },
+     {
+      "url": "https://careers.givaudan.com/widgets",
+      "body": "{\"latitude\":41.84830093383789,\"longitude\":-87.65170288085938,\"radius\":8.292380879138338e-10,\"isEagerLoad\":true,\"lang\":\"en_global\",\"deviceType\":\"desktop\",\"country\":\"global\",\"pageName\":\"home\",\"refNum\":\"GIVGIVGB\",\"siteType\":\"external\",\"pageId\":\"page16\",\"ddoKey\":\"nearByJobs\"}"
+     },
+     {
+      "url": "https://careers.givaudan.com/widgets",
+      "body": "{\"jobSeqNos\":[\"GIVGIVGB118719EXTERNALENGLOBAL\",\"GIVGIVGB118718EXTERNALENGLOBAL\",\"GIVGIVGB117420EXTERNALENGLOBAL\"],\"lang\":\"en_global\",\"deviceType\":\"desktop\",\"country\":\"global\",\"pageName\":\"home\",\"refNum\":\"GIVGIVGB\",\"siteType\":\"external\",\"pageId\":\"page16\",\"ddoKey\":\"getJobStatusListV2\"}"
+     },
+     {
+      "url": "https://careers.givaudan.com/widgets",
+      "body": "{\"jobSeqNos\":[\"GIVGIVGB118719EXTERNALENGLOBAL\",\"GIVGIVGB118718EXTERNALENGLOBAL\",\"GIVGIVGB117420EXTERNALENGLOBAL\"],\"lang\":\"en_global\",\"deviceType\":\"desktop\",\"country\":\"global\",\"pageName\":\"home\",\"refNum\":\"GIVGIVGB\",\"siteType\":\"external\",\"pageId\":\"page16\",\"ddoKey\":\"getJobStatusListV2\"}"
+     }
+    ]
    }
   }
  },
@@ -570,26 +678,26 @@
    ],
    "dbg": {
     "xhr_urls": [
+     "https://content-ir.phenompeople.com/api/KUNAGLOBAL/jobwidgetsettings?locale=en_global&siteType=external&device",
      "https://content-ir.phenompeople.com/api/KUNAGLOBAL/locationmapsettings?locale=en_global&siteType=external&devi",
-     "https://content-ir.phenompeople.com/api/KUNAGLOBAL/jobwidgetsettings?locale=en_global&siteType=external&device",
      "https://jobs.kuehne-nagel.com/widgets",
      "https://jobs.kuehne-nagel.com/widgets",
      "https://jobs.kuehne-nagel.com/widgets",
      "https://jobs.kuehne-nagel.com/widgets",
      "https://jobs.kuehne-nagel.com/widgets",
-     "https://content-ir.phenompeople.com/api/KUNAGLOBAL/getPiiConsentConfig?locale=en_global&siteType=external&devi",
+     "https://jobs.kuehne-nagel.com/widgets",
+     "https://jobs.kuehne-nagel.com/widgets",
      "https://content-ir.phenompeople.com/api/KUNAGLOBAL/getRegionLocales?locale=en_global&siteType=external&deviceT",
+     "https://content-ir.phenompeople.com/api/KUNAGLOBAL/getPiiConsentConfig?locale=en_global&siteType=external&devi",
+     "https://content-ir.phenompeople.com/api/KUNAGLOBAL/jobwidgetsettings?locale=en_global&siteType=external&device",
+     "https://content-ir.phenompeople.com/api/KUNAGLOBAL/jobTagSettings?locale=en_global&siteType=external&deviceTyp",
+     "https://jobs.kuehne-nagel.com/widgets",
+     "https://content-ir.phenompeople.com/api/KUNAGLOBAL/jobwidgetsettings?locale=en_global&siteType=external&device",
      "https://content-ir.phenompeople.com/api/KUNAGLOBAL/globalSearchConfig?locale=en_global&siteType=external&devic",
-     "https://jobs.kuehne-nagel.com/widgets",
-     "https://jobs.kuehne-nagel.com/widgets",
-     "https://jobs.kuehne-nagel.com/widgets",
-     "https://jobs.kuehne-nagel.com/widgets",
+     "https://content-ir.phenompeople.com/api/KUNAGLOBAL/jobTagSettings?locale=en_global&siteType=external&deviceTyp",
      "https://content-ir.phenompeople.com/api/KUNAGLOBAL/jobwidgetsettings?locale=en_global&siteType=external&device",
      "https://content-ir.phenompeople.com/api/KUNAGLOBAL/jobTagSettings?locale=en_global&siteType=external&deviceTyp",
-     "https://jobs.kuehne-nagel.com/widgets",
-     "https://content-ir.phenompeople.com/api/KUNAGLOBAL/jobwidgetsettings?locale=en_global&siteType=external&device",
-     "https://content-ir.phenompeople.com/api/KUNAGLOBAL/jobTagSettings?locale=en_global&siteType=external&deviceTyp",
-     "https://content-ir.phenompeople.com/api/KUNAGLOBAL/jobwidgetsettings?locale=en_global&siteType=external&device"
+     "https://jobs.kuehne-nagel.com/widgets"
     ],
     "phenom_probe": {
      "tenant": "KUNAGLOBAL",
@@ -599,13 +707,63 @@
       "hdr X-PH status=200 errMsg=\"Tenant not identified\" data.keys=[]",
       "q ph_id status=200 errMsg=\"Tenant not identified\" data.keys=[]"
      ]
-    }
+    },
+    "post_bodies": [
+     {
+      "url": "https://jobs.kuehne-nagel.com/widgets",
+      "body": "{\"lang\":\"en_global\",\"deviceType\":\"desktop\",\"country\":\"global\",\"pageName\":\"home\",\"pageId\":\"page6-migration-ds\",\"data\":[{\"widgetTag\":\"ph-cookie-popup-v2\",\"view\":\"default\",\"instanceId\":\"rxGODB\"},{\"widgetTag\":\"ph-global-search-v3\",\"view\":\"default\",\"instanceId\":\"jYJjUI\"},{\"widgetTag\":\"ph-html-v1\",\"view\":\"pcs-media-gallery-v1-pcs-video-popup-media-large-cc-view1-option1\",\"instanceId\":\"qGT5Wd3c\"},{\"widgetTag\":\"ph-recently-viewed-jobs-v3\",\"view\":\"default\",\"instanceId\":\"xpwXOQ\"},{\"widgetTag\":\"ph-recently-viewed-jobs-v3\",\"view\":\"default\",\"instanceId\":\"ftyqlv\"},{\"widgetTag\":\"ph-profile-recommendations-v2"
+     },
+     {
+      "url": "https://jobs.kuehne-nagel.com/widgets",
+      "body": "{\"widgetIds\":[\"Wys8k6\",\"gbobHe\",\"67O9aX\",\"fmAme4\",\"q1abxJ\",\"hl5Fa2\",\"ph-cookie-popup-v2-default\",\"ph-hero-block-cc-view13-option1-theme1\",\"ph-global-search-v3-default\",\"ph-paragraph-cc-view1-option1-theme1\",\"ph-media-cc-view1-option1-theme6\",\"e90c1af977b7a94f8a2a5b884d0de047\",\"ph-divider-cc-view1-option1-theme1\",\"ph-media-cc-view1-option5-theme1\",\"ph-media-horizontal-cc-view1-option1-theme1\",\"5GCm8i\",\"ph-employees-testimonial-cc-slider-view7-option1-theme2\",\"ph-recently-viewed-jobs-v3-default\",\"ph-profile-recommendations-v2-default\",\"ph-recom-jobs-browsing-history-v3-default\",\"ph-near-by-jobs-"
+     },
+     {
+      "url": "https://jobs.kuehne-nagel.com/widgets",
+      "body": "{\"data\":{\"hf-double-search-header\":\"Wys8k6\",\"hf-double-search-header$$z4HDz3vp\":\"gbobHe\",\"hf-double-search-header$$z4LDz3vr\":\"gbobHe\",\"hf-double-search-header$$srglobde\":\"67O9aX\",\"hf-double-search-header$$4HDz3vS\":\"fmAme4\",\"hf-double-search-header$$Aq1abxJ\":\"q1abxJ\",\"hf-double-search-header$$Ahl5Fa2\":\"hl5Fa2\",\"hf-double-search-header$$z4HDz3ve\":\"gbobHe\",\"rxGODB\":\"ph-cookie-popup-v2-default\",\"8EohoP\":\"ph-hero-block-cc-view13-option1-theme1\",\"\":\"ph-global-search-v3-default\",\"jYJjUI\":\"ph-global-search-v3-default\",\"mWNPiR\":\"ph-paragraph-cc-view1-option1-theme1\",\"Cnb6fE\":\"ph-media-cc-view1-option1-"
+     },
+     {
+      "url": "https://jobs.kuehne-nagel.com/widgets",
+      "body": "{\"lang\":\"en_global\",\"deviceType\":\"desktop\",\"country\":\"global\",\"pageName\":\"home\",\"refNum\":\"KUNAGLOBAL\",\"siteType\":\"external\",\"pageId\":\"page6-migration-ds\",\"ddoKey\":\"jobCartCountV2\"}"
+     },
+     {
+      "url": "https://jobs.kuehne-nagel.com/widgets",
+      "body": "{\"keywords\":null,\"categories\":null,\"jobsViewed\":null,\"jobsApplied\":null,\"locations\":null,\"types\":[],\"userProfile\":null,\"landingPages\":null,\"department\":\"\",\"recoSize\":18,\"lang\":\"en_global\",\"deviceType\":\"desktop\",\"country\":\"global\",\"pageName\":\"home\",\"refNum\":\"KUNAGLOBAL\",\"siteType\":\"external\",\"pageId\":\"page6-migration-ds\",\"ddoKey\":\"recommendationJobsBrowsingHistory\"}"
+     },
+     {
+      "url": "https://jobs.kuehne-nagel.com/widgets",
+      "body": "{\"isEagerLoad\":true,\"lang\":\"en_global\",\"deviceType\":\"desktop\",\"country\":\"global\",\"pageName\":\"home\",\"refNum\":\"KUNAGLOBAL\",\"siteType\":\"external\",\"pageId\":\"page6-migration-ds\",\"ddoKey\":\"latestJobs\"}"
+     },
+     {
+      "url": "https://jobs.kuehne-nagel.com/widgets",
+      "body": "{\"isEagerLoad\":true,\"lang\":\"en_global\",\"deviceType\":\"desktop\",\"country\":\"global\",\"pageName\":\"home\",\"refNum\":\"KUNAGLOBAL\",\"siteType\":\"external\",\"pageId\":\"page6-migration-ds\",\"ddoKey\":\"leastAppliedJobs\"}"
+     },
+     {
+      "url": "https://jobs.kuehne-nagel.com/widgets",
+      "body": "{\"jobSeqNos\":[\"KUNAGLOBAL10272EXTERNALENCA\",\"KUNAGLOBAL10272EXTERNALENGLOBAL\",\"KUNAGLOBAL10272EXTERNALENUK\",\"KUNAGLOBAL10642EXTERNALENGLOBAL\",\"KUNAGLOBAL10560EXTERNALENGLOBAL\"],\"lang\":\"en_global\",\"deviceType\":\"desktop\",\"country\":\"global\",\"pageName\":\"home\",\"refNum\":\"KUNAGLOBAL\",\"siteType\":\"external\",\"pageId\":\"page6-migration-ds\",\"ddoKey\":\"getJobStatusListV2\"}"
+     },
+     {
+      "url": "https://jobs.kuehne-nagel.com/widgets",
+      "body": "{\"jobSeqNos\":[\"KUNAGLOBAL10272EXTERNALENCA\",\"KUNAGLOBAL10272EXTERNALENGLOBAL\",\"KUNAGLOBAL10272EXTERNALENUK\",\"KUNAGLOBAL10642EXTERNALENGLOBAL\",\"KUNAGLOBAL10560EXTERNALENGLOBAL\"],\"lang\":\"en_global\",\"deviceType\":\"desktop\",\"country\":\"global\",\"pageName\":\"home\",\"refNum\":\"KUNAGLOBAL\",\"siteType\":\"external\",\"pageId\":\"page6-migration-ds\",\"ddoKey\":\"getJobStatusListV2\"}"
+     },
+     {
+      "url": "https://jobs.kuehne-nagel.com/widgets",
+      "body": "{\"jobSeqNo\":[\"KUNAGLOBAL10272EXTERNALENCA\",\"KUNAGLOBAL10272EXTERNALENGLOBAL\",\"KUNAGLOBAL10272EXTERNALENUK\",\"KUNAGLOBAL10642EXTERNALENGLOBAL\",\"KUNAGLOBAL10560EXTERNALENGLOBAL\"],\"requiredTags\":[\"smart_tags_openedRecently\",\"smart_tags_popularJob\"],\"size\":5,\"avoidWidgetHideOnFail\":true,\"tagLimit\":1,\"lang\":\"en_global\",\"deviceType\":\"desktop\",\"country\":\"global\",\"pageName\":\"home\",\"refNum\":\"KUNAGLOBAL\",\"siteType\":\"external\",\"pageId\":\"page6-migration-ds\",\"ddoKey\":\"smartJobTags\"}"
+     },
+     {
+      "url": "https://jobs.kuehne-nagel.com/widgets",
+      "body": "{\"lang\":\"en_global\",\"deviceType\":\"desktop\",\"country\":\"global\",\"pageName\":\"home\",\"pageId\":\"page6-migration-ds\",\"data\":{\"rxGODB\":\"ph-cookie-popup-v2-default\",\"jYJjUI\":\"ph-global-search-v3-default\",\"qGT5Wd3c\":\"ph-html-v1-pcs-media-gallery-v1-pcs-video-popup-media-large-cc-view1-option1\"},\"ddoKey\":\"canvasGetWidgetContent\"}"
+     },
+     {
+      "url": "https://jobs.kuehne-nagel.com/widgets",
+      "body": "{\"lang\":\"en_global\",\"deviceType\":\"desktop\",\"country\":\"global\",\"pageName\":\"home\",\"ddoKey\":\"getChatbotConfigurations\",\"currentUrlPath\":\"https://jobs.kuehne-nagel.com/global/en\"}"
+     }
+    ]
    }
   },
   "camoufox": {
    "njobs": 0,
    "blocked": false,
-   "xhr": 37,
+   "xhr": 39,
    "status": "no_jobs",
    "sample": [],
    "schemas": [
@@ -744,16 +902,17 @@
    ],
    "dbg": {
     "xhr_urls": [
-     "https://content-ir.phenompeople.com/api/KUNAGLOBAL/locationmapsettings?locale=en_global&siteType=external&devi",
+     "https://jobs.kuehne-nagel.com/widgets",
      "https://content-ir.phenompeople.com/api/KUNAGLOBAL/jobwidgetsettings?locale=en_global&siteType=external&device",
+     "https://content-ir.phenompeople.com/api/KUNAGLOBAL/locationmapsettings?locale=en_global&siteType=external&devi",
      "https://jobs.kuehne-nagel.com/widgets",
      "https://jobs.kuehne-nagel.com/widgets",
      "https://jobs.kuehne-nagel.com/widgets",
      "https://jobs.kuehne-nagel.com/widgets",
      "https://content-ir.phenompeople.com/api/KUNAGLOBAL/getRegionLocales?locale=en_global&siteType=external&deviceT",
+     "https://content-ir.phenompeople.com/api/KUNAGLOBAL/globalSearchConfig?locale=en_global&siteType=external&devic",
      "https://jobs.kuehne-nagel.com/widgets",
      "https://content-ir.phenompeople.com/api/KUNAGLOBAL/getPiiConsentConfig?locale=en_global&siteType=external&devi",
-     "https://content-ir.phenompeople.com/api/KUNAGLOBAL/globalSearchConfig?locale=en_global&siteType=external&devic",
      "https://jobs.kuehne-nagel.com/widgets",
      "https://jobs.kuehne-nagel.com/widgets",
      "https://jobs.kuehne-nagel.com/widgets",
@@ -762,8 +921,7 @@
      "https://jobs.kuehne-nagel.com/widgets",
      "https://content-ir.phenompeople.com/api/KUNAGLOBAL/jobwidgetsettings?locale=en_global&siteType=external&device",
      "https://content-ir.phenompeople.com/api/KUNAGLOBAL/jobTagSettings?locale=en_global&siteType=external&deviceTyp",
-     "https://content-ir.phenompeople.com/api/KUNAGLOBAL/jobwidgetsettings?locale=en_global&siteType=external&device",
-     "https://content-ir.phenompeople.com/api/KUNAGLOBAL/jobTagSettings?locale=en_global&siteType=external&deviceTyp"
+     "https://content-ir.phenompeople.com/api/KUNAGLOBAL/jobwidgetsettings?locale=en_global&siteType=external&device"
     ],
     "phenom_probe": {
      "tenant": "KUNAGLOBAL",
@@ -773,7 +931,57 @@
       "hdr X-PH status=200 errMsg=\"Tenant not identified\" data.keys=[]",
       "q ph_id status=200 errMsg=\"Tenant not identified\" data.keys=[]"
      ]
-    }
+    },
+    "post_bodies": [
+     {
+      "url": "https://jobs.kuehne-nagel.com/widgets",
+      "body": "{\"lang\":\"en_global\",\"deviceType\":\"desktop\",\"country\":\"global\",\"pageName\":\"home\",\"pageId\":\"page6-migration-ds\",\"data\":[{\"widgetTag\":\"ph-cookie-popup-v2\",\"view\":\"default\",\"instanceId\":\"rxGODB\"},{\"widgetTag\":\"ph-global-search-v3\",\"view\":\"default\",\"instanceId\":\"jYJjUI\"},{\"widgetTag\":\"ph-html-v1\",\"view\":\"pcs-media-gallery-v1-pcs-video-popup-media-large-cc-view1-option1\",\"instanceId\":\"qGT5Wd3c\"},{\"widgetTag\":\"ph-recently-viewed-jobs-v3\",\"view\":\"default\",\"instanceId\":\"xpwXOQ\"},{\"widgetTag\":\"ph-recently-viewed-jobs-v3\",\"view\":\"default\",\"instanceId\":\"ftyqlv\"},{\"widgetTag\":\"ph-profile-recommendations-v2"
+     },
+     {
+      "url": "https://jobs.kuehne-nagel.com/widgets",
+      "body": "{\"widgetIds\":[\"Wys8k6\",\"gbobHe\",\"67O9aX\",\"fmAme4\",\"q1abxJ\",\"hl5Fa2\",\"ph-cookie-popup-v2-default\",\"ph-hero-block-cc-view13-option1-theme1\",\"ph-global-search-v3-default\",\"ph-paragraph-cc-view1-option1-theme1\",\"ph-media-cc-view1-option1-theme6\",\"e90c1af977b7a94f8a2a5b884d0de047\",\"ph-divider-cc-view1-option1-theme1\",\"ph-media-cc-view1-option5-theme1\",\"ph-media-horizontal-cc-view1-option1-theme1\",\"5GCm8i\",\"ph-employees-testimonial-cc-slider-view7-option1-theme2\",\"ph-recently-viewed-jobs-v3-default\",\"ph-profile-recommendations-v2-default\",\"ph-recom-jobs-browsing-history-v3-default\",\"ph-near-by-jobs-"
+     },
+     {
+      "url": "https://jobs.kuehne-nagel.com/widgets",
+      "body": "{\"data\":{\"hf-double-search-header\":\"Wys8k6\",\"hf-double-search-header$$z4HDz3vp\":\"gbobHe\",\"hf-double-search-header$$z4LDz3vr\":\"gbobHe\",\"hf-double-search-header$$srglobde\":\"67O9aX\",\"hf-double-search-header$$4HDz3vS\":\"fmAme4\",\"hf-double-search-header$$Aq1abxJ\":\"q1abxJ\",\"hf-double-search-header$$Ahl5Fa2\":\"hl5Fa2\",\"hf-double-search-header$$z4HDz3ve\":\"gbobHe\",\"rxGODB\":\"ph-cookie-popup-v2-default\",\"8EohoP\":\"ph-hero-block-cc-view13-option1-theme1\",\"\":\"ph-global-search-v3-default\",\"jYJjUI\":\"ph-global-search-v3-default\",\"mWNPiR\":\"ph-paragraph-cc-view1-option1-theme1\",\"Cnb6fE\":\"ph-media-cc-view1-option1-"
+     },
+     {
+      "url": "https://jobs.kuehne-nagel.com/widgets",
+      "body": "{\"lang\":\"en_global\",\"deviceType\":\"desktop\",\"country\":\"global\",\"pageName\":\"home\",\"refNum\":\"KUNAGLOBAL\",\"siteType\":\"external\",\"pageId\":\"page6-migration-ds\",\"ddoKey\":\"jobCartCountV2\"}"
+     },
+     {
+      "url": "https://jobs.kuehne-nagel.com/widgets",
+      "body": "{\"keywords\":null,\"categories\":null,\"jobsViewed\":null,\"jobsApplied\":null,\"locations\":null,\"types\":[],\"userProfile\":null,\"landingPages\":null,\"department\":\"\",\"recoSize\":18,\"lang\":\"en_global\",\"deviceType\":\"desktop\",\"country\":\"global\",\"pageName\":\"home\",\"refNum\":\"KUNAGLOBAL\",\"siteType\":\"external\",\"pageId\":\"page6-migration-ds\",\"ddoKey\":\"recommendationJobsBrowsingHistory\"}"
+     },
+     {
+      "url": "https://jobs.kuehne-nagel.com/widgets",
+      "body": "{\"isEagerLoad\":true,\"lang\":\"en_global\",\"deviceType\":\"desktop\",\"country\":\"global\",\"pageName\":\"home\",\"refNum\":\"KUNAGLOBAL\",\"siteType\":\"external\",\"pageId\":\"page6-migration-ds\",\"ddoKey\":\"latestJobs\"}"
+     },
+     {
+      "url": "https://jobs.kuehne-nagel.com/widgets",
+      "body": "{\"isEagerLoad\":true,\"lang\":\"en_global\",\"deviceType\":\"desktop\",\"country\":\"global\",\"pageName\":\"home\",\"refNum\":\"KUNAGLOBAL\",\"siteType\":\"external\",\"pageId\":\"page6-migration-ds\",\"ddoKey\":\"leastAppliedJobs\"}"
+     },
+     {
+      "url": "https://jobs.kuehne-nagel.com/widgets",
+      "body": "{\"latitude\":41.84830093383789,\"longitude\":-87.65170288085938,\"radius\":8.292380879138338e-10,\"isEagerLoad\":true,\"lang\":\"en_global\",\"deviceType\":\"desktop\",\"country\":\"global\",\"pageName\":\"home\",\"refNum\":\"KUNAGLOBAL\",\"siteType\":\"external\",\"pageId\":\"page6-migration-ds\",\"ddoKey\":\"nearByJobs\"}"
+     },
+     {
+      "url": "https://jobs.kuehne-nagel.com/widgets",
+      "body": "{\"lang\":\"en_global\",\"deviceType\":\"desktop\",\"country\":\"global\",\"pageName\":\"home\",\"pageId\":\"page6-migration-ds\",\"data\":{\"rxGODB\":\"ph-cookie-popup-v2-default\",\"jYJjUI\":\"ph-global-search-v3-default\",\"qGT5Wd3c\":\"ph-html-v1-pcs-media-gallery-v1-pcs-video-popup-media-large-cc-view1-option1\"},\"ddoKey\":\"canvasGetWidgetContent\"}"
+     },
+     {
+      "url": "https://jobs.kuehne-nagel.com/widgets",
+      "body": "{\"jobSeqNos\":[\"KUNAGLOBAL10272EXTERNALENCA\",\"KUNAGLOBAL10272EXTERNALENGLOBAL\",\"KUNAGLOBAL10272EXTERNALENUK\",\"KUNAGLOBAL10642EXTERNALENGLOBAL\",\"KUNAGLOBAL10560EXTERNALENGLOBAL\"],\"lang\":\"en_global\",\"deviceType\":\"desktop\",\"country\":\"global\",\"pageName\":\"home\",\"refNum\":\"KUNAGLOBAL\",\"siteType\":\"external\",\"pageId\":\"page6-migration-ds\",\"pageStateData\":{},\"ddoKey\":\"getJobStatusListV2\"}"
+     },
+     {
+      "url": "https://jobs.kuehne-nagel.com/widgets",
+      "body": "{\"jobSeqNos\":[\"KUNAGLOBAL10272EXTERNALENCA\",\"KUNAGLOBAL10272EXTERNALENGLOBAL\",\"KUNAGLOBAL10272EXTERNALENUK\",\"KUNAGLOBAL10642EXTERNALENGLOBAL\",\"KUNAGLOBAL10560EXTERNALENGLOBAL\"],\"lang\":\"en_global\",\"deviceType\":\"desktop\",\"country\":\"global\",\"pageName\":\"home\",\"refNum\":\"KUNAGLOBAL\",\"siteType\":\"external\",\"pageId\":\"page6-migration-ds\",\"pageStateData\":{},\"ddoKey\":\"getJobStatusListV2\"}"
+     },
+     {
+      "url": "https://jobs.kuehne-nagel.com/widgets",
+      "body": "{\"jobSeqNo\":[\"KUNAGLOBAL10272EXTERNALENCA\",\"KUNAGLOBAL10272EXTERNALENGLOBAL\",\"KUNAGLOBAL10272EXTERNALENUK\",\"KUNAGLOBAL10642EXTERNALENGLOBAL\",\"KUNAGLOBAL10560EXTERNALENGLOBAL\"],\"requiredTags\":[\"smart_tags_openedRecently\",\"smart_tags_popularJob\"],\"size\":5,\"avoidWidgetHideOnFail\":true,\"tagLimit\":1,\"lang\":\"en_global\",\"deviceType\":\"desktop\",\"country\":\"global\",\"pageName\":\"home\",\"refNum\":\"KUNAGLOBAL\",\"siteType\":\"external\",\"pageId\":\"page6-migration-ds\",\"pageStateData\":{},\"ddoKey\":\"smartJobTags\"}"
+     }
+    ]
    }
   }
  },
@@ -791,7 +999,8 @@
     "phenom_probe": {
      "tenant": "",
      "r": "no-tenant"
-    }
+    },
+    "post_bodies": []
    }
   },
   "camoufox": {
@@ -806,7 +1015,8 @@
     "phenom_probe": {
      "tenant": "",
      "r": "no-tenant"
-    }
+    },
+    "post_bodies": []
    }
   }
  },
@@ -907,7 +1117,29 @@
       "hdr X-PH status=200 errMsg=\"Tenant not identified\" data.keys=[]",
       "q ph_id status=200 errMsg=\"Tenant not identified\" data.keys=[]"
      ]
-    }
+    },
+    "post_bodies": [
+     {
+      "url": "https://careers.roche.com/widgets",
+      "body": "{\"lang\":\"en_global\",\"deviceType\":\"desktop\",\"country\":\"global\",\"pageName\":\"home\",\"pageId\":\"page7-ds\",\"data\":[{\"widgetTag\":\"ph-cookie-popup-v2\",\"view\":\"default\",\"instanceId\":\"poIIrO\"},{\"widgetTag\":\"ph-global-search-v3\",\"view\":\"default\",\"instanceId\":\"Z5h1Qw\"},{\"widgetTag\":\"ph-find-your-fit-container-v1\",\"view\":\"default\",\"instanceId\":\"ai8eoj\"},{\"widgetTag\":\"ph-profile-recommendations-v2\",\"view\":\"default\",\"instanceId\":\"c1ykg4\"},{\"widgetTag\":\"ph-recom-jobs-browsing-history-v3\",\"view\":\"default\",\"instanceId\":\"23c11d\"},{\"widgetTag\":\"ph-recently-viewed-jobs-v3\",\"view\":\"default\",\"instanceId\":\"81a3gk\"},{\""
+     },
+     {
+      "url": "https://careers.roche.com/widgets",
+      "body": "{\"widgetIds\":[\"KZFVv6\",\"gbobHe\",\"fmAme4\",\"q1abxJ\",\"hl5Fa2\",\"ph-cookie-popup-v2-default\",\"GGsnRl\",\"012ae4ad5889b8fd9f23bcd534255269\",\"ph-paragraph-cc-view1-option1-theme1\",\"ph-hero-block-cc-view12-option1-theme1\",\"ph-global-search-v3-default\",\"ph-employees-testimonial-cc-slider-view9-option1-theme1\",\"ph-media-large-testimonial-left-cc-slider-view3-option2-theme1\",\"ph-media-cc-view1-option33-theme2\",\"ph-find-your-fit-container-v1-default\",\"ph-profile-recommendations-v2-default\",\"ph-recom-jobs-browsing-history-v3-default\",\"ph-recently-viewed-jobs-v3-default\",\"ph-near-by-jobs-v2-default\",\"ph-glass"
+     },
+     {
+      "url": "https://careers.roche.com/widgets",
+      "body": "{\"data\":{\"hf-krisztian-test\":\"KZFVv6\",\"hf-krisztian-test$$z4HDz3vS\":\"gbobHe\",\"hf-krisztian-test$$4HDz3vS\":\"fmAme4\",\"hf-krisztian-test$$Aq1abxJ\":\"q1abxJ\",\"hf-krisztian-test$$Ahl5Fa2\":\"hl5Fa2\",\"poIIrO\":\"ph-cookie-popup-v2-default\",\"WU1PCqRj\":\"GGsnRl\",\"9MUESm50\":\"012ae4ad5889b8fd9f23bcd534255269\",\"WMm3ay\":\"ph-paragraph-cc-view1-option1-theme1\",\"0ncK8h\":\"ph-hero-block-cc-view12-option1-theme1\",\"\":\"ph-global-search-v3-default\",\"Z5h1Qw\":\"ph-global-search-v3-default\",\"ptp8cj\":\"ph-employees-testimonial-cc-slider-view9-option1-theme1\",\"Cw4WUu\":\"ph-media-large-testimonial-left-cc-slider-view3-option2-th"
+     },
+     {
+      "url": "https://careers.roche.com/widgets",
+      "body": "{\"lang\":\"en_global\",\"deviceType\":\"desktop\",\"country\":\"global\",\"pageName\":\"home\",\"refNum\":\"ROCHGLOBAL\",\"siteType\":\"external\",\"pageId\":\"page7-ds\",\"ddoKey\":\"jobCartCountV2\"}"
+     },
+     {
+      "url": "https://careers.roche.com/widgets",
+      "body": "{\"lang\":\"en_global\",\"deviceType\":\"desktop\",\"country\":\"global\",\"pageName\":\"home\",\"pageId\":\"page7-ds\",\"data\":{\"poIIrO\":\"ph-cookie-popup-v2-default\",\"Z5h1Qw\":\"ph-global-search-v3-default\",\"ai8eoj\":\"ph-find-your-fit-container-v1-default\",\"c1ykg4\":\"ph-profile-recommendations-v2-default\",\"23c11d\":\"ph-recom-jobs-browsing-history-v3-default\",\"81a3gk\":\"ph-recently-viewed-jobs-v3-default\",\"qi5top\":\"ph-near-by-jobs-v2-default\",\"rfBCP7\":\"ph-glassdoor-widget-v1-view3\"},\"ddoKey\":\"canvasGetWidgetContent\"}"
+     }
+    ]
    }
   },
   "camoufox": {
@@ -981,9 +1213,9 @@
      "https://careers.roche.com/widgets",
      "https://careers.roche.com/widgets",
      "https://careers.roche.com/widgets",
-     "https://content-ir.phenompeople.com/api/ROCHGLOBAL/getPiiConsentConfig?locale=en_global&siteType=external&devi",
-     "https://content-ir.phenompeople.com/api/ROCHGLOBAL/getRegionLocales?locale=en_global&siteType=external&deviceT",
      "https://careers.roche.com/widgets",
+     "https://content-ir.phenompeople.com/api/ROCHGLOBAL/getRegionLocales?locale=en_global&siteType=external&deviceT",
+     "https://content-ir.phenompeople.com/api/ROCHGLOBAL/getPiiConsentConfig?locale=en_global&siteType=external&devi",
      "https://careers.roche.com/widgets",
      "https://careers.roche.com/widgets",
      "https://careers.roche.com/widgets",
@@ -1005,7 +1237,29 @@
       "hdr X-PH status=200 errMsg=\"Tenant not identified\" data.keys=[]",
       "q ph_id status=200 errMsg=\"Tenant not identified\" data.keys=[]"
      ]
-    }
+    },
+    "post_bodies": [
+     {
+      "url": "https://careers.roche.com/widgets",
+      "body": "{\"lang\":\"en_global\",\"deviceType\":\"desktop\",\"country\":\"global\",\"pageName\":\"home\",\"pageId\":\"page7-ds\",\"data\":[{\"widgetTag\":\"ph-cookie-popup-v2\",\"view\":\"default\",\"instanceId\":\"poIIrO\"},{\"widgetTag\":\"ph-global-search-v3\",\"view\":\"default\",\"instanceId\":\"Z5h1Qw\"},{\"widgetTag\":\"ph-find-your-fit-container-v1\",\"view\":\"default\",\"instanceId\":\"ai8eoj\"},{\"widgetTag\":\"ph-profile-recommendations-v2\",\"view\":\"default\",\"instanceId\":\"c1ykg4\"},{\"widgetTag\":\"ph-recom-jobs-browsing-history-v3\",\"view\":\"default\",\"instanceId\":\"23c11d\"},{\"widgetTag\":\"ph-recently-viewed-jobs-v3\",\"view\":\"default\",\"instanceId\":\"81a3gk\"},{\""
+     },
+     {
+      "url": "https://careers.roche.com/widgets",
+      "body": "{\"widgetIds\":[\"KZFVv6\",\"gbobHe\",\"fmAme4\",\"q1abxJ\",\"hl5Fa2\",\"ph-cookie-popup-v2-default\",\"GGsnRl\",\"012ae4ad5889b8fd9f23bcd534255269\",\"ph-paragraph-cc-view1-option1-theme1\",\"ph-hero-block-cc-view12-option1-theme1\",\"ph-global-search-v3-default\",\"ph-employees-testimonial-cc-slider-view9-option1-theme1\",\"ph-media-large-testimonial-left-cc-slider-view3-option2-theme1\",\"ph-media-cc-view1-option33-theme2\",\"ph-find-your-fit-container-v1-default\",\"ph-profile-recommendations-v2-default\",\"ph-recom-jobs-browsing-history-v3-default\",\"ph-recently-viewed-jobs-v3-default\",\"ph-near-by-jobs-v2-default\",\"ph-glass"
+     },
+     {
+      "url": "https://careers.roche.com/widgets",
+      "body": "{\"data\":{\"hf-krisztian-test\":\"KZFVv6\",\"hf-krisztian-test$$z4HDz3vS\":\"gbobHe\",\"hf-krisztian-test$$4HDz3vS\":\"fmAme4\",\"hf-krisztian-test$$Aq1abxJ\":\"q1abxJ\",\"hf-krisztian-test$$Ahl5Fa2\":\"hl5Fa2\",\"poIIrO\":\"ph-cookie-popup-v2-default\",\"WU1PCqRj\":\"GGsnRl\",\"9MUESm50\":\"012ae4ad5889b8fd9f23bcd534255269\",\"WMm3ay\":\"ph-paragraph-cc-view1-option1-theme1\",\"0ncK8h\":\"ph-hero-block-cc-view12-option1-theme1\",\"\":\"ph-global-search-v3-default\",\"Z5h1Qw\":\"ph-global-search-v3-default\",\"ptp8cj\":\"ph-employees-testimonial-cc-slider-view9-option1-theme1\",\"Cw4WUu\":\"ph-media-large-testimonial-left-cc-slider-view3-option2-th"
+     },
+     {
+      "url": "https://careers.roche.com/widgets",
+      "body": "{\"lang\":\"en_global\",\"deviceType\":\"desktop\",\"country\":\"global\",\"pageName\":\"home\",\"refNum\":\"ROCHGLOBAL\",\"siteType\":\"external\",\"pageId\":\"page7-ds\",\"ddoKey\":\"jobCartCountV2\"}"
+     },
+     {
+      "url": "https://careers.roche.com/widgets",
+      "body": "{\"lang\":\"en_global\",\"deviceType\":\"desktop\",\"country\":\"global\",\"pageName\":\"home\",\"pageId\":\"page7-ds\",\"data\":{\"poIIrO\":\"ph-cookie-popup-v2-default\",\"Z5h1Qw\":\"ph-global-search-v3-default\",\"ai8eoj\":\"ph-find-your-fit-container-v1-default\",\"c1ykg4\":\"ph-profile-recommendations-v2-default\",\"23c11d\":\"ph-recom-jobs-browsing-history-v3-default\",\"81a3gk\":\"ph-recently-viewed-jobs-v3-default\",\"qi5top\":\"ph-near-by-jobs-v2-default\",\"rfBCP7\":\"ph-glassdoor-widget-v1-view3\"},\"ddoKey\":\"canvasGetWidgetContent\"}"
+     }
+    ]
    }
   }
  },
@@ -1024,10 +1278,10 @@
      "https://content-ir.phenompeople.com/api/STGRGLOBAL/getPiiConsentConfig?locale=en_global&siteType=external&devi",
      "https://content-ir.phenompeople.com/api/STGRGLOBAL/getRegionLocales?locale=en_global&siteType=external&deviceT",
      "https://careers.straumann.com/widgets",
+     "https://careers.straumann.com/widgets",
+     "https://careers.straumann.com/widgets",
+     "https://careers.straumann.com/widgets",
      "https://content-ir.phenompeople.com/api/STGRGLOBAL/globalSearchConfig?locale=en_global&siteType=external&devic",
-     "https://careers.straumann.com/widgets",
-     "https://careers.straumann.com/widgets",
-     "https://careers.straumann.com/widgets",
      "https://careers.straumann.com/widgets",
      "https://content-ir.phenompeople.com/api/STGRGLOBAL/fyfConfig?locale=en_global&siteType=external&deviceType=des",
      "https://careers.straumann.com/widgets",
@@ -1046,7 +1300,13 @@
       "hdr X-PH status=200 errMsg=\"Tenant not identified\" data.keys=[]",
       "q ph_id status=200 errMsg=\"Tenant not identified\" data.keys=[]"
      ]
-    }
+    },
+    "post_bodies": [
+     {
+      "url": "https://careers.straumann.com/widgets",
+      "body": "{\"lang\":\"en_global\",\"deviceType\":\"desktop\",\"country\":\"global\",\"pageName\":\"home\",\"ddoKey\":\"jobCartCountV2\"}"
+     }
+    ]
    }
   },
   "camoufox": {
@@ -1064,8 +1324,8 @@
      "https://careers.straumann.com/widgets",
      "https://careers.straumann.com/widgets",
      "https://careers.straumann.com/widgets",
-     "https://careers.straumann.com/widgets",
      "https://content-ir.phenompeople.com/api/STGRGLOBAL/globalSearchConfig?locale=en_global&siteType=external&devic",
+     "https://careers.straumann.com/widgets",
      "https://content-ir.phenompeople.com/api/STGRGLOBAL/fyfConfig?locale=en_global&siteType=external&deviceType=des",
      "https://careers.straumann.com/widgets",
      "https://careers.straumann.com/widgets",
@@ -1083,7 +1343,13 @@
       "hdr X-PH status=200 errMsg=\"Tenant not identified\" data.keys=[]",
       "q ph_id status=200 errMsg=\"Tenant not identified\" data.keys=[]"
      ]
-    }
+    },
+    "post_bodies": [
+     {
+      "url": "https://careers.straumann.com/widgets",
+      "body": "{\"lang\":\"en_global\",\"deviceType\":\"desktop\",\"country\":\"global\",\"pageName\":\"home\",\"ddoKey\":\"jobCartCountV2\"}"
+     }
+    ]
    }
   }
  },
@@ -1101,7 +1367,8 @@
     "phenom_probe": {
      "tenant": "",
      "r": "no-tenant"
-    }
+    },
+    "post_bodies": []
    }
   },
   "camoufox": {
@@ -1116,7 +1383,8 @@
     "phenom_probe": {
      "tenant": "",
      "r": "no-tenant"
-    }
+    },
+    "post_bodies": []
    }
   }
  }

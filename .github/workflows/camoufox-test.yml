@@ -1,0 +1,35 @@
+name: camoufox-test
+on:
+  workflow_dispatch: {}
+  push:
+    branches: [camoufox-test]
+    paths: ["gha_camoufox_test.py", ".github/workflows/camoufox-test.yml"]
+permissions:
+  contents: write
+jobs:
+  ab-test:
+    runs-on: ubuntu-latest
+    timeout-minutes: 25
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: ${{ github.ref_name }}
+      - uses: actions/setup-python@v5
+        with: { python-version: "3.11" }
+      - name: Install Chromium (Playwright)
+        run: |
+          pip install playwright
+          python -m playwright install --with-deps chromium
+      - name: Install Camoufox (stealth Firefox)
+        run: |
+          pip install "camoufox[geoip]"
+          python -m camoufox fetch
+      - name: Run A/B test
+        run: python gha_camoufox_test.py
+      - name: Commit results back
+        run: |
+          git config user.name  "gha-bot"
+          git config user.email "gha@users.noreply.github.com"
+          git add camoufox_test_results.json || true
+          git commit -m "chore: camoufox A/B results [skip ci]" || echo "no changes"
+          git push origin HEAD:${{ github.ref_name }} || echo "push failed"

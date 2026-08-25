@@ -180,6 +180,16 @@ def harvest(page, url):
     cap_urls = []
 
     all_xhr = []
+    post_bodies = []
+
+    def on_req(req):
+        try:
+            if req.method == 'POST' and re.search(r'/widgets|graphql|search|jobs', req.url, re.I):
+                pd = req.post_data
+                if pd and re.search(r'job|search|location|query', pd, re.I) and len(post_bodies) < 12:
+                    post_bodies.append({'url': req.url[:70], 'body': pd[:600]})
+        except Exception:
+            pass
 
     def on_resp(resp):
         try:
@@ -196,6 +206,7 @@ def harvest(page, url):
         except Exception:
             pass
 
+    page.on('request', on_req)
     page.on('response', on_resp)
     page.goto(url, wait_until='domcontentloaded', timeout=30000)
     page.wait_for_timeout(2500)
@@ -248,7 +259,7 @@ def harvest(page, url):
     except Exception as e:
         probe = ['eval-err: ' + str(e)[:60]]
     dbg = {'xhr_urls': [u for u in all_xhr if re.search(r'/api/|/widgets|search|jobs|cxs|phenom', u, re.I)][:20],
-           'phenom_probe': probe}
+           'phenom_probe': probe, 'post_bodies': post_bodies}
     return len(jobs), blocked, len(captured), jobs[:6], schemas[:12], dbg
 
 

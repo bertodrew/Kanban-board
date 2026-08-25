@@ -10,11 +10,10 @@
    "schemas": [],
    "dbg": {
     "xhr_urls": [],
-    "phenom_probe": [
-     "limit=5&offset=0 | status=404 (not json)",
-     "location=Switzerland&limit=5 | status=404 (not json)",
-     "country=Switzerland&limit=5 | status=404 (not json)"
-    ]
+    "phenom_probe": {
+     "tenant": "",
+     "r": "no-tenant"
+    }
    }
   },
   "camoufox": {
@@ -26,11 +25,10 @@
    "schemas": [],
    "dbg": {
     "xhr_urls": [],
-    "phenom_probe": [
-     "limit=5&offset=0 | status=404 (not json)",
-     "location=Switzerland&limit=5 | status=404 (not json)",
-     "country=Switzerland&limit=5 | status=404 (not json)"
-    ]
+    "phenom_probe": {
+     "tenant": "",
+     "r": "no-tenant"
+    }
    }
   }
  },
@@ -45,11 +43,10 @@
    "schemas": [],
    "dbg": {
     "xhr_urls": [],
-    "phenom_probe": [
-     "limit=5&offset=0 | status=403 (not json)",
-     "location=Switzerland&limit=5 | status=403 (not json)",
-     "country=Switzerland&limit=5 | status=403 (not json)"
-    ]
+    "phenom_probe": {
+     "tenant": "",
+     "r": "no-tenant"
+    }
    }
   },
   "camoufox": {
@@ -61,11 +58,10 @@
    "schemas": [],
    "dbg": {
     "xhr_urls": [],
-    "phenom_probe": [
-     "limit=5&offset=0 | status=200 (not json)",
-     "location=Switzerland&limit=5 | status=200 (not json)",
-     "country=Switzerland&limit=5 | status=200 (not json)"
-    ]
+    "phenom_probe": {
+     "tenant": "",
+     "r": "no-tenant"
+    }
    }
   }
  },
@@ -74,203 +70,175 @@
   "chromium": {
    "njobs": 0,
    "blocked": false,
-   "xhr": 29,
-   "status": "no_jobs",
-   "sample": [],
-   "schemas": [
-    {
-     "url": "https://careers.givaudan.com/widgets",
-     "path": "$.canvasPxPageWidgetConfig.data.pageLevelWidget.stranger.widgetList",
-     "n": 11,
-     "keys": [
-      "widgetId",
-      "widgetName",
-      "displayName",
-      "px-block",
-      "ignoreSlider",
-      "widgetConfigMode",
-      "ignoreWidgetTitle",
-      "enabled"
-     ]
-    },
-    {
-     "url": "https://careers.givaudan.com/widgets",
-     "path": "$.canvasPxPageWidgetConfig.data.pageLevelWidget.qualifiedlead.widgetList",
-     "n": 6,
-     "keys": [
-      "widgetId",
-      "widgetName",
-      "displayName",
-      "px-block",
-      "widgetConfigMode",
-      "ignoreSlider",
-      "ignoreWidgetTitle",
-      "enabled"
-     ]
-    },
-    {
-     "url": "https://careers.givaudan.com/widgets",
-     "path": "$.canvasPxPageWidgetConfig.data.pageLevelWidget.applicant.widgetList",
-     "n": 6,
-     "keys": [
-      "widgetId",
-      "widgetName",
-      "displayName",
-      "px-block",
-      "ignoreSlider",
-      "widgetConfigMode",
-      "ignoreWidgetTitle",
-      "enabled"
-     ]
-    },
-    {
-     "url": "https://careers.givaudan.com/widgets",
-     "path": "$.canvasPxPageWidgetConfig.data.pageLevelWidget.visitor.widgetList",
-     "n": 7,
-     "keys": [
-      "widgetId",
-      "widgetName",
-      "displayName",
-      "px-block",
-      "ignoreSlider",
-      "widgetConfigMode",
-      "ignoreWidgetTitle",
-      "enabled"
-     ]
-    },
-    {
-     "url": "https://careers.givaudan.com/widgets",
-     "path": "$.canvasPxPageWidgetConfig.data.pageLevelWidget.lead.widgetList",
-     "n": 6,
-     "keys": [
-      "widgetId",
-      "widgetName",
-      "displayName",
-      "px-block",
-      "ignoreSlider",
-      "widgetConfigMode",
-      "ignoreWidgetTitle",
-      "enabled"
-     ]
-    },
-    {
-     "url": "https://careers.givaudan.com/widgets",
-     "path": "$.canvasGetWidgetContent.data.contentData.hf-givaudanheadergben$$z4HDz3vS.contentMap.menuBlock",
-     "n": 7,
-     "keys": [
-      "_cid",
-      "folderItems",
-      "folderName",
-      "position",
-      "ariaLabel"
-     ]
-    },
-    {
-     "url": "https://careers.givaudan.com/widgets",
-     "path": "$.canvasGetWidgetContent.data.contentData.uP5nIuMC$$gsdsEfrbb.bindables.jobInfoFields",
-     "n": 2,
-     "keys": [
-      "key",
-      "srKey",
-      "icon"
-     ]
-    },
-    {
-     "url": "https://careers.givaudan.com/widgets",
-     "path": "$.canvasGetWidgetContent.data.contentData.hf-givaudanfootergben$$menliv1d.contentMap.menuBlock",
-     "n": 3,
-     "keys": [
-      "_cid",
-      "link",
-      "position",
-      "title"
-     ]
-    },
-    {
-     "url": "https://careers.givaudan.com/widgets",
-     "path": "$.canvasGetWidgetContent.data.contentData.hf-givaudanfootergben$$piuhsd78.contentMap.menuBlock",
-     "n": 4,
-     "keys": [
-      "_cid",
-      "link",
-      "position",
-      "title"
-     ]
-    },
-    {
-     "url": "https://careers.givaudan.com/widgets",
-     "path": "$.canvasGetWidgetContent.data.designData.6LFNi2JC.cards",
-     "n": 5,
-     "keys": [
-      "8e435d56-h3-5",
-      "8e435d56-img-5",
-      "8e435d56-p-12"
-     ]
-    },
-    {
-     "url": "https://careers.givaudan.com/widgets",
-     "path": "$.canvasGetWidgetContent.data.designData.b3gDHzNl.cards",
-     "n": 1,
-     "keys": [
-      "90dfeb13-a-2",
-      "90dfeb13-div-6",
-      "90dfeb13-img-1",
-      "90dfeb13-h3-1",
-      "90dfeb13-figure-1",
-      "90dfeb13-span-4",
-      "90dfeb13-button-1"
-     ]
-    },
-    {
-     "url": "https://careers.givaudan.com/widgets",
-     "path": "$.canvasGetWidgetContent.data.designData.hf-givaudanfootergben.cards",
-     "n": 5,
-     "keys": [
-      "63fbf634-span-5",
-      "63fbf634-svg-5",
-      "63fbf634-li-8"
-     ]
-    }
-   ],
-   "dbg": {
-    "xhr_urls": [
-     "https://careers.givaudan.com/widgets",
-     "https://careers.givaudan.com/widgets",
-     "https://careers.givaudan.com/widgets",
-     "https://careers.givaudan.com/widgets",
-     "https://careers.givaudan.com/widgets",
-     "https://content-ir.phenompeople.com/api/GIVGIVGB/getRegionLocales?locale=en_global&siteType=external&deviceTyp",
-     "https://content-ir.phenompeople.com/api/GIVGIVGB/categoryMasterDataV2?locale=en_global&siteType=external&devic",
-     "https://content-ir.phenompeople.com/api/GIVGIVGB/globalSearchConfig?locale=en_global&siteType=external&deviceT",
-     "https://careers.givaudan.com/widgets",
-     "https://content-ir.phenompeople.com/api/GIVGIVGB/fyfConfig?locale=en_global&siteType=external&deviceType=deskt",
-     "https://content-ir.phenompeople.com/api/GIVGIVGB/getPiiConsentConfig?locale=en_global&siteType=external&device",
-     "https://careers.givaudan.com/widgets",
-     "https://careers.givaudan.com/widgets",
-     "https://careers.givaudan.com/widgets",
-     "https://careers.givaudan.com/widgets",
-     "https://careers.givaudan.com/widgets",
-     "https://careers.givaudan.com/widgets",
-     "https://careers.givaudan.com/widgets",
-     "https://careers.givaudan.com/widgets",
-     "https://cdn-bot.phenompeople.com/chatbot-builds/icons/chatbot-icons.json?v=v0.6.60"
-    ],
-    "phenom_probe": [
-     "limit=5&offset=0 | status=200 errorCode=null errorMsg=\"Tenant not identified\"",
-     "location=Switzerland&limit=5 | status=200 errorCode=null errorMsg=\"Tenant not identified\"",
-     "country=Switzerland&limit=5 | status=200 errorCode=null errorMsg=\"Tenant not identified\""
-    ]
-   }
-  },
-  "camoufox": {
-   "njobs": 0,
-   "blocked": false,
    "xhr": 30,
    "status": "no_jobs",
    "sample": [],
    "schemas": [
     {
      "url": "https://careers.givaudan.com/widgets",
+     "path": "$.canvasGetWidgetContent.data.contentData.hf-givaudanheadergben$$z4HDz3vS.contentMap.menuBlock",
+     "n": 7,
+     "keys": [
+      "_cid",
+      "folderItems",
+      "folderName",
+      "position",
+      "ariaLabel"
+     ]
+    },
+    {
+     "url": "https://careers.givaudan.com/widgets",
+     "path": "$.canvasGetWidgetContent.data.contentData.uP5nIuMC$$gsdsEfrbb.bindables.jobInfoFields",
+     "n": 2,
+     "keys": [
+      "key",
+      "srKey",
+      "icon"
+     ]
+    },
+    {
+     "url": "https://careers.givaudan.com/widgets",
+     "path": "$.canvasGetWidgetContent.data.contentData.hf-givaudanfootergben$$menliv1d.contentMap.menuBlock",
+     "n": 3,
+     "keys": [
+      "_cid",
+      "link",
+      "position",
+      "title"
+     ]
+    },
+    {
+     "url": "https://careers.givaudan.com/widgets",
+     "path": "$.canvasGetWidgetContent.data.contentData.hf-givaudanfootergben$$piuhsd78.contentMap.menuBlock",
+     "n": 4,
+     "keys": [
+      "_cid",
+      "link",
+      "position",
+      "title"
+     ]
+    },
+    {
+     "url": "https://careers.givaudan.com/widgets",
+     "path": "$.canvasGetWidgetContent.data.designData.6LFNi2JC.cards",
+     "n": 5,
+     "keys": [
+      "8e435d56-h3-5",
+      "8e435d56-img-5",
+      "8e435d56-p-12"
+     ]
+    },
+    {
+     "url": "https://careers.givaudan.com/widgets",
+     "path": "$.canvasGetWidgetContent.data.designData.b3gDHzNl.cards",
+     "n": 1,
+     "keys": [
+      "90dfeb13-a-2",
+      "90dfeb13-div-6",
+      "90dfeb13-img-1",
+      "90dfeb13-h3-1",
+      "90dfeb13-figure-1",
+      "90dfeb13-span-4",
+      "90dfeb13-button-1"
+     ]
+    },
+    {
+     "url": "https://careers.givaudan.com/widgets",
+     "path": "$.canvasGetWidgetContent.data.designData.hf-givaudanfootergben.cards",
+     "n": 5,
+     "keys": [
+      "63fbf634-span-5",
+      "63fbf634-svg-5",
+      "63fbf634-li-8"
+     ]
+    },
+    {
+     "url": "https://careers.givaudan.com/widgets",
+     "path": "$.canvasGetWidgetContent.data.designData.v5HDz3vS.cards",
+     "n": 3,
+     "keys": [
+      "e48864c9-a-2"
+     ]
+    },
+    {
+     "url": "https://careers.givaudan.com/widgets",
+     "path": "$.canvasGetWidgetContent.data.designData.hf-givaudanheadergben$$z4HDz3vS.cards",
+     "n": 7,
+     "keys": []
+    },
+    {
+     "url": "https://careers.givaudan.com/widgets",
+     "path": "$.canvasGetWidgetContent.data.designData.v6HDz3vS.cards",
+     "n": 3,
+     "keys": [
+      "e48864c9-a-2"
+     ]
+    },
+    {
+     "url": "https://careers.givaudan.com/widgets",
+     "path": "$.chatbotLoadTC.messages",
+     "n": 1,
+     "keys": [
+      "text",
+      "timestamp",
+      "replyActions"
+     ]
+    },
+    {
+     "url": "https://careers.givaudan.com/widgets",
+     "path": "$.chatbotLoadTC.menu.buttons",
+     "n": 4,
+     "keys": [
+      "type",
+      "label",
+      "icon",
+      "actionPayload"
+     ]
+    }
+   ],
+   "dbg": {
+    "xhr_urls": [
+     "https://careers.givaudan.com/widgets",
+     "https://careers.givaudan.com/widgets",
+     "https://careers.givaudan.com/widgets",
+     "https://careers.givaudan.com/widgets",
+     "https://careers.givaudan.com/widgets",
+     "https://careers.givaudan.com/widgets",
+     "https://content-ir.phenompeople.com/api/GIVGIVGB/globalSearchConfig?locale=en_global&siteType=external&deviceT",
+     "https://content-ir.phenompeople.com/api/GIVGIVGB/categoryMasterDataV2?locale=en_global&siteType=external&devic",
+     "https://content-ir.phenompeople.com/api/GIVGIVGB/getRegionLocales?locale=en_global&siteType=external&deviceTyp",
+     "https://content-ir.phenompeople.com/api/GIVGIVGB/getPiiConsentConfig?locale=en_global&siteType=external&device",
+     "https://cdn-bot.phenompeople.com/chatbot-builds/icons/chatbot-icons.json?v=v0.6.60",
+     "https://careers.givaudan.com/widgets",
+     "https://cdn-bot.phenompeople.com/chatbot-builds/icons/chatbot-tc-icons.json?v=v0.6.60",
+     "https://careers.givaudan.com/widgets",
+     "https://careers.givaudan.com/widgets",
+     "https://content-ir.phenompeople.com/api/GIVGIVGB/fyfConfig?locale=en_global&siteType=external&deviceType=deskt",
+     "https://careers.givaudan.com/widgets",
+     "https://careers.givaudan.com/widgets",
+     "https://careers.givaudan.com/widgets",
+     "https://careers.givaudan.com/widgets"
+    ],
+    "phenom_probe": {
+     "tenant": "GIVGIVGB",
+     "r": [
+      "q tenantId status=200 errMsg=\"Tenant not identified\" data.keys=[]",
+      "hdr tenantid status=200 errMsg=\"Tenant not identified\" data.keys=[]",
+      "hdr X-PH status=200 errMsg=\"Tenant not identified\" data.keys=[]",
+      "q ph_id status=200 errMsg=\"Tenant not identified\" data.keys=[]"
+     ]
+    }
+   }
+  },
+  "camoufox": {
+   "njobs": 0,
+   "blocked": false,
+   "xhr": 31,
+   "status": "no_jobs",
+   "sample": [],
+   "schemas": [
+    {
+     "url": "https://careers.givaudan.com/widgets",
      "path": "$.canvasPxPageWidgetConfig.data.pageLevelWidget.stranger.widgetList",
      "n": 11,
      "keys": [
@@ -431,202 +399,36 @@
      "https://careers.givaudan.com/widgets",
      "https://careers.givaudan.com/widgets",
      "https://careers.givaudan.com/widgets",
-     "https://careers.givaudan.com/widgets",
-     "https://content-ir.phenompeople.com/api/GIVGIVGB/getRegionLocales?locale=en_global&siteType=external&deviceTyp",
-     "https://careers.givaudan.com/widgets",
+     "https://content-ir.phenompeople.com/api/GIVGIVGB/getPiiConsentConfig?locale=en_global&siteType=external&device",
      "https://content-ir.phenompeople.com/api/GIVGIVGB/globalSearchConfig?locale=en_global&siteType=external&deviceT",
      "https://content-ir.phenompeople.com/api/GIVGIVGB/categoryMasterDataV2?locale=en_global&siteType=external&devic",
      "https://careers.givaudan.com/widgets",
      "https://careers.givaudan.com/widgets",
+     "https://careers.givaudan.com/widgets",
+     "https://content-ir.phenompeople.com/api/GIVGIVGB/getRegionLocales?locale=en_global&siteType=external&deviceTyp",
+     "https://careers.givaudan.com/widgets",
      "https://content-ir.phenompeople.com/api/GIVGIVGB/fyfConfig?locale=en_global&siteType=external&deviceType=deskt",
-     "https://content-ir.phenompeople.com/api/GIVGIVGB/getPiiConsentConfig?locale=en_global&siteType=external&device",
      "https://careers.givaudan.com/widgets",
      "https://careers.givaudan.com/widgets",
      "https://careers.givaudan.com/widgets",
      "https://careers.givaudan.com/widgets",
      "https://careers.givaudan.com/widgets"
     ],
-    "phenom_probe": [
-     "limit=5&offset=0 | status=200 errorCode=null errorMsg=\"Tenant not identified\"",
-     "location=Switzerland&limit=5 | status=200 errorCode=null errorMsg=\"Tenant not identified\"",
-     "country=Switzerland&limit=5 | status=200 errorCode=null errorMsg=\"Tenant not identified\""
-    ]
+    "phenom_probe": {
+     "tenant": "GIVGIVGB",
+     "r": [
+      "q tenantId status=200 errMsg=\"Tenant not identified\" data.keys=[]",
+      "hdr tenantid status=200 errMsg=\"Tenant not identified\" data.keys=[]",
+      "hdr X-PH status=200 errMsg=\"Tenant not identified\" data.keys=[]",
+      "q ph_id status=200 errMsg=\"Tenant not identified\" data.keys=[]"
+     ]
+    }
    }
   }
  },
  "Kuehne + Nagel": {
   "url": "https://jobs.kuehne-nagel.com/global/en",
   "chromium": {
-   "njobs": 0,
-   "blocked": false,
-   "xhr": 37,
-   "status": "no_jobs",
-   "sample": [],
-   "schemas": [
-    {
-     "url": "https://content-ir.phenompeople.com/api/KUNAGLOBAL/jobwidgetsettings?locale=en_g",
-     "path": "$.jobwidgetsettings.data.fields",
-     "n": 5,
-     "keys": [
-      "name",
-      "display_name",
-      "settings",
-      "checked"
-     ]
-    },
-    {
-     "url": "https://content-ir.phenompeople.com/api/KUNAGLOBAL/jobwidgetsettings?locale=en_g",
-     "path": "$.jobwidgetsettings.data.widgets.ph-search-results-v2.fields",
-     "n": 6,
-     "keys": [
-      "name",
-      "display_name",
-      "settings",
-      "checked"
-     ]
-    },
-    {
-     "url": "https://content-ir.phenompeople.com/api/KUNAGLOBAL/jobwidgetsettings?locale=en_g",
-     "path": "$.jobwidgetsettings.data.widgets.ph-job-details-v1.fields",
-     "n": 7,
-     "keys": [
-      "name",
-      "display_name",
-      "settings",
-      "checked"
-     ]
-    },
-    {
-     "url": "https://content-ir.phenompeople.com/api/KUNAGLOBAL/jobwidgetsettings?locale=en_g",
-     "path": "$.jobwidgetsettings.data.widgets.phw-latest-jobs.fields",
-     "n": 5,
-     "keys": [
-      "name",
-      "display_name",
-      "settings",
-      "checked"
-     ]
-    },
-    {
-     "url": "https://content-ir.phenompeople.com/api/KUNAGLOBAL/jobwidgetsettings?locale=en_g",
-     "path": "$.jobwidgetsettings.data.widgets.phw-latest-jobs.actions",
-     "n": 1,
-     "keys": [
-      "name",
-      "display_name",
-      "settings",
-      "svg"
-     ]
-    },
-    {
-     "url": "https://content-ir.phenompeople.com/api/KUNAGLOBAL/jobwidgetsettings?locale=en_g",
-     "path": "$.jobwidgetsettings.data.widgets.phw-recom-jobs-browsing-history.fields",
-     "n": 5,
-     "keys": [
-      "name",
-      "display_name",
-      "settings",
-      "checked"
-     ]
-    },
-    {
-     "url": "https://content-ir.phenompeople.com/api/KUNAGLOBAL/jobwidgetsettings?locale=en_g",
-     "path": "$.jobwidgetsettings.data.widgets.phw-recom-jobs-browsing-history.actions",
-     "n": 1,
-     "keys": [
-      "name",
-      "display_name",
-      "settings",
-      "svg"
-     ]
-    },
-    {
-     "url": "https://content-ir.phenompeople.com/api/KUNAGLOBAL/jobwidgetsettings?locale=en_g",
-     "path": "$.jobwidgetsettings.data.widgets.phw-profile-recommendations.fields",
-     "n": 5,
-     "keys": [
-      "name",
-      "display_name",
-      "settings",
-      "checked"
-     ]
-    },
-    {
-     "url": "https://content-ir.phenompeople.com/api/KUNAGLOBAL/jobwidgetsettings?locale=en_g",
-     "path": "$.jobwidgetsettings.data.widgets.phw-profile-recommendations.actions",
-     "n": 1,
-     "keys": [
-      "name",
-      "display_name",
-      "settings",
-      "svg"
-     ]
-    },
-    {
-     "url": "https://content-ir.phenompeople.com/api/KUNAGLOBAL/jobwidgetsettings?locale=en_g",
-     "path": "$.jobwidgetsettings.data.widgets.phw-near-by-jobs.fields",
-     "n": 5,
-     "keys": [
-      "name",
-      "display_name",
-      "settings",
-      "checked"
-     ]
-    },
-    {
-     "url": "https://content-ir.phenompeople.com/api/KUNAGLOBAL/jobwidgetsettings?locale=en_g",
-     "path": "$.jobwidgetsettings.data.widgets.phw-near-by-jobs.actions",
-     "n": 1,
-     "keys": [
-      "name",
-      "display_name",
-      "settings",
-      "svg"
-     ]
-    },
-    {
-     "url": "https://content-ir.phenompeople.com/api/KUNAGLOBAL/jobwidgetsettings?locale=en_g",
-     "path": "$.jobwidgetsettings.data.widgets.phw-least-applied-jobs.fields",
-     "n": 5,
-     "keys": [
-      "name",
-      "display_name",
-      "settings",
-      "checked"
-     ]
-    }
-   ],
-   "dbg": {
-    "xhr_urls": [
-     "https://content-ir.phenompeople.com/api/KUNAGLOBAL/jobwidgetsettings?locale=en_global&siteType=external&device",
-     "https://content-ir.phenompeople.com/api/KUNAGLOBAL/locationmapsettings?locale=en_global&siteType=external&devi",
-     "https://jobs.kuehne-nagel.com/widgets",
-     "https://jobs.kuehne-nagel.com/widgets",
-     "https://jobs.kuehne-nagel.com/widgets",
-     "https://jobs.kuehne-nagel.com/widgets",
-     "https://content-ir.phenompeople.com/api/KUNAGLOBAL/getRegionLocales?locale=en_global&siteType=external&deviceT",
-     "https://content-ir.phenompeople.com/api/KUNAGLOBAL/getPiiConsentConfig?locale=en_global&siteType=external&devi",
-     "https://jobs.kuehne-nagel.com/widgets",
-     "https://content-ir.phenompeople.com/api/KUNAGLOBAL/globalSearchConfig?locale=en_global&siteType=external&devic",
-     "https://jobs.kuehne-nagel.com/widgets",
-     "https://jobs.kuehne-nagel.com/widgets",
-     "https://jobs.kuehne-nagel.com/widgets",
-     "https://jobs.kuehne-nagel.com/widgets",
-     "https://jobs.kuehne-nagel.com/widgets",
-     "https://jobs.kuehne-nagel.com/widgets",
-     "https://jobs.kuehne-nagel.com/widgets",
-     "https://content-ir.phenompeople.com/api/KUNAGLOBAL/jobwidgetsettings?locale=en_global&siteType=external&device",
-     "https://content-ir.phenompeople.com/api/KUNAGLOBAL/jobTagSettings?locale=en_global&siteType=external&deviceTyp",
-     "https://content-ir.phenompeople.com/api/KUNAGLOBAL/jobwidgetsettings?locale=en_global&siteType=external&device"
-    ],
-    "phenom_probe": [
-     "limit=5&offset=0 | status=200 errorCode=null errorMsg=\"Tenant not identified\"",
-     "location=Switzerland&limit=5 | status=200 errorCode=null errorMsg=\"Tenant not identified\"",
-     "country=Switzerland&limit=5 | status=200 errorCode=null errorMsg=\"Tenant not identified\""
-    ]
-   }
-  },
-  "camoufox": {
    "njobs": 0,
    "blocked": false,
    "xhr": 38,
@@ -774,11 +576,184 @@
      "https://jobs.kuehne-nagel.com/widgets",
      "https://jobs.kuehne-nagel.com/widgets",
      "https://jobs.kuehne-nagel.com/widgets",
+     "https://jobs.kuehne-nagel.com/widgets",
      "https://content-ir.phenompeople.com/api/KUNAGLOBAL/getPiiConsentConfig?locale=en_global&siteType=external&devi",
+     "https://content-ir.phenompeople.com/api/KUNAGLOBAL/getRegionLocales?locale=en_global&siteType=external&deviceT",
      "https://content-ir.phenompeople.com/api/KUNAGLOBAL/globalSearchConfig?locale=en_global&siteType=external&devic",
+     "https://jobs.kuehne-nagel.com/widgets",
+     "https://jobs.kuehne-nagel.com/widgets",
+     "https://jobs.kuehne-nagel.com/widgets",
+     "https://jobs.kuehne-nagel.com/widgets",
+     "https://content-ir.phenompeople.com/api/KUNAGLOBAL/jobwidgetsettings?locale=en_global&siteType=external&device",
+     "https://content-ir.phenompeople.com/api/KUNAGLOBAL/jobTagSettings?locale=en_global&siteType=external&deviceTyp",
+     "https://jobs.kuehne-nagel.com/widgets",
+     "https://content-ir.phenompeople.com/api/KUNAGLOBAL/jobwidgetsettings?locale=en_global&siteType=external&device",
+     "https://content-ir.phenompeople.com/api/KUNAGLOBAL/jobTagSettings?locale=en_global&siteType=external&deviceTyp",
+     "https://content-ir.phenompeople.com/api/KUNAGLOBAL/jobwidgetsettings?locale=en_global&siteType=external&device"
+    ],
+    "phenom_probe": {
+     "tenant": "KUNAGLOBAL",
+     "r": [
+      "q tenantId status=200 errMsg=\"Tenant not identified\" data.keys=[]",
+      "hdr tenantid status=200 errMsg=\"Tenant not identified\" data.keys=[]",
+      "hdr X-PH status=200 errMsg=\"Tenant not identified\" data.keys=[]",
+      "q ph_id status=200 errMsg=\"Tenant not identified\" data.keys=[]"
+     ]
+    }
+   }
+  },
+  "camoufox": {
+   "njobs": 0,
+   "blocked": false,
+   "xhr": 37,
+   "status": "no_jobs",
+   "sample": [],
+   "schemas": [
+    {
+     "url": "https://content-ir.phenompeople.com/api/KUNAGLOBAL/jobwidgetsettings?locale=en_g",
+     "path": "$.jobwidgetsettings.data.fields",
+     "n": 5,
+     "keys": [
+      "name",
+      "display_name",
+      "settings",
+      "checked"
+     ]
+    },
+    {
+     "url": "https://content-ir.phenompeople.com/api/KUNAGLOBAL/jobwidgetsettings?locale=en_g",
+     "path": "$.jobwidgetsettings.data.widgets.ph-search-results-v2.fields",
+     "n": 6,
+     "keys": [
+      "name",
+      "display_name",
+      "settings",
+      "checked"
+     ]
+    },
+    {
+     "url": "https://content-ir.phenompeople.com/api/KUNAGLOBAL/jobwidgetsettings?locale=en_g",
+     "path": "$.jobwidgetsettings.data.widgets.ph-job-details-v1.fields",
+     "n": 7,
+     "keys": [
+      "name",
+      "display_name",
+      "settings",
+      "checked"
+     ]
+    },
+    {
+     "url": "https://content-ir.phenompeople.com/api/KUNAGLOBAL/jobwidgetsettings?locale=en_g",
+     "path": "$.jobwidgetsettings.data.widgets.phw-latest-jobs.fields",
+     "n": 5,
+     "keys": [
+      "name",
+      "display_name",
+      "settings",
+      "checked"
+     ]
+    },
+    {
+     "url": "https://content-ir.phenompeople.com/api/KUNAGLOBAL/jobwidgetsettings?locale=en_g",
+     "path": "$.jobwidgetsettings.data.widgets.phw-latest-jobs.actions",
+     "n": 1,
+     "keys": [
+      "name",
+      "display_name",
+      "settings",
+      "svg"
+     ]
+    },
+    {
+     "url": "https://content-ir.phenompeople.com/api/KUNAGLOBAL/jobwidgetsettings?locale=en_g",
+     "path": "$.jobwidgetsettings.data.widgets.phw-recom-jobs-browsing-history.fields",
+     "n": 5,
+     "keys": [
+      "name",
+      "display_name",
+      "settings",
+      "checked"
+     ]
+    },
+    {
+     "url": "https://content-ir.phenompeople.com/api/KUNAGLOBAL/jobwidgetsettings?locale=en_g",
+     "path": "$.jobwidgetsettings.data.widgets.phw-recom-jobs-browsing-history.actions",
+     "n": 1,
+     "keys": [
+      "name",
+      "display_name",
+      "settings",
+      "svg"
+     ]
+    },
+    {
+     "url": "https://content-ir.phenompeople.com/api/KUNAGLOBAL/jobwidgetsettings?locale=en_g",
+     "path": "$.jobwidgetsettings.data.widgets.phw-profile-recommendations.fields",
+     "n": 5,
+     "keys": [
+      "name",
+      "display_name",
+      "settings",
+      "checked"
+     ]
+    },
+    {
+     "url": "https://content-ir.phenompeople.com/api/KUNAGLOBAL/jobwidgetsettings?locale=en_g",
+     "path": "$.jobwidgetsettings.data.widgets.phw-profile-recommendations.actions",
+     "n": 1,
+     "keys": [
+      "name",
+      "display_name",
+      "settings",
+      "svg"
+     ]
+    },
+    {
+     "url": "https://content-ir.phenompeople.com/api/KUNAGLOBAL/jobwidgetsettings?locale=en_g",
+     "path": "$.jobwidgetsettings.data.widgets.phw-near-by-jobs.fields",
+     "n": 5,
+     "keys": [
+      "name",
+      "display_name",
+      "settings",
+      "checked"
+     ]
+    },
+    {
+     "url": "https://content-ir.phenompeople.com/api/KUNAGLOBAL/jobwidgetsettings?locale=en_g",
+     "path": "$.jobwidgetsettings.data.widgets.phw-near-by-jobs.actions",
+     "n": 1,
+     "keys": [
+      "name",
+      "display_name",
+      "settings",
+      "svg"
+     ]
+    },
+    {
+     "url": "https://content-ir.phenompeople.com/api/KUNAGLOBAL/jobwidgetsettings?locale=en_g",
+     "path": "$.jobwidgetsettings.data.widgets.phw-least-applied-jobs.fields",
+     "n": 5,
+     "keys": [
+      "name",
+      "display_name",
+      "settings",
+      "checked"
+     ]
+    }
+   ],
+   "dbg": {
+    "xhr_urls": [
+     "https://content-ir.phenompeople.com/api/KUNAGLOBAL/locationmapsettings?locale=en_global&siteType=external&devi",
+     "https://content-ir.phenompeople.com/api/KUNAGLOBAL/jobwidgetsettings?locale=en_global&siteType=external&device",
+     "https://jobs.kuehne-nagel.com/widgets",
+     "https://jobs.kuehne-nagel.com/widgets",
+     "https://jobs.kuehne-nagel.com/widgets",
+     "https://jobs.kuehne-nagel.com/widgets",
      "https://content-ir.phenompeople.com/api/KUNAGLOBAL/getRegionLocales?locale=en_global&siteType=external&deviceT",
      "https://jobs.kuehne-nagel.com/widgets",
-     "https://jobs.kuehne-nagel.com/widgets",
+     "https://content-ir.phenompeople.com/api/KUNAGLOBAL/getPiiConsentConfig?locale=en_global&siteType=external&devi",
+     "https://content-ir.phenompeople.com/api/KUNAGLOBAL/globalSearchConfig?locale=en_global&siteType=external&devic",
      "https://jobs.kuehne-nagel.com/widgets",
      "https://jobs.kuehne-nagel.com/widgets",
      "https://jobs.kuehne-nagel.com/widgets",
@@ -787,13 +762,18 @@
      "https://jobs.kuehne-nagel.com/widgets",
      "https://content-ir.phenompeople.com/api/KUNAGLOBAL/jobwidgetsettings?locale=en_global&siteType=external&device",
      "https://content-ir.phenompeople.com/api/KUNAGLOBAL/jobTagSettings?locale=en_global&siteType=external&deviceTyp",
-     "https://content-ir.phenompeople.com/api/KUNAGLOBAL/jobwidgetsettings?locale=en_global&siteType=external&device"
+     "https://content-ir.phenompeople.com/api/KUNAGLOBAL/jobwidgetsettings?locale=en_global&siteType=external&device",
+     "https://content-ir.phenompeople.com/api/KUNAGLOBAL/jobTagSettings?locale=en_global&siteType=external&deviceTyp"
     ],
-    "phenom_probe": [
-     "limit=5&offset=0 | status=200 errorCode=null errorMsg=\"Tenant not identified\"",
-     "location=Switzerland&limit=5 | status=200 errorCode=null errorMsg=\"Tenant not identified\"",
-     "country=Switzerland&limit=5 | status=200 errorCode=null errorMsg=\"Tenant not identified\""
-    ]
+    "phenom_probe": {
+     "tenant": "KUNAGLOBAL",
+     "r": [
+      "q tenantId status=200 errMsg=\"Tenant not identified\" data.keys=[]",
+      "hdr tenantid status=200 errMsg=\"Tenant not identified\" data.keys=[]",
+      "hdr X-PH status=200 errMsg=\"Tenant not identified\" data.keys=[]",
+      "q ph_id status=200 errMsg=\"Tenant not identified\" data.keys=[]"
+     ]
+    }
    }
   }
  },
@@ -808,11 +788,10 @@
    "schemas": [],
    "dbg": {
     "xhr_urls": [],
-    "phenom_probe": [
-     "limit=5&offset=0 | status=403 (not json)",
-     "location=Switzerland&limit=5 | status=403 (not json)",
-     "country=Switzerland&limit=5 | status=403 (not json)"
-    ]
+    "phenom_probe": {
+     "tenant": "",
+     "r": "no-tenant"
+    }
    }
   },
   "camoufox": {
@@ -824,11 +803,10 @@
    "schemas": [],
    "dbg": {
     "xhr_urls": [],
-    "phenom_probe": [
-     "limit=5&offset=0 | status=403 (not json)",
-     "location=Switzerland&limit=5 | status=403 (not json)",
-     "country=Switzerland&limit=5 | status=403 (not json)"
-    ]
+    "phenom_probe": {
+     "tenant": "",
+     "r": "no-tenant"
+    }
    }
   }
  },
@@ -837,7 +815,7 @@
   "chromium": {
    "njobs": 0,
    "blocked": false,
-   "xhr": 16,
+   "xhr": 17,
    "status": "no_jobs",
    "sample": [],
    "schemas": [
@@ -905,9 +883,9 @@
      "https://careers.roche.com/widgets",
      "https://careers.roche.com/widgets",
      "https://careers.roche.com/widgets",
+     "https://careers.roche.com/widgets",
      "https://content-ir.phenompeople.com/api/ROCHGLOBAL/getRegionLocales?locale=en_global&siteType=external&deviceT",
      "https://content-ir.phenompeople.com/api/ROCHGLOBAL/getPiiConsentConfig?locale=en_global&siteType=external&devi",
-     "https://careers.roche.com/widgets",
      "https://careers.roche.com/widgets",
      "https://careers.roche.com/widgets",
      "https://careers.roche.com/widgets",
@@ -917,21 +895,25 @@
      "https://careers.roche.com/widgets",
      "https://careers.roche.com/widgets",
      "https://careers.roche.com/api/apply/v2/jobs?location=Switzerland&limit=100&offset=0",
-     "https://careers.roche.com/api/apply/v2/jobs?limit=5&offset=0",
+     "https://careers.roche.com/api/apply/v2/jobs?tenantId=ROCHGLOBAL&location=Switzerland&limit=5",
      "https://careers.roche.com/api/apply/v2/jobs?location=Switzerland&limit=5",
-     "https://careers.roche.com/api/apply/v2/jobs?country=Switzerland&limit=5"
+     "https://careers.roche.com/api/apply/v2/jobs?location=Switzerland&limit=5"
     ],
-    "phenom_probe": [
-     "limit=5&offset=0 | status=200 errorCode=null errorMsg=\"Tenant not identified\"",
-     "location=Switzerland&limit=5 | status=200 errorCode=null errorMsg=\"Tenant not identified\"",
-     "country=Switzerland&limit=5 | status=200 errorCode=null errorMsg=\"Tenant not identified\""
-    ]
+    "phenom_probe": {
+     "tenant": "ROCHGLOBAL",
+     "r": [
+      "q tenantId status=200 errMsg=\"Tenant not identified\" data.keys=[]",
+      "hdr tenantid status=200 errMsg=\"Tenant not identified\" data.keys=[]",
+      "hdr X-PH status=200 errMsg=\"Tenant not identified\" data.keys=[]",
+      "q ph_id status=200 errMsg=\"Tenant not identified\" data.keys=[]"
+     ]
+    }
    }
   },
   "camoufox": {
    "njobs": 0,
    "blocked": false,
-   "xhr": 16,
+   "xhr": 17,
    "status": "no_jobs",
    "sample": [],
    "schemas": [
@@ -998,9 +980,9 @@
      "https://careers.roche.com/widgets",
      "https://careers.roche.com/widgets",
      "https://careers.roche.com/widgets",
-     "https://content-ir.phenompeople.com/api/ROCHGLOBAL/getRegionLocales?locale=en_global&siteType=external&deviceT",
-     "https://content-ir.phenompeople.com/api/ROCHGLOBAL/getPiiConsentConfig?locale=en_global&siteType=external&devi",
      "https://careers.roche.com/widgets",
+     "https://content-ir.phenompeople.com/api/ROCHGLOBAL/getPiiConsentConfig?locale=en_global&siteType=external&devi",
+     "https://content-ir.phenompeople.com/api/ROCHGLOBAL/getRegionLocales?locale=en_global&siteType=external&deviceT",
      "https://careers.roche.com/widgets",
      "https://careers.roche.com/widgets",
      "https://careers.roche.com/widgets",
@@ -1010,15 +992,20 @@
      "https://content-ir.phenompeople.com/api/ROCHGLOBAL/fyfConfig?locale=en_global&siteType=external&deviceType=des",
      "https://careers.roche.com/widgets",
      "https://careers.roche.com/api/apply/v2/jobs?location=Switzerland&limit=100&offset=0",
-     "https://careers.roche.com/api/apply/v2/jobs?limit=5&offset=0",
+     "https://careers.roche.com/api/apply/v2/jobs?tenantId=ROCHGLOBAL&location=Switzerland&limit=5",
      "https://careers.roche.com/api/apply/v2/jobs?location=Switzerland&limit=5",
-     "https://careers.roche.com/api/apply/v2/jobs?country=Switzerland&limit=5"
+     "https://careers.roche.com/api/apply/v2/jobs?location=Switzerland&limit=5",
+     "https://careers.roche.com/api/apply/v2/jobs?ph_id=ROCHGLOBAL&location=Switzerland&limit=5"
     ],
-    "phenom_probe": [
-     "limit=5&offset=0 | status=200 errorCode=null errorMsg=\"Tenant not identified\"",
-     "location=Switzerland&limit=5 | status=200 errorCode=null errorMsg=\"Tenant not identified\"",
-     "country=Switzerland&limit=5 | status=200 errorCode=null errorMsg=\"Tenant not identified\""
-    ]
+    "phenom_probe": {
+     "tenant": "ROCHGLOBAL",
+     "r": [
+      "q tenantId status=200 errMsg=\"Tenant not identified\" data.keys=[]",
+      "hdr tenantid status=200 errMsg=\"Tenant not identified\" data.keys=[]",
+      "hdr X-PH status=200 errMsg=\"Tenant not identified\" data.keys=[]",
+      "q ph_id status=200 errMsg=\"Tenant not identified\" data.keys=[]"
+     ]
+    }
    }
   }
  },
@@ -1027,17 +1014,17 @@
   "chromium": {
    "njobs": 0,
    "blocked": false,
-   "xhr": 11,
+   "xhr": 12,
    "status": "no_jobs",
    "sample": [],
    "schemas": [],
    "dbg": {
     "xhr_urls": [
      "https://content-ir.phenompeople.com/api/content-delivery/caasContentV1?refNum=STGRGLOBAL&locale=en_global&site",
-     "https://content-ir.phenompeople.com/api/STGRGLOBAL/globalSearchConfig?locale=en_global&siteType=external&devic",
      "https://content-ir.phenompeople.com/api/STGRGLOBAL/getPiiConsentConfig?locale=en_global&siteType=external&devi",
      "https://content-ir.phenompeople.com/api/STGRGLOBAL/getRegionLocales?locale=en_global&siteType=external&deviceT",
      "https://careers.straumann.com/widgets",
+     "https://content-ir.phenompeople.com/api/STGRGLOBAL/globalSearchConfig?locale=en_global&siteType=external&devic",
      "https://careers.straumann.com/widgets",
      "https://careers.straumann.com/widgets",
      "https://careers.straumann.com/widgets",
@@ -1046,21 +1033,26 @@
      "https://careers.straumann.com/widgets",
      "https://careers.straumann.com/widgets",
      "https://careers.straumann.com/api/apply/v2/jobs?location=Switzerland&limit=100&offset=0",
-     "https://careers.straumann.com/api/apply/v2/jobs?limit=5&offset=0",
+     "https://careers.straumann.com/api/apply/v2/jobs?tenantId=STGRGLOBAL&location=Switzerland&limit=5",
      "https://careers.straumann.com/api/apply/v2/jobs?location=Switzerland&limit=5",
-     "https://careers.straumann.com/api/apply/v2/jobs?country=Switzerland&limit=5"
+     "https://careers.straumann.com/api/apply/v2/jobs?location=Switzerland&limit=5",
+     "https://careers.straumann.com/api/apply/v2/jobs?ph_id=STGRGLOBAL&location=Switzerland&limit=5"
     ],
-    "phenom_probe": [
-     "limit=5&offset=0 | status=200 errorCode=null errorMsg=\"Tenant not identified\"",
-     "location=Switzerland&limit=5 | status=200 errorCode=null errorMsg=\"Tenant not identified\"",
-     "country=Switzerland&limit=5 | status=200 errorCode=null errorMsg=\"Tenant not identified\""
-    ]
+    "phenom_probe": {
+     "tenant": "STGRGLOBAL",
+     "r": [
+      "q tenantId status=200 errMsg=\"Tenant not identified\" data.keys=[]",
+      "hdr tenantid status=200 errMsg=\"Tenant not identified\" data.keys=[]",
+      "hdr X-PH status=200 errMsg=\"Tenant not identified\" data.keys=[]",
+      "q ph_id status=200 errMsg=\"Tenant not identified\" data.keys=[]"
+     ]
+    }
    }
   },
   "camoufox": {
    "njobs": 0,
    "blocked": false,
-   "xhr": 11,
+   "xhr": 12,
    "status": "no_jobs",
    "sample": [],
    "schemas": [],
@@ -1070,23 +1062,28 @@
      "https://content-ir.phenompeople.com/api/STGRGLOBAL/getPiiConsentConfig?locale=en_global&siteType=external&devi",
      "https://content-ir.phenompeople.com/api/STGRGLOBAL/getRegionLocales?locale=en_global&siteType=external&deviceT",
      "https://careers.straumann.com/widgets",
+     "https://careers.straumann.com/widgets",
+     "https://careers.straumann.com/widgets",
+     "https://careers.straumann.com/widgets",
      "https://content-ir.phenompeople.com/api/STGRGLOBAL/globalSearchConfig?locale=en_global&siteType=external&devic",
-     "https://careers.straumann.com/widgets",
-     "https://careers.straumann.com/widgets",
-     "https://careers.straumann.com/widgets",
      "https://content-ir.phenompeople.com/api/STGRGLOBAL/fyfConfig?locale=en_global&siteType=external&deviceType=des",
      "https://careers.straumann.com/widgets",
      "https://careers.straumann.com/widgets",
      "https://careers.straumann.com/api/apply/v2/jobs?location=Switzerland&limit=100&offset=0",
-     "https://careers.straumann.com/api/apply/v2/jobs?limit=5&offset=0",
+     "https://careers.straumann.com/api/apply/v2/jobs?tenantId=STGRGLOBAL&location=Switzerland&limit=5",
      "https://careers.straumann.com/api/apply/v2/jobs?location=Switzerland&limit=5",
-     "https://careers.straumann.com/api/apply/v2/jobs?country=Switzerland&limit=5"
+     "https://careers.straumann.com/api/apply/v2/jobs?location=Switzerland&limit=5",
+     "https://careers.straumann.com/api/apply/v2/jobs?ph_id=STGRGLOBAL&location=Switzerland&limit=5"
     ],
-    "phenom_probe": [
-     "limit=5&offset=0 | status=200 errorCode=null errorMsg=\"Tenant not identified\"",
-     "location=Switzerland&limit=5 | status=200 errorCode=null errorMsg=\"Tenant not identified\"",
-     "country=Switzerland&limit=5 | status=200 errorCode=null errorMsg=\"Tenant not identified\""
-    ]
+    "phenom_probe": {
+     "tenant": "STGRGLOBAL",
+     "r": [
+      "q tenantId status=200 errMsg=\"Tenant not identified\" data.keys=[]",
+      "hdr tenantid status=200 errMsg=\"Tenant not identified\" data.keys=[]",
+      "hdr X-PH status=200 errMsg=\"Tenant not identified\" data.keys=[]",
+      "q ph_id status=200 errMsg=\"Tenant not identified\" data.keys=[]"
+     ]
+    }
    }
   }
  },
@@ -1101,11 +1098,10 @@
    "schemas": [],
    "dbg": {
     "xhr_urls": [],
-    "phenom_probe": [
-     "limit=5&offset=0 | status=404 (not json)",
-     "location=Switzerland&limit=5 | status=404 (not json)",
-     "country=Switzerland&limit=5 | status=404 (not json)"
-    ]
+    "phenom_probe": {
+     "tenant": "",
+     "r": "no-tenant"
+    }
    }
   },
   "camoufox": {
@@ -1117,11 +1113,10 @@
    "schemas": [],
    "dbg": {
     "xhr_urls": [],
-    "phenom_probe": [
-     "limit=5&offset=0 | status=404 (not json)",
-     "location=Switzerland&limit=5 | status=404 (not json)",
-     "country=Switzerland&limit=5 | status=404 (not json)"
-    ]
+    "phenom_probe": {
+     "tenant": "",
+     "r": "no-tenant"
+    }
    }
   }
  }

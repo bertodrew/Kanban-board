@@ -16,14 +16,13 @@ jobs:
           ref: ${{ github.ref_name }}
       - uses: actions/setup-python@v5
         with: { python-version: "3.11" }
-      - name: Install Chromium (Playwright)
-        run: |
-          pip install playwright
-          python -m playwright install --with-deps chromium
-      - name: Install Camoufox (stealth Firefox)
+      - name: Install Camoufox (pins playwright<1.61 — MUST come before chromium install)
         run: |
           pip install "camoufox[geoip]"
           python -m camoufox fetch
+      - name: Install Chromium for the pinned Playwright version
+        run: |
+          python -m playwright install --with-deps chromium
       - name: Run A/B test
         run: python gha_camoufox_test.py
       - name: Commit results back

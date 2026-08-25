@@ -137,6 +137,22 @@ PHENOM_JS = """async () => {
 }"""
 
 
+PHENOM_DEBUG_JS = """async () => {
+  const paths = ['/api/apply/v2/jobs?location=Switzerland&limit=5',
+                 '/api/apply/v2/jobs?keywords=&location=Switzerland&limit=5&offset=0',
+                 '/api/jobs?location=Switzerland&limit=5',
+                 '/widgets/jobsearch?location=Switzerland&limit=5'];
+  const res = [];
+  for (const p of paths) {
+    try { const r = await fetch(p, {headers:{'Accept':'application/json'}});
+          let n = 0; try { const d = await r.json(); n = (d.jobs||d.positions||d.data||[]).length; } catch(e){}
+          res.push(p.split('?')[0] + ' -> ' + r.status + ' n=' + n);
+    } catch(e) { res.push(p.split('?')[0] + ' -> ERR'); }
+  }
+  return res;
+}"""
+
+
 def phenom_api(page):
     try:
         recs = page.evaluate(PHENOM_JS) or []
@@ -150,12 +166,16 @@ def harvest(page, url):
     captured = []
     cap_urls = []
 
+    all_xhr = []
+
     def on_resp(resp):
         try:
             ct = (resp.headers or {}).get('content-type', '')
             if 'json' not in ct.lower():
                 return
             rurl = resp.url
+            if len(all_xhr) < 60:
+                all_xhr.append(rurl[:110])
             if not re.search(r'job|search|cxs|apply|positions|vacan|career|posting', rurl, re.I):
                 return
             body = resp.json()
@@ -204,7 +224,13 @@ def harvest(page, url):
             continue
         seen.add(t.lower())
         jobs.append({'title': t, 'loc': loc[:40]})
-    return len(jobs), blocked, len(captured), jobs[:6], schemas[:12]
+    try:
+        probe = page.evaluate(PHENOM_DEBUG_JS)
+    except Exception as e:
+        probe = ['eval-err: ' + str(e)[:60]]
+    dbg = {'xhr_urls': [u for u in all_xhr if re.search(r'/api/|/widgets|search|jobs|cxs|phenom', u, re.I)][:20],
+           'phenom_probe': probe}
+    return len(jobs), blocked, len(captured), jobs[:6], schemas[:12], dbg
 
 
 def run_engine(engine, results):
@@ -224,9 +250,9 @@ def run_engine(engine, results):
 def _loop(b, engine, results, ua):
     for name, url in TARGETS:
         pg = b.new_page(user_agent=ua) if ua else b.new_page()
-        r = {'njobs': 0, 'blocked': None, 'xhr': 0, 'status': '', 'sample': [], 'schemas': []}
+        r = {'njobs': 0, 'blocked': None, 'xhr': 0, 'status': '', 'sample': [], 'schemas': [], 'dbg': {}}
         try:
-            r['njobs'], r['blocked'], r['xhr'], r['sample'], r['schemas'] = harvest(pg, url)
+            r['njobs'], r['blocked'], r['xhr'], r['sample'], r['schemas'], r['dbg'] = harvest(pg, url)
             r['status'] = 'ok' if r['njobs'] else ('blocked' if r['blocked'] else 'no_jobs')
         except Exception as e:
             r['status'] = 'error'; r['error'] = str(e)[:120]

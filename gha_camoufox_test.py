@@ -148,15 +148,18 @@ PHENOM_DEBUG_JS = """async () => {
       let info = 'status=' + r.status;
       try {
         const d = await r.json();
-        const keys = Object.keys(d).slice(0,12);
-        info += ' keys=' + JSON.stringify(keys);
-        // hunt for any array of objects with a title
-        const findArr = (o,dep)=>{ if(dep>5||!o||typeof o!=='object') return null;
-          if(Array.isArray(o)&&o.length&&o[0]&&o[0].title) return o;
-          for(const k in o){ const f=findArr(o[k],dep+1); if(f) return f; } return null; };
-        const arr = findArr(d,0);
-        if(arr){ info += ' JOBS=' + arr.length + ' first=' + JSON.stringify(arr[0].title||'').slice(0,40)
-                     + ' fields=' + JSON.stringify(Object.keys(arr[0]).slice(0,12)); }
+        info += ' errorCode=' + JSON.stringify(d.errorCode) + ' errorMsg=' + JSON.stringify(d.errorMsg);
+        const data = d.data;
+        if (data && typeof data === 'object') {
+          info += ' data.keys=' + JSON.stringify(Object.keys(data).slice(0,12));
+          const jobs = data.jobs || data.positions || data.jobList || data.results;
+          if (Array.isArray(jobs)) {
+            info += ' JOBS=' + jobs.length;
+            if (jobs[0]) info += ' fields=' + JSON.stringify(Object.keys(jobs[0]).slice(0,14));
+          } else {
+            info += ' data.snip=' + JSON.stringify(data).slice(0,200);
+          }
+        }
       } catch(e){ info += ' (not json)'; }
       res.push(p.split('?')[1] + ' | ' + info);
     } catch(e) { res.push(p + ' -> ERR ' + e); }

@@ -4,12 +4,14 @@
   "chromium": {
    "njobs": 0,
    "blocked": false,
+   "xhr": 0,
    "status": "no_jobs",
    "sample": []
   },
   "camoufox": {
    "njobs": 0,
    "blocked": false,
+   "xhr": 0,
    "status": "no_jobs",
    "sample": []
   }
@@ -19,12 +21,14 @@
   "chromium": {
    "njobs": 0,
    "blocked": false,
+   "xhr": 0,
    "status": "no_jobs",
    "sample": []
   },
   "camoufox": {
    "njobs": 0,
    "blocked": false,
+   "xhr": 0,
    "status": "no_jobs",
    "sample": []
   }
@@ -32,45 +36,135 @@
  "Givaudan": {
   "url": "https://jobs.givaudan.com/search/",
   "chromium": {
-   "njobs": 6,
+   "njobs": 16,
    "blocked": false,
+   "xhr": 26,
    "status": "ok",
    "sample": [
-    "CI Manager",
-    "Senior CI Specialist",
-    "Junior Pricing Analyst",
-    "Manufacturing, Operations, Engineering176 available jobs",
-    "Sales, Marketing, Communications44 available jobs",
-    "Finance & Pricing14 available jobs"
+    {
+     "title": "Privacy Policy",
+     "loc": ""
+    },
+    {
+     "title": "Terms Of Use",
+     "loc": ""
+    },
+    {
+     "title": "v-1636458601019-expire_job",
+     "loc": ""
+    },
+    {
+     "title": "Header Items",
+     "loc": ""
+    },
+    {
+     "title": "Search job",
+     "loc": ""
+    },
+    {
+     "title": "My profile",
+     "loc": ""
+    }
    ]
   },
   "camoufox": {
-   "njobs": 6,
+   "njobs": 16,
    "blocked": false,
+   "xhr": 26,
    "status": "ok",
    "sample": [
-    "CI Manager",
-    "Senior CI Specialist",
-    "Junior Pricing Analyst",
-    "Manufacturing, Operations, Engineering176 available jobs",
-    "Sales, Marketing, Communications44 available jobs",
-    "Finance & Pricing14 available jobs"
+    {
+     "title": "Privacy Policy",
+     "loc": ""
+    },
+    {
+     "title": "Terms Of Use",
+     "loc": ""
+    },
+    {
+     "title": "v-1636458601019-expire_job",
+     "loc": ""
+    },
+    {
+     "title": "Header Items",
+     "loc": ""
+    },
+    {
+     "title": "Search job",
+     "loc": ""
+    },
+    {
+     "title": "My profile",
+     "loc": ""
+    }
    ]
   }
  },
  "Kuehne + Nagel": {
   "url": "https://jobs.kuehne-nagel.com/global/en",
   "chromium": {
-   "njobs": 0,
+   "njobs": 24,
    "blocked": false,
-   "status": "no_jobs",
-   "sample": []
+   "xhr": 34,
+   "status": "ok",
+   "sample": [
+    {
+     "title": "cityCountry",
+     "loc": ""
+    },
+    {
+     "title": "CareerLevel",
+     "loc": ""
+    },
+    {
+     "title": "location",
+     "loc": ""
+    },
+    {
+     "title": "multi_location",
+     "loc": ""
+    },
+    {
+     "title": "salaryVisibility",
+     "loc": ""
+    },
+    {
+     "title": "addToCart",
+     "loc": ""
+    }
+   ]
   },
   "camoufox": {
-   "njobs": 0,
+   "njobs": 22,
    "blocked": false,
-   "status": "no_jobs",
-   "sample": []
+   "xhr": 34,
+   "status": "ok",
+   "sample": [
+    {
+     "title": "cityCountry",
+     "loc": ""
+    },
+    {
+     "title": "CareerLevel",
+     "loc": ""
+    },
+    {
+     "title": "location",
+     "loc": ""
+    },
+    {
+     "title": "multi_location",
+     "loc": ""
+    },
+    {
+     "title": "salaryVisibility",
+     "loc": ""
+    },
+    {
+     "title": "addToCart",
+     "loc": ""
+    }
+   ]
   }
  },
  "Nestlé": {
@@ -78,12 +172,14 @@
   "chromium": {
    "njobs": 0,
    "blocked": false,
+   "xhr": 0,
    "status": "no_jobs",
    "sample": []
   },
   "camoufox": {
    "njobs": 0,
    "blocked": false,
+   "xhr": 0,
    "status": "no_jobs",
    "sample": []
   }
@@ -91,29 +187,84 @@
  "Roche": {
   "url": "https://careers.roche.com/global/en",
   "chromium": {
-   "njobs": 0,
+   "njobs": 6,
    "blocked": false,
-   "status": "no_jobs",
-   "sample": []
+   "xhr": 13,
+   "status": "ok",
+   "sample": [
+    {
+     "title": "Privacy Policy",
+     "loc": ""
+    },
+    {
+     "title": "Terms Of Use",
+     "loc": ""
+    },
+    {
+     "title": "Legal Statement",
+     "loc": ""
+    },
+    {
+     "title": "Student & Graduate Programmes",
+     "loc": ""
+    },
+    {
+     "title": "chatbotLoadTC",
+     "loc": ""
+    },
+    {
+     "title": "chatbotAudioTranscript",
+     "loc": ""
+    }
+   ]
   },
   "camoufox": {
-   "njobs": 0,
+   "njobs": 4,
    "blocked": false,
-   "status": "no_jobs",
-   "sample": []
+   "xhr": 12,
+   "status": "ok",
+   "sample": [
+    {
+     "title": "Privacy Policy",
+     "loc": ""
+    },
+    {
+     "title": "Terms Of Use",
+     "loc": ""
+    },
+    {
+     "title": "Legal Statement",
+     "loc": ""
+    },
+    {
+     "title": "Student & Graduate Programmes",
+     "loc": ""
+    }
+   ]
   }
  },
  "Straumann Group": {
   "url": "https://careers.straumann.com",
   "chromium": {
-   "njobs": 0,
+   "njobs": 2,
    "blocked": false,
-   "status": "no_jobs",
-   "sample": []
+   "xhr": 8,
+   "status": "ok",
+   "sample": [
+    {
+     "title": "chatbotLoadTC",
+     "loc": ""
+    },
+    {
+     "title": "chatbotAudioTranscript",
+     "loc": ""
+    }
+   ]
   },
   "camoufox": {
    "njobs": 0,
    "blocked": false,
+   "xhr": 7,
    "status": "no_jobs",
    "sample": []
   }
@@ -123,12 +274,14 @@
   "chromium": {
    "njobs": 0,
    "blocked": true,
+   "xhr": 0,
    "status": "blocked",
    "sample": []
   },
   "camoufox": {
    "njobs": 0,
    "blocked": false,
+   "xhr": 0,
    "status": "no_jobs",
    "sample": []
   }

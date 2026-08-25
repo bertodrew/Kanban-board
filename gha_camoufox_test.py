@@ -118,6 +118,7 @@ def coax(page):
 
 def harvest(page, url):
     captured = []
+    cap_urls = []
 
     def on_resp(resp):
         try:
@@ -128,7 +129,7 @@ def harvest(page, url):
             if not re.search(r'job|search|cxs|apply|positions|vacan|career|posting', rurl, re.I):
                 return
             body = resp.json()
-            captured.append(body)
+            captured.append(body); cap_urls.append(rurl)
         except Exception:
             pass
 
@@ -139,6 +140,19 @@ def harvest(page, url):
     blocked = bool(BLOCK.search(content))
     coax(page)
     page.wait_for_timeout(1500)
+
+    # DEBUG: record the shape of every captured JSON — arrays of dicts and their keys
+    schemas = []
+    def schema(o, path, urlref):
+        if isinstance(o, list) and o and isinstance(o[0], dict):
+            schemas.append({'url': urlref[:80], 'path': path, 'n': len(o),
+                            'keys': list(o[0].keys())[:25]})
+        elif isinstance(o, dict):
+            for k, v in list(o.items())[:40]:
+                if isinstance(v, (list, dict)):
+                    schema(v, f"{path}.{k}", urlref)
+    for i, body in enumerate(captured[:60]):
+        schema(body, '$', cap_urls[i] if i < len(cap_urls) else '?')
 
     recs = []
     for body in captured[:60]:
@@ -157,7 +171,7 @@ def harvest(page, url):
             continue
         seen.add(t.lower())
         jobs.append({'title': t, 'loc': loc[:40]})
-    return len(jobs), blocked, len(captured), jobs[:6]
+    return len(jobs), blocked, len(captured), jobs[:6], schemas[:12]
 
 
 def run_engine(engine, results):
@@ -177,9 +191,9 @@ def run_engine(engine, results):
 def _loop(b, engine, results, ua):
     for name, url in TARGETS:
         pg = b.new_page(user_agent=ua) if ua else b.new_page()
-        r = {'njobs': 0, 'blocked': None, 'xhr': 0, 'status': '', 'sample': []}
+        r = {'njobs': 0, 'blocked': None, 'xhr': 0, 'status': '', 'sample': [], 'schemas': []}
         try:
-            r['njobs'], r['blocked'], r['xhr'], r['sample'] = harvest(pg, url)
+            r['njobs'], r['blocked'], r['xhr'], r['sample'], r['schemas'] = harvest(pg, url)
             r['status'] = 'ok' if r['njobs'] else ('blocked' if r['blocked'] else 'no_jobs')
         except Exception as e:
             r['status'] = 'error'; r['error'] = str(e)[:120]

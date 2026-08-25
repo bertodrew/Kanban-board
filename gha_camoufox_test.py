@@ -138,16 +138,28 @@ PHENOM_JS = """async () => {
 
 
 PHENOM_DEBUG_JS = """async () => {
-  const paths = ['/api/apply/v2/jobs?location=Switzerland&limit=5',
-                 '/api/apply/v2/jobs?keywords=&location=Switzerland&limit=5&offset=0',
-                 '/api/jobs?location=Switzerland&limit=5',
-                 '/widgets/jobsearch?location=Switzerland&limit=5'];
+  const paths = ['/api/apply/v2/jobs?limit=5&offset=0',
+                 '/api/apply/v2/jobs?location=Switzerland&limit=5',
+                 '/api/apply/v2/jobs?country=Switzerland&limit=5'];
   const res = [];
   for (const p of paths) {
-    try { const r = await fetch(p, {headers:{'Accept':'application/json'}});
-          let n = 0; try { const d = await r.json(); n = (d.jobs||d.positions||d.data||[]).length; } catch(e){}
-          res.push(p.split('?')[0] + ' -> ' + r.status + ' n=' + n);
-    } catch(e) { res.push(p.split('?')[0] + ' -> ERR'); }
+    try {
+      const r = await fetch(p, {headers:{'Accept':'application/json'}});
+      let info = 'status=' + r.status;
+      try {
+        const d = await r.json();
+        const keys = Object.keys(d).slice(0,12);
+        info += ' keys=' + JSON.stringify(keys);
+        // hunt for any array of objects with a title
+        const findArr = (o,dep)=>{ if(dep>5||!o||typeof o!=='object') return null;
+          if(Array.isArray(o)&&o.length&&o[0]&&o[0].title) return o;
+          for(const k in o){ const f=findArr(o[k],dep+1); if(f) return f; } return null; };
+        const arr = findArr(d,0);
+        if(arr){ info += ' JOBS=' + arr.length + ' first=' + JSON.stringify(arr[0].title||'').slice(0,40)
+                     + ' fields=' + JSON.stringify(Object.keys(arr[0]).slice(0,12)); }
+      } catch(e){ info += ' (not json)'; }
+      res.push(p.split('?')[1] + ' | ' + info);
+    } catch(e) { res.push(p + ' -> ERR ' + e); }
   }
   return res;
 }"""

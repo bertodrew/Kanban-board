@@ -137,32 +137,30 @@ PHENOM_JS = """async () => {
 }"""
 
 
-PHENOM_DEBUG_JS = """async () => {
-  const paths = ['/api/apply/v2/jobs?limit=5&offset=0',
-                 '/api/apply/v2/jobs?location=Switzerland&limit=5',
-                 '/api/apply/v2/jobs?country=Switzerland&limit=5'];
+PHENOM_DEBUG_JS = """async (T) => {
+  const attempts = [
+    ['q tenantId', '/api/apply/v2/jobs?tenantId='+T+'&location=Switzerland&limit=5', {}],
+    ['hdr tenantid', '/api/apply/v2/jobs?location=Switzerland&limit=5', {'tenantid': T}],
+    ['hdr X-PH', '/api/apply/v2/jobs?location=Switzerland&limit=5', {'X-PH-Tenant-Id': T}],
+    ['q ph_id', '/api/apply/v2/jobs?ph_id='+T+'&location=Switzerland&limit=5', {}],
+  ];
   const res = [];
-  for (const p of paths) {
+  for (const [lbl, p, hdr] of attempts) {
     try {
-      const r = await fetch(p, {headers:{'Accept':'application/json'}});
-      let info = 'status=' + r.status;
+      const r = await fetch(p, {headers: Object.assign({'Accept':'application/json'}, hdr)});
+      let info = lbl + ' status=' + r.status;
       try {
         const d = await r.json();
-        info += ' errorCode=' + JSON.stringify(d.errorCode) + ' errorMsg=' + JSON.stringify(d.errorMsg);
-        const data = d.data;
-        if (data && typeof data === 'object') {
-          info += ' data.keys=' + JSON.stringify(Object.keys(data).slice(0,12));
-          const jobs = data.jobs || data.positions || data.jobList || data.results;
-          if (Array.isArray(jobs)) {
-            info += ' JOBS=' + jobs.length;
-            if (jobs[0]) info += ' fields=' + JSON.stringify(Object.keys(jobs[0]).slice(0,14));
-          } else {
-            info += ' data.snip=' + JSON.stringify(data).slice(0,200);
-          }
-        }
+        info += ' errMsg=' + JSON.stringify(d.errorMsg);
+        const data = d.data || {};
+        const jobs = data.jobs || data.positions || data.jobList || data.results;
+        if (Array.isArray(jobs)) { info += ' JOBS=' + jobs.length;
+          if (jobs[0]) info += ' fields=' + JSON.stringify(Object.keys(jobs[0]).slice(0,12))
+                            + ' t=' + JSON.stringify(jobs[0].title||jobs[0].name||''); }
+        else info += ' data.keys=' + JSON.stringify(Object.keys(data).slice(0,10));
       } catch(e){ info += ' (not json)'; }
-      res.push(p.split('?')[1] + ' | ' + info);
-    } catch(e) { res.push(p + ' -> ERR ' + e); }
+      res.push(info);
+    } catch(e) { res.push(lbl + ' ERR'); }
   }
   return res;
 }"""
@@ -239,8 +237,14 @@ def harvest(page, url):
             continue
         seen.add(t.lower())
         jobs.append({'title': t, 'loc': loc[:40]})
+    # extract Phenom tenant from config XHR (content-ir.phenompeople.com/api/{TENANT}/)
+    tenant = ''
+    for u in all_xhr:
+        m = re.search(r'phenompeople\.com/api/([A-Z0-9]+)/', u)
+        if m:
+            tenant = m.group(1); break
     try:
-        probe = page.evaluate(PHENOM_DEBUG_JS)
+        probe = {'tenant': tenant, 'r': page.evaluate(PHENOM_DEBUG_JS, tenant) if tenant else 'no-tenant'}
     except Exception as e:
         probe = ['eval-err: ' + str(e)[:60]]
     dbg = {'xhr_urls': [u for u in all_xhr if re.search(r'/api/|/widgets|search|jobs|cxs|phenom', u, re.I)][:20],

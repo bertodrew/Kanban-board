@@ -387,14 +387,14 @@
     "location": "Opfikon, Switzerland"
    },
    {
-    "title": "Working Student / Graduate Sea Logistics Revenue Care (m/f/d)",
-    "apply_url": "https://jobs.kuehne-nagel.com/global/en",
-    "location": "Opfikon, Switzerland"
-   },
-   {
     "title": "Communications Manager Technology",
     "apply_url": "https://jobs.kuehne-nagel.com/global/en",
     "location": "Schindellegi, Switzerland"
+   },
+   {
+    "title": "Working Student / Graduate Sea Logistics Revenue Care (m/f/d)",
+    "apply_url": "https://jobs.kuehne-nagel.com/global/en",
+    "location": "Opfikon, Switzerland"
    },
    {
     "title": "Customer Care Specialist Landverkehr (m/w/d)",
@@ -405,22 +405,32 @@
     "title": "Operations Specialist",
     "apply_url": "https://jobs.kuehne-nagel.com/global/en",
     "location": "Bielany Wroclawskie"
-   },
-   {
-    "title": "Computer System Validation (CSV) Expert",
-    "apply_url": "https://jobs.kuehne-nagel.com/global/en",
-    "location": "Bielany Wroclawskie"
-   },
-   {
-    "title": "Logistics Engineer",
-    "apply_url": "https://jobs.kuehne-nagel.com/global/en",
-    "location": "Bielany Wroclawskie"
    }
   ]
  },
  {
   "name": "Bayer",
   "career_url": "https://talent.bayer.com",
+  "jobs": []
+ },
+ {
+  "name": "Nestlé",
+  "career_url": "https://www.nestle.com/jobs/search-jobs",
+  "jobs": []
+ },
+ {
+  "name": "Swiss Life",
+  "career_url": "https://www.swisslife.com/en/about-us/jobs.html",
+  "jobs": []
+ },
+ {
+  "name": "Boehringer Ingelheim",
+  "career_url": "https://careers.boehringer-ingelheim.com",
+  "jobs": []
+ },
+ {
+  "name": "Neurimmune",
+  "career_url": "https://www.neurimmune.com/company/careers",
   "jobs": []
  },
  {
@@ -446,6 +456,36 @@
  {
   "name": "alabus ag",
   "career_url": "https://www.alabus.com/opencms/en/alabus/jobs/index.html",
+  "jobs": []
+ },
+ {
+  "name": "AlphaMol Science AG",
+  "career_url": "https://alphamol.com/careers",
+  "jobs": []
+ },
+ {
+  "name": "amétiq ag",
+  "career_url": "https://ametiq.ch/jobs/",
+  "jobs": []
+ },
+ {
+  "name": "Anamedi GmbH",
+  "career_url": "https://anamedi.com/#how-it-works",
+  "jobs": []
+ },
+ {
+  "name": "Anovis AI",
+  "career_url": "https://anovisai.com/how-we-work-with-clients",
+  "jobs": []
+ },
+ {
+  "name": "Appamics",
+  "career_url": "https://appamics.com/careers",
+  "jobs": []
+ },
+ {
+  "name": "Apps with love AG",
+  "career_url": "https://www.appswithlove.com/jobs",
   "jobs": []
  }
 ]

@@ -269,6 +269,12 @@ SEED = [
     {'id': 'seed-straumann', 'name': 'Straumann Group', 'career_url': 'https://careers.straumann.com'},
     {'id': 'seed-kuehne', 'name': 'Kuehne + Nagel', 'career_url': 'https://jobs.kuehne-nagel.com/global/en'},
     {'id': 'seed-bayer', 'name': 'Bayer', 'career_url': 'https://talent.bayer.com'},
+    # WAF/anti-bot targets — plain Chromium is usually blocked here; the auto-engine
+    # Camoufox retry pass (see main()) is the fallback for these.
+    {'id': 'seed-nestle', 'name': 'Nestlé', 'career_url': 'https://www.nestle.com/jobs/search-jobs'},
+    {'id': 'seed-swisslife', 'name': 'Swiss Life', 'career_url': 'https://www.swisslife.com/en/about-us/jobs.html'},
+    {'id': 'seed-boehringer', 'name': 'Boehringer Ingelheim', 'career_url': 'https://careers.boehringer-ingelheim.com'},
+    {'id': 'seed-neurimmune', 'name': 'Neurimmune', 'career_url': 'https://www.neurimmune.com/company/careers'},
 ]
 
 

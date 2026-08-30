@@ -1,4 +1,5 @@
 #!/usr/bin/env python3
+# daily trigger bump 2026-08-30
 """JS/ATS job scraper for GitHub Actions — session-interception + Phenom + Camoufox.
 
 Targets scraper_companies rows discovery_status='discovered' with last_status in

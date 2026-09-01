@@ -230,11 +230,6 @@
   "career_url": "https://careers.givaudan.com/global/en",
   "jobs": [
    {
-    "title": "Head of Procurement IM&S",
-    "apply_url": "https://careers.givaudan.com/global/en",
-    "location": "Vernier, Switzerland"
-   },
-   {
     "title": "Senior Regulatory Data Analyst",
     "apply_url": "https://careers.givaudan.com/global/en",
     "location": "Vernier, Switzerland"
@@ -361,22 +356,22 @@
     "location": "Villeret, Switzerland"
    },
    {
-    "title": "Facility Management and Workplace Project Manager (Straumann Campus Basel)",
-    "apply_url": "https://careers.straumann.com",
-    "location": "Basel, Switzerland"
-   },
-   {
     "title": "Global Launch Education Manager",
     "apply_url": "https://careers.straumann.com",
     "location": "Basel, Switzerland"
    },
    {
-    "title": "Clinical Workflow Product Manager",
+    "title": "Facility Management and Workplace Project Manager (Straumann Campus Basel)",
     "apply_url": "https://careers.straumann.com",
     "location": "Basel, Switzerland"
    },
    {
     "title": "Lehrstelle als Interactive Media Designer EFZ (m/w/d) ab August 2027",
+    "apply_url": "https://careers.straumann.com",
+    "location": "Basel, Switzerland"
+   },
+   {
+    "title": "Clinical Workflow Product Manager",
     "apply_url": "https://careers.straumann.com",
     "location": "Basel, Switzerland"
    }
@@ -392,9 +387,19 @@
     "location": "Moehlin, Switzerland"
    },
    {
+    "title": "Working Student / Graduate Sea Logistics Revenue Care (m/f/d)",
+    "apply_url": "https://jobs.kuehne-nagel.com/global/en",
+    "location": "Opfikon, Switzerland"
+   },
+   {
     "title": "Senior Sea Freight Export Specialist (m/f/d)",
     "apply_url": "https://jobs.kuehne-nagel.com/global/en",
     "location": "Opfikon, Switzerland"
+   },
+   {
+    "title": "Communications Manager Technology",
+    "apply_url": "https://jobs.kuehne-nagel.com/global/en",
+    "location": "Schindellegi, Switzerland"
    },
    {
     "title": "Customer Care Specialist Landverkehr (m/w/d)",
@@ -407,22 +412,7 @@
     "location": "Embrach, Switzerland"
    },
    {
-    "title": "Working Student / Graduate Sea Logistics Revenue Care (m/f/d)",
-    "apply_url": "https://jobs.kuehne-nagel.com/global/en",
-    "location": "Opfikon, Switzerland"
-   },
-   {
-    "title": "Communications Manager Technology",
-    "apply_url": "https://jobs.kuehne-nagel.com/global/en",
-    "location": "Schindellegi, Switzerland"
-   },
-   {
     "title": "Operations Specialist",
-    "apply_url": "https://jobs.kuehne-nagel.com/global/en",
-    "location": "Bielany Wroclawskie"
-   },
-   {
-    "title": "Computer System Validation (CSV) Expert",
     "apply_url": "https://jobs.kuehne-nagel.com/global/en",
     "location": "Bielany Wroclawskie"
    },
@@ -479,6 +469,11 @@
   "jobs": []
  },
  {
+  "name": "Ahead Health",
+  "career_url": "https://www.aheadhealth.com/careers",
+  "jobs": []
+ },
+ {
   "name": "alabus ag",
   "career_url": "https://www.alabus.com/opencms/en/alabus/jobs/index.html",
   "jobs": []
@@ -506,11 +501,6 @@
  {
   "name": "Appamics",
   "career_url": "https://appamics.com/careers",
-  "jobs": []
- },
- {
-  "name": "Apps with love AG",
-  "career_url": "https://www.appswithlove.com/jobs",
   "jobs": []
  }
 ]

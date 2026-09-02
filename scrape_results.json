@@ -94,16 +94,6 @@
     "location": "Basel, Basel-City, Switzerland"
    },
    {
-    "title": "Digital Measures Lead",
-    "apply_url": "https://roche.wd3.myworkdayjobs.com/roche-ext/job/Basel/Digital-Measures-Lead_202604-110611/apply",
-    "location": "Basel, Basel-City, Switzerland"
-   },
-   {
-    "title": "Senior Scientific Software Engineer (Fullstack)",
-    "apply_url": "https://roche.wd3.myworkdayjobs.com/roche-ext/job/Basel/Senior-Scientific-Software-Engineer--Fullstack-_202605-111371-1/apply",
-    "location": "Basel, Basel-City, Switzerland"
-   },
-   {
     "title": "\"Principal Scientist siRNA Design",
     "apply_url": "https://roche.wd3.myworkdayjobs.com/roche-ext/job/Basel/Principal-Scientist-si-RNA-Design_202606-115829-1/apply",
     "location": "Basel, Basel-City, Switzerland"
@@ -194,11 +184,6 @@
     "location": "Basel, Basel-City, Switzerland"
    },
    {
-    "title": "Principal Scientist, Respiratory Discovery",
-    "apply_url": "https://roche.wd3.myworkdayjobs.com/roche-ext/job/Basel/Principal-Scientist--Respiratory-Discovery_202607-117768-2/apply",
-    "location": "Basel, Basel-City, Switzerland"
-   },
-   {
     "title": "Team Lead Customer Relationship Management",
     "apply_url": "https://roche.wd3.myworkdayjobs.com/roche-ext/job/Rotkreuz/Team-Lead-Customer-Relationship-Management_202607-117886-1/apply",
     "location": "Rotkreuz, Zug, Switzerland"
@@ -221,6 +206,11 @@
    {
     "title": "Vice President, Global Head Multiple Sclerosis and Neuroimmunology",
     "apply_url": "https://roche.wd3.myworkdayjobs.com/roche-ext/job/Basel/Vice-President--Global-Head-Multiple-Sclerosis-and-Neuroimmunology_202607-118028/apply",
+    "location": "Basel, Basel-City, Switzerland"
+   },
+   {
+    "title": "Hematology and Safety Biomarker Expert",
+    "apply_url": "https://roche.wd3.myworkdayjobs.com/roche-ext/job/Basel/Hematology-and-Safety-Biomarker-Expert_202606-116901-1/apply",
     "location": "Basel, Basel-City, Switzerland"
    }
   ]
@@ -382,21 +372,6 @@
   "career_url": "https://jobs.kuehne-nagel.com/global/en",
   "jobs": [
    {
-    "title": "Blue Yonder WMS Specialist (m/w/d)",
-    "apply_url": "https://jobs.kuehne-nagel.com/global/en",
-    "location": "Moehlin, Switzerland"
-   },
-   {
-    "title": "Working Student / Graduate Sea Logistics Revenue Care (m/f/d)",
-    "apply_url": "https://jobs.kuehne-nagel.com/global/en",
-    "location": "Opfikon, Switzerland"
-   },
-   {
-    "title": "Senior Sea Freight Export Specialist (m/f/d)",
-    "apply_url": "https://jobs.kuehne-nagel.com/global/en",
-    "location": "Opfikon, Switzerland"
-   },
-   {
     "title": "Communications Manager Technology",
     "apply_url": "https://jobs.kuehne-nagel.com/global/en",
     "location": "Schindellegi, Switzerland"
@@ -407,9 +382,24 @@
     "location": "Embrach, Switzerland"
    },
    {
+    "title": "Contract Logistics Operations Manager (m/w/d)",
+    "apply_url": "https://jobs.kuehne-nagel.com/global/en",
+    "location": "Moehlin, Switzerland"
+   },
+   {
     "title": "Customer Care Specialist Seefracht (m/w/d)",
     "apply_url": "https://jobs.kuehne-nagel.com/global/en",
-    "location": "Embrach, Switzerland"
+    "location": "Opfikon, Switzerland"
+   },
+   {
+    "title": "Working Student / Graduate Sea Logistics Revenue Care (m/f/d)",
+    "apply_url": "https://jobs.kuehne-nagel.com/global/en",
+    "location": "Opfikon, Switzerland"
+   },
+   {
+    "title": "Senior Export Specialist (m/f/d) - Sea Logistics",
+    "apply_url": "https://jobs.kuehne-nagel.com/global/en",
+    "location": "Opfikon, Switzerland"
    },
    {
     "title": "Operations Specialist",
@@ -418,6 +408,11 @@
    },
    {
     "title": "Logistics Engineer",
+    "apply_url": "https://jobs.kuehne-nagel.com/global/en",
+    "location": "Bielany Wroclawskie"
+   },
+   {
+    "title": "Computer System Validation (CSV) Expert",
     "apply_url": "https://jobs.kuehne-nagel.com/global/en",
     "location": "Bielany Wroclawskie"
    }

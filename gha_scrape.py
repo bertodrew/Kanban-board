@@ -175,6 +175,106 @@ def swiss_ok(loc):
     return bool(SWISS.search(loc))
 
 
+# Phenom People (Givaudan/Straumann/Kuehne+Nagel): the refineSearch JSON API called by
+# PHENOM_JS has no URL field at all (checked full key list via curl, see CLAUDE.md
+# 2026-09-03 root-cause note) -- every job record it returns has to fall back to the
+# generic career_url. The real per-job link only exists in the client-rendered DOM after
+# Phenom's own JS finishes building the search-results page. Confirmed live (2026-09-03,
+# via a real browser session against careers.givaudan.com / careers.straumann.com /
+# jobs.kuehne-nagel.com):
+#   - All three run the same Phenom widget: a "Refine your search" panel with a Country
+#     facet (checkbox list, one row per country + job count, e.g. "Switzerland (5) Jobs").
+#     Ticking that checkbox client-side-filters the results grid to Swiss jobs only --
+#     far more reliable than typing "Switzerland" into the free-text location box (which
+#     resolves to a single nearest city via Google-Places-style autocomplete, e.g. it
+#     silently narrowed Kuehne+Nagel down to only "Opfikon, Switzerland" and would have
+#     missed jobs at any other Swiss K+N site).
+#   - Once filtered, every job card's title is an <a href="{origin}/global/en/job/{id}/
+#     {slug}">. That /job/{id}/{slug} URL is a fully specific, per-job link (passes rule
+#     #11) but oddly always renders an "expired / no longer available" placeholder on a
+#     direct load -- confirmed even from a warm browser session that had just clicked the
+#     link in-app, so it is a quirk of this particular route, not a bot/session check.
+#     It IS still server-rendered with real, job-specific meta tags (canonical/og:url
+#     embeds the tenant-prefixed jobSeqNo, og:description is a genuine one-line summary)
+#     -- gha_qc_v2.py's resolve_phenom() fetches that page once during enrichment to pull
+#     both the description AND the *working* end-user link, which is
+#     {origin}/global/en/apply?jobSeqNo={tenant}{id}EXTERNALENGLOBAL (confirmed to load a
+#     live, job-specific application form for all three companies). gha_scrape.py itself
+#     only needs to capture the /job/{id}/{slug} link -- the rewrite to the working apply
+#     URL happens downstream in QC so this script stays a dumb DOM harvester.
+JOB_LINK_RE = re.compile(r'/job/\d+/')
+
+
+def phenom_dom_jobs(page, url, max_pages=4):
+    origin_m = re.match(r'(https?://[^/]+)', url)
+    if not origin_m:
+        return []
+    origin = origin_m.group(1)
+    landed = False
+    for u in (origin + '/global/en/search-results', origin + '/search-results'):
+        try:
+            page.goto(u, wait_until='domcontentloaded', timeout=25000)
+            page.wait_for_timeout(2000)
+            if page.query_selector('a[href*="/job/"]') or page.query_selector('input[type="checkbox"]'):
+                landed = True
+                break
+        except Exception:
+            continue
+    if not landed:
+        return []
+
+    coax(page)
+    page.wait_for_timeout(800)
+
+    try:
+        clicked = page.evaluate("""() => {
+            const boxes = Array.from(document.querySelectorAll('input[type="checkbox"]'));
+            for (const b of boxes) {
+                const lbl = document.querySelector(`label[for="${b.id}"]`) || b.closest('label');
+                const txt = lbl ? lbl.textContent.trim() : '';
+                if (/^switzerland\\b/i.test(txt)) { (lbl || b).click(); return true; }
+            }
+            return false;
+        }""")
+        if clicked:
+            page.wait_for_timeout(2500)
+    except Exception:
+        pass
+
+    jobs, seen = [], set()
+    for _ in range(max_pages):
+        try:
+            links = page.evaluate("""() => Array.from(document.querySelectorAll('a[href*="/job/"]'))
+                .map(a => ({href: a.href, title: (a.textContent || '').trim()}))
+                .filter(x => x.title && /\\/job\\/\\d+\\//.test(x.href))""")
+        except Exception:
+            links = []
+        new = 0
+        for l in links:
+            if l['href'] in seen:
+                continue
+            seen.add(l['href']); jobs.append(l); new += 1
+        if not new:
+            break
+        try:
+            nxt = page.evaluate("""() => {
+                const a = Array.from(document.querySelectorAll('a')).find(a =>
+                    /^next$/i.test((a.textContent || '').trim()) &&
+                    a.getAttribute('href') && !a.getAttribute('href').startsWith('javascript'));
+                return a ? a.href : null;
+            }""")
+        except Exception:
+            nxt = None
+        if not nxt:
+            break
+        try:
+            page.goto(nxt, wait_until='domcontentloaded', timeout=20000)
+            page.wait_for_timeout(1800)
+        except Exception:
+            break
+    return jobs
+
+
 def harvest(page, url):
     captured, cap_urls, all_xhr = [], [], []
 
@@ -197,13 +297,29 @@ def harvest(page, url):
     coax(page)
     page.wait_for_timeout(1200)
 
-    recs = []
     # Phenom refineSearch (tenant from config XHR)
     tenant = ''
     for u in all_xhr:
         m = re.search(r'phenompeople\.com/api/([A-Z0-9]+)/', u)
         if m:
             tenant = m.group(1); break
+
+    if tenant:
+        try:
+            dom_jobs = phenom_dom_jobs(page, url)
+        except Exception:
+            dom_jobs = []
+        if dom_jobs:
+            seen, jobs = set(), []
+            for j in dom_jobs:
+                key = j['title'].strip().lower()
+                if not key or key in seen:
+                    continue
+                seen.add(key)
+                jobs.append({'title': j['title'], 'apply_url': j['href'], 'location': 'Switzerland'})
+            return jobs, blocked
+
+    recs = []
     if tenant:
         try:
             for r in (page.evaluate(PHENOM_JS, tenant) or []):

@@ -4,23 +4,18 @@
   "career_url": "https://careers.roche.com/global/en",
   "jobs": [
    {
-    "title": "Technical Expert Portfolio Mgmt, Technical Feasibility and Planning",
-    "apply_url": "https://roche.wd3.myworkdayjobs.com/roche-ext/job/Basel/Technical-Expert-Portfolio-Mgmt--Technical-Feasibility-and-Planning_202509-122455-1/apply",
-    "location": "Basel-City"
-   },
-   {
     "title": "Technical Expert Operational, Strategic and Project Support",
     "apply_url": "https://roche.wd3.myworkdayjobs.com/roche-ext/job/Basel/Technical-Expert-Operational--Strategic-and-Project-Support_202509-122427-1/apply",
     "location": "Basel-City"
    },
    {
-    "title": "Chef de Partie, Tournant (w/m/d), 100% - befristet für 1 Jahr",
-    "apply_url": "https://roche.wd3.myworkdayjobs.com/roche-ext/job/Basel/Chef-de-Partie--Tournant--w-m-d---100----befristet-fr-1-Jahr_202510-126421-2/apply",
+    "title": "Technical Expert Portfolio Mgmt, Technical Feasibility and Planning",
+    "apply_url": "https://roche.wd3.myworkdayjobs.com/roche-ext/job/Basel/Technical-Expert-Portfolio-Mgmt--Technical-Feasibility-and-Planning_202509-122455-1/apply",
     "location": "Basel-City"
    },
    {
-    "title": "Lehrstelle als Kaufmann:frau EFZ (ab August 2027)",
-    "apply_url": "https://roche.wd3.myworkdayjobs.com/roche-ext/job/Basel/Lehrstelle-als-Kaufmann-frau-EFZ--ab-August-2027-_202607-117595/apply",
+    "title": "Chef de Partie, Tournant (w/m/d), 100% - befristet für 1 Jahr",
+    "apply_url": "https://roche.wd3.myworkdayjobs.com/roche-ext/job/Basel/Chef-de-Partie--Tournant--w-m-d---100----befristet-fr-1-Jahr_202510-126421-2/apply",
     "location": "Basel-City"
    },
    {
@@ -36,6 +31,11 @@
    {
     "title": "Lehrstelle als ICT-Fachmann:frau EFZ (ab August 2027)",
     "apply_url": "https://roche.wd3.myworkdayjobs.com/roche-ext/job/Basel/Lehrstelle-als-ICT-Fachmann-frau-EFZ--ab-August-2027-_202607-117615/apply",
+    "location": "Basel-City"
+   },
+   {
+    "title": "Lehrstelle als Kaufmann:frau EFZ (ab August 2027)",
+    "apply_url": "https://roche.wd3.myworkdayjobs.com/roche-ext/job/Basel/Lehrstelle-als-Kaufmann-frau-EFZ--ab-August-2027-_202607-117595/apply",
     "location": "Basel-City"
    },
    {
@@ -55,8 +55,8 @@
   "career_url": "https://careers.givaudan.com/global/en",
   "jobs": [
    {
-    "title": "Quality Control Analyst (h/f/d)",
-    "apply_url": "https://careers.givaudan.com/global/en/job/118226/Quality-Control-Analyst-h-f-d",
+    "title": "Senior Regulatory Data Analyst",
+    "apply_url": "https://careers.givaudan.com/global/en/job/119415/Senior-Regulatory-Data-Analyst",
     "location": "Switzerland"
    },
    {
@@ -65,13 +65,18 @@
     "location": "Switzerland"
    },
    {
-    "title": "Quality Control Technician 50% (m/w/d)",
-    "apply_url": "https://careers.givaudan.com/global/en/job/119323/Quality-Control-Technician-50-m-w-d",
+    "title": "Quality Control Analyst (h/f/d)",
+    "apply_url": "https://careers.givaudan.com/global/en/job/118226/Quality-Control-Analyst-h-f-d",
     "location": "Switzerland"
    },
    {
     "title": "Quality Control Technician (m/w/d)",
     "apply_url": "https://careers.givaudan.com/global/en/job/119321/Quality-Control-Technician-m-w-d",
+    "location": "Switzerland"
+   },
+   {
+    "title": "Quality Control Technician 50% (m/w/d)",
+    "apply_url": "https://careers.givaudan.com/global/en/job/119323/Quality-Control-Technician-50-m-w-d",
     "location": "Switzerland"
    },
    {
@@ -125,18 +130,13 @@
     "location": "Switzerland"
    },
    {
-    "title": "Global Process Safety Manager",
-    "apply_url": "https://careers.givaudan.com/global/en/job/119206/Global-Process-Safety-Manager",
-    "location": "Switzerland"
-   },
-   {
     "title": "Payroll and Rewards Product Manager",
     "apply_url": "https://careers.givaudan.com/global/en/job/119381/Payroll-and-Rewards-Product-Manager",
     "location": "Switzerland"
    },
    {
-    "title": "Senior Regulatory Data Analyst",
-    "apply_url": "https://careers.givaudan.com/global/en/job/119415/Senior-Regulatory-Data-Analyst",
+    "title": "Global Process Safety Manager",
+    "apply_url": "https://careers.givaudan.com/global/en/job/119206/Global-Process-Safety-Manager",
     "location": "Switzerland"
    },
    {
@@ -165,13 +165,13 @@
     "location": "Switzerland"
    },
    {
-    "title": "OT Technical Lead (m/w/d) - Your next role?",
-    "apply_url": "https://careers.givaudan.com/global/en/job/119521/OT-Technical-Lead-m-w-d-Your-next-role",
+    "title": "Data Science Lead",
+    "apply_url": "https://careers.givaudan.com/global/en/job/119880/Data-Science-Lead",
     "location": "Switzerland"
    },
    {
-    "title": "Data Science Lead",
-    "apply_url": "https://careers.givaudan.com/global/en/job/119880/Data-Science-Lead",
+    "title": "OT Technical Lead (m/w/d) - Your next role?",
+    "apply_url": "https://careers.givaudan.com/global/en/job/119521/OT-Technical-Lead-m-w-d-Your-next-role",
     "location": "Switzerland"
    },
    {
@@ -180,13 +180,13 @@
     "location": "Switzerland"
    },
    {
-    "title": "Color Chemistry Scientist",
-    "apply_url": "https://careers.givaudan.com/global/en/job/118895/Color-Chemistry-Scientist",
+    "title": "Senior Site Buyer",
+    "apply_url": "https://careers.givaudan.com/global/en/job/119889/Senior-Site-Buyer",
     "location": "Switzerland"
    },
    {
-    "title": "Senior Site Buyer",
-    "apply_url": "https://careers.givaudan.com/global/en/job/119889/Senior-Site-Buyer",
+    "title": "Color Chemistry Scientist",
+    "apply_url": "https://careers.givaudan.com/global/en/job/118895/Color-Chemistry-Scientist",
     "location": "Switzerland"
    },
    {
@@ -237,13 +237,13 @@
   "career_url": "https://jobs.kuehne-nagel.com/global/en",
   "jobs": [
    {
-    "title": "Contract Logistics Operations Manager (m/w/d)",
-    "apply_url": "https://jobs.kuehne-nagel.com/global/en/job/16937/Contract-Logistics-Operations-Manager-m-w-d",
+    "title": "Senior Export Specialist (m/f/d) - Sea Logistics",
+    "apply_url": "https://jobs.kuehne-nagel.com/global/en/job/17037/Senior-Export-Specialist-m-f-d-Sea-Logistics",
     "location": "Switzerland"
    },
    {
-    "title": "Senior Export Specialist (m/f/d) - Sea Logistics",
-    "apply_url": "https://jobs.kuehne-nagel.com/global/en/job/17037/Senior-Export-Specialist-m-f-d-Sea-Logistics",
+    "title": "Contract Logistics Operations Manager (m/w/d)",
+    "apply_url": "https://jobs.kuehne-nagel.com/global/en/job/16937/Contract-Logistics-Operations-Manager-m-w-d",
     "location": "Switzerland"
    },
    {
@@ -252,8 +252,8 @@
     "location": "Switzerland"
    },
    {
-    "title": "Customer Care Specialist Landverkehr (m/w/d)",
-    "apply_url": "https://jobs.kuehne-nagel.com/global/en/job/16273/Customer-Care-Specialist-Landverkehr-m-w-d",
+    "title": "Communications Manager Technology",
+    "apply_url": "https://jobs.kuehne-nagel.com/global/en/job/15666/Communications-Manager-Technology",
     "location": "Switzerland"
    },
    {
@@ -267,13 +267,8 @@
     "location": "Switzerland"
    },
    {
-    "title": "Communications Manager Technology",
-    "apply_url": "https://jobs.kuehne-nagel.com/global/en/job/15666/Communications-Manager-Technology",
-    "location": "Switzerland"
-   },
-   {
-    "title": "Technischer Leiter (m/w/d) - Messelogistik",
-    "apply_url": "https://jobs.kuehne-nagel.com/global/en/job/17505/Technischer-Leiter-m-w-d-Messelogistik",
+    "title": "Customer Care Specialist Landverkehr (m/w/d)",
+    "apply_url": "https://jobs.kuehne-nagel.com/global/en/job/16273/Customer-Care-Specialist-Landverkehr-m-w-d",
     "location": "Switzerland"
    },
    {
@@ -282,8 +277,8 @@
     "location": "Switzerland"
    },
    {
-    "title": "Operations Manager Healthcare (m/w/d) - Landverkehr",
-    "apply_url": "https://jobs.kuehne-nagel.com/global/en/job/17182/Operations-Manager-Healthcare-m-w-d-Landverkehr",
+    "title": "Technischer Leiter (m/w/d) - Messelogistik",
+    "apply_url": "https://jobs.kuehne-nagel.com/global/en/job/17505/Technischer-Leiter-m-w-d-Messelogistik",
     "location": "Switzerland"
    },
    {
@@ -292,13 +287,18 @@
     "location": "Switzerland"
    },
    {
-    "title": "Expo & Event Logistics Specialist (m/w/d)",
-    "apply_url": "https://jobs.kuehne-nagel.com/global/en/job/16726/Expo-Event-Logistics-Specialist-m-w-d",
+    "title": "Operations Manager Healthcare (m/w/d) - Landverkehr",
+    "apply_url": "https://jobs.kuehne-nagel.com/global/en/job/17182/Operations-Manager-Healthcare-m-w-d-Landverkehr",
     "location": "Switzerland"
    },
    {
     "title": "Servicetechniker Logistik (m/w/d)",
     "apply_url": "https://jobs.kuehne-nagel.com/global/en/job/7329/Servicetechniker-Logistik-m-w-d",
+    "location": "Switzerland"
+   },
+   {
+    "title": "Expo & Event Logistics Specialist (m/w/d)",
+    "apply_url": "https://jobs.kuehne-nagel.com/global/en/job/16726/Expo-Event-Logistics-Specialist-m-w-d",
     "location": "Switzerland"
    },
    {

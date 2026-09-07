@@ -4,11 +4,6 @@
   "career_url": "https://careers.roche.com/global/en",
   "jobs": [
    {
-    "title": "Technical Expert Operational, Strategic and Project Support",
-    "apply_url": "https://roche.wd3.myworkdayjobs.com/roche-ext/job/Basel/Technical-Expert-Operational--Strategic-and-Project-Support_202509-122427-1/apply",
-    "location": "Basel-City"
-   },
-   {
     "title": "Technical Expert Portfolio Mgmt, Technical Feasibility and Planning",
     "apply_url": "https://roche.wd3.myworkdayjobs.com/roche-ext/job/Basel/Technical-Expert-Portfolio-Mgmt--Technical-Feasibility-and-Planning_202509-122455-1/apply",
     "location": "Basel-City"
@@ -46,6 +41,11 @@
    {
     "title": "Lehrstelle als Logistiker:in EFZ (ab August 2027)",
     "apply_url": "https://roche.wd3.myworkdayjobs.com/roche-ext/job/Basel/Lehrstelle-als-Logistiker-in-EFZ--ab-August-2027-_202607-117605/apply",
+    "location": "Basel-City"
+   },
+   {
+    "title": "Lehrstelle als Informatiker:in EFZ Applikationsentwicklung (ab August 2027)",
+    "apply_url": "https://roche.wd3.myworkdayjobs.com/roche-ext/job/Basel/Lehrstelle-als-Informatiker-in-EFZ-Applikationsentwicklung--ab-August-2027-_202607-117607/apply",
     "location": "Basel-City"
    }
   ]
@@ -206,23 +206,23 @@
     "location": "Switzerland"
    },
    {
-    "title": "Facility Management and Workplace Project Manager (Straumann Campus Basel)",
-    "apply_url": "https://careers.straumann.com/global/en/job/21464/Facility-Management-and-Workplace-Project-Manager-Straumann-Campus-Basel",
-    "location": "Switzerland"
-   },
-   {
     "title": "Global Launch Education Manager",
     "apply_url": "https://careers.straumann.com/global/en/job/21609/Global-Launch-Education-Manager",
     "location": "Switzerland"
    },
    {
-    "title": "Clinical Workflow Product Manager",
-    "apply_url": "https://careers.straumann.com/global/en/job/21501/Clinical-Workflow-Product-Manager",
+    "title": "Facility Management and Workplace Project Manager (Straumann Campus Basel)",
+    "apply_url": "https://careers.straumann.com/global/en/job/21464/Facility-Management-and-Workplace-Project-Manager-Straumann-Campus-Basel",
     "location": "Switzerland"
    },
    {
     "title": "Lehrstelle als Interactive Media Designer EFZ (m/w/d) ab August 2027",
     "apply_url": "https://careers.straumann.com/global/en/job/21286/Lehrstelle-als-Interactive-Media-Designer-EFZ-m-w-d-ab-August-2027",
+    "location": "Switzerland"
+   },
+   {
+    "title": "Clinical Workflow Product Manager",
+    "apply_url": "https://careers.straumann.com/global/en/job/21501/Clinical-Workflow-Product-Manager",
     "location": "Switzerland"
    },
    {
@@ -236,6 +236,26 @@
   "name": "Kuehne + Nagel",
   "career_url": "https://jobs.kuehne-nagel.com/global/en",
   "jobs": [
+   {
+    "title": "Communications Manager Technology",
+    "apply_url": "https://jobs.kuehne-nagel.com/global/en/job/15666/Communications-Manager-Technology",
+    "location": "Switzerland"
+   },
+   {
+    "title": "Customer Care Specialist Landverkehr (m/w/d)",
+    "apply_url": "https://jobs.kuehne-nagel.com/global/en/job/16273/Customer-Care-Specialist-Landverkehr-m-w-d",
+    "location": "Switzerland"
+   },
+   {
+    "title": "Customer Care Specialist Seefracht (m/w/d)",
+    "apply_url": "https://jobs.kuehne-nagel.com/global/en/job/17016/Customer-Care-Specialist-Seefracht-m-w-d",
+    "location": "Switzerland"
+   },
+   {
+    "title": "Working Student / Graduate Sea Logistics Revenue Care (m/f/d)",
+    "apply_url": "https://jobs.kuehne-nagel.com/global/en/job/16885/Working-Student-Graduate-Sea-Logistics-Revenue-Care-m-f-d",
+    "location": "Switzerland"
+   },
    {
     "title": "Senior Export Specialist (m/f/d) - Sea Logistics",
     "apply_url": "https://jobs.kuehne-nagel.com/global/en/job/17037/Senior-Export-Specialist-m-f-d-Sea-Logistics",
@@ -252,31 +272,6 @@
     "location": "Switzerland"
    },
    {
-    "title": "Communications Manager Technology",
-    "apply_url": "https://jobs.kuehne-nagel.com/global/en/job/15666/Communications-Manager-Technology",
-    "location": "Switzerland"
-   },
-   {
-    "title": "Customer Care Specialist Seefracht (m/w/d)",
-    "apply_url": "https://jobs.kuehne-nagel.com/global/en/job/17016/Customer-Care-Specialist-Seefracht-m-w-d",
-    "location": "Switzerland"
-   },
-   {
-    "title": "Working Student / Graduate Sea Logistics Revenue Care (m/f/d)",
-    "apply_url": "https://jobs.kuehne-nagel.com/global/en/job/16885/Working-Student-Graduate-Sea-Logistics-Revenue-Care-m-f-d",
-    "location": "Switzerland"
-   },
-   {
-    "title": "Customer Care Specialist Landverkehr (m/w/d)",
-    "apply_url": "https://jobs.kuehne-nagel.com/global/en/job/16273/Customer-Care-Specialist-Landverkehr-m-w-d",
-    "location": "Switzerland"
-   },
-   {
-    "title": "Working Student / Graduate Sea Logistics Operational Care (m/f/d)",
-    "apply_url": "https://jobs.kuehne-nagel.com/global/en/job/16884/Working-Student-Graduate-Sea-Logistics-Operational-Care-m-f-d",
-    "location": "Switzerland"
-   },
-   {
     "title": "Technischer Leiter (m/w/d) - Messelogistik",
     "apply_url": "https://jobs.kuehne-nagel.com/global/en/job/17505/Technischer-Leiter-m-w-d-Messelogistik",
     "location": "Switzerland"
@@ -284,6 +279,11 @@
    {
     "title": "Export Specialist Luftfracht (m/w/d)",
     "apply_url": "https://jobs.kuehne-nagel.com/global/en/job/16225/Export-Specialist-Luftfracht-m-w-d",
+    "location": "Switzerland"
+   },
+   {
+    "title": "Working Student / Graduate Sea Logistics Operational Care (m/f/d)",
+    "apply_url": "https://jobs.kuehne-nagel.com/global/en/job/16884/Working-Student-Graduate-Sea-Logistics-Operational-Care-m-f-d",
     "location": "Switzerland"
    },
    {
@@ -386,6 +386,840 @@
  {
   "name": "Abbott",
   "career_url": "https://www.ch.abbott/de/careers.html",
+  "jobs": []
+ },
+ {
+  "name": "Abbott - Thoratec Switzerland GmbH",
+  "career_url": "https://www.ch.abbott/de/careers.html",
+  "jobs": []
+ },
+ {
+  "name": "ABF Informatik AG",
+  "career_url": "https://www.abf.ch/jobs/",
+  "jobs": []
+ },
+ {
+  "name": "Abionic",
+  "career_url": "https://abionic.com/about-us/career",
+  "jobs": []
+ },
+ {
+  "name": "Abstract",
+  "career_url": "https://www.abstract.build/careers",
+  "jobs": []
+ },
+ {
+  "name": "Acrea GmbH",
+  "career_url": "https://www.acrea.ch/join-us",
+  "jobs": []
+ },
+ {
+  "name": "Adesso Switzerland",
+  "career_url": "https://adesso.ch/de_ch/kompetenzen/network-infrastructure-services/index.jsp",
+  "jobs": []
+ },
+ {
+  "name": "Adfinis AG",
+  "career_url": "https://www.adfinis.com/en/career",
+  "jobs": []
+ },
+ {
+  "name": "Agentur Koch",
+  "career_url": "https://www.agenturkoch.ch/fileadmin/user_upload/pdf/jobs/Jobs_MD_04_26_KOCH.pdf",
+  "jobs": []
+ },
+ {
+  "name": "AI Medical AG",
+  "career_url": "https://www.ai-medical.ch/careers",
+  "jobs": []
+ },
+ {
+  "name": "Aksena Schweiz GmbH",
+  "career_url": "https://aksena.com/careers",
+  "jobs": []
+ },
+ {
+  "name": "alabus ag",
+  "career_url": "https://www.alabus.com/opencms/en/alabus/jobs/index.html",
+  "jobs": []
+ },
+ {
+  "name": "Alcon",
+  "career_url": "https://www.alcon.com/about-us/careers",
+  "jobs": []
+ },
+ {
+  "name": "Alithea Genomics",
+  "career_url": "https://alitheagenomics.com/careers",
+  "jobs": []
+ },
+ {
+  "name": "AliveDx",
+  "career_url": "https://jobs.alivedx.com/",
+  "jobs": []
+ },
+ {
+  "name": "ambient",
+  "career_url": "https://www.ambient-design.net/careers",
+  "jobs": []
+ },
+ {
+  "name": "amétiq ag",
+  "career_url": "https://ametiq.ch/jobs/",
+  "jobs": []
+ },
+ {
+  "name": "Amphasys AG",
+  "career_url": "http://www.amphasys.com/jobs",
+  "jobs": []
+ },
+ {
+  "name": "Anamedi GmbH",
+  "career_url": "https://anamedi.com/#how-it-works",
+  "jobs": []
+ },
+ {
+  "name": "Anovis AI",
+  "career_url": "https://anovisai.com/how-we-work-with-clients",
+  "jobs": []
+ },
+ {
+  "name": "Appamics",
+  "career_url": "https://appamics.com/careers",
+  "jobs": []
+ },
+ {
+  "name": "Apps with love AG",
+  "career_url": "https://www.appswithlove.com/jobs",
+  "jobs": []
+ },
+ {
+  "name": "Apptiva AG",
+  "career_url": "https://www.apptiva.ch/angebot/development/schnittstellen",
+  "jobs": []
+ },
+ {
+  "name": "APR Applied Pharma Research",
+  "career_url": "https://www.apr.ch/applied-pharma-research/pharmaceutical-careers/",
+  "jobs": []
+ },
+ {
+  "name": "Arbrea Labs AG",
+  "career_url": "https://arbrea-labs.com/careers/",
+  "jobs": []
+ },
+ {
+  "name": "Archilyse",
+  "career_url": "https://www.archilyse.com/careers",
+  "jobs": []
+ },
+ {
+  "name": "Arcondis",
+  "career_url": "https://www.arcondis.com/en/career",
+  "jobs": []
+ },
+ {
+  "name": "arcoris bio AG",
+  "career_url": "https://arcorisbio.com/about/careers/",
+  "jobs": []
+ },
+ {
+  "name": "ARTIRIA Medical",
+  "career_url": "https://www.artiria-medical.com/jobs",
+  "jobs": []
+ },
+ {
+  "name": "Aryzta",
+  "career_url": "https://www.aryzta.com/careers/",
+  "jobs": []
+ },
+ {
+  "name": "Aseda Sciences",
+  "career_url": "https://www.asedasciences.com/careers",
+  "jobs": []
+ },
+ {
+  "name": "Asubium",
+  "career_url": "https://www.asubium.com/careers",
+  "jobs": []
+ },
+ {
+  "name": "AYUN",
+  "career_url": "https://www.ayun.ch/jobs",
+  "jobs": []
+ },
+ {
+  "name": "Azad Pharma",
+  "career_url": "https://www.azad.ch/career/",
+  "jobs": []
+ },
+ {
+  "name": "b-rayZ AG",
+  "career_url": "https://www.brayz.com/careers",
+  "jobs": []
+ },
+ {
+  "name": "Bacthera",
+  "career_url": "https://www.bacthera.com/careers",
+  "jobs": []
+ },
+ {
+  "name": "Baloise",
+  "career_url": "https://www.baloise.com/en/jobs.html",
+  "jobs": []
+ },
+ {
+  "name": "Baloise Open Innovation",
+  "career_url": "https://www.baloise.com/de/home/ueber-uns/innovation-baloise.html/corporate/hb/de/home/ueber-uns/karriere.html",
+  "jobs": []
+ },
+ {
+  "name": "Basel Area",
+  "career_url": "https://baselarea.swiss/de/jobs/",
+  "jobs": []
+ },
+ {
+  "name": "BaseLaunch",
+  "career_url": "https://baselaunch.ch/work-with-us/",
+  "jobs": []
+ },
+ {
+  "name": "BaselOne",
+  "career_url": "https://swissdevjobs.ch/jobs/all/Basel",
+  "jobs": []
+ },
+ {
+  "name": "BaselTech",
+  "career_url": "https://www.baseltech.swiss/join-us",
+  "jobs": []
+ },
+ {
+  "name": "BBG Solutions",
+  "career_url": "https://www.bbg-solutions.com/?lang=en/careers",
+  "jobs": []
+ },
+ {
+  "name": "Bclays",
+  "career_url": "https://www.bclays.com/careers",
+  "jobs": []
+ },
+ {
+  "name": "Beetroot AG",
+  "career_url": "https://beetroot.ag/jobs/",
+  "jobs": []
+ },
+ {
+  "name": "BEGASOFT AG",
+  "career_url": "https://www.begasoft.ch/unternehmen/karriere#jobs",
+  "jobs": []
+ },
+ {
+  "name": "BeiGene (BeOne Medicines)",
+  "career_url": "https://beigene.wd5.myworkdayjobs.com/BeiGene",
+  "jobs": [
+   {
+    "title": "Personal Information",
+    "apply_url": "https://beigene.wd5.myworkdayjobs.com/BeiGene",
+    "location": "Switzerland"
+   }
+  ]
+ },
+ {
+  "name": "Bellevue Executive Search",
+  "career_url": "https://bellevue-executive-search.ch/",
+  "jobs": []
+ },
+ {
+  "name": "Bioeq IP",
+  "career_url": "https://bioeq.ch/career",
+  "jobs": []
+ },
+ {
+  "name": "Biognosys",
+  "career_url": "https://biognosys.com/careers/",
+  "jobs": []
+ },
+ {
+  "name": "Biolytix",
+  "career_url": "https://www.biolytix.ch/en/jobs/",
+  "jobs": []
+ },
+ {
+  "name": "bitforge AG",
+  "career_url": "https://bitforge.ch/jobs/",
+  "jobs": []
+ },
+ {
+  "name": "BITS - Bühler IT Solutions GmbH",
+  "career_url": "https://bits.ch/karriere/",
+  "jobs": []
+ },
+ {
+  "name": "blue office ag",
+  "career_url": "https://www.blue-office.ch/software/schnittstellen-add-ins/",
+  "jobs": []
+ },
+ {
+  "name": "BlueCare",
+  "career_url": "https://jobs.bluecare.ch/",
+  "jobs": []
+ },
+ {
+  "name": "brix",
+  "career_url": "https://www.brix.ch/de/ueber-uns/jobs",
+  "jobs": []
+ },
+ {
+  "name": "Burning Box SA",
+  "career_url": "https://www.burningbox.ch/about/job",
+  "jobs": []
+ },
+ {
+  "name": "Cabsol",
+  "career_url": "https://cabsol.de/karriere",
+  "jobs": []
+ },
+ {
+  "name": "CAMAG",
+  "career_url": "https://camag.com/careers",
+  "jobs": []
+ },
+ {
+  "name": "campfire GmbH",
+  "career_url": "https://campfire.ch/projekte/further-work-dna-app",
+  "jobs": []
+ },
+ {
+  "name": "CAPcargo AG",
+  "career_url": "https://www.capcargo.com/career/",
+  "jobs": []
+ },
+ {
+  "name": "casymir Schweiz ag",
+  "career_url": "https://www.casymir.ch/de/stellen",
+  "jobs": []
+ },
+ {
+  "name": "cellvie",
+  "career_url": "https://cellvie.bio/careers",
+  "jobs": []
+ },
+ {
+  "name": "Centenara Labs AG",
+  "career_url": "https://centenara.com/how-we-work/",
+  "jobs": []
+ },
+ {
+  "name": "Centerboard",
+  "career_url": "https://www.centerboard.ch/jobs",
+  "jobs": []
+ },
+ {
+  "name": "CeRFI SA",
+  "career_url": "https://www.cerfi.ch/en_GB/join-us",
+  "jobs": []
+ },
+ {
+  "name": "Chemspeed (Bruker)",
+  "career_url": "https://worldwidecareers-bruker.icims.com/jobs/search?ss=1&searchKeyword=chemspeed",
+  "jobs": []
+ },
+ {
+  "name": "Chemspeed Technologies",
+  "career_url": "https://www.chemspeed.com/careers/",
+  "jobs": []
+ },
+ {
+  "name": "Cimeio Therapeutics",
+  "career_url": "https://www.cimeio.com/careers/",
+  "jobs": []
+ },
+ {
+  "name": "Claranet",
+  "career_url": "https://www.claranet.ch/karriere",
+  "jobs": []
+ },
+ {
+  "name": "Claraspital Basel",
+  "career_url": "https://www.claraspital.ch/stellen",
+  "jobs": []
+ },
+ {
+  "name": "Clariant",
+  "career_url": "https://www.clariant.com/en/Careers",
+  "jobs": []
+ },
+ {
+  "name": "cobedias ag",
+  "career_url": "http://www.cobedias.ch/careers",
+  "jobs": []
+ },
+ {
+  "name": "codebar",
+  "career_url": "https://www.codebar.ch/stellen",
+  "jobs": []
+ },
+ {
+  "name": "Comerge AG",
+  "career_url": "https://www.comerge.net/en/work",
+  "jobs": []
+ },
+ {
+  "name": "Comitas AG",
+  "career_url": "https://www.comitas.com/uber-uns/#career",
+  "jobs": []
+ },
+ {
+  "name": "Computer Trend IT Solution",
+  "career_url": "https://computer-trend.ch/stellen/",
+  "jobs": []
+ },
+ {
+  "name": "consenso GmbH",
+  "career_url": "https://www.consenso-solutions.ch/en/jobs",
+  "jobs": []
+ },
+ {
+  "name": "Coopers Group",
+  "career_url": "https://www.coopers.ch/en/jobs.php",
+  "jobs": []
+ },
+ {
+  "name": "Corix AG",
+  "career_url": "https://www.corix.ch/jobs",
+  "jobs": []
+ },
+ {
+  "name": "CREALOGIX AG",
+  "career_url": "https://www.crealogix.com/en/about-us/career",
+  "jobs": []
+ },
+ {
+  "name": "CRISPR Therapeutics",
+  "career_url": "https://crisprtx.wd12.myworkdayjobs.com/careers/",
+  "jobs": []
+ },
+ {
+  "name": "Crome AG - Mind Studios",
+  "career_url": "https://www.mindstudios.ch/jobs/",
+  "jobs": []
+ },
+ {
+  "name": "CSP AG",
+  "career_url": "https://csp.ch/neuchatel/prise-de-position/",
+  "jobs": []
+ },
+ {
+  "name": "CSS Versicherung",
+  "career_url": "https://www.css.ch/karriere",
+  "jobs": []
+ },
+ {
+  "name": "Cyon",
+  "career_url": "https://www.cyon.ch/en/careers",
+  "jobs": []
+ },
+ {
+  "name": "Data Trust AG",
+  "career_url": "https://www.datatrust.ch/jobs/",
+  "jobs": []
+ },
+ {
+  "name": "Datahouse AG",
+  "career_url": "https://www.datahouse.ch/karriere/",
+  "jobs": []
+ },
+ {
+  "name": "DataHow",
+  "career_url": "https://datahow.ch/about/careers/",
+  "jobs": []
+ },
+ {
+  "name": "Datascale GmbH",
+  "career_url": "https://datascale.ch/jobs",
+  "jobs": []
+ },
+ {
+  "name": "DATAthings SA",
+  "career_url": "https://datathings.com/jobs",
+  "jobs": []
+ },
+ {
+  "name": "Datenportal Basel",
+  "career_url": "https://data.bs.ch/pages/home/careers",
+  "jobs": []
+ },
+ {
+  "name": "Deep Breath Intelligence",
+  "career_url": "https://dbi.ch/career/",
+  "jobs": []
+ },
+ {
+  "name": "DeepCloud AG",
+  "career_url": "https://careers.deepcloud.swiss/job-overview/de",
+  "jobs": []
+ },
+ {
+  "name": "Delta4 AI",
+  "career_url": "https://delta4.ai/careers/",
+  "jobs": []
+ },
+ {
+  "name": "Digio AG",
+  "career_url": "https://www.digio.swiss/en/career",
+  "jobs": []
+ },
+ {
+  "name": "Digital Chameleon",
+  "career_url": "https://www.digital-chameleon.ch/careers",
+  "jobs": []
+ },
+ {
+  "name": "DISO AG",
+  "career_url": "https://diso.ch/karriere/",
+  "jobs": []
+ },
+ {
+  "name": "DNA Script",
+  "career_url": "https://www.dnascript.com/careers",
+  "jobs": []
+ },
+ {
+  "name": "Docuteam AG",
+  "career_url": "https://www.docuteam.ch/presentation-avec-4teamwork-a-lausanne/",
+  "jobs": []
+ },
+ {
+  "name": "dolmX AG",
+  "career_url": "https://www.dolmx.ch/jobs/",
+  "jobs": []
+ },
+ {
+  "name": "DynaNet GmbH",
+  "career_url": "https://dynanet.ch/jobs/",
+  "jobs": []
+ },
+ {
+  "name": "e3 AG",
+  "career_url": "https://www.e3ag.ch/karriere/",
+  "jobs": []
+ },
+ {
+  "name": "easylearn schweiz ag",
+  "career_url": "https://www.easylearn.ch/jobs",
+  "jobs": []
+ },
+ {
+  "name": "Econis AG",
+  "career_url": "https://econis.ch/solutions/network",
+  "jobs": []
+ },
+ {
+  "name": "EcoTool AG",
+  "career_url": "https://www.ecotool.org/de/jobs",
+  "jobs": []
+ },
+ {
+  "name": "Edorex AG",
+  "career_url": "https://www.edorex.ch/jobs",
+  "jobs": []
+ },
+ {
+  "name": "Elca",
+  "career_url": "https://www.elca.ch/en/careers",
+  "jobs": []
+ },
+ {
+  "name": "Elca Informatik AG",
+  "career_url": "https://www.elca.ch/en/careers",
+  "jobs": []
+ },
+ {
+  "name": "Epithelix Sarl",
+  "career_url": "https://www.epithelix.com/careers",
+  "jobs": []
+ },
+ {
+  "name": "EternalNet",
+  "career_url": "https://www.eternalnet.ch/dl/stelleninserat",
+  "jobs": []
+ },
+ {
+  "name": "europa3000 AG",
+  "career_url": "https://www.europa3000.ch/softwareprodukte/schnittstellen",
+  "jobs": []
+ },
+ {
+  "name": "EVUlution AG",
+  "career_url": "https://www.evulution.com/karriere",
+  "jobs": []
+ },
+ {
+  "name": "Exeon Analytics AG",
+  "career_url": "https://www.exeon.com/careers",
+  "jobs": [
+   {
+    "title": "Senior AI Engineer",
+    "apply_url": "https://www.exeon.com/careers",
+    "location": "remote or office, Zürich, Switzerland"
+   },
+   {
+    "title": "Senior Backend Developer (Scala)",
+    "apply_url": "https://www.exeon.com/careers",
+    "location": "Zürich, Zürich, Switzerland"
+   },
+   {
+    "title": "Zürich, Switzerland",
+    "apply_url": "https://www.exeon.com/careers",
+    "location": "Zürich"
+   },
+   {
+    "title": "Spontanbewerbung",
+    "apply_url": "https://www.exeon.com/careers",
+    "location": "Switzerland"
+   },
+   {
+    "title": "Open Application",
+    "apply_url": "https://www.exeon.com/careers",
+    "location": "Switzerland"
+   }
+  ]
+ },
+ {
+  "name": "Exyte",
+  "career_url": "https://www.exyte.net/careers",
+  "jobs": []
+ },
+ {
+  "name": "Exyte Central Europe GmbH",
+  "career_url": "https://careers.exyte.net/global/en",
+  "jobs": [
+   {
+    "title": "Lead Chemical Engineer (m/f/d)",
+    "apply_url": "https://careers.exyte.net/global/en/job/24218/Lead-Chemical-Engineer-m-f-d",
+    "location": "Switzerland"
+   },
+   {
+    "title": "Senior Construction Manager Building Services (m/f/d)",
+    "apply_url": "https://careers.exyte.net/global/en/job/22444/Senior-Construction-Manager-Building-Services-m-f-d",
+    "location": "Switzerland"
+   },
+   {
+    "title": "Project / Construction Manager Clean Room EPC (m/f/d)",
+    "apply_url": "https://careers.exyte.net/global/en/job/24320/Project-Construction-Manager-Clean-Room-EPC-m-f-d",
+    "location": "Switzerland"
+   },
+   {
+    "title": "Senior Chemical Engineer (m/f/d)",
+    "apply_url": "https://careers.exyte.net/global/en/job/24732/Senior-Chemical-Engineer-m-f-d",
+    "location": "Switzerland"
+   },
+   {
+    "title": "Space Manager (m/f/d)",
+    "apply_url": "https://careers.exyte.net/global/en/job/24522/Space-Manager-m-f-d",
+    "location": "Switzerland"
+   },
+   {
+    "title": "Process Engineer Fill & Finish (m/f/d)",
+    "apply_url": "https://careers.exyte.net/global/en/job/24020/Process-Engineer-Fill-Finish-m-f-d",
+    "location": "Switzerland"
+   },
+   {
+    "title": "Senior Specialist EHS Construction Site",
+    "apply_url": "https://careers.exyte.net/global/en/job/23651/Senior-Specialist-EHS-Construction-Site",
+    "location": "Switzerland"
+   },
+   {
+    "title": "Senior Construction Manager Civil (m/f/d)",
+    "apply_url": "https://careers.exyte.net/global/en/job/22456/Senior-Construction-Manager-Civil-m-f-d",
+    "location": "Switzerland"
+   },
+   {
+    "title": "Engineer HVAC (m/f/d)",
+    "apply_url": "https://careers.exyte.net/global/en/job/24654/Engineer-HVAC-m-f-d",
+    "location": "Switzerland"
+   },
+   {
+    "title": "Lead Engineer HVAC (m/f/d)",
+    "apply_url": "https://careers.exyte.net/global/en/job/23077/Lead-Engineer-HVAC-m-f-d",
+    "location": "Switzerland"
+   },
+   {
+    "title": "Process Field Engineer (m/f/d)",
+    "apply_url": "https://careers.exyte.net/global/en/job/23969/Process-Field-Engineer-m-f-d",
+    "location": "Switzerland"
+   },
+   {
+    "title": "Senior Engineer Solids / OSD (m/f/d)",
+    "apply_url": "https://careers.exyte.net/global/en/job/23821/Senior-Engineer-Solids-OSD-m-f-d",
+    "location": "Switzerland"
+   },
+   {
+    "title": "Engineer Clean Utilities (m/f/d)",
+    "apply_url": "https://careers.exyte.net/global/en/job/24488/Engineer-Clean-Utilities-m-f-d",
+    "location": "Switzerland"
+   },
+   {
+    "title": "Proposal Manager (m/f/d)",
+    "apply_url": "https://careers.exyte.net/global/en/job/24554/Proposal-Manager-m-f-d",
+    "location": "Switzerland"
+   },
+   {
+    "title": "Senior Engineer Piping (m/f/d)",
+    "apply_url": "https://careers.exyte.net/global/en/job/24653/Senior-Engineer-Piping-m-f-d",
+    "location": "Switzerland"
+   },
+   {
+    "title": "Technician GMP Maintenance & Services (m/f/d)",
+    "apply_url": "https://careers.exyte.net/global/en/job/22981/Technician-GMP-Maintenance-Services-m-f-d",
+    "location": "Switzerland"
+   },
+   {
+    "title": "Senior Engineer CQV (m/f/d)",
+    "apply_url": "https://careers.exyte.net/global/en/job/23266/Senior-Engineer-CQV-m-f-d",
+    "location": "Switzerland"
+   },
+   {
+    "title": "Senior Specialist Project Planning & Scheduling (m/w/d)",
+    "apply_url": "https://careers.exyte.net/global/en/job/24661/Senior-Specialist-Project-Planning-Scheduling-m-w-d",
+    "location": "Switzerland"
+   },
+   {
+    "title": "Head of Business Development Switzerland (m/f/d)",
+    "apply_url": "https://careers.exyte.net/global/en/job/24616/Head-of-Business-Development-Switzerland-m-f-d",
+    "location": "Switzerland"
+   },
+   {
+    "title": "Lead Architect (m/f/d)",
+    "apply_url": "https://careers.exyte.net/global/en/job/24367/Lead-Architect-m-f-d",
+    "location": "Switzerland"
+   },
+   {
+    "title": "Process Engineer (m/f/d)",
+    "apply_url": "https://careers.exyte.net/global/en/job/23122/Process-Engineer-m-f-d",
+    "location": "Switzerland"
+   },
+   {
+    "title": "Lead Designer Clean Utilities (m/f/d)",
+    "apply_url": "https://careers.exyte.net/global/en/job/24307/Lead-Designer-Clean-Utilities-m-f-d",
+    "location": "Switzerland"
+   },
+   {
+    "title": "Electrical Engineer (m/f/d)",
+    "apply_url": "https://careers.exyte.net/global/en/job/24220/Electrical-Engineer-m-f-d",
+    "location": "Switzerland"
+   },
+   {
+    "title": "Engineering Manager (m/f/d)",
+    "apply_url": "https://careers.exyte.net/global/en/job/23379/Engineering-Manager-m-f-d",
+    "location": "Switzerland"
+   },
+   {
+    "title": "Senior Process Engineer Packaging (m/f/d)",
+    "apply_url": "https://careers.exyte.net/global/en/job/23823/Senior-Process-Engineer-Packaging-m-f-d",
+    "location": "Switzerland"
+   },
+   {
+    "title": "Senior Biotech Ingenieur (m/f/d)",
+    "apply_url": "https://careers.exyte.net/global/en/job/24652/Senior-Biotech-Ingenieur-m-f-d",
+    "location": "Switzerland"
+   },
+   {
+    "title": "Senior Engineer Mechanical (m/f/d)",
+    "apply_url": "https://careers.exyte.net/global/en/job/24414/Senior-Engineer-Mechanical-m-f-d",
+    "location": "Switzerland"
+   }
+  ]
+ },
+ {
+  "name": "Fabware GmbH",
+  "career_url": "https://www.fabware.com/jobs/",
+  "jobs": []
+ },
+ {
+  "name": "Fairtiq AG",
+  "career_url": "https://fairtiq.com/en/how-it-works",
+  "jobs": []
+ },
+ {
+  "name": "flexoffice",
+  "career_url": "https://flexoffice.swiss/coworking-basel/",
+  "jobs": []
+ },
+ {
+  "name": "FlyNex GmbH",
+  "career_url": "https://www.flynex.io/de/karriere/",
+  "jobs": []
+ },
+ {
+  "name": "GARAIO AG",
+  "career_url": "https://www.garaio.com/data-ai/ki-workshop",
+  "jobs": []
+ },
+ {
+  "name": "Gartenmann Software AG",
+  "career_url": "https://www.gartenmann.ch/djooze-framework-individualsoftware-kmu-software-schweiz",
+  "jobs": []
+ },
+ {
+  "name": "GCP AG",
+  "career_url": "https://gcp.ch/karriereangebot/",
+  "jobs": []
+ },
+ {
+  "name": "Generali Switzerland",
+  "career_url": "https://www.generali.ch/karriere",
+  "jobs": []
+ },
+ {
+  "name": "Georg Fischer",
+  "career_url": "https://www.georgfischer.com/en/career.html",
+  "jobs": []
+ },
+ {
+  "name": "Givaudan",
+  "career_url": "https://jobs.givaudan.com/search/",
+  "jobs": [
+   {
+    "title": "CI Manager",
+    "apply_url": "https://careers.givaudan.com/global/en/job/118719/CI-Manager",
+    "location": "Switzerland"
+   },
+   {
+    "title": "Senior CI Specialist",
+    "apply_url": "https://careers.givaudan.com/global/en/job/118718/Senior-CI-Specialist",
+    "location": "Switzerland"
+   },
+   {
+    "title": "Junior Pricing Analyst",
+    "apply_url": "https://careers.givaudan.com/global/en/job/117420/Junior-Pricing-Analyst",
+    "location": "Switzerland"
+   }
+  ]
+ },
+ {
+  "name": "Google Zurich",
+  "career_url": "https://careers.google.com/locations/zurich/",
+  "jobs": []
+ },
+ {
+  "name": "Gravis Robotics",
+  "career_url": "https://www.gravisrobotics.com/careers",
+  "jobs": []
+ },
+ {
+  "name": "Haselmeier",
+  "career_url": "https://www.haselmeier.com/about-us/career",
+  "jobs": []
+ },
+ {
+  "name": "Helga Digitalagentur GmbH",
+  "career_url": "https://www.helgadigitalagentur.com/cgi-sys/suspendedpage.cgi/careers",
+  "jobs": []
+ },
+ {
+  "name": "Helsana Versicherungen AG",
+  "career_url": "https://www.helsana.ch/de/private.html/careers",
   "jobs": []
  }
 ]

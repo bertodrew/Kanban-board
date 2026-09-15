@@ -9,28 +9,28 @@
     "location": "Basel-City"
    },
    {
-    "title": "Medical Director — Multiple Sclerosis",
-    "apply_url": "https://roche.wd3.myworkdayjobs.com/roche-ext/job/Basel/Medical-Director---Multiple-Sclerosis_202508-120775-1/apply",
-    "location": "Basel-City"
-   },
-   {
-    "title": "Hilfskoch:köchin (w/m/d), 100% - befristet für 1 Jahr",
-    "apply_url": "https://roche.wd3.myworkdayjobs.com/roche-ext/job/Basel/Hilfskoch-kchin--w-m-d---100----befristet-fr-1-Jahr_202608-120503-1/apply",
-    "location": "Basel-City"
-   },
-   {
-    "title": "Internship: PMO & Technical Coordinator / Operations & Change Enabler in Basel (12 months as of November 2026)",
-    "apply_url": "https://roche.wd3.myworkdayjobs.com/roche-ext/job/Basel/Internship--PMO---Technical-Coordinator---Operations---Change-Enabler-in-Basel--12-months-as-of-November-2026-_202608-121063/apply",
-    "location": "Basel-City"
-   },
-   {
-    "title": "Senior Global Access Evidence Leader - EU HTA Statistician",
-    "apply_url": "https://roche.wd3.myworkdayjobs.com/roche-ext/job/Basel/Senior-Global-Access-Evidence-Leader---HTA-Statistician_202608-122371-1/apply",
+    "title": "Senior Infrastructure Business Operations Manager",
+    "apply_url": "https://roche.wd3.myworkdayjobs.com/roche-ext/job/Basel/Senior-Infrastructure-Business-Operations-Manager_202607-117520-1/apply",
     "location": "Basel-City"
    },
    {
     "title": "Software Tester within RMD System Development (contract)",
     "apply_url": "https://roche.wd3.myworkdayjobs.com/roche-ext/job/Rotkreuz/Software-Tester-within-RMD-System-Development--contract-_202109-125486-1/apply",
+    "location": "Zug"
+   },
+   {
+    "title": "Development Engineer (contract 80-100%)",
+    "apply_url": "https://roche.wd3.myworkdayjobs.com/roche-ext/job/Rotkreuz/Development-Engineer--contract-80-100--_202402-104044-1/apply",
+    "location": "Zug"
+   },
+   {
+    "title": "Senior Container Closure Expert (PFS / Cartridges)",
+    "apply_url": "https://roche.wd3.myworkdayjobs.com/roche-ext/job/Basel/Senior-Device-Engineer_202607-117300-1/apply",
+    "location": "Basel-City"
+   },
+   {
+    "title": "Lab Technician (contract)",
+    "apply_url": "https://roche.wd3.myworkdayjobs.com/roche-ext/job/Rotkreuz/Lab-Technician--contract-_202109-125765-1/apply",
     "location": "Zug"
    }
   ]
@@ -115,11 +115,6 @@
     "location": "Switzerland"
    },
    {
-    "title": "Automation Engineer (h/f/d)",
-    "apply_url": "https://careers.givaudan.com/global/en/job/117704/Automation-Engineer-h-f-d",
-    "location": "Switzerland"
-   },
-   {
     "title": "OT Technical Lead (m/w/d) - Your next role?",
     "apply_url": "https://careers.givaudan.com/global/en/job/119521/OT-Technical-Lead-m-w-d-Your-next-role",
     "location": "Switzerland"
@@ -165,16 +160,6 @@
     "location": "Switzerland"
    },
    {
-    "title": "Color Chemistry Scientist",
-    "apply_url": "https://careers.givaudan.com/global/en/job/118895/Color-Chemistry-Scientist",
-    "location": "Switzerland"
-   },
-   {
-    "title": "Bioprocess Specialist (m/f/d)- Your next role ?",
-    "apply_url": "https://careers.givaudan.com/global/en/job/119410/Bioprocess-Specialist-m-f-d-Your-next-role",
-    "location": "Switzerland"
-   },
-   {
     "title": "Facilities Maintenance Specialist (m/w/d)",
     "apply_url": "https://careers.givaudan.com/global/en/job/119942/Facilities-Maintenance-Specialist-m-w-d",
     "location": "Switzerland"
@@ -212,6 +197,16 @@
     "location": "Switzerland"
    },
    {
+    "title": "Customer Care Specialist Landverkehr (m/w/d)",
+    "apply_url": "https://jobs.kuehne-nagel.com/global/en/job/16273/Customer-Care-Specialist-Landverkehr-m-w-d",
+    "location": "Switzerland"
+   },
+   {
+    "title": "Customer Care Specialist (m/w/d) - Seefracht",
+    "apply_url": "https://jobs.kuehne-nagel.com/global/en/job/17016/Customer-Care-Specialist-m-w-d-Seefracht",
+    "location": "Switzerland"
+   },
+   {
     "title": "Sachbearbeiter:in Export (m/w/d) - Landverkehr",
     "apply_url": "https://jobs.kuehne-nagel.com/global/en/job/16989/Sachbearbeiter-in-Export-m-w-d-Landverkehr",
     "location": "Switzerland"
@@ -219,16 +214,6 @@
    {
     "title": "Global Sea Logistics Trade Specialist",
     "apply_url": "https://jobs.kuehne-nagel.com/global/en/job/17534/Global-Sea-Logistics-Trade-Specialist",
-    "location": "Switzerland"
-   },
-   {
-    "title": "Customer Care Specialist Seefracht (m/w/d)",
-    "apply_url": "https://jobs.kuehne-nagel.com/global/en/job/17016/Customer-Care-Specialist-Seefracht-m-w-d",
-    "location": "Switzerland"
-   },
-   {
-    "title": "Customer Care Specialist Landverkehr (m/w/d)",
-    "apply_url": "https://jobs.kuehne-nagel.com/global/en/job/16273/Customer-Care-Specialist-Landverkehr-m-w-d",
     "location": "Switzerland"
    },
    {
@@ -242,13 +227,13 @@
     "location": "Switzerland"
    },
    {
-    "title": "Operations Manager Healthcare (m/w/d) - Landverkehr",
-    "apply_url": "https://jobs.kuehne-nagel.com/global/en/job/17182/Operations-Manager-Healthcare-m-w-d-Landverkehr",
+    "title": "Export Specialist Luftfracht (m/w/d)",
+    "apply_url": "https://jobs.kuehne-nagel.com/global/en/job/16225/Export-Specialist-Luftfracht-m-w-d",
     "location": "Switzerland"
    },
    {
-    "title": "Export Specialist Luftfracht (m/w/d)",
-    "apply_url": "https://jobs.kuehne-nagel.com/global/en/job/16225/Export-Specialist-Luftfracht-m-w-d",
+    "title": "Operations Manager Healthcare (m/w/d) - Landverkehr",
+    "apply_url": "https://jobs.kuehne-nagel.com/global/en/job/17182/Operations-Manager-Healthcare-m-w-d-Landverkehr",
     "location": "Switzerland"
    },
    {
@@ -440,6 +425,11 @@
   "jobs": []
  },
  {
+  "name": "ALSO Holding AG",
+  "career_url": "https://careers.also.com/",
+  "jobs": []
+ },
+ {
   "name": "ambient",
   "career_url": "https://www.ambient-design.net/careers",
   "jobs": []
@@ -452,6 +442,11 @@
  {
   "name": "Amphasys AG",
   "career_url": "http://www.amphasys.com/jobs",
+  "jobs": []
+ },
+ {
+  "name": "Amrize Ltd",
+  "career_url": "https://careers.amrize.com/search",
   "jobs": []
  },
  {
@@ -605,15 +600,9 @@
   "jobs": []
  },
  {
-  "name": "BeiGene (BeOne Medicines)",
-  "career_url": "https://beigene.wd5.myworkdayjobs.com/BeiGene",
-  "jobs": [
-   {
-    "title": "Personal Information",
-    "apply_url": "https://beigene.wd5.myworkdayjobs.com/BeiGene",
-    "location": "Switzerland"
-   }
-  ]
+  "name": "BEGASOFT AG",
+  "career_url": "https://www.begasoft.ch/unternehmen/karriere#jobs",
+  "jobs": []
  },
  {
   "name": "Bellevue Executive Search",
@@ -731,6 +720,11 @@
   "jobs": []
  },
  {
+  "name": "Centenara Labs AG",
+  "career_url": "https://centenara.com/how-we-work/",
+  "jobs": []
+ },
+ {
   "name": "Centerboard",
   "career_url": "https://www.centerboard.ch/jobs",
   "jobs": []
@@ -743,21 +737,6 @@
  {
   "name": "CeRFI SA",
   "career_url": "https://www.cerfi.ch/en_GB/join-us",
-  "jobs": []
- },
- {
-  "name": "Certara",
-  "career_url": "https://careers.certara.com/",
-  "jobs": []
- },
- {
-  "name": "Chemspeed (Bruker)",
-  "career_url": "https://worldwidecareers-bruker.icims.com/jobs/search?ss=1&searchKeyword=chemspeed",
-  "jobs": []
- },
- {
-  "name": "Chemspeed Technologies",
-  "career_url": "https://www.chemspeed.com/careers/",
   "jobs": []
  }
 ]

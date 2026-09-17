@@ -19,11 +19,6 @@
     "location": "Basel-City"
    },
    {
-    "title": "Internship: PMO & Technical Coordinator / Operations & Change Enabler in Basel (12 months as of November 2026)",
-    "apply_url": "https://roche.wd3.myworkdayjobs.com/roche-ext/job/Basel/Internship--PMO---Technical-Coordinator---Operations---Change-Enabler-in-Basel--12-months-as-of-November-2026-_202608-121063/apply",
-    "location": "Basel-City"
-   },
-   {
     "title": "Senior Global Access Evidence Leader - EU HTA Statistician",
     "apply_url": "https://roche.wd3.myworkdayjobs.com/roche-ext/job/Basel/Senior-Global-Access-Evidence-Leader---HTA-Statistician_202608-122371-1/apply",
     "location": "Basel-City"
@@ -37,6 +32,16 @@
     "title": "Development Engineer (contract 80-100%)",
     "apply_url": "https://roche.wd3.myworkdayjobs.com/roche-ext/job/Rotkreuz/Development-Engineer--contract-80-100--_202402-104044-1/apply",
     "location": "Zug"
+   },
+   {
+    "title": "Lab Technician (contract)",
+    "apply_url": "https://roche.wd3.myworkdayjobs.com/roche-ext/job/Rotkreuz/Lab-Technician--contract-_202109-125765-1/apply",
+    "location": "Zug"
+   },
+   {
+    "title": "Global Diagnostics Partnering Strategy & Transactions Lead",
+    "apply_url": "https://roche.wd3.myworkdayjobs.com/roche-ext/job/Rotkreuz/Global-Diagnostics-Partnering-Strategy---Transactions-Lead_202606-116620-1/apply",
+    "location": "Zug"
    }
   ]
  },
@@ -45,13 +50,18 @@
   "career_url": "https://careers.givaudan.com/global/en",
   "jobs": [
    {
-    "title": "Quality Control Analyst (h/f/d)",
-    "apply_url": "https://careers.givaudan.com/global/en/job/118226/Quality-Control-Analyst-h-f-d",
+    "title": "Senior Regulatory Data Analyst",
+    "apply_url": "https://careers.givaudan.com/global/en/job/119415/Senior-Regulatory-Data-Analyst",
     "location": "Switzerland"
    },
    {
     "title": "Agent prévention et intervention (h/f/d) 3x8 - CDD jusqu'au 31.12.2027",
     "apply_url": "https://careers.givaudan.com/global/en/job/119102/Agent-pr%C3%A9vention-et-intervention-h-f-d-3x8-CDD-jusqu'au-31-12-2027",
+    "location": "Switzerland"
+   },
+   {
+    "title": "Quality Control Analyst (h/f/d)",
+    "apply_url": "https://careers.givaudan.com/global/en/job/118226/Quality-Control-Analyst-h-f-d",
     "location": "Switzerland"
    },
    {
@@ -100,11 +110,6 @@
     "location": "Switzerland"
    },
    {
-    "title": "Senior Regulatory Data Analyst",
-    "apply_url": "https://careers.givaudan.com/global/en/job/119415/Senior-Regulatory-Data-Analyst",
-    "location": "Switzerland"
-   },
-   {
     "title": "Operator (m/w/d)",
     "apply_url": "https://careers.givaudan.com/global/en/job/119747/Operator-m-w-d",
     "location": "Switzerland"
@@ -145,11 +150,6 @@
     "location": "Switzerland"
    },
    {
-    "title": "Dairy Product Development Intern (m/f/d)",
-    "apply_url": "https://careers.givaudan.com/global/en/job/119962/Dairy-Product-Development-Intern-m-f-d",
-    "location": "Switzerland"
-   },
-   {
     "title": "Payroll and Rewards Product Manager",
     "apply_url": "https://careers.givaudan.com/global/en/job/119381/Payroll-and-Rewards-Product-Manager",
     "location": "Switzerland"
@@ -157,6 +157,11 @@
    {
     "title": "Innovation Project Intern (m/f/d)",
     "apply_url": "https://careers.givaudan.com/global/en/job/119915/Innovation-Project-Intern-m-f-d",
+    "location": "Switzerland"
+   },
+   {
+    "title": "Dairy Product Development Intern (m/f/d)",
+    "apply_url": "https://careers.givaudan.com/global/en/job/119962/Dairy-Product-Development-Intern-m-f-d",
     "location": "Switzerland"
    },
    {
@@ -170,13 +175,13 @@
     "location": "Switzerland"
    },
    {
-    "title": "Biotech Intern (m/f/d)",
-    "apply_url": "https://careers.givaudan.com/global/en/job/120044/Biotech-Intern-m-f-d",
+    "title": "Industrialization Chemist & Laboratory Manager (m/w/d)",
+    "apply_url": "https://careers.givaudan.com/global/en/job/119983/Industrialization-Chemist-Laboratory-Manager-m-w-d",
     "location": "Switzerland"
    },
    {
-    "title": "Industrialization Chemist & Laboratory Manager (m/w/d)",
-    "apply_url": "https://careers.givaudan.com/global/en/job/119983/Industrialization-Chemist-Laboratory-Manager-m-w-d",
+    "title": "Biotech Intern (m/f/d)",
+    "apply_url": "https://careers.givaudan.com/global/en/job/120044/Biotech-Intern-m-f-d",
     "location": "Switzerland"
    }
   ]
@@ -199,6 +204,11 @@
     "title": "Lehrstelle als Interactive Media Designer EFZ (m/w/d) ab August 2027",
     "apply_url": "https://careers.straumann.com/global/en/job/21286/Lehrstelle-als-Interactive-Media-Designer-EFZ-m-w-d-ab-August-2027",
     "location": "Switzerland"
+   },
+   {
+    "title": "Head of Procurement EMEA & Global Indirect Categories",
+    "apply_url": "https://careers.straumann.com/global/en/job/21949/Head-of-Procurement-EMEA-Global-Indirect-Categories",
+    "location": "Switzerland"
    }
   ]
  },
@@ -206,6 +216,11 @@
   "name": "Kuehne + Nagel",
   "career_url": "https://jobs.kuehne-nagel.com/global/en",
   "jobs": [
+   {
+    "title": "Customer Care Specialist (m/w/d) - Seefracht",
+    "apply_url": "https://jobs.kuehne-nagel.com/global/en/job/17016/Customer-Care-Specialist-m-w-d-Seefracht",
+    "location": "Switzerland"
+   },
    {
     "title": "Sachbearbeiter:in Export (m/w/d) - Landverkehr",
     "apply_url": "https://jobs.kuehne-nagel.com/global/en/job/16989/Sachbearbeiter-in-Export-m-w-d-Landverkehr",
@@ -222,18 +237,8 @@
     "location": "Switzerland"
    },
    {
-    "title": "Customer Care Specialist (m/w/d) - Seefracht",
-    "apply_url": "https://jobs.kuehne-nagel.com/global/en/job/17016/Customer-Care-Specialist-m-w-d-Seefracht",
-    "location": "Switzerland"
-   },
-   {
     "title": "Senior Internal Auditor",
     "apply_url": "https://jobs.kuehne-nagel.com/global/en/job/17233/Senior-Internal-Auditor",
-    "location": "Switzerland"
-   },
-   {
-    "title": "Operations Manager Healthcare (m/w/d) - Landverkehr",
-    "apply_url": "https://jobs.kuehne-nagel.com/global/en/job/17182/Operations-Manager-Healthcare-m-w-d-Landverkehr",
     "location": "Switzerland"
    },
    {
@@ -247,13 +252,18 @@
     "location": "Switzerland"
    },
    {
-    "title": "Servicetechniker Logistik (m/w/d)",
-    "apply_url": "https://jobs.kuehne-nagel.com/global/en/job/7329/Servicetechniker-Logistik-m-w-d",
+    "title": "Operations Manager Healthcare (m/w/d) - Landverkehr",
+    "apply_url": "https://jobs.kuehne-nagel.com/global/en/job/17182/Operations-Manager-Healthcare-m-w-d-Landverkehr",
     "location": "Switzerland"
    },
    {
     "title": "Expo & Event Logistics Specialist (m/w/d)",
     "apply_url": "https://jobs.kuehne-nagel.com/global/en/job/16726/Expo-Event-Logistics-Specialist-m-w-d",
+    "location": "Switzerland"
+   },
+   {
+    "title": "Servicetechniker Logistik (m/w/d)",
+    "apply_url": "https://jobs.kuehne-nagel.com/global/en/job/7329/Servicetechniker-Logistik-m-w-d",
     "location": "Switzerland"
    },
    {
@@ -697,6 +707,106 @@
  {
   "name": "campfire GmbH",
   "career_url": "https://campfire.ch/projekte/further-work-dna-app",
+  "jobs": []
+ },
+ {
+  "name": "CAPcargo AG",
+  "career_url": "https://www.capcargo.com/career/",
+  "jobs": []
+ },
+ {
+  "name": "CarbonPool Holding AG",
+  "career_url": "https://www.carbonpool.earth/careers",
+  "jobs": []
+ },
+ {
+  "name": "casymir Schweiz ag",
+  "career_url": "https://www.casymir.ch/de/stellen",
+  "jobs": []
+ },
+ {
+  "name": "cellvie",
+  "career_url": "https://cellvie.bio/careers",
+  "jobs": []
+ },
+ {
+  "name": "CellX Biosolutions AG",
+  "career_url": "https://www.cellx.ch/careers",
+  "jobs": []
+ },
+ {
+  "name": "Centenara Labs AG",
+  "career_url": "https://centenara.com/how-we-work/",
+  "jobs": []
+ },
+ {
+  "name": "Centerboard",
+  "career_url": "https://www.centerboard.ch/jobs",
+  "jobs": []
+ },
+ {
+  "name": "Centiel AG",
+  "career_url": "https://www.centiel.com/careers/",
+  "jobs": []
+ },
+ {
+  "name": "CeRFI SA",
+  "career_url": "https://www.cerfi.ch/en_GB/join-us",
+  "jobs": []
+ },
+ {
+  "name": "Certara",
+  "career_url": "https://careers.certara.com/",
+  "jobs": []
+ },
+ {
+  "name": "Chemspeed (Bruker)",
+  "career_url": "https://worldwidecareers-bruker.icims.com/jobs/search?ss=1&searchKeyword=chemspeed",
+  "jobs": []
+ },
+ {
+  "name": "Chemspeed Technologies",
+  "career_url": "https://www.chemspeed.com/careers/",
+  "jobs": []
+ },
+ {
+  "name": "Cimeio Therapeutics",
+  "career_url": "https://www.cimeio.com/careers/",
+  "jobs": []
+ },
+ {
+  "name": "Claranet",
+  "career_url": "https://www.claranet.ch/karriere",
+  "jobs": []
+ },
+ {
+  "name": "Claraspital Basel",
+  "career_url": "https://www.claraspital.ch/stellen",
+  "jobs": []
+ },
+ {
+  "name": "cobedias ag",
+  "career_url": "http://www.cobedias.ch/careers",
+  "jobs": []
+ },
+ {
+  "name": "codebar",
+  "career_url": "https://www.codebar.ch/stellen",
+  "jobs": []
+ },
+ {
+  "name": "Comerge AG",
+  "career_url": "https://www.comerge.net/en/work",
+  "jobs": []
+ },
+ {
+  "name": "Comitas AG",
+  "career_url": "https://www.comitas.com/uber-uns/#career",
+  "jobs": []
+ },
+ {
+  "name": "Computer Trend IT Solution",
+  "career_url": "https://computer-trend.ch/stellen/",
   "jobs": []
  }
 ]

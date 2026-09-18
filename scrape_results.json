@@ -4,18 +4,8 @@
   "career_url": "https://careers.roche.com/global/en",
   "jobs": [
    {
-    "title": "Senior Technical Sub-Project Manager for Electrical Engineering",
-    "apply_url": "https://roche.wd3.myworkdayjobs.com/roche-ext/job/Basel/Senior-Technical-Sub-Project-Manager-for-Electrical-Engineering_202604-109161-1/apply",
-    "location": "Basel-City"
-   },
-   {
     "title": "Medical Director — Multiple Sclerosis",
     "apply_url": "https://roche.wd3.myworkdayjobs.com/roche-ext/job/Basel/Medical-Director---Multiple-Sclerosis_202508-120775-1/apply",
-    "location": "Basel-City"
-   },
-   {
-    "title": "Hilfskoch:köchin (w/m/d), 100% - befristet für 1 Jahr",
-    "apply_url": "https://roche.wd3.myworkdayjobs.com/roche-ext/job/Basel/Hilfskoch-kchin--w-m-d---100----befristet-fr-1-Jahr_202608-120503-1/apply",
     "location": "Basel-City"
    },
    {
@@ -24,24 +14,34 @@
     "location": "Basel-City"
    },
    {
-    "title": "Software Tester within RMD System Development (contract)",
-    "apply_url": "https://roche.wd3.myworkdayjobs.com/roche-ext/job/Rotkreuz/Software-Tester-within-RMD-System-Development--contract-_202109-125486-1/apply",
-    "location": "Zug"
-   },
-   {
-    "title": "Development Engineer (contract 80-100%)",
-    "apply_url": "https://roche.wd3.myworkdayjobs.com/roche-ext/job/Rotkreuz/Development-Engineer--contract-80-100--_202402-104044-1/apply",
-    "location": "Zug"
-   },
-   {
-    "title": "Lab Technician (contract)",
-    "apply_url": "https://roche.wd3.myworkdayjobs.com/roche-ext/job/Rotkreuz/Lab-Technician--contract-_202109-125765-1/apply",
-    "location": "Zug"
-   },
-   {
     "title": "Global Diagnostics Partnering Strategy & Transactions Lead",
     "apply_url": "https://roche.wd3.myworkdayjobs.com/roche-ext/job/Rotkreuz/Global-Diagnostics-Partnering-Strategy---Transactions-Lead_202606-116620-1/apply",
     "location": "Zug"
+   },
+   {
+    "title": "CMC Expert Analytical Development focus Parenterals&Devices",
+    "apply_url": "https://roche.wd3.myworkdayjobs.com/roche-ext/job/Basel/CMC-Expert-Analytical-Development-focus-Parenterals-Devices_202607-119705-1/apply",
+    "location": "Basel-City"
+   },
+   {
+    "title": "Lehrstelle als Anlage- und Apparatebauer:in EFZ (ab August 2027)",
+    "apply_url": "https://roche.wd3.myworkdayjobs.com/roche-ext/job/Basel/Lehrstelle-als-Anlage--und-Apparatebauer-in-EFZ--ab-August-2027-_202607-117614/apply",
+    "location": "Basel-City"
+   },
+   {
+    "title": "Senior Container Closure Expert (PFS / Cartridges)",
+    "apply_url": "https://roche.wd3.myworkdayjobs.com/roche-ext/job/Basel/Senior-Device-Engineer_202607-117300-1/apply",
+    "location": "Basel-City"
+   },
+   {
+    "title": "Senior Statistician",
+    "apply_url": "https://roche.wd3.myworkdayjobs.com/roche-ext/job/Basel/Senior-Statistician_202608-121992/apply",
+    "location": "Basel-City"
+   },
+   {
+    "title": "Lehrstelle als Automatiker:in EFZ (ab August 2027)",
+    "apply_url": "https://roche.wd3.myworkdayjobs.com/roche-ext/job/Basel/Lehrstelle-als-Automatiker-in-EFZ--ab-August-2027-_202607-117603/apply",
+    "location": "Basel-City"
    }
   ]
  },
@@ -50,18 +50,13 @@
   "career_url": "https://careers.givaudan.com/global/en",
   "jobs": [
    {
-    "title": "Senior Regulatory Data Analyst",
-    "apply_url": "https://careers.givaudan.com/global/en/job/119415/Senior-Regulatory-Data-Analyst",
+    "title": "Quality Control Analyst (h/f/d)",
+    "apply_url": "https://careers.givaudan.com/global/en/job/118226/Quality-Control-Analyst-h-f-d",
     "location": "Switzerland"
    },
    {
     "title": "Agent prévention et intervention (h/f/d) 3x8 - CDD jusqu'au 31.12.2027",
     "apply_url": "https://careers.givaudan.com/global/en/job/119102/Agent-pr%C3%A9vention-et-intervention-h-f-d-3x8-CDD-jusqu'au-31-12-2027",
-    "location": "Switzerland"
-   },
-   {
-    "title": "Quality Control Analyst (h/f/d)",
-    "apply_url": "https://careers.givaudan.com/global/en/job/118226/Quality-Control-Analyst-h-f-d",
     "location": "Switzerland"
    },
    {
@@ -110,6 +105,11 @@
     "location": "Switzerland"
    },
    {
+    "title": "Senior Regulatory Data Analyst",
+    "apply_url": "https://careers.givaudan.com/global/en/job/119415/Senior-Regulatory-Data-Analyst",
+    "location": "Switzerland"
+   },
+   {
     "title": "Operator (m/w/d)",
     "apply_url": "https://careers.givaudan.com/global/en/job/119747/Operator-m-w-d",
     "location": "Switzerland"
@@ -150,6 +150,11 @@
     "location": "Switzerland"
    },
    {
+    "title": "Dairy Product Development Intern (m/f/d)",
+    "apply_url": "https://careers.givaudan.com/global/en/job/119962/Dairy-Product-Development-Intern-m-f-d",
+    "location": "Switzerland"
+   },
+   {
     "title": "Payroll and Rewards Product Manager",
     "apply_url": "https://careers.givaudan.com/global/en/job/119381/Payroll-and-Rewards-Product-Manager",
     "location": "Switzerland"
@@ -157,11 +162,6 @@
    {
     "title": "Innovation Project Intern (m/f/d)",
     "apply_url": "https://careers.givaudan.com/global/en/job/119915/Innovation-Project-Intern-m-f-d",
-    "location": "Switzerland"
-   },
-   {
-    "title": "Dairy Product Development Intern (m/f/d)",
-    "apply_url": "https://careers.givaudan.com/global/en/job/119962/Dairy-Product-Development-Intern-m-f-d",
     "location": "Switzerland"
    },
    {
@@ -175,13 +175,13 @@
     "location": "Switzerland"
    },
    {
-    "title": "Industrialization Chemist & Laboratory Manager (m/w/d)",
-    "apply_url": "https://careers.givaudan.com/global/en/job/119983/Industrialization-Chemist-Laboratory-Manager-m-w-d",
+    "title": "Biotech Intern (m/f/d)",
+    "apply_url": "https://careers.givaudan.com/global/en/job/120044/Biotech-Intern-m-f-d",
     "location": "Switzerland"
    },
    {
-    "title": "Biotech Intern (m/f/d)",
-    "apply_url": "https://careers.givaudan.com/global/en/job/120044/Biotech-Intern-m-f-d",
+    "title": "Industrialization Chemist & Laboratory Manager (m/w/d)",
+    "apply_url": "https://careers.givaudan.com/global/en/job/119983/Industrialization-Chemist-Laboratory-Manager-m-w-d",
     "location": "Switzerland"
    }
   ]
@@ -217,16 +217,6 @@
   "career_url": "https://jobs.kuehne-nagel.com/global/en",
   "jobs": [
    {
-    "title": "Customer Care Specialist (m/w/d) - Seefracht",
-    "apply_url": "https://jobs.kuehne-nagel.com/global/en/job/17016/Customer-Care-Specialist-m-w-d-Seefracht",
-    "location": "Switzerland"
-   },
-   {
-    "title": "Sachbearbeiter:in Export (m/w/d) - Landverkehr",
-    "apply_url": "https://jobs.kuehne-nagel.com/global/en/job/16989/Sachbearbeiter-in-Export-m-w-d-Landverkehr",
-    "location": "Switzerland"
-   },
-   {
     "title": "Contract Logistics Operations Manager (m/w/d)",
     "apply_url": "https://jobs.kuehne-nagel.com/global/en/job/16937/Contract-Logistics-Operations-Manager-m-w-d",
     "location": "Switzerland"
@@ -237,8 +227,23 @@
     "location": "Switzerland"
    },
    {
+    "title": "Customer Care Specialist (m/w/d) - Seefracht",
+    "apply_url": "https://jobs.kuehne-nagel.com/global/en/job/17016/Customer-Care-Specialist-m-w-d-Seefracht",
+    "location": "Switzerland"
+   },
+   {
+    "title": "Sachbearbeiter:in Export (m/w/d) - Landverkehr",
+    "apply_url": "https://jobs.kuehne-nagel.com/global/en/job/16989/Sachbearbeiter-in-Export-m-w-d-Landverkehr",
+    "location": "Switzerland"
+   },
+   {
     "title": "Senior Internal Auditor",
     "apply_url": "https://jobs.kuehne-nagel.com/global/en/job/17233/Senior-Internal-Auditor",
+    "location": "Switzerland"
+   },
+   {
+    "title": "Operations Manager Healthcare (m/w/d) - Landverkehr",
+    "apply_url": "https://jobs.kuehne-nagel.com/global/en/job/17182/Operations-Manager-Healthcare-m-w-d-Landverkehr",
     "location": "Switzerland"
    },
    {
@@ -252,18 +257,13 @@
     "location": "Switzerland"
    },
    {
-    "title": "Operations Manager Healthcare (m/w/d) - Landverkehr",
-    "apply_url": "https://jobs.kuehne-nagel.com/global/en/job/17182/Operations-Manager-Healthcare-m-w-d-Landverkehr",
+    "title": "Servicetechniker Logistik (m/w/d)",
+    "apply_url": "https://jobs.kuehne-nagel.com/global/en/job/7329/Servicetechniker-Logistik-m-w-d",
     "location": "Switzerland"
    },
    {
     "title": "Expo & Event Logistics Specialist (m/w/d)",
     "apply_url": "https://jobs.kuehne-nagel.com/global/en/job/16726/Expo-Event-Logistics-Specialist-m-w-d",
-    "location": "Switzerland"
-   },
-   {
-    "title": "Servicetechniker Logistik (m/w/d)",
-    "apply_url": "https://jobs.kuehne-nagel.com/global/en/job/7329/Servicetechniker-Logistik-m-w-d",
     "location": "Switzerland"
    },
    {
@@ -570,11 +570,6 @@
   "jobs": []
  },
  {
-  "name": "Baloise",
-  "career_url": "https://www.baloise.com/en/jobs.html",
-  "jobs": []
- },
- {
   "name": "Baloise Open Innovation",
   "career_url": "https://www.baloise.com/de/home/ueber-uns/innovation-baloise.html/corporate/hb/de/home/ueber-uns/karriere.html",
   "jobs": []
@@ -682,6 +677,11 @@
  {
   "name": "brix",
   "career_url": "https://www.brix.ch/de/ueber-uns/jobs",
+  "jobs": []
+ },
+ {
+  "name": "Bryter AG",
+  "career_url": "https://bryter.com/careers/",
   "jobs": []
  },
  {
